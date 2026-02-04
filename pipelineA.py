@@ -10,7 +10,7 @@ with open("PolitiFact_dataset.json", "r", encoding="utf-8") as p:
     PolitiFact = json.load(p)
 
 model = "gemma2-9b-it"
-
+#
 client = Groq(api_key=token)
 with open("decomposition_prompt.txt", "r", encoding="utf-8") as f:
     decomposition_prompt = f.read()  # legge tutto il file come stringa
