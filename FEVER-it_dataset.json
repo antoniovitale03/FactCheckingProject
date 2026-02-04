@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "Affermazione": "Secondo il censimento del 2010, la popolazione di Syracuse era di 145.170 abitanti.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 2,
+    "Affermazione": "Lizzy Caplan ha recitato nello show televisivo.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 3,
+    "Affermazione": "Jackie è un film biografico uscito nel 2016",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 4,
+    "Affermazione": "Emma Watson ha recitato in un adattamento cinematografico live-action.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 5,
+    "Affermazione": "Il Vietnam rientra tra i paesi più popolosi del mondo.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 6,
+    "Affermazione": "Asylum Records è un’etichetta discografica statunitense.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 7,
+    "Affermazione": "Eva Green ha debuttato al cinema prima del 2005.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 8,
+    "Affermazione": "Star Trek: Discovery appartiene al franchise di Star Trek.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 9,
+    "Affermazione": "La West Virginia confina con più di due stati federati.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 10,
+    "Affermazione": "Fist of Legend è collegato a un precedente film di arti marziali.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 11,
+    "Affermazione": "Jackie è un film del 2016 diretto da Peter Jackson.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 12,
+    "Affermazione": "La CONCACAF Champions League è una competizione di baseball.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 13,
+    "Affermazione": "L’Università dell’Illinois a Chicago è un’istituzione privata.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 14,
+    "Affermazione": "Il riscaldamento globale favorisce l’espansione del permafrost.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 15,
+    "Affermazione": "Match Point tratta esclusivamente il tema dell’amore romantico.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 16,
+    "Affermazione": "I New Orleans Pelicans giocano nella Eastern Conference.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 17,
+    "Affermazione": "Finding Dory è stato scritto da Andrei Zvyagintsev.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 18,
+    "Affermazione": "Riverdale è una serie televisiva completamente originale.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 19,
+    "Affermazione": "Fred Armisen è un animale anfibio.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 20,
+    "Affermazione": "The Others (2001) non ha mai vinto il premio per il miglior film.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 21,
+    "Affermazione": "Jean-Michel Basquiat è morto nel suo ufficio di casa",
+    "Etichetta": "Inconclusivo"
+  },
+  {
+    "id": 22,
+    "Affermazione": "Ludwig van Beethoven nacque nel 1787.",
+    "Etichetta": "Inconclusivo"
+  },
+  {
+    "id": 23,
+    "Affermazione": "La New York City Landmarks Preservation Commission include uno storico.",
+    "Etichetta": "Inconclusivo"
+  },
+  {
+    "id": 24,
+    "Affermazione": "Nuuk impiega la maggior parte dei lavoratori culturali della Groenlandia.",
+    "Etichetta": "Inconclusivo"
+  },
+  {
+    "id": 25,
+    "Affermazione": "L’uranio-235 fu scoperto da uno scienziato nato in agosto.",
+    "Etichetta": "Inconclusivo"
+  },
+  {
+    "id": 26,
+    "Affermazione": "Melancholia vede Kirsten Dunst interpretare il ruolo di Winnie the Pooh.",
+    "Etichetta": "Inconclusivo"
+  },
+  {
+    "id": 27,
+    "Affermazione": "Ashley Cole ha intrapreso una carriera come attore cinematografico.",
+    "Etichetta": "Inconclusivo"
+  },
+  {
+    "id": 28,
+    "Affermazione": "La lingua greca è parlata nei film",
+    "Etichetta": "Inconclusivo"
+  },
+  {
+    "id": 29,
+    "Affermazione": "Match Point esplora il ruolo dei banchieri nel crollo del 2008.",
+    "Etichetta": "Inconclusivo"
+  },
+  {
+    "id": 30,
+    "Affermazione": "Harvard University è esclusivamente un’università di arti liberali.",
+    "Etichetta": "Inconclusivo"
+  }
+]
