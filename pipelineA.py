@@ -15,8 +15,7 @@ client = Groq(api_key=token)
 with open("decomposition_prompt.txt", "r", encoding="utf-8") as f:
     decomposition_prompt = f.read()  # legge tutto il file come stringa
 
-affermazione = "L'Italia ha vinto il Campionato Europeo di calcio nel 2021"
-decomposition_prompt = decomposition_prompt.replace("<AFFERMAZIONE DA INSERIRE>", affermazione)
+decomposition_prompt = decomposition_prompt.replace("<DATASET>", f"{FEVER}")
 
 completion = client.chat.completions.create(
     model="llama-3.3-70b-versatile",
@@ -27,7 +26,7 @@ completion = client.chat.completions.create(
         }
     ],
     temperature=0,
-    max_tokens=200
+    max_tokens=5000
 )
 
 print(completion.choices[0].message.content)
