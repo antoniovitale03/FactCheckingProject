@@ -1,7 +1,7 @@
 import json
 token = "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"
 from groq import Groq
-
+#
 #carico i due dataset
 with open("FEVER-it_dataset.json", "r", encoding="utf-8") as f:
     FEVER = json.load(f)
