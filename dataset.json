@@ -63,8 +63,17 @@
     "id": 13,
     "Affermazione": "La star di Playback (film) è un attore e musicista statunitense, attivo sia in ambito cinematografico che televisivo. L'attore ha recitato in Now You See It, il film originale Disney Channel del 2005 diretto da Aly Michalka.",
     "Etichetta": "Vero"
-  }
-  
+  },
+  {
+    "id": 14,
+    "Affermazione": "'Fallen in Love' è basato sulla serie di romanzi paranormali pubblicata dalla Delacorte Press.": ,
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 15,
+    "Affermazione": "L'infermiera di Liverpool Mimi Smith era la zia e la tutrice di John Lennon, uno dei figli più famosi della città." ,
+    "Etichetta": "Vero"
+  },
   {
     "id": 16,
     "Affermazione": "La star del thriller drammatico del 2004 Corn (film) è l'attrice canadese che ha recitato nel film per la televisione del 1996 'Bastard Out of California' diretto da Anjelica Huston.",
@@ -132,10 +141,12 @@
   },
   {
     "id": 29,
-    "Affermazione": ".",
+    "Affermazione": "Il film 'L'ultima Salomè' è basato su un'opera teatrale di uno scrittore scomparso nell'agosto del 1900.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 30,
+    "Affermazione": "Rosario Dawson, protagonista del film con Rachael Leigh Cook, ha debuttato nel film drammatico per adolescenti del 1995 "Daredevil".",
     "Etichetta": "Falso"
   }
-
-  
-  
 ]
