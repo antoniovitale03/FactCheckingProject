@@ -5,3 +5,4 @@ WHERE {
   ?birthPlace dbo:country ?country .
   ?country dbo:continent ?continent .
 }
+LIMIT 25
