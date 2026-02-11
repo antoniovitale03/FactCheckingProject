@@ -1,0 +1,8 @@
+SELECT ?film ?director ?birthPlace ?country
+WHERE {
+  ?film rdf:type dbo:Film .
+  ?film dbo:director ?director .
+  ?director dbo:birthPlace ?birthPlace .
+  ?birthPlace dbo:country ?country .
+}
+LIMIT 25
