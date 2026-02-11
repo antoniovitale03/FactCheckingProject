@@ -1,0 +1,7 @@
+SELECT ?person ?birthPlace ?country ?continent
+WHERE {
+  ?person rdf:type dbo:Person .
+  ?person dbo:birthPlace ?birthPlace .
+  ?birthPlace dbo:country ?country .
+  ?country dbo:continent ?continent .
+}
