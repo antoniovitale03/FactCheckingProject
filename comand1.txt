@@ -1,3 +1,14 @@
+[2step]
+SELECT ?person ?birthPlace ?country
+WHERE {
+  ?person rdf:type dbo:Person .
+  ?person dbo:birthPlace ?birthPlace .
+  ?birthPlace dbo:country ?country .
+}
+LIMIT 25
+
+
+[3 step]
 SELECT ?person ?birthPlace ?country ?continent
 WHERE {
   ?person rdf:type dbo:Person .
