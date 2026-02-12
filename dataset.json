@@ -19,6 +19,7 @@
     "Affermazione": "Miren Galan ha ricevuto il Buero Vallejo Award in Spagna, la cui capitale è Madrid.",
     "Etichetta": "Vero"
   },
+  
   {
     "id": 5,
     "Affermazione": "Jean Delannoy ha ricevuto l'Honorary Cesar Award in Francia, la cui capitale è Parigi."
@@ -76,47 +77,47 @@
   },
   {
     "id": 16,
-    "Affermazione": "",
+    "Affermazione": "Il libro 'A Guide to Conclusive Proofs for the Principles of Belief' è stato scritto da Al-Juwayni, nato in Joveyn County, in Iran.",
     "Etichetta": "Falso"    
   },
   {
     "id": 17,
-    "Affermazione": "Thomas Tull ha prodotto il film commedia 'Una notte da leoni', ambientato in California.",
-    "Etichetta": "Falso"
+    "Affermazione": "Il libro 'The People's Otherworld: Poems' è stato scritto da Les Murray, nato a Nabiac (New South Wales), in Australia.",
+    "Etichetta": "Vero"
   },
   {
     "id": 18,
-    "Affermazione": "Il film di cui Pocahontas II: Viaggio nel nuovo mondo è il sequel, Pocahontas (film del 1995), è stato realizzato prima di Nato in Cina, uscito nel 1991.",
-    "Etichetta": "Falso"
+    "Affermazione": "Il libro 'The Boys Who Stole the Funeral' è stato scritto da Les Murray, nato a Nabiac (New South Wales), in Australia.",
+    "Etichetta": "Vero"
   },
   {
     "id": 19,
-    "Affermazione": "La star sotto contratto con la Metro-Goldwyn-Mayer, Arlene Dahl, recitò nel film 'Ambush' del 1950, basato sull'omonimo racconto scritto da Arlene Dahl.",
-    "Etichetta": "Falso"
+    "Affermazione": "Il libro 'The South' è stato scritto da Colm Toibin, nato a Enniscorthy, nella Repubblica di Irlanda.",
+    "Etichetta": "Vero"
   },
   {
     "id": 20,
-    "Affermazione": "Il filosofo tedesco Theodor W. Adorno scrisse L'opera, in cui Donald Gramm interpretava il ruolo di Hegel lo Squartatore.",
-    "Etichetta": "Falso"
+    "Affermazione": "Il libro 'Knocknagow' è stato scritto da Charles Kickham, nato a Mullinahone, nella Repubblica di Irlanda.",
+    "Etichetta": "Vero"
   },
   {
     "id": 21,
-    "Affermazione": "L'attrice che ha recitato in 'La leggenda del mare azzurro' è diventata famosa grazie al suo ruolo in un film horror giapponese il cui titolo significa 'Quella ragazza bizzarra'",
-    "Etichetta": "Falso"
+    "Affermazione": "Il libro 'Milk' è stato scritto da Beverley Farmer, nato a Windsor (Victoria), in Australia",
+    "Etichetta": "Vero"
   },
   {
     "id": 22,
-    "Affermazione": "La band del musicista heavy metal noto con il soprannome '133' è originaria di Des Moines, Iowa, e si è formata nel 1998.",
-    "Etichetta": "Falso"
+    "Affermazione": "Il libro 'Bartleby & Co' è stato scritto da Enrique Vila Matas, nato a Barcellona, in Spagna.",
+    "Etichetta": "Vero"
   },
   {
     "id": 23,
-    "Affermazione": "Stand By Me, il cui protagonista è River Phoenix, originario della Florida, è un film tratto dal racconto breve The Body di Stephen King.",
-    "Etichetta": "Falso
+    "Affermazione": "Il libro 'The Power Worshippers' è stato scritto da Katherine Stewart, nata a Boston, negli USA.",
+    "Etichetta": "Vero"
   },
   {
     "id": 24,
-    "Affermazione": "Il rapper e attore americano, originario di Cleveland, Ohio, che ha partecipato come guest star all'album del 2018 contenente il singolo Pop That, ha pubblicato per la prima volta un mixtape nel 2006.",
+    "Affermazione": "Il libro 'Its Name was Penelope' è stato scritto da Judy Malloy, nata a Boston, negli USA.",
     "Etichetta": "Falso"
   },
   {
