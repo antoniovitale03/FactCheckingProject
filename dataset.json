@@ -1,17 +1,17 @@
 [
   {
     "id": 1,
-    "Affermazione": "Ainhoa_Artetxe ha ricevuto il Buero Vallejo Award in un paese la cui capitale è Madrid."
+    "Affermazione": "Ainhoa_Artetxe ha ricevuto il Buero Vallejo Award in un paese europeo la cui capitale è Madrid e che appartiene alla penisola iberica. "
     "Etichetta": "Vero"
   },
   {
     "id": 2,
-    "Affermazione": "Gabriel_Afolayan ha ricevuto l'Africa Movie Academy Award in un paese la cui capitale è Abuja.",
+    "Affermazione": "Gabriel Afolayan ha ricevuto l'Africa Movie Academy Award in un paese africano la cui capitale è Abuja e che si trova nell'Africa occidentale.",
     "Etichetta": "Vero"
   },
   {
     "id": 3,
-    "Affermazione": "Walter Mercado ha ricevuto il New York City Award in un paese la cui capitale è Washington D.C.",
+    "Affermazione": "Walter Mercado ha ricevuto il New York City Award in un paese nordamericano la cui capitale è Washington D.C. e che confina con il Canada.",
     "Etichetta": "Vero"
   },
   {
