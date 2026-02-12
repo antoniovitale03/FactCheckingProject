@@ -19,7 +19,6 @@
     "Affermazione": "Miren Galan ha ricevuto il Buero Vallejo Award in Spagna, la cui capitale è Madrid.",
     "Etichetta": "Vero"
   },
-  
   {
     "id": 5,
     "Affermazione": "Jean Delannoy ha ricevuto l'Honorary Cesar Award in Francia, la cui capitale è Parigi."
@@ -27,127 +26,230 @@
   },
   {
     "id": 6,
+    "Affermazione": "Jose Manuel Cervino ha ricevuto il Goya Award for Best Supporting Actor in Spagna, la cui capitale è Madrid."
+    "Etichetta": "Vero",
+  },
+  {
+    "id": 7,
+    "Affermazione": "Koldo Olabarri ha ricevuto il Buero Vallejo Award in Spagna, la cui capitale è Madrid."
+    "Etichetta": "Vero",
+  },
+  {
+    "id": 8,
+    "Affermazione": "Jonas Karlsson ha ricevuto il Guldbagge Award for Best Supporting Actor in a Leading Role in Svezia, la cui capitale è Stoccolma."
+    "Etichetta": "Vero",
+  },
+  {
+    "id": 9,
+    "Affermazione": "Kanjuro Aeashi ha ricevuto il Mainichi Film Award in Giappone, la cui capitale è Tokyo."
+    "Etichetta": "Vero",
+  },
+  {
+    "id": 10,
+    "Affermazione": "Alibaba Abdullayev ha ricevuto l'Honered Artist of the Azerbaijan SSR nella Repubblica Socialista Sovietica dell'Azerbaijan, la cui capitale è Baku."
+    "Etichetta": "Vero",
+  },
+  {
+    "id": 11,
     "Affermazione": "Il conflitto Hazara del 1979 fu guidato da Nur Muhammad Taraki, nato nella provincia di Ghazni, in Afghanistan",
     "Etichetta": "Vero"
   },
   {
-    "id": 7,
+    "id": 12,
     "Affermazione": "Il convoglio SQ-36 fu guidato da Karl Donitz, nato a Grunau, in Germania.",
     "Etichetta": "Vero"
   },
   {
-    "id": 8,
+    "id": 13,
     "Affermazione": "La battaglia di Slivice fu guidato da Carl FriedRich von Puckler Burhauss, nato a Korfantow, in Polonia.",
     "Etichetta": "Vero"
   },
   {
-    "id": 9,
+    "id": 14,
     "Affermazione": "La rivolta Navy argentina del 1963 fu guidata da Juan Carlos Ongania, nato a Marcos Paz (Buenos Aires), in Argentina.",
     "Etichetta": "Vero"
   },
   {
-    "id": 10,
+    "id": 15,
     "Affermazione": "La Guerra Sporca fu guidata da Jorge Rafael Videla, nato a Mercedes (Buenos Aires), in Argentina.",
     "Etichetta": "Vero"
   },
   {
-    "id": 11,
-    "Affermazione": "Ace Bailey gioca nello Utah Jazz, il cui proprietario è Ryan Smith, nato in Oregon.",
-    "Etichetta": "Vero"
-  },
-  {
-    "id": 12,
-    "Affermazione": "Ally Cook gioca in Spokane Zephyr FC, il cui proprietario è Osvaldo Alonso, nata a San Cristobal (Cuba)."
-    "Etichetta": "Vero"
-  },
-  {
-    "id": 13,
-    "Affermazione": "Amos Shapiro Thompson gioca nel Rhode Island FC, il cui proprietario è Michael Parkhurst, nato a Providence (Rhode Island).",
-    "Etichetta": "Vero"
-  },
-  {
-    "id": 14,
-    "Affermazione": "Cameron Tucker ha giocato nel NY Gotham FC, il cui proprietario è Tammy Murphy, nato in Virginia Beach (Virginia). ": ,
-    "Etichetta": "Vero"
-  },
-  {
-    "id": 15,
-    "Affermazione": "Artur Remenyak gioca per il Rukh Lviv FC, il cui proprietario è Hryhoriy_Kozlovskyy, nato a Lviv Oblast." ,
-    "Etichetta": "Vero"
-  },
-  {
     "id": 16,
-    "Affermazione": "Il libro 'A Guide to Conclusive Proofs for the Principles of Belief' è stato scritto da Al-Juwayni, nato in Joveyn County, in Iran.",
-    "Etichetta": "Falso"    
+    "Affermazione": "Lo scontro di Gadchiroli fu guidato da Bhagat Singh Koshyari, nato nel distretto di Bageshwar, in India.",
+    "Etichetta": "Vero"
   },
   {
     "id": 17,
-    "Affermazione": "Il libro 'The People's Otherworld: Poems' è stato scritto da Les Murray, nato a Nabiac (New South Wales), in Australia.",
+    "Affermazione": "La battaglia di Port Said fu guidata da Gamal Abdel Nasser, nato ad Alessandria, in Egitto.",
     "Etichetta": "Vero"
   },
   {
     "id": 18,
-    "Affermazione": "Il libro 'The Boys Who Stole the Funeral' è stato scritto da Les Murray, nato a Nabiac (New South Wales), in Australia.",
+    "Affermazione": "Il conflitto coloniale Danese-Olandese sulla Gold Coast fu guidato da Jan Valckenburgh, nato ad Amsterdam, in Olanda.",
     "Etichetta": "Vero"
   },
   {
     "id": 19,
-    "Affermazione": "Il libro 'The South' è stato scritto da Colm Toibin, nato a Enniscorthy, nella Repubblica di Irlanda.",
+    "Affermazione": "La battaglia di Makhmour fu guidata da Bafel Talabani, nato a Baghdad, in Iraq.",
     "Etichetta": "Vero"
   },
   {
     "id": 20,
-    "Affermazione": "Il libro 'Knocknagow' è stato scritto da Charles Kickham, nato a Mullinahone, nella Repubblica di Irlanda.",
+    "Affermazione": "La cronologia della Reconquista fu guidata dal conte di Barcellona Ramon berenguer IV, nato a Barcellona, in Spagna.",
     "Etichetta": "Vero"
   },
   {
     "id": 21,
-    "Affermazione": "Il libro 'Milk' è stato scritto da Beverley Farmer, nato a Windsor (Victoria), in Australia",
+    "Affermazione": "Ally Cook gioca in Spokane Zephyr FC, il cui proprietario è Osvaldo Alonso, nata a San Cristobal (Cuba)."
     "Etichetta": "Vero"
   },
   {
     "id": 22,
-    "Affermazione": "Il libro 'Bartleby & Co' è stato scritto da Enrique Vila Matas, nato a Barcellona, in Spagna.",
+    "Affermazione": "Amos Shapiro Thompson gioca nel Rhode Island FC, il cui proprietario è Michael Parkhurst, nato a Providence (Rhode Island).",
     "Etichetta": "Vero"
   },
   {
     "id": 23,
-    "Affermazione": "Il libro 'The Power Worshippers' è stato scritto da Katherine Stewart, nata a Boston, negli USA.",
+    "Affermazione": "Cameron Tucker ha giocato nel NY Gotham FC, il cui proprietario è Tammy Murphy, nato in Virginia Beach (Virginia). ": ,
     "Etichetta": "Vero"
   },
   {
     "id": 24,
+    "Affermazione": "Artur Remenyak gioca per il Rukh Lviv FC, il cui proprietario è Hryhoriy_Kozlovskyy, nato a Lviv Oblast." ,
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 25,
+    "Affermazione": "Il libro 'A Guide to Conclusive Proofs for the Principles of Belief' è stato scritto da Al-Juwayni, nato in Joveyn County, in Iran.",
+    "Etichetta": "Falso"    
+  },
+  {
+    "id": 26,
+    "Affermazione": "Il libro 'The People's Otherworld: Poems' è stato scritto da Les Murray, nato a Nabiac (New South Wales), in Australia.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 27,
+    "Affermazione": "Il libro 'The Boys Who Stole the Funeral' è stato scritto da Les Murray, nato a Nabiac (New South Wales), in Australia.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 28,
+    "Affermazione": "Il libro 'The South' è stato scritto da Colm Toibin, nato a Enniscorthy, nella Repubblica di Irlanda.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 29,
+    "Affermazione": "Il libro 'Knocknagow' è stato scritto da Charles Kickham, nato a Mullinahone, nella Repubblica di Irlanda.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 30,
+    "Affermazione": "Il libro 'Milk' è stato scritto da Beverley Farmer, nato a Windsor (Victoria), in Australia",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 31,
+    "Affermazione": "Il libro 'Bartleby & Co' è stato scritto da Enrique Vila Matas, nato a Barcellona, in Spagna.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 32,
+    "Affermazione": "Il libro 'The Power Worshippers' è stato scritto da Katherine Stewart, nata a Boston, negli USA.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 33,
+    "Affermazione": "Il libro 'The Eyes and the Impossible' è stato scritto da Dave Eggers, nato a Boston, negli USA.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 34,
+    "Affermazione": "Il libro 'Small Mercies' è stato scritto da Dennis Lehane, nato a Boston, negli USA.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 35,
+    "Affermazione": "Il libro 'Fires' è stato scritto da Marguerite Yourcenar, nata a Bruxelles, in Belgio.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 36,
+    "Affermazione": "Il libro 'Cold Crematorium' è stato scritto da Jozsef Debreczeni, nato a Budapest, in Ungaria.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 37,
+    "Affermazione": "Il libro 'The Hundred Year Marathon' è stato scritto da Michael Pillsbury, nato in California, negli USA.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 38,
+    "Affermazione": "Il libro 'The Gorillas in the Mist' è stato scritto da Dian Fossey, nato in California, negli USA.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 39,
+    "Affermazione": "Il libro 'A Novel of the Next World War' è stato scritto da Elliot Ackerman, nato in California, negli USA.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 40,
+    "Affermazione": "Il libro 'Kissing the Witch' è stato scritto da Emma Donoghue, nata a Dublino, nella Repubblica d'Irlanda",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 41,
     "Affermazione": "Il libro 'Its Name was Penelope' è stato scritto da Judy Malloy, nata a Boston, negli USA.",
     "Etichetta": "Falso"
   },
   {
-    "id": 25,
-    "Affermazione": "Il marito di Beatrice Helen Beckett fu primo ministro del Regno Unito dal 1793 al 1801.",
-    "Etichetta": "Falso"
-  }, 
-  {
-    "id": 26,
-    "Affermazione": "Il fratello minore di 5 anni della principessa da cui prese il nome SS Principessa Mafalda, che divenne re, regnò per 34 giorni.",
-    "Etichetta": "Falso"
+    "id": 42,
+    "Affermazione": "La battaglia di Palkhed fu guidata da Nizam ul Mulk Asaf Jah I, nato ad Agra, in India.",
+    "Etichetta": "Vero"
   },
   {
-    "id": 27,
-    "Affermazione": "Owen Wilson ha recitato in un film con l'esperto di arti marziali Tom Wu. Ha anche doppiato il personaggio Pixar nella serie 'Cars'",
-    "Etichetta": "Falso"
+    "id": 44,
+    "Affermazione": "Il tentato colpo di stato in Pakistan del 1980 fu guidato da Zia-ul-Haq, nato a Jalandhar, in India.",
+    "Etichetta": "Vero"
   },
   {
-    "id": 28,
-    "Affermazione": "Sia il poeta Maurice Newman che la Macquarie University sono australiani.",
-    "Etichetta": "Falso"
+    "id": 44,
+    "Affermazione": "Jeetu Ahsan ha ricevuto RTW Award in Bangladesh, la cui capitale è Dhaka.",
+    "Etichetta": "Vero"
   },
-  {
-    "id": 29,
-    "Affermazione": "Il film 'L'ultima Salomè' è basato su un'opera teatrale di uno scrittore scomparso nell'agosto del 1900.",
-    "Etichetta": "Falso"
+    {
+    "id": 45,
+    "Affermazione": "Aliette Opheim ha ricevuto il Kristallen Award in Svezia, la cui capitale è Stoccolma.",
+    "Etichetta": "Vero"
   },
-  {
-    "id": 30,
-    "Affermazione": "Rosario Dawson, protagonista del film con Rachael Leigh Cook, ha debuttato nel film drammatico per adolescenti del 1995 "Daredevil".",
-    "Etichetta": "Falso"
-  }
+    {
+    "id": 46,
+    "Affermazione": "Ane Ines Landeta ha ricevuto il Buero Vallejo Award in Spagna, la cui capitale è Madrid.",
+    "Etichetta": "Vero"
+  },
+    {
+    "id": 47,
+    "Affermazione": "Nasreen ha ricevuto il Bachsas award in Bangladesh, la cui capitale è Dhaka.",
+    "Etichetta": "Vero"
+  },
+    {
+    "id": 48,
+    "Affermazione": "Hanna Azoulay Hasfari ha ricevuto l'Ophir Award in Israele, la cui capitale è Gerusalemme.",
+    "Etichetta": "Vero"
+  },
+    {
+    "id": 49,
+    "Affermazione": "Sombat Metanee ha ricevuto il National Artist Award in Thailandia, la cui capitale è Bangkok.",
+    "Etichetta": "Vero"
+  },
+    {
+    "id": 50,
+    "Affermazione": "Pranav Mohanlal ha ricevuto il Kerala State Film Award in India, la cui capitale è Nuova Delhi.",
+    "Etichetta": "Vero"
+  },
+  
+  
+  
 ]
