@@ -1,52 +1,52 @@
 [
   {
     "id": 1,
-    "Affermazione": "Ainhoa_Artetxe ha ricevuto il Buero Vallejo Award in Spagna, la cui capitale è Madrid."
+    "Affermazione": "Ainhoa_Artetxe ha ricevuto il Buero Vallejo Award in un paese la cui capitale è Madrid."
     "Etichetta": "Vero"
   },
   {
     "id": 2,
-    "Affermazione": "Gabriel_Afolayan ha ricevuto l'Africa Movie Academy Award in Nigeria, la cui capitale è Abuja.",
+    "Affermazione": "Gabriel_Afolayan ha ricevuto l'Africa Movie Academy Award in un paese la cui capitale è Abuja.",
     "Etichetta": "Vero"
   },
   {
     "id": 3,
-    "Affermazione": "Walter Mercado ha ricevuto il New York City Award negli USA, la cui capitale è Washington D.C.",
+    "Affermazione": "Walter Mercado ha ricevuto il New York City Award in un paese la cui capitale è Washington D.C.",
     "Etichetta": "Vero"
   },
   {
     "id": 4,
-    "Affermazione": "Miren Galan ha ricevuto il Buero Vallejo Award in Spagna, la cui capitale è Madrid.",
+    "Affermazione": "Miren Galan ha ricevuto il Buero Vallejo Award in un paese la cui capitale è Madrid.",
     "Etichetta": "Vero"
   },
   {
     "id": 5,
-    "Affermazione": "Jean Delannoy ha ricevuto l'Honorary Cesar Award in Francia, la cui capitale è Parigi."
+    "Affermazione": "Jean Delannoy ha ricevuto l'Honorary Cesar Award in un paese la cui capitale è Parigi."
     "Etichetta": "Vero",
   },
   {
     "id": 6,
-    "Affermazione": "Jose Manuel Cervino ha ricevuto il Goya Award for Best Supporting Actor in Spagna, la cui capitale è Madrid."
+    "Affermazione": "Jose Manuel Cervino ha ricevuto il Goya Award for Best Supporting Actor in un paese la cui capitale è Madrid."
     "Etichetta": "Vero",
   },
   {
     "id": 7,
-    "Affermazione": "Koldo Olabarri ha ricevuto il Buero Vallejo Award in Spagna, la cui capitale è Madrid."
+    "Affermazione": "Koldo Olabarri ha ricevuto il Buero Vallejo Award in un paese la cui capitale è Madrid."
     "Etichetta": "Vero",
   },
   {
     "id": 8,
-    "Affermazione": "Jonas Karlsson ha ricevuto il Guldbagge Award for Best Supporting Actor in a Leading Role in Svezia, la cui capitale è Stoccolma."
+    "Affermazione": "Jonas Karlsson ha ricevuto il Guldbagge Award for Best Supporting Actor in a Leading Role in un paese la cui capitale è Stoccolma."
     "Etichetta": "Vero",
   },
   {
     "id": 9,
-    "Affermazione": "Kanjuro Aeashi ha ricevuto il Mainichi Film Award in Giappone, la cui capitale è Tokyo."
+    "Affermazione": "Kanjuro Aeashi ha ricevuto il Mainichi Film Award in un paese la cui capitale è Tokyo."
     "Etichetta": "Vero",
   },
   {
     "id": 10,
-    "Affermazione": "Alibaba Abdullayev ha ricevuto l'Honered Artist of the Azerbaijan SSR nella Repubblica Socialista Sovietica dell'Azerbaijan, la cui capitale è Baku."
+    "Affermazione": "Alibaba Abdullayev ha ricevuto l'Honered Artist of the Azerbaijan SSR in un paese la cui capitale è Baku."
     "Etichetta": "Vero",
   },
   {
@@ -56,57 +56,57 @@
   },
   {
     "id": 12,
-    "Affermazione": "Il convoglio SQ-36 fu guidato da Karl Donitz, nato a Grunau, in Germania.",
+    "Affermazione": "Il convoglio SQ-36 fu guidato da Karl Donitz, nato in una città tedesca di nome Grunau",
     "Etichetta": "Vero"
   },
   {
     "id": 13,
-    "Affermazione": "La battaglia di Slivice fu guidato da Carl FriedRich von Puckler Burhauss, nato a Korfantow, in Polonia.",
+    "Affermazione": "La battaglia di Slivice fu guidato da Carl FriedRich von Puckler Burhauss, nato in una località polacca di nome Korfantow",
     "Etichetta": "Vero"
   },
   {
     "id": 14,
-    "Affermazione": "La rivolta Navy argentina del 1963 fu guidata da Juan Carlos Ongania, nato a Marcos Paz (Buenos Aires), in Argentina.",
+    "Affermazione": "La rivolta Navy argentina del 1963 fu guidata da Juan Carlos Ongania, nato in una città della provincia di Buenos Aires chiamata Marcos Paz.",
     "Etichetta": "Vero"
   },
   {
     "id": 15,
-    "Affermazione": "La Guerra Sporca fu guidata da Jorge Rafael Videla, nato a Mercedes (Buenos Aires), in Argentina.",
+    "Affermazione": "La Guerra Sporca fu guidata da Jorge Rafael Videla, nato in una città della provincia di Buenos Aires chiamata Mercedes.",
     "Etichetta": "Vero"
   },
   {
     "id": 16,
-    "Affermazione": "Lo scontro di Gadchiroli fu guidato da Bhagat Singh Koshyari, nato nel distretto di Bageshwar, in India.",
+    "Affermazione": "Lo scontro di Gadchiroli fu guidato da Bhagat Singh Koshyari, nato nel distretto indiano di Bageshwar.",
     "Etichetta": "Vero"
   },
   {
     "id": 17,
-    "Affermazione": "La battaglia di Port Said fu guidata da Gamal Abdel Nasser, nato ad Alessandria, in Egitto.",
+    "Affermazione": "La battaglia di Port Said fu guidata da Gamal Abdel Nasser, nato nella città egiziana di Alessandria.",
     "Etichetta": "Vero"
   },
   {
     "id": 18,
-    "Affermazione": "Il conflitto coloniale Danese-Olandese sulla Gold Coast fu guidato da Jan Valckenburgh, nato ad Amsterdam, in Olanda.",
+    "Affermazione": "Il conflitto coloniale danese-olandese sulla Gold Coast fu guidato da Jan Valckenburgh, nato nella capitale dei Paesi Bassi.",
     "Etichetta": "Vero"
   },
   {
     "id": 19,
-    "Affermazione": "La battaglia di Makhmour fu guidata da Bafel Talabani, nato a Baghdad, in Iraq.",
+    "Affermazione": "La battaglia di Makhmour fu guidata da Bafel Talabani, nato nella capitale dell'Iraq.",
     "Etichetta": "Vero"
   },
   {
     "id": 20,
-    "Affermazione": "La cronologia della Reconquista fu guidata dal conte di Barcellona Ramon berenguer IV, nato a Barcellona, in Spagna.",
+    "Affermazione": "La cronologia della Reconquista fu guidata dal conte di Barcellona Ramon berenguer IV, nato nella città spagnola di Barcellona.",
     "Etichetta": "Vero"
   },
   {
     "id": 21,
-    "Affermazione": "Ally Cook gioca in Spokane Zephyr FC, il cui proprietario è Osvaldo Alonso, nata a San Cristobal (Cuba)."
+    "Affermazione": "Ally Cook gioca in Spokane Zephyr FC, il cui proprietario è Osvaldo Alonso, nato in una città cubana chiamata San Cristobal."
     "Etichetta": "Vero"
   },
   {
     "id": 22,
-    "Affermazione": "Amos Shapiro Thompson gioca nel Rhode Island FC, il cui proprietario è Michael Parkhurst, nato a Providence (Rhode Island).",
+    "Affermazione": "Amos Shapiro Thompson gioca nel Rhode Island FC, il cui proprietario è Michael Parkhurst, nato nella città di Providence.",
     "Etichetta": "Vero"
   },
   {
@@ -116,137 +116,137 @@
   },
   {
     "id": 24,
-    "Affermazione": "Artur Remenyak gioca per il Rukh Lviv FC, il cui proprietario è Hryhoriy_Kozlovskyy, nato a Lviv Oblast." ,
+    "Affermazione": "Artur Remenyak gioca per il Rukh Lviv FC, il cui proprietario è Hryhoriy_Kozlovskyy, nato nella regione ucraina di Lviv Oblast." ,
     "Etichetta": "Vero"
   },
   {
     "id": 25,
-    "Affermazione": "Il libro 'A Guide to Conclusive Proofs for the Principles of Belief' è stato scritto da Al-Juwayni, nato in Joveyn County, in Iran.",
+    "Affermazione": "Il libro 'A Guide to Conclusive Proofs for the Principles of Belief' è stato scritto da Al-Juwayni, nato in una contea iraniana chiamata Joveyn County.",
     "Etichetta": "Falso"    
   },
   {
     "id": 26,
-    "Affermazione": "Il libro 'The People's Otherworld: Poems' è stato scritto da Les Murray, nato a Nabiac (New South Wales), in Australia.",
+    "Affermazione": "Il libro 'The People's Otherworld: Poems' è stato scritto da Les Murray, nato in una località del New South Wales chiamata Nabiac.",
     "Etichetta": "Vero"
   },
   {
     "id": 27,
-    "Affermazione": "Il libro 'The Boys Who Stole the Funeral' è stato scritto da Les Murray, nato a Nabiac (New South Wales), in Australia.",
+    "Affermazione": "Il libro 'The Boys Who Stole the Funeral' è stato scritto da Les Murray, nato in una località del New South Wales chiamata Nabiac.",
     "Etichetta": "Vero"
   },
   {
     "id": 28,
-    "Affermazione": "Il libro 'The South' è stato scritto da Colm Toibin, nato a Enniscorthy, nella Repubblica di Irlanda.",
+    "Affermazione": "Il libro 'The South' è stato scritto da Colm Toibin, nato in una città irlandese chiamata Enniscorthy.",
     "Etichetta": "Vero"
   },
   {
     "id": 29,
-    "Affermazione": "Il libro 'Knocknagow' è stato scritto da Charles Kickham, nato a Mullinahone, nella Repubblica di Irlanda.",
+    "Affermazione": "Il libro 'Knocknagow' è stato scritto da Charles Kickham, nato in una località irlandese chiamata Mullinahone.",
     "Etichetta": "Vero"
   },
   {
     "id": 30,
-    "Affermazione": "Il libro 'Milk' è stato scritto da Beverley Farmer, nato a Windsor (Victoria), in Australia",
+    "Affermazione": "Il libro 'Milk' è stato scritto da Beverley Farmer, nato in una città australiana chiamata Windsor, nello stato di Victoria.",
     "Etichetta": "Vero"
   },
   {
     "id": 31,
-    "Affermazione": "Il libro 'Bartleby & Co' è stato scritto da Enrique Vila Matas, nato a Barcellona, in Spagna.",
+    "Affermazione": "Il libro 'Bartleby & Co' è stato scritto da Enrique Vila Matas, nato in una città spagnola chiamata Barcellona.",
     "Etichetta": "Vero"
   },
   {
     "id": 32,
-    "Affermazione": "Il libro 'The Power Worshippers' è stato scritto da Katherine Stewart, nata a Boston, negli USA.",
+    "Affermazione": "Il libro 'The Power Worshippers' è stato scritto da Katherine Stewart, nata in una città statunitense chiamata Boston.",
     "Etichetta": "Vero"
   },
   {
     "id": 33,
-    "Affermazione": "Il libro 'The Eyes and the Impossible' è stato scritto da Dave Eggers, nato a Boston, negli USA.",
+    "Affermazione": "Il libro 'The Eyes and the Impossible' è stato scritto da Dave Eggers, nato in una città statunitense chiamata Boston.",
     "Etichetta": "Vero"
   },
   {
     "id": 34,
-    "Affermazione": "Il libro 'Small Mercies' è stato scritto da Dennis Lehane, nato a Boston, negli USA.",
+    "Affermazione": "Il libro 'Small Mercies' è stato scritto da Dennis Lehane, nato in una città statunitense chiamata Boston..",
     "Etichetta": "Vero"
   },
   {
     "id": 35,
-    "Affermazione": "Il libro 'Fires' è stato scritto da Marguerite Yourcenar, nata a Bruxelles, in Belgio.",
+    "Affermazione": "Il libro 'Fires' è stato scritto da Marguerite Yourcenar, nata nella capitale del Belgio.",
     "Etichetta": "Vero"
   },
   {
     "id": 36,
-    "Affermazione": "Il libro 'Cold Crematorium' è stato scritto da Jozsef Debreczeni, nato a Budapest, in Ungaria.",
+    "Affermazione": "Il libro 'Cold Crematorium' è stato scritto da Jozsef Debreczeni, nato nella capitale ungherese.",
     "Etichetta": "Vero"
   },
   {
     "id": 37,
-    "Affermazione": "Il libro 'The Hundred Year Marathon' è stato scritto da Michael Pillsbury, nato in California, negli USA.",
+    "Affermazione": "Il libro 'The Hundred Year Marathon' è stato scritto da Michael Pillsbury, nato in uno stato degli Stati Uniti chiamato California.",
     "Etichetta": "Vero"
   },
   {
     "id": 38,
-    "Affermazione": "Il libro 'The Gorillas in the Mist' è stato scritto da Dian Fossey, nato in California, negli USA.",
+    "Affermazione": "Il libro 'The Gorillas in the Mist' è stato scritto da Dian Fossey, nato in uno stato degli Stati Uniti chiamato California.",
     "Etichetta": "Vero"
   },
   {
     "id": 39,
-    "Affermazione": "Il libro 'A Novel of the Next World War' è stato scritto da Elliot Ackerman, nato in California, negli USA.",
+    "Affermazione": "Il libro 'A Novel of the Next World War' è stato scritto da Elliot Ackerman, nato in uno stato degli Stati Uniti chiamato California.",
     "Etichetta": "Vero"
   },
   {
     "id": 40,
-    "Affermazione": "Il libro 'Kissing the Witch' è stato scritto da Emma Donoghue, nata a Dublino, nella Repubblica d'Irlanda",
+    "Affermazione": "Il libro 'Kissing the Witch' è stato scritto da Emma Donoghue, nata nella capitale irlandese.",
     "Etichetta": "Vero"
   },
   {
     "id": 41,
-    "Affermazione": "Il libro 'Its Name was Penelope' è stato scritto da Judy Malloy, nata a Boston, negli USA.",
+    "Affermazione": "Il libro 'Its Name was Penelope' è stato scritto da Judy Malloy, nato in una città statunitense chiamata Boston.",
     "Etichetta": "Falso"
   },
   {
     "id": 42,
-    "Affermazione": "La battaglia di Palkhed fu guidata da Nizam ul Mulk Asaf Jah I, nato ad Agra, in India.",
+    "Affermazione": "La battaglia di Palkhed fu guidata da Nizam ul Mulk Asaf Jah I, nato in una città indiana chiamata Agra.",
     "Etichetta": "Vero"
   },
   {
     "id": 44,
-    "Affermazione": "Il tentato colpo di stato in Pakistan del 1980 fu guidato da Zia-ul-Haq, nato a Jalandhar, in India.",
+    "Affermazione": "Il tentato colpo di stato in Pakistan del 1980 fu guidato da Zia-ul-Haq, nato in una città indiana chiamata Jalandhar.",
     "Etichetta": "Vero"
   },
   {
     "id": 44,
-    "Affermazione": "Jeetu Ahsan ha ricevuto RTW Award in Bangladesh, la cui capitale è Dhaka.",
+    "Affermazione": "Jeetu Ahsan ha ricevuto RTW Award in un paese la cui capitale è Dhaka.",
     "Etichetta": "Vero"
   },
     {
     "id": 45,
-    "Affermazione": "Aliette Opheim ha ricevuto il Kristallen Award in Svezia, la cui capitale è Stoccolma.",
+    "Affermazione": "Aliette Opheim ha ricevuto il Kristallen Award in un paese la cui capitale è Stoccolma.",
     "Etichetta": "Vero"
   },
     {
     "id": 46,
-    "Affermazione": "Ane Ines Landeta ha ricevuto il Buero Vallejo Award in Spagna, la cui capitale è Madrid.",
+    "Affermazione": "Ane Ines Landeta ha ricevuto il Buero Vallejo Award in un paese la cui capitale è Madrid.",
     "Etichetta": "Vero"
   },
     {
     "id": 47,
-    "Affermazione": "Nasreen ha ricevuto il Bachsas award in Bangladesh, la cui capitale è Dhaka.",
+    "Affermazione": "Nasreen ha ricevuto il Bachsas award in un paese la cui capitale è Dhaka.",
     "Etichetta": "Vero"
   },
     {
     "id": 48,
-    "Affermazione": "Hanna Azoulay Hasfari ha ricevuto l'Ophir Award in Israele, la cui capitale è Gerusalemme.",
+    "Affermazione": "Hanna Azoulay Hasfari ha ricevuto l'Ophir Award in un paese la cui capitale è Gerusalemme.",
     "Etichetta": "Vero"
   },
     {
     "id": 49,
-    "Affermazione": "Sombat Metanee ha ricevuto il National Artist Award in Thailandia, la cui capitale è Bangkok.",
+    "Affermazione": "Sombat Metanee ha ricevuto il National Artist Award in un paese la cui capitale è Bangkok.",
     "Etichetta": "Vero"
   },
     {
     "id": 50,
-    "Affermazione": "Pranav Mohanlal ha ricevuto il Kerala State Film Award in India, la cui capitale è Nuova Delhi.",
+    "Affermazione": "Pranav Mohanlal ha ricevuto il Kerala State Film Award in un paese la cui capitale è Nuova Delhi.",
     "Etichetta": "Vero"
   },
   
