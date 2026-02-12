@@ -1,27 +1,27 @@
-SELECT ?person ?birthPlace ?country ?continent
+SELECT ?actor ?award ?country ?capital
 WHERE {
-  ?person rdf:type dbo:Person .
-  ?person dbo:birthPlace ?birthPlace .
-  ?birthPlace dbo:country ?country .
-  ?country dbo:continent ?continent .
+  ?actor a dbo:Actor .
+  ?actor dbo:award ?award .
+  ?award dbo:country ?country .
+  ?country dbo:capital ?capital .
 }
 LIMIT 5
 
-
-SELECT ?film ?director ?birthPlace ?country
+SELECT ?conflict ?commander ?birthPlace ?country
 WHERE {
-  ?film rdf:type dbo:Film .
-  ?film dbo:director ?director .
-  ?director dbo:birthPlace ?birthPlace .
+  ?conflict a dbo:MilitaryConflict .
+  ?conflict dbo:commander ?commander .
+  ?commander dbo:birthPlace ?birthPlace .
   ?birthPlace dbo:country ?country .
 }
 LIMIT 5
 
-SELECT ?university ?city ?country ?continent
+SELECT ?athlete ?team ?owner ?birthPlace
 WHERE {
-  ?university dbo:city ?city .
-  ?city dbo:country ?country .
-  ?country dbo:continent ?continent .
+  ?athlete a dbo:Athlete .
+  ?athlete dbo:team ?team .
+  ?team dbo:owner ?owner .
+  ?owner dbo:birthPlace ?birthPlace .
 }
 LIMIT 5
 
