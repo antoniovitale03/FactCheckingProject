@@ -1,6 +1,5 @@
 SELECT ?actor ?award ?country ?capital
 WHERE {
-  ?actor a dbo:Actor .
   ?actor dbo:award ?award .
   ?award dbo:country ?country .
   ?country dbo:capital ?capital .
@@ -9,7 +8,6 @@ LIMIT 5
 
 SELECT ?conflict ?commander ?birthPlace ?country
 WHERE {
-  ?conflict a dbo:MilitaryConflict .
   ?conflict dbo:commander ?commander .
   ?commander dbo:birthPlace ?birthPlace .
   ?birthPlace dbo:country ?country .
@@ -18,7 +16,6 @@ LIMIT 5
 
 SELECT ?athlete ?team ?owner ?birthPlace
 WHERE {
-  ?athlete a dbo:Athlete .
   ?athlete dbo:team ?team .
   ?team dbo:owner ?owner .
   ?owner dbo:birthPlace ?birthPlace .
@@ -27,7 +24,6 @@ LIMIT 5
 
 SELECT ?book ?author ?birthPlace ?country
 WHERE {
-  ?book rdf:type dbo:Book .
   ?book dbo:author ?author .
   ?author dbo:birthPlace ?birthPlace .
   ?birthPlace dbo:country ?country .
