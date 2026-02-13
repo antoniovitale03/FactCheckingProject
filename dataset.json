@@ -121,134 +121,121 @@
   },
   {
     "id": 25,
-    "Affermazione": "Il libro 'A Guide to Conclusive Proofs for the Principles of Belief' è stato scritto da Al-Juwayni, nato in una contea iraniana chiamata Joveyn County.",
-    "Etichetta": "Falso"    
+    "Affermazione": "Barra Njie gioca per il Basketball Lowen Braunschweig, il cui proprietario è Dennis Schroder, nato a Braunschweig.",
+    "Etichetta": "Vero"
   },
   {
     "id": 26,
-    "Affermazione": "Il libro 'The People's Otherworld: Poems' è stato scritto da Les Murray, nato in una località del New South Wales chiamata Nabiac.",
+    "Affermazione": "Joshua Saavedra gioca per una squadra il cui proprietario è nato a Langreo.",
     "Etichetta": "Vero"
   },
   {
     "id": 27,
-    "Affermazione": "Il libro 'The Boys Who Stole the Funeral' è stato scritto da Les Murray, nato in una località del New South Wales chiamata Nabiac.",
+    "Affermazione": "Pace Mannion ha giocato negli Utah Jazz, il cui proprietario è Ryan Smith, nato a Eugene (Oregon).",
     "Etichetta": "Vero"
   },
   {
     "id": 28,
-    "Affermazione": "Il libro 'The South' è stato scritto da Colm Toibin, nato in una città irlandese chiamata Enniscorthy.",
+    "Affermazione": "Jarrell Brantley ha giocato in una squadra il cui proprietario è Ryan Smith, nato in un paese situato negli Stati Uniti.",
     "Etichetta": "Vero"
   },
   {
     "id": 29,
-    "Affermazione": "Il libro 'Knocknagow' è stato scritto da Charles Kickham, nato in una località irlandese chiamata Mullinahone.",
+    "Affermazione": "Amir Saipi gioca nel Lugano FC, il cui proprietario è nato a Munster (Indiana), situato negli USA.",
     "Etichetta": "Vero"
   },
   {
     "id": 30,
-    "Affermazione": "Il libro 'Milk' è stato scritto da Beverley Farmer, nato in una città australiana chiamata Windsor, nello stato di Victoria.",
+    "Affermazione": "Joseph Jones ha giocato nei Cangrejeros de Santurce, il cui proprietario è nato a Vega Baja, situato in Puerto Rico.",
     "Etichetta": "Vero"
-  },
+  }, 
   {
     "id": 31,
-    "Affermazione": "Il libro 'Bartleby & Co' è stato scritto da Enrique Vila Matas, nato in una città spagnola chiamata Barcellona.",
-    "Etichetta": "Vero"
+    "Affermazione": "Il libro 'A Guide to Conclusive Proofs for the Principles of Belief' è stato scritto da Al-Juwayni, nato in una contea iraniana chiamata Joveyn County.",
+    "Etichetta": "Falso"    
   },
   {
     "id": 32,
-    "Affermazione": "Il libro 'The Power Worshippers' è stato scritto da Katherine Stewart, nata in una città statunitense chiamata Boston.",
+    "Affermazione": "Il libro 'The People's Otherworld: Poems' è stato scritto da Les Murray, nato in una località del New South Wales chiamata Nabiac.",
     "Etichetta": "Vero"
   },
   {
     "id": 33,
-    "Affermazione": "Il libro 'The Eyes and the Impossible' è stato scritto da Dave Eggers, nato in una città statunitense chiamata Boston.",
+    "Affermazione": "Il libro 'The Boys Who Stole the Funeral' è stato scritto da Les Murray, nato in una località del New South Wales chiamata Nabiac.",
     "Etichetta": "Vero"
   },
   {
     "id": 34,
-    "Affermazione": "Il libro 'Small Mercies' è stato scritto da Dennis Lehane, nato in una città statunitense chiamata Boston.",
+    "Affermazione": "Il libro 'The South' è stato scritto da Colm Toibin, nato in una città irlandese chiamata Enniscorthy.",
     "Etichetta": "Vero"
   },
   {
     "id": 35,
-    "Affermazione": "Il libro 'Fires' è stato scritto da Marguerite Yourcenar, nata nella capitale del Belgio.",
+    "Affermazione": "Il libro 'Knocknagow' è stato scritto da Charles Kickham, nato in una località irlandese chiamata Mullinahone.",
     "Etichetta": "Vero"
   },
   {
     "id": 36,
-    "Affermazione": "Il libro 'Cold Crematorium' è stato scritto da Jozsef Debreczeni, nato nella capitale ungherese.",
+    "Affermazione": "Il libro 'Milk' è stato scritto da Beverley Farmer, nato in una città australiana chiamata Windsor, nello stato di Victoria.",
     "Etichetta": "Vero"
   },
   {
     "id": 37,
-    "Affermazione": "Il libro 'The Hundred Year Marathon' è stato scritto da Michael Pillsbury, nato in uno stato degli Stati Uniti chiamato California.",
+    "Affermazione": "Il libro 'Bartleby & Co' è stato scritto da Enrique Vila Matas, nato in una città spagnola chiamata Barcellona.",
     "Etichetta": "Vero"
   },
   {
     "id": 38,
-    "Affermazione": "Il libro 'The Gorillas in the Mist' è stato scritto da Dian Fossey, nato in uno stato degli Stati Uniti chiamato California.",
+    "Affermazione": "Il libro 'The Power Worshippers' è stato scritto da Katherine Stewart, nata in una città statunitense chiamata Boston.",
     "Etichetta": "Vero"
   },
   {
     "id": 39,
-    "Affermazione": "Il libro 'A Novel of the Next World War' è stato scritto da Elliot Ackerman, nato in uno stato degli Stati Uniti chiamato California.",
+    "Affermazione": "Il libro 'The Eyes and the Impossible' è stato scritto da Dave Eggers, nato in una città statunitense chiamata Boston.",
     "Etichetta": "Vero"
   },
   {
     "id": 40,
-    "Affermazione": "Il libro 'Kissing the Witch' è stato scritto da Emma Donoghue, nata nella capitale irlandese.",
+    "Affermazione": "Il libro 'Small Mercies' è stato scritto da Dennis Lehane, nato in una città statunitense chiamata Boston.",
     "Etichetta": "Vero"
   },
   {
     "id": 41,
-    "Affermazione": "Il libro 'Its Name was Penelope' è stato scritto da Judy Malloy, nato in una città statunitense chiamata Boston.",
-    "Etichetta": "Falso"
+    "Affermazione": "Kool DJ Red Alert fa parte della band 'Rock Steady Crew' ed è nato ad Antigua, in un paese la cui capitale è St. John's.",
+    "Etichetta": "Vero"
   },
   {
     "id": 42,
-    "Affermazione": "La battaglia di Palkhed fu guidata da Nizam ul Mulk Asaf Jah I, nato in una città indiana chiamata Agra.",
+    "Affermazione": "Robert Pettinato fa parte della band 'Sumo' ed è nato in un paese la cui capitale è Buenos Aires.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 43,
+    "Affermazione": "Ricardo Mollo fa parte della band 'Dividos' ed è nato a Pergamino, in un paese la cui capitale è Buenos Aires.",
     "Etichetta": "Vero"
   },
   {
     "id": 44,
-    "Affermazione": "Il tentato colpo di stato in Pakistan del 1980 fu guidato da Zia-ul-Haq, nato in una città indiana chiamata Jalandhar.",
+    "Affermazione": "Andy Strachan fa parte della band 'The Living End' ed è nata in un paese situato in Australia, la cui capitale è Canberra.",
     "Etichetta": "Vero"
   },
   {
-    "id": 44,
-    "Affermazione": "Jeetu Ahsan ha ricevuto RTW Award in un paese la cui capitale è Dhaka.",
-    "Etichetta": "Vero"
-  },
-    {
     "id": 45,
-    "Affermazione": "Aliette Opheim ha ricevuto il Kristallen Award in un paese la cui capitale è Stoccolma.",
+    "Affermazione": "Russell Hitchcok fa parte della band 'Air Supply' ed è nato a Melbourne, una città situata in un paese che ha come capitale Canberra.",
     "Etichetta": "Vero"
   },
-    {
+  {
     "id": 46,
-    "Affermazione": "Ane Ines Landeta ha ricevuto il Buero Vallejo Awards in un paese la cui capitale è Madrid.",
+    "Affermazione": "",
     "Etichetta": "Vero"
   },
-    {
-    "id": 47,
-    "Affermazione": "Nasreen ha ricevuto il Bachsas Award in un paese la cui capitale è Dhaka.",
-    "Etichetta": "Vero"
-  },
-    {
-    "id": 48,
-    "Affermazione": "Hanna Azoulay Hasfari ha ricevuto l'Ophir Award in un paese la cui capitale è Gerusalemme.",
-    "Etichetta": "Vero"
-  },
-    {
-    "id": 49,
-    "Affermazione": "Sombat Metanee ha ricevuto il National Artist Award in un paese la cui capitale è Bangkok.",
-    "Etichetta": "Vero"
-  },
-    {
-    "id": 50,
-    "Affermazione": "Pranav Mohanlal ha ricevuto il Kerala State Film Award in un paese la cui capitale è Nuova Delhi.",
-    "Etichetta": "Vero"
-  },
+  
+  
+  
+  
+  
+  
+  
   
   
   
