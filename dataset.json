@@ -16,37 +16,37 @@
   },
   {
     "id": 4,
-    "Affermazione": "Miren Galan ha ricevuto il Buero Vallejo Award in un paese la cui capitale è Madrid.",
+    "Affermazione": "Miren Galan ha ricevuto il Buero Vallejo Award in un paese la cui capitale è Madrid e che appartiene alla penisola iberica.",
     "Etichetta": "Vero"
   },
   {
     "id": 5,
-    "Affermazione": "Jean Delannoy ha ricevuto l'Honorary Cesar Award in un paese la cui capitale è Parigi."
+    "Affermazione": "Jean Delannoy ha ricevuto l'Honorary Cesar Award in un paese europeo la cui capitale è Parigi e che confina con la Germania."
     "Etichetta": "Vero",
   },
   {
     "id": 6,
-    "Affermazione": "Jose Manuel Cervino ha ricevuto il Goya Award for Best Supporting Actor in un paese la cui capitale è Madrid."
+    "Affermazione": "Jose Manuel Cervino ha ricevuto il Goya Award for Best Supporting Actor in un paese la cui capitale è Madrid e che appartiene alla penisola iberica."
     "Etichetta": "Vero",
   },
   {
     "id": 7,
-    "Affermazione": "Koldo Olabarri ha ricevuto il Buero Vallejo Award in un paese la cui capitale è Madrid."
+    "Affermazione": "Koldo Olabarri ha ricevuto il Buero Vallejo Award in un paese la cui capitale è Madrid e che appartiene alla penisola iberica."
     "Etichetta": "Vero",
   },
   {
     "id": 8,
-    "Affermazione": "Jonas Karlsson ha ricevuto il Guldbagge Award for Best Supporting Actor in a Leading Role in un paese la cui capitale è Stoccolma."
+    "Affermazione": "Jonas Karlsson ha ricevuto il Guldbagge Award for Best Supporting Actor in a Leading Role in un paese scandinavo la cui capitale è Stoccolma e che si trova nel Nord Europa."
     "Etichetta": "Vero",
   },
   {
     "id": 9,
-    "Affermazione": "Kanjuro Aeashi ha ricevuto il Mainichi Film Award in un paese la cui capitale è Tokyo."
+    "Affermazione": "Kanjuro Aeashi ha ricevuto il Mainichi Film Award in un paese la cui capitale è Tokyo e che è un arcipelago."
     "Etichetta": "Vero",
   },
   {
     "id": 10,
-    "Affermazione": "Alibaba Abdullayev ha ricevuto l'Honered Artist of the Azerbaijan SSR in un paese la cui capitale è Baku."
+    "Affermazione": "Alibaba Abdullayev ha ricevuto l'Honered Artist of the Azerbaijan SSR in un paese la cui capitale è Baku e che si trova nella regione del Caucaso."
     "Etichetta": "Vero",
   },
   {
@@ -166,7 +166,7 @@
   },
   {
     "id": 34,
-    "Affermazione": "Il libro 'Small Mercies' è stato scritto da Dennis Lehane, nato in una città statunitense chiamata Boston..",
+    "Affermazione": "Il libro 'Small Mercies' è stato scritto da Dennis Lehane, nato in una città statunitense chiamata Boston.",
     "Etichetta": "Vero"
   },
   {
