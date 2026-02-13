@@ -30,4 +30,13 @@ WHERE {
 }
 LIMIT 5
 
+SELECT ?artist ?band ?birthPlace ?country ?capital
+WHERE {
+ ?band dbo:bandMember ?artist .
+ ?artist dbo:birthPlace ?birthPlace .
+ ?birthPlace dbo:country ?country .
+ ?country dbo:capital ?capital
+}
+LIMIT 5
+
 
