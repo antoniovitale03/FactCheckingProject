@@ -226,9 +226,37 @@
   },
   {
     "id": 46,
-    "Affermazione": "",
+    "Affermazione": "Iain Matthews fa parte della band 'Matthews Southern Comfort' ed è nato a Lincolnshire, situato in un paese con capitale Londra.",
     "Etichetta": "Vero"
   },
+  {
+    "id": 46,
+    "Affermazione": "Kele Okereke fa parte della band 'Bloc Party' ed è nato a Liverpool, in Regno Unito.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 47,
+    "Affermazione": "Jeff Tweedy fa parte della band 'Wilco' ed è nato in un paese situato negli Stati Uniti, la cui capitale è Washington D.C.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 48,
+    "Affermazione": "Misuzu Togashi fa parte della band 'Sweet Arms' ed è nata ad Hokkaido, situata in un paese la cui capitale è Tokyo.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 49,
+    "Affermazione": "Depha fa parte della band 'Masterpiece' ed è nato a Sarawak, in Malaysia.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 50,
+    "Affermazione": "Ida Rogen fa parte della band 'Pitsj' ed è nata nella capitale norvegese.",
+    "Etichetta": "Vero"
+  }
+]
+  
+  
   
   
   
