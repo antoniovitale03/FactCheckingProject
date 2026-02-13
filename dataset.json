@@ -253,6 +253,256 @@
     "id": 50,
     "Affermazione": "Ida Rogen fa parte della band 'Pitsj' ed è nata nella capitale norvegese.",
     "Etichetta": "Vero"
+  }, 
+  {
+    "id": 51,
+    "Affermazione": "Ainhoa Artetxe ha ricevuto il Buero Vallejo Awards in un paese europeo la cui capitale è Lisbona e che appartiene alla penisola iberica.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 52,
+    "Affermazione": "Gabriel Afolayan ha ricevuto l'Africa Movie Academy Awards in un paese africano la cui capitale è Nairobi e che si trova nell'Africa orientale.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 53,
+    "Affermazione": "Walter Mercado ha ricevuto il New York City Award in un paese sudamericano la cui capitale è Buenos Aires e che confina con il Brasile.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 54,
+    "Affermazione": "Miren Galan ha ricevuto il Buero Vallejo Awards in un paese europeo la cui capitale è Lisbona e che appartiene alla penisola iberica.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 55,
+    "Affermazione": "Jean Delannoy ha ricevuto l'Honorary Cesar Award in un paese europeo la cui capitale è Berlino e che confina con la Francia.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 56,
+    "Affermazione": "Jose Manuel Cervino ha ricevuto il Goya Award for Best Supporting Actor in un paese la cui capitale è Lisbona e che appartiene alla penisola iberica.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 57,
+    "Affermazione": "Koldo Olabarri ha ricevuto il Buero Vallejo Awards in un paese la cui capitale è Lisbona e che appartiene alla penisola iberica.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 58,
+    "Affermazione": "Jonas Karlsson ha ricevuto il Guldbagge Award for Best Supporting Actor in a Leading Role in un paese scandinavo la cui capitale è Copenaghen e che si trova nel Nord Europa.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 59,
+    "Affermazione": "Kanjuro Aeashi ha ricevuto il Mainichi Film Award in un paese la cui capitale è Osaka e che è un arcipelago.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 60,
+    "Affermazione": "Alibaba Abdullayev ha ricevuto un premio in un paese la cui capitale è Tbilisi e che si trova nella regione del Caucaso.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 61,
+    "Affermazione": "L'assedio di Fort Crozon fu guidato da Martin Frobisher, nato a York, nel Regno Unito.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 62,
+    "Affermazione": "La rivoluzione tedesca del 1918-1919 fu guidata da Rosa Luxemburg, nata in una città tedesca di nome Konigshain-Wiederau.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 63,
+    "Affermazione": "La battaglia di Slivice fu guidata da Carl Friedrich von Puckler-Burhauss, nato in una località ceca di nome Korfantow.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 64,
+    "Affermazione": "Il movimento di resistenza polacco della Seconda Guerra Mondiale fu guidato da Witold Pilecki, nato in una località austriaca di nome Oberwaltersdorf.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 65,
+    "Affermazione": "La battaglia di Alcantara del 1580 fu guidata da Don Juan d'Austria, nato in una città spagnola di nome Piedrahita.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 66,
+    "Affermazione": "Lo scontro di Gadchiroli fu guidato da Subhas Chandra Bose, nato nel distretto indiano di Bageshwar.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 67,
+    "Affermazione": "La battaglia di Port Said fu guidata da Anwar Sadat, nato nella città egiziana del Cairo.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 68,
+    "Affermazione": "Il conflitto coloniale danese-olandese sulla Gold Coast fu guidato da Jan Valckenburgh, nato nella capitale della Danimarca.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 69,
+    "Affermazione": "La battaglia di Makhmour fu guidata da Jalal Talabani, nato nella capitale della Siria.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 70,
+    "Affermazione": "La cronologia della Reconquista fu guidata dal conte di Barcellona Ramon Berenguer IV, nato nella città francese di Barcellona.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 71,
+    "Affermazione": "Ally Cook gioca nello Spokane Zephyr FC, il cui proprietario è nato a L'Avana, in un paese la cui capitale è San Cristobal.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 72,
+    "Affermazione": "Amos Shapiro Thompson gioca nel Rhode Island FC, il cui proprietario è Michael Parkhurst, nato in un paese la cui capitale è New York.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 73,
+    "Affermazione": "Cameron Tucker ha giocato nel NY Gotham FC, il cui proprietario è Tammy Murphy, nata in Virginia Beach, negli USA.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 74,
+    "Affermazione": "Artur Remenyak gioca per il Rukh Lviv FC, il cui proprietario è Hryhoriy Kozlovskyy, nato nella regione ucraina di Odessa.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 75,
+    "Affermazione": "Barra Njie gioca per il Basketball Lowen Braunschweig, il cui proprietario è Dennis Schroder, nato a Berlino.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 76,
+    "Affermazione": "Joshua Saavedra gioca per una squadra il cui proprietario è nato a Oviedo.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 77,
+    "Affermazione": "Pace Mannion ha giocato negli Utah Jazz, il cui proprietario è Ryan Smith, nato a Portland (Oregon).",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 78,
+    "Affermazione": "Jarrell Brantley ha giocato in una squadra il cui proprietario è Ryan Smith, nato in un paese europeo.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 79,
+    "Affermazione": "Amir Saipi gioca nel Lugano FC, il cui proprietario è nato a Monaco (Indiana), situato negli USA.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 80,
+    "Affermazione": "Joseph Jones ha giocato nei Cangrejeros de Santurce, il cui proprietario è nato a San Juan, situato in Puerto Rico.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 81,
+    "Affermazione": "Il libro 'The People's Otherworld: Poems' è stato scritto da Les Murray, nato in una località del Victoria chiamata Nabiac.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 82,
+    "Affermazione": "Il libro 'The Boys Who Stole the Funeral' è stato scritto da Les Murray, nato in una località del Queensland chiamata Nabiac.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 83,
+    "Affermazione": "Il libro 'The South' è stato scritto da Colm Toibin, nato in una città inglese chiamata Enniscorthy.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 84,
+    "Affermazione": "Il libro 'Knocknagow' è stato scritto da Charles Kickham, nato in una località irlandese chiamata Cork.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 85,
+    "Affermazione": "Il libro 'Milk' è stato scritto da Beverley Farmer, nato in una città australiana chiamata Sydney, nello stato di Victoria.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 86,
+    "Affermazione": "Il libro 'Bartleby & Co' è stato scritto da Enrique Vila Matas, nato in una città spagnola chiamata Madrid.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 87,
+    "Affermazione": "Il libro 'The Power Worshippers' è stato scritto da Katherine Stewart, nata in una città canadese chiamata Boston.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 88,
+    "Affermazione": "Il libro 'The Eyes and the Impossible' è stato scritto da Dave Eggers, nato in una città statunitense chiamata New York.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 89,
+    "Affermazione": "Il libro 'Small Mercies' è stato scritto da Dennis Lehane, nato in una città canadese chiamata Boston.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 90,
+    "Affermazione": "Kool DJ Red Alert fa parte della band 'Rock Steady Crew' ed è nato a Antigua, in un paese la cui capitale è Kingstown.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 91,
+    "Affermazione": "Robert Pettinato fa parte della band 'Sumo' ed è nato in un paese la cui capitale è Santiago del Cile.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 92,
+    "Affermazione": "Ricardo Mollo fa parte della band 'Dividos' ed è nato a Pergamino, in un paese la cui capitale è Lima.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 93,
+    "Affermazione": "Andy Strachan fa parte della band 'The Living End' ed è nata in un paese situato in Nuova Zelanda, la cui capitale è Wellington.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 94,
+    "Affermazione": "Russell Hitchcok fa parte della band 'Air Supply' ed è nato a Sydney, una città situata in un paese che ha come capitale Canberra.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 95,
+    "Affermazione": "Iain Matthews fa parte della band 'Matthews Southern Comfort' ed è nato a Kent, situato in un paese con capitale Londra.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 96,
+    "Affermazione": "Kele Okereke fa parte della band 'Bloc Party' ed è nato a Manchester, in Regno Unito.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 97,
+    "Affermazione": "Jeff Tweedy fa parte della band 'Wilco' ed è nato in un paese situato in Canada, la cui capitale è Ottawa.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 98,
+    "Affermazione": "Misuzu Togashi fa parte della band 'Sweet Arms' ed è nata a Tokyo, situata in un paese la cui capitale è Osaka.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 99,
+    "Affermazione": "Depha fa parte della band 'Masterpiece' ed è nato a Sabah, in Malaysia.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 100,
+    "Affermazione": "Ida Rogen fa parte della band 'Pitsj' ed è nata a Bergen, la seconda città della Norvegia.",
+    "Etichetta": "Falso"
   }
 ]
 
