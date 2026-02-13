@@ -14,11 +14,12 @@ WHERE {
 }
 LIMIT 5
 
-SELECT ?athlete ?team ?owner ?birthPlace
+SELECT ?athlete ?team ?owner ?birthPlace ?country
 WHERE {
   ?athlete dbo:team ?team .
   ?team dbo:owner ?owner .
   ?owner dbo:birthPlace ?birthPlace .
+  OPTIONAL {?birthPlace dbo:country ?country}
 }
 LIMIT 5
 
