@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "Affermazione": "L'account ufficiale di McDonald Azerbaijan promuoveva la presa militare del Nagorno-Karabakh."
+    "Affermazione": "L'account ufficiale di McDonald Azerbaijan promuoveva la presa militare del Nagorno-Karabakh.",
     "Etichetta": "Vero"
   },
   {
@@ -11,18 +11,18 @@
   },
   {
     "id": 3,
-    "Affermazione": "Nel 2011 a popolazione dell'area di autorità unitaria che comprende il villaggio di Eastoft era di 167.446 abitanti.",
+    "Affermazione": "Nel 2011 la popolazione dell'area di autorità unitaria che comprende il villaggio di Eastoft era di 167.446 abitanti.",
     "Etichetta": "Vero"
   },
   {
     "id": 4,
-    "Affermazione": "Love Drunk è stato il singolo principale dell'album Boys Like Girls, per il quale il frontman Martin Johnson ha co-scritto una canzone con Taylor Swift.",
+    "Affermazione": "Love Drunk è stato il singolo principale dell'album 'Boys Like Girls', per il quale il frontman Martin Johnson ha co-scritto una canzone con Taylor Swift.",
     "Etichetta": "Vero"
   },
   {
     "id": 5,
-    "Affermazione": "Nel 1972 la MV Bessel si incagliò sulla seconda isola più grande del Mediterraneo."
-    "Etichetta": "Vero",
+    "Affermazione": "Nel 1972 la MV Bessel si incagliò sulla seconda isola più grande del Mediterraneo.",
+    "Etichetta": "Vero"
   },
   {
     "id": 6,
@@ -56,7 +56,7 @@
   },
   {
     "id": 12,
-    "Affermazione": "Seth Rollins è stato una star della WWE, non Jirair Hovnanian."
+    "Affermazione": "Seth Rollins è stato una star della WWE, non Jirair Hovnanian.",
     "Etichetta": "Vero"
   },
   {
@@ -66,7 +66,7 @@
   },
   {
     "id": 14,
-    "Affermazione": "'Fallen in Love' è basato sulla serie di romanzi paranormali pubblicata dalla Delacorte Press.": ,
+    "Affermazione": "'Fallen in Love' è basato sulla serie di romanzi paranormali pubblicata dalla Delacorte Press.",
     "Etichetta": "Vero"
   },
   {
@@ -112,7 +112,7 @@
   {
     "id": 23,
     "Affermazione": "Stand By Me, il cui protagonista è River Phoenix, originario della Florida, è un film tratto dal racconto breve The Body di Stephen King.",
-    "Etichetta": "Falso
+    "Etichetta": "Falso"
   },
   {
     "id": 24,
@@ -146,7 +146,7 @@
   },
   {
     "id": 30,
-    "Affermazione": "Rosario Dawson, protagonista del film con Rachael Leigh Cook, ha debuttato nel film drammatico per adolescenti del 1995 "Daredevil".",
+    "Affermazione": "Rosario Dawson, protagonista del film con Rachael Leigh Cook, ha debuttato nel film drammatico per adolescenti del 1995 'Daredevil'",
     "Etichetta": "Falso"
   }
 ]
