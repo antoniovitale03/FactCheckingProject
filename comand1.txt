@@ -1,0 +1,43 @@
+SELECT ?actor ?award ?country ?capital
+WHERE {
+  ?actor dbo:award ?award .
+  ?award dbo:country ?country .
+  ?country dbo:capital ?capital .
+}
+LIMIT 5
+
+SELECT ?conflict ?commander ?birthPlace ?country
+WHERE {
+  ?conflict dbo:commander ?commander .
+  ?commander dbo:birthPlace ?birthPlace .
+  ?birthPlace dbo:country ?country .
+}
+LIMIT 5
+
+SELECT ?athlete ?team ?owner ?birthPlace ?country
+WHERE {
+  ?athlete dbo:team ?team .
+  ?team dbo:owner ?owner .
+  ?owner dbo:birthPlace ?birthPlace .
+  OPTIONAL {?birthPlace dbo:country ?country}
+}
+LIMIT 5
+
+SELECT ?book ?author ?birthPlace ?country
+WHERE {
+  ?book dbo:author ?author .
+  ?author dbo:birthPlace ?birthPlace .
+  ?birthPlace dbo:country ?country .
+}
+LIMIT 5
+
+SELECT ?artist ?band ?birthPlace ?country ?capital
+WHERE {
+ ?band dbo:bandMember ?artist .
+ ?artist dbo:birthPlace ?birthPlace .
+ ?birthPlace dbo:country ?country .
+ ?country dbo:capital ?capital
+}
+LIMIT 5
+
+

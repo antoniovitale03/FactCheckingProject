@@ -1,152 +1,508 @@
 [
   {
     "id": 1,
-    "Affermazione": "L'account ufficiale di McDonald Azerbaijan promuoveva la presa militare del Nagorno-Karabakh.",
+    "Affermazione": "Ainhoa Artetxe ha ricevuto il Buero Vallejo Awards in un paese europeo la cui capitale è Madrid e che appartiene alla penisola iberica. "
     "Etichetta": "Vero"
   },
   {
     "id": 2,
-    "Affermazione": "Il pittore di Skagen Peder Severin prediligeva il naturalismo, insieme a Theodor Esbern Philipsen e all'artista Ossian Elgstrom con cui studiò nel 1907.",
+    "Affermazione": "Gabriel Afolayan ha ricevuto l'Africa Movie Academy Awards in un paese africano la cui capitale è Abuja e che si trova nell'Africa occidentale.",
     "Etichetta": "Vero"
   },
   {
     "id": 3,
-    "Affermazione": "Nel 2011 la popolazione dell'area di autorità unitaria che comprende il villaggio di Eastoft era di 167.446 abitanti.",
+    "Affermazione": "Walter Mercado ha ricevuto il New York City Award in un paese nordamericano la cui capitale è Washington D.C. e che confina con il Canada.",
     "Etichetta": "Vero"
   },
   {
     "id": 4,
-    "Affermazione": "Love Drunk è stato il singolo principale dell'album 'Boys Like Girls', per il quale il frontman Martin Johnson ha co-scritto una canzone con Taylor Swift.",
+    "Affermazione": "Miren Galan ha ricevuto il Buero Vallejo Awards in un paese la cui capitale è Madrid e che appartiene alla penisola iberica.",
     "Etichetta": "Vero"
   },
   {
     "id": 5,
-    "Affermazione": "Nel 1972 la MV Bessel si incagliò sulla seconda isola più grande del Mediterraneo.",
-    "Etichetta": "Vero"
+    "Affermazione": "Jean Delannoy ha ricevuto l'Honorary Cesar Award in un paese europeo la cui capitale è Parigi e che confina con la Germania."
+    "Etichetta": "Vero",
   },
   {
     "id": 6,
-    "Affermazione": "L'attrice americana di cinema, televisione e teatro, star del film The Matchmaker e vincitrice del 40° AFI Life Achievement Award, è nata il 24 aprile 1934.",
-    "Etichetta": "Vero"
+    "Affermazione": "Jose Manuel Cervino ha ricevuto il Goya Award for Best Supporting Actor in un paese la cui capitale è Madrid e che appartiene alla penisola iberica."
+    "Etichetta": "Vero",
   },
   {
     "id": 7,
-    "Affermazione": "Il canale televisivo via cavo e satellitare americano in cui appare April Margera è di proprietà di Viacom Media Networks.",
-    "Etichetta": "Vero"
+    "Affermazione": "Koldo Olabarri ha ricevuto il Buero Vallejo Awards in un paese la cui capitale è Madrid e che appartiene alla penisola iberica."
+    "Etichetta": "Vero",
   },
   {
     "id": 8,
-    "Affermazione": "L'uomo noto come la voce di 'Elgar' presta la voce al personaggio inglese del manga love Hina ispirato a Keitaro Arima.",
-    "Etichetta": "Vero"
+    "Affermazione": "Jonas Karlsson ha ricevuto il Guldbagge Award for Best Supporting Actor in a Leading Role in un paese scandinavo la cui capitale è Stoccolma e che si trova nel Nord Europa."
+    "Etichetta": "Vero",
   },
   {
     "id": 9,
-    "Affermazione": "Il compositore di Longplayer era un musicista della band The Pogues",
-    "Etichetta": "Vero"
+    "Affermazione": "Kanjuro Aeashi ha ricevuto il Mainichi Film Award in un paese la cui capitale è Tokyo e che è un arcipelago."
+    "Etichetta": "Vero",
   },
   {
     "id": 10,
-    "Affermazione": "Mario Mazzacurati vinse il Gran Premio del Sudafrica del 1936 con la Bugatti, un modello di automobile fondato nel 1909 nell'allora città tedesca di Molsheim, in Alsazia.",
-    "Etichetta": "Vero"
+    "Affermazione": "Alibaba Abdullayev ha ricevuto un premio in un paese la cui capitale è Baku e che si trova nella regione del Caucaso."
+    "Etichetta": "Vero",
   },
   {
     "id": 11,
-    "Affermazione": "L'uomo che allenò la squadra di football degli Indiana Hoosiers nel 1973 nacque nel 1935.",
+    "Affermazione": "L'assedio di Fort Crozon fu guidato da Martin Frobisher, nato ad Altofts, nel Regno Unito.",
     "Etichetta": "Vero"
   },
   {
     "id": 12,
-    "Affermazione": "Seth Rollins è stato una star della WWE, non Jirair Hovnanian.",
+    "Affermazione": "La rivoluzione tedesca del 1918-1919 fu guidata da Clara Zetkin, nata in una città tedesca di nome Konigshain-Wiederau.",
     "Etichetta": "Vero"
   },
   {
     "id": 13,
-    "Affermazione": "La star di Playback (film) è un attore e musicista statunitense, attivo sia in ambito cinematografico che televisivo. L'attore ha recitato in Now You See It, il film originale Disney Channel del 2005 diretto da Aly Michalka.",
+    "Affermazione": "La battaglia di Slivice fu guidata da Carl FriedRich von Puckler-Burhauss, nato in una località polacca di nome Korfantow",
     "Etichetta": "Vero"
   },
   {
     "id": 14,
-    "Affermazione": "'Fallen in Love' è basato sulla serie di romanzi paranormali pubblicata dalla Delacorte Press.",
+    "Affermazione": "Il movimento di resistenza polacco della Seconda Guerra Mondiale fu guidato da Franz Kutschera, nato in una località austriaca di nome Oberwaltersdorf.",
     "Etichetta": "Vero"
   },
   {
     "id": 15,
-    "Affermazione": "L'infermiera di Liverpool Mimi Smith era la zia e la tutrice di John Lennon, uno dei figli più famosi della città." ,
+    "Affermazione": "La battaglia di Alcantara del 1580 fu guidata da Fernando Alvarez de Toledo (Terzo Duca di Alba), nato in una città spagnola di nome Piedrahita.",
     "Etichetta": "Vero"
   },
   {
     "id": 16,
-    "Affermazione": "La star del thriller drammatico del 2004 Corn (film) è l'attrice canadese che ha recitato nel film per la televisione del 1996 'Bastard Out of California' diretto da Anjelica Huston.",
-    "Etichetta": "Falso"    
+    "Affermazione": "Lo scontro di Gadchiroli fu guidato da Bhagat Singh Koshyari, nato nel distretto indiano di Bageshwar.",
+    "Etichetta": "Vero"
   },
   {
     "id": 17,
-    "Affermazione": "Thomas Tull ha prodotto il film commedia 'Una notte da leoni', ambientato in California.",
-    "Etichetta": "Falso"
+    "Affermazione": "La battaglia di Port Said fu guidata da Gamal Abdel Nasser, nato nella città egiziana di Alessandria.",
+    "Etichetta": "Vero"
   },
   {
     "id": 18,
-    "Affermazione": "Il film di cui Pocahontas II: Viaggio nel nuovo mondo è il sequel, Pocahontas (film del 1995), è stato realizzato prima di Nato in Cina, uscito nel 1991.",
-    "Etichetta": "Falso"
+    "Affermazione": "Il conflitto coloniale danese-olandese sulla Gold Coast fu guidato da Jan Valckenburgh, nato nella capitale dei Paesi Bassi.",
+    "Etichetta": "Vero"
   },
   {
     "id": 19,
-    "Affermazione": "La star sotto contratto con la Metro-Goldwyn-Mayer, Arlene Dahl, recitò nel film 'Ambush' del 1950, basato sull'omonimo racconto scritto da Arlene Dahl.",
-    "Etichetta": "Falso"
+    "Affermazione": "La battaglia di Makhmour fu guidata da Bafel Talabani, nato nella capitale dell'Iraq.",
+    "Etichetta": "Vero"
   },
   {
     "id": 20,
-    "Affermazione": "Il filosofo tedesco Theodor W. Adorno scrisse L'opera, in cui Donald Gramm interpretava il ruolo di Hegel lo Squartatore.",
-    "Etichetta": "Falso"
+    "Affermazione": "La cronologia della Reconquista fu guidata dal conte di Barcellona Ramon berenguer IV, nato nella città spagnola di Barcellona.",
+    "Etichetta": "Vero"
   },
   {
     "id": 21,
-    "Affermazione": "L'attrice che ha recitato in 'La leggenda del mare azzurro' è diventata famosa grazie al suo ruolo in un film horror giapponese il cui titolo significa 'Quella ragazza bizzarra'",
-    "Etichetta": "Falso"
+    "Affermazione": "Ally Cook gioca nello Spokane Zephyr FC, il cui proprietario è nato a San Cristobal, in un paese la cui capitale è L'Avana."
+    "Etichetta": "Vero"
   },
   {
     "id": 22,
-    "Affermazione": "La band del musicista heavy metal noto con il soprannome '133' è originaria di Des Moines, Iowa, e si è formata nel 1998.",
-    "Etichetta": "Falso"
+    "Affermazione": "Amos Shapiro Thompson gioca nel Rhode Island FC, il cui proprietario è Michael Parkhurst, nato in un paese la cui capitale è Washington D.C.",
+    "Etichetta": "Vero"
   },
   {
     "id": 23,
-    "Affermazione": "Stand By Me, il cui protagonista è River Phoenix, originario della Florida, è un film tratto dal racconto breve The Body di Stephen King.",
-    "Etichetta": "Falso"
+    "Affermazione": "Cameron Tucker ha giocato nel NY Gotham FC, il cui proprietario è Tammy Murphy, nato in Virginia Beach, negli USA.": ,
+    "Etichetta": "Vero"
   },
   {
     "id": 24,
-    "Affermazione": "Il rapper e attore americano, originario di Cleveland, Ohio, che ha partecipato come guest star all'album del 2018 contenente il singolo Pop That, ha pubblicato per la prima volta un mixtape nel 2006.",
-    "Etichetta": "Falso"
+    "Affermazione": "Artur Remenyak gioca per il Rukh Lviv FC, il cui proprietario è Hryhoriy Kozlovskyy, nato nella regione ucraina di Lviv Oblast." ,
+    "Etichetta": "Vero"
   },
   {
     "id": 25,
-    "Affermazione": "Il marito di Beatrice Helen Beckett fu primo ministro del Regno Unito dal 1793 al 1801.",
-    "Etichetta": "Falso"
-  }, 
+    "Affermazione": "Barra Njie gioca per il Basketball Lowen Braunschweig, il cui proprietario è Dennis Schroder, nato a Braunschweig.",
+    "Etichetta": "Vero"
+  },
   {
     "id": 26,
-    "Affermazione": "Il fratello minore di 5 anni della principessa da cui prese il nome SS Principessa Mafalda, che divenne re, regnò per 34 giorni.",
-    "Etichetta": "Falso"
+    "Affermazione": "Joshua Saavedra gioca per una squadra il cui proprietario è nato a Langreo.",
+    "Etichetta": "Vero"
   },
   {
     "id": 27,
-    "Affermazione": "Owen Wilson ha recitato in un film con l'esperto di arti marziali Tom Wu. Ha anche doppiato il personaggio Pixar nella serie 'Cars'",
-    "Etichetta": "Falso"
+    "Affermazione": "Pace Mannion ha giocato negli Utah Jazz, il cui proprietario è Ryan Smith, nato a Eugene (Oregon).",
+    "Etichetta": "Vero"
   },
   {
     "id": 28,
-    "Affermazione": "Sia il poeta Maurice Newman che la Macquarie University sono australiani.",
-    "Etichetta": "Falso"
+    "Affermazione": "Jarrell Brantley ha giocato in una squadra il cui proprietario è Ryan Smith, nato in un paese situato negli Stati Uniti.",
+    "Etichetta": "Vero"
   },
   {
     "id": 29,
-    "Affermazione": "Il film 'L'ultima Salomè' è basato su un'opera teatrale di uno scrittore scomparso nell'agosto del 1900.",
-    "Etichetta": "Falso"
+    "Affermazione": "Amir Saipi gioca nel Lugano FC, il cui proprietario è nato a Munster (Indiana), situato negli USA.",
+    "Etichetta": "Vero"
   },
   {
     "id": 30,
-    "Affermazione": "Rosario Dawson, protagonista del film con Rachael Leigh Cook, ha debuttato nel film drammatico per adolescenti del 1995 'Daredevil'",
+    "Affermazione": "Joseph Jones ha giocato nei Cangrejeros de Santurce, il cui proprietario è nato a Vega Baja, situato in Puerto Rico.",
+    "Etichetta": "Vero"
+  }, 
+  {
+    "id": 31,
+    "Affermazione": "Il libro 'A Guide to Conclusive Proofs for the Principles of Belief' è stato scritto da Al-Juwayni, nato in una contea iraniana chiamata Joveyn County.",
+    "Etichetta": "Falso"    
+  },
+  {
+    "id": 32,
+    "Affermazione": "Il libro 'The People's Otherworld: Poems' è stato scritto da Les Murray, nato in una località del New South Wales chiamata Nabiac.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 33,
+    "Affermazione": "Il libro 'The Boys Who Stole the Funeral' è stato scritto da Les Murray, nato in una località del New South Wales chiamata Nabiac.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 34,
+    "Affermazione": "Il libro 'The South' è stato scritto da Colm Toibin, nato in una città irlandese chiamata Enniscorthy.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 35,
+    "Affermazione": "Il libro 'Knocknagow' è stato scritto da Charles Kickham, nato in una località irlandese chiamata Mullinahone.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 36,
+    "Affermazione": "Il libro 'Milk' è stato scritto da Beverley Farmer, nato in una città australiana chiamata Windsor, nello stato di Victoria.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 37,
+    "Affermazione": "Il libro 'Bartleby & Co' è stato scritto da Enrique Vila Matas, nato in una città spagnola chiamata Barcellona.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 38,
+    "Affermazione": "Il libro 'The Power Worshippers' è stato scritto da Katherine Stewart, nata in una città statunitense chiamata Boston.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 39,
+    "Affermazione": "Il libro 'The Eyes and the Impossible' è stato scritto da Dave Eggers, nato in una città statunitense chiamata Boston.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 40,
+    "Affermazione": "Il libro 'Small Mercies' è stato scritto da Dennis Lehane, nato in una città statunitense chiamata Boston.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 41,
+    "Affermazione": "Kool DJ Red Alert fa parte della band 'Rock Steady Crew' ed è nato ad Antigua, in un paese la cui capitale è St. John's.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 42,
+    "Affermazione": "Robert Pettinato fa parte della band 'Sumo' ed è nato in un paese la cui capitale è Buenos Aires.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 43,
+    "Affermazione": "Ricardo Mollo fa parte della band 'Dividos' ed è nato a Pergamino, in un paese la cui capitale è Buenos Aires.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 44,
+    "Affermazione": "Andy Strachan fa parte della band 'The Living End' ed è nata in un paese situato in Australia, la cui capitale è Canberra.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 45,
+    "Affermazione": "Russell Hitchcok fa parte della band 'Air Supply' ed è nato a Melbourne, una città situata in un paese che ha come capitale Canberra.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 46,
+    "Affermazione": "Iain Matthews fa parte della band 'Matthews Southern Comfort' ed è nato a Lincolnshire, situato in un paese con capitale Londra.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 46,
+    "Affermazione": "Kele Okereke fa parte della band 'Bloc Party' ed è nato a Liverpool, in Regno Unito.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 47,
+    "Affermazione": "Jeff Tweedy fa parte della band 'Wilco' ed è nato in un paese situato negli Stati Uniti, la cui capitale è Washington D.C.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 48,
+    "Affermazione": "Misuzu Togashi fa parte della band 'Sweet Arms' ed è nata ad Hokkaido, situata in un paese la cui capitale è Tokyo.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 49,
+    "Affermazione": "Depha fa parte della band 'Masterpiece' ed è nato a Sarawak, in Malaysia.",
+    "Etichetta": "Vero"
+  },
+  {
+    "id": 50,
+    "Affermazione": "Ida Rogen fa parte della band 'Pitsj' ed è nata nella capitale norvegese.",
+    "Etichetta": "Vero"
+  }, 
+  {
+    "id": 51,
+    "Affermazione": "Ainhoa Artetxe ha ricevuto il Buero Vallejo Awards in un paese europeo la cui capitale è Lisbona e che appartiene alla penisola iberica.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 52,
+    "Affermazione": "Gabriel Afolayan ha ricevuto l'Africa Movie Academy Awards in un paese africano la cui capitale è Nairobi e che si trova nell'Africa orientale.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 53,
+    "Affermazione": "Walter Mercado ha ricevuto il New York City Award in un paese sudamericano la cui capitale è Buenos Aires e che confina con il Brasile.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 54,
+    "Affermazione": "Miren Galan ha ricevuto il Buero Vallejo Awards in un paese europeo la cui capitale è Lisbona e che appartiene alla penisola iberica.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 55,
+    "Affermazione": "Jean Delannoy ha ricevuto l'Honorary Cesar Award in un paese europeo la cui capitale è Berlino e che confina con la Francia.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 56,
+    "Affermazione": "Jose Manuel Cervino ha ricevuto il Goya Award for Best Supporting Actor in un paese la cui capitale è Lisbona e che appartiene alla penisola iberica.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 57,
+    "Affermazione": "Koldo Olabarri ha ricevuto il Buero Vallejo Awards in un paese la cui capitale è Lisbona e che appartiene alla penisola iberica.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 58,
+    "Affermazione": "Jonas Karlsson ha ricevuto il Guldbagge Award for Best Supporting Actor in a Leading Role in un paese scandinavo la cui capitale è Copenaghen e che si trova nel Nord Europa.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 59,
+    "Affermazione": "Kanjuro Aeashi ha ricevuto il Mainichi Film Award in un paese la cui capitale è Osaka e che è un arcipelago.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 60,
+    "Affermazione": "Alibaba Abdullayev ha ricevuto un premio in un paese la cui capitale è Tbilisi e che si trova nella regione del Caucaso.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 61,
+    "Affermazione": "L'assedio di Fort Crozon fu guidato da Martin Frobisher, nato a York, nel Regno Unito.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 62,
+    "Affermazione": "La rivoluzione tedesca del 1918-1919 fu guidata da Rosa Luxemburg, nata in una città tedesca di nome Konigshain-Wiederau.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 63,
+    "Affermazione": "La battaglia di Slivice fu guidata da Carl Friedrich von Puckler-Burhauss, nato in una località ceca di nome Korfantow.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 64,
+    "Affermazione": "Il movimento di resistenza polacco della Seconda Guerra Mondiale fu guidato da Witold Pilecki, nato in una località austriaca di nome Oberwaltersdorf.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 65,
+    "Affermazione": "La battaglia di Alcantara del 1580 fu guidata da Don Juan d'Austria, nato in una città spagnola di nome Piedrahita.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 66,
+    "Affermazione": "Lo scontro di Gadchiroli fu guidato da Subhas Chandra Bose, nato nel distretto indiano di Bageshwar.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 67,
+    "Affermazione": "La battaglia di Port Said fu guidata da Anwar Sadat, nato nella città egiziana del Cairo.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 68,
+    "Affermazione": "Il conflitto coloniale danese-olandese sulla Gold Coast fu guidato da Jan Valckenburgh, nato nella capitale della Danimarca.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 69,
+    "Affermazione": "La battaglia di Makhmour fu guidata da Jalal Talabani, nato nella capitale della Siria.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 70,
+    "Affermazione": "La cronologia della Reconquista fu guidata dal conte di Barcellona Ramon Berenguer IV, nato nella città francese di Barcellona.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 71,
+    "Affermazione": "Ally Cook gioca nello Spokane Zephyr FC, il cui proprietario è nato a L'Avana, in un paese la cui capitale è San Cristobal.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 72,
+    "Affermazione": "Amos Shapiro Thompson gioca nel Rhode Island FC, il cui proprietario è Michael Parkhurst, nato in un paese la cui capitale è New York.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 73,
+    "Affermazione": "Cameron Tucker ha giocato nel NY Gotham FC, il cui proprietario è Tammy Murphy, nata in Virginia Beach, negli USA.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 74,
+    "Affermazione": "Artur Remenyak gioca per il Rukh Lviv FC, il cui proprietario è Hryhoriy Kozlovskyy, nato nella regione ucraina di Odessa.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 75,
+    "Affermazione": "Barra Njie gioca per il Basketball Lowen Braunschweig, il cui proprietario è Dennis Schroder, nato a Berlino.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 76,
+    "Affermazione": "Joshua Saavedra gioca per una squadra il cui proprietario è nato a Oviedo.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 77,
+    "Affermazione": "Pace Mannion ha giocato negli Utah Jazz, il cui proprietario è Ryan Smith, nato a Portland (Oregon).",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 78,
+    "Affermazione": "Jarrell Brantley ha giocato in una squadra il cui proprietario è Ryan Smith, nato in un paese europeo.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 79,
+    "Affermazione": "Amir Saipi gioca nel Lugano FC, il cui proprietario è nato a Monaco (Indiana), situato negli USA.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 80,
+    "Affermazione": "Joseph Jones ha giocato nei Cangrejeros de Santurce, il cui proprietario è nato a San Juan, situato in Puerto Rico.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 81,
+    "Affermazione": "Il libro 'The People's Otherworld: Poems' è stato scritto da Les Murray, nato in una località del Victoria chiamata Nabiac.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 82,
+    "Affermazione": "Il libro 'The Boys Who Stole the Funeral' è stato scritto da Les Murray, nato in una località del Queensland chiamata Nabiac.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 83,
+    "Affermazione": "Il libro 'The South' è stato scritto da Colm Toibin, nato in una città inglese chiamata Enniscorthy.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 84,
+    "Affermazione": "Il libro 'Knocknagow' è stato scritto da Charles Kickham, nato in una località irlandese chiamata Cork.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 85,
+    "Affermazione": "Il libro 'Milk' è stato scritto da Beverley Farmer, nato in una città australiana chiamata Sydney, nello stato di Victoria.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 86,
+    "Affermazione": "Il libro 'Bartleby & Co' è stato scritto da Enrique Vila Matas, nato in una città spagnola chiamata Madrid.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 87,
+    "Affermazione": "Il libro 'The Power Worshippers' è stato scritto da Katherine Stewart, nata in una città canadese chiamata Boston.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 88,
+    "Affermazione": "Il libro 'The Eyes and the Impossible' è stato scritto da Dave Eggers, nato in una città statunitense chiamata New York.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 89,
+    "Affermazione": "Il libro 'Small Mercies' è stato scritto da Dennis Lehane, nato in una città canadese chiamata Boston.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 90,
+    "Affermazione": "Kool DJ Red Alert fa parte della band 'Rock Steady Crew' ed è nato a Antigua, in un paese la cui capitale è Kingstown.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 91,
+    "Affermazione": "Robert Pettinato fa parte della band 'Sumo' ed è nato in un paese la cui capitale è Santiago del Cile.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 92,
+    "Affermazione": "Ricardo Mollo fa parte della band 'Dividos' ed è nato a Pergamino, in un paese la cui capitale è Lima.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 93,
+    "Affermazione": "Andy Strachan fa parte della band 'The Living End' ed è nata in un paese situato in Nuova Zelanda, la cui capitale è Wellington.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 94,
+    "Affermazione": "Russell Hitchcok fa parte della band 'Air Supply' ed è nato a Sydney, una città situata in un paese che ha come capitale Canberra.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 95,
+    "Affermazione": "Iain Matthews fa parte della band 'Matthews Southern Comfort' ed è nato a Kent, situato in un paese con capitale Londra.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 96,
+    "Affermazione": "Kele Okereke fa parte della band 'Bloc Party' ed è nato a Manchester, in Regno Unito.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 97,
+    "Affermazione": "Jeff Tweedy fa parte della band 'Wilco' ed è nato in un paese situato in Canada, la cui capitale è Ottawa.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 98,
+    "Affermazione": "Misuzu Togashi fa parte della band 'Sweet Arms' ed è nata a Tokyo, situata in un paese la cui capitale è Osaka.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 99,
+    "Affermazione": "Depha fa parte della band 'Masterpiece' ed è nato a Sabah, in Malaysia.",
+    "Etichetta": "Falso"
+  },
+  {
+    "id": 100,
+    "Affermazione": "Ida Rogen fa parte della band 'Pitsj' ed è nata a Bergen, la seconda città della Norvegia.",
     "Etichetta": "Falso"
   }
 ]
+

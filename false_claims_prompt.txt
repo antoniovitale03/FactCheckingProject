@@ -1,0 +1,19 @@
+<DATASET INCOMPLETO CON 50 AFFERMAZIONI VERE>
+Questo è un dataset incompleto che contiene 50 affermazioni vere.
+Il tuo compito è manipolare ciascuna affermazione in modo da renderla falsa e aggiungerla al dataset, con l'id e l'etichetta appropriata. 
+
+Per esempio, la seguente affermazione 
+{
+  "id": 1,
+  "Affermazione: "<AFFERMAZIONE VERA>",
+  "Etichetta": "Vero"
+}
+
+diventa 
+{
+  "id": 51, 
+  "Affermazione: "<AFFERMAZIONE FALSA MANIPOLATA>",
+  "Etichetta": "Falso"
+}
+
+
