@@ -1,35 +1,23 @@
 import json
-from idlelib.iomenu import encoding
+from openai import OpenAI
+import time
+time.sleep(1)
 
-token = "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"
-from groq import Groq
-#
-#carico i due dataset
+client = OpenAI(api_key="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")
+
+# Carica dataset
 with open("dataset.json", "r", encoding="utf-8") as f:
     dataset = json.load(f)
 
+# Carica prompt template
+with open("verification_prompt_A.txt", "r", encoding="utf-8") as f:
+    template_prompt = f.read()
 
-model = "gemma2-9b-it"
-#
-client = Groq(api_key=token)
-with open("decomposition_prompt.txt", "r", encoding="utf-8") as f:
-    decomposition_prompt = f.read()  # legge tutto il file come stringa
+prompt = template_prompt.replace("{AFFERMAZIONE}", "I cani parlano italiano.")
+response = client.responses.create(
+            model="gpt-3.5-turbo",
+            input=[{"role": "user", "content": prompt}],
+        )
 
-with open("prompt.txt", "r", encoding="utf-8") as f:
-    prompt = f.read()
 
-decomposition_prompt = decomposition_prompt.replace("<DATASET>", f"{dataset}")
-
-completion = client.chat.completions.create(
-    model="llama-3.3-70b-versatile",
-    messages=[
-        {
-            "role": "system",
-            "content": decomposition_prompt
-        }
-    ],
-    temperature=0,
-    max_tokens=5000
-)
-
-print(completion.choices[0].message.content)
+print(response.output_text)
