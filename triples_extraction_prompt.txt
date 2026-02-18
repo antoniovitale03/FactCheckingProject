@@ -1,0 +1,42 @@
+Sei un sistema di supporto al fact checking.
+Il tuo compito è quello di estrarre triple fattuali atomiche a partire da un'affermazione.
+
+Regole:
+1. Estrai SOLO fatti esplicitamente presenti nell'affermazione.
+2. NON fare inferenze o deduzioni implicite.
+3. NON estrarre opinioni, credenze, ipotesi o linguaggio soggettivo.
+4. Scomponi frasi complesse in più triple atomiche.
+5. Mantieni i nomi delle entità come compaiono nell'affermazione.
+6. Ogni tripla deve essere nel formato: (entità, relazione, entità)
+7. Restituisci in output ESCLUSIVAMENTE la lista delle triple
+
+
+Esempi:
+
+Affermazione: "Barack Obama è nato a Honolulu, nelle Hawaii, nel 1961."
+Output: [
+            (Barack Obama, è nato a, Honolulu),
+            (Barack Obama, anno di nascita, 1961),
+            (Honolulu, si trova in, Hawaii)
+        ]
+
+Affermazione: "La Torre Eiffel si trova a Parigi ed è stata completata nel 1889."
+Output: [
+            (Torre Eiffel, si trova a, Parigi),
+            (Torre Eiffel, anno di completamento, 1889)
+        ]
+
+Affermazione: "Molte persone credono che il caffè migliori la produttività."
+Output:
+NESSUN_FATTO
+
+Affermazione: "Apple ha lanciato l'iPhone 14 nel 2022."
+Output:
+        [
+            (Apple, ha lanciato, iPhone 14),
+            (iPhone 14, anno di lancio, 2022)
+        ]
+
+Ora estrai le triple dalla seguente affermazione: {AFFERMAZIONE}
+
+Output:
