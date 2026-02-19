@@ -8,7 +8,7 @@ import sys
 sys.stdin.reconfigure(encoding='utf-8')
 sys.stdout.reconfigure(encoding='utf-8')
 
-embedder = SentenceTransformer("all-MiniLM-L6-v2")
+embedder = SentenceTransformer("BAAI/bge-base-en-v1.5", device="cuda")
 
 index = faiss.read_index("faiss_index.bin")
 
@@ -19,7 +19,7 @@ with open("chunks.json", "r", encoding="utf-8") as f:
     chunks = json.load(f)
 
 # ====== 4. Funzione RAG ======
-def retrieval(query, top_k=10):
+def retrieval(query, top_k=5):
     # embedding query
     query_vector = embedder.encode([query], convert_to_numpy=True).astype("float32")
 
