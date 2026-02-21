@@ -2,3 +2,4 @@ python==3.10
 faiss-cpu
 sentence-transformers
 deep-translator
+torch

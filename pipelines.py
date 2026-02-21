@@ -21,7 +21,7 @@ def pipeline_A():
         print(prompt)
 
 def pipeline_B():
-    with open("results_B.json", "r", encoding="utf-8") as f:
+    with open("pipelineB/results_B.json", "r", encoding="utf-8") as f:
         results_B = json.load(f)
     for e in results_B:
         print(f"N. {e["id"]} ----------------------")
