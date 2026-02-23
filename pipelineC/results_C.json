@@ -602,121 +602,224 @@
       "(Dennis Schroder, luogo di nascita, Berlino)"
     ],
     "Triple Normalizzate": []
-
   },
   {
     "id": 76,
-    "Affermazione": "Joshua Saavedra gioca per una squadra il cui proprietario è nato a Oviedo."
+    "Affermazione": "Joshua Saavedra gioca per una squadra il cui proprietario è nato a Oviedo.",
+    "Triple": [],
+    "Triple Normalizzate": []
   },
   {
     "id": 77,
-    "Affermazione": "Pace Mannion ha giocato negli Utah Jazz, il cui proprietario è Ryan Smith, nato a Portland (Oregon)."
-
+    "Affermazione": "Pace Mannion ha giocato negli Utah Jazz, il cui proprietario è Ryan Smith, nato a Portland (Oregon).",
+    "Triple": [
+      "(Pace Mannion, ha giocato per, Utah Jazz)",
+      "(Utah Jazz, proprietario, Ryan Smith)",
+      "(Ryan Smith, luogo di nascita, Portland (Oregon))"
+    ],
+    "Triple Normalizzate": []
   },
   {
     "id": 78,
-    "Affermazione": "Jarrell Brantley ha giocato in una squadra il cui proprietario è Ryan Smith, nato in un paese europeo."
-
+    "Affermazione": "Jarrell Brantley ha giocato in una squadra il cui proprietario è Ryan Smith, nato in un paese europeo.",
+    "Triple": [],
+    "Triple Normalizzate": []
   },
   {
     "id": 79,
-    "Affermazione": "Amir Saipi gioca nel Lugano FC, il cui proprietario è nato a Monaco (Indiana), situato negli USA."
-
-  },
+    "Affermazione": "Amir Saipi gioca nel Lugano FC, il cui proprietario Joe Mansueto  è nato a Monaco (Indiana), situato negli USA.",
+    "Triple": [
+      "(Amir Saipi, gioca per, Lugano FC)",
+      "(Joe Mansueto, luogo di nascita, Monaco (Indiana))",
+      "(Monaco (Indiana), si trova in, USA)"
+    ],
+    "Triple Normalizzate": []
+},
   {
     "id": 80,
-    "Affermazione": "Joseph Jones ha giocato nei Cangrejeros de Santurce, il cui proprietario è nato a San Juan, situato in Puerto Rico."
+    "Affermazione": "Joseph Jones ha giocato nei Cangrejeros de Santurce, il cui proprietario Bad Bunny è nato a San Juan, situato in Puerto Rico.",
+    "Triple": [
+      "(Joseph Jones, ha giocato per, Cangrejeros de Santurce)",
+      "(Bad Bunny, luogo di nascita, San Juan)",
+      "(San Juan, si trova in, Puerto Rico)"
+    ],
+    "Triple Normalizzate": []
   },
   {
     "id": 81,
-    "Affermazione": "Il libro 'The People's Otherworld: Poems' è stato scritto da Les Murray, nato in una località del Victoria chiamata Nabiac."
+    "Affermazione": "Il libro 'The People's Otherworld: Poems' è stato scritto da Les Murray, nato in una località del Victoria chiamata Nabiac.",
+    "Triple": [
+      "(The People's Otherworld: Poems, autore, Les Murray)",
+      "(Les Murray, luogo di nascita, Nabiac)"
+    ],
+    "Triple Normalizzate": []
   },
   {
     "id": 82,
-    "Affermazione": "Il libro 'The Boys Who Stole the Funeral' è stato scritto da Les Murray, nato in una località del Queensland chiamata Nabiac."
-
+    "Affermazione": "Il libro 'The Boys Who Stole the Funeral' è stato scritto da Les Murray, nato in una località del Queensland chiamata Nabiac.",
+    "Triple": [
+      "(The Boys Who Stole the Funeral, autore, Les Murray)",
+      "(Les Murray, luogo di nascita, Nabiac)",
+      "(Nabiac, si trova in, Queensland)"
+    ],
+    "Triple Normalizzate": []
   },
   {
     "id": 83,
-    "Affermazione": "Il libro 'The South' è stato scritto da Colm Toibin, nato in una città inglese chiamata Enniscorthy."
-
+    "Affermazione": "Il libro 'The South' è stato scritto da Colm Toibin, nato in una città inglese chiamata Enniscorthy.",
+    "Triple": [
+      "(The South, autore, Colm Toibin)",
+      "(Colm Toibin, luogo di nascita, Enniscorthy)"
+    ],
+    "Triple Normalizzate": []
   },
   {
     "id": 84,
-    "Affermazione": "Il libro 'Knocknagow' è stato scritto da Charles Kickham, nato in una località irlandese chiamata Cork."
-
-  },
+    "Affermazione": "Il libro 'Knocknagow' è stato scritto da Charles Kickham, nato in una località irlandese chiamata Cork.",
+    "Triple": [
+      "(Knocknagow, autore, Charles Kickham)",
+      "(Charles Kickham, luogo di nascita, Cork)"
+    ],
+    "Triple Normalizzate": []
+},
   {
     "id": 85,
-    "Affermazione": "Il libro 'Milk' è stato scritto da Beverley Farmer, nato in una città australiana chiamata Sydney, nello stato di Victoria."
-
-  },
+    "Affermazione": "Il libro 'Milk' è stato scritto da Beverley Farmer, nato in una città australiana chiamata Sydney, nello stato di Victoria.",
+    "Triple": [
+      "(Milk, autore, Beverley Farmer)",
+      "(Beverley Farmer, luogo di nascita, Sydney)",
+      "(Sydney, si trova in, Victoria)"
+    ],
+    "Triple Normalizzate": []
+},
   {
     "id": 86,
-    "Affermazione": "Il libro 'Bartleby & Co' è stato scritto da Enrique Vila Matas, nato in una città spagnola chiamata Madrid."
+    "Affermazione": "Il libro 'Bartleby & Co' è stato scritto da Enrique Vila Matas, nato in una città spagnola chiamata Madrid.",
+    "Triple": [
+      "(Bartleby & Co, autore, Enrique Vila Matas)",
+      "(Enrique Vila Matas, luogo di nascita, Madrid)"
+    ],
+    "Triple Normalizzate": []
   },
   {
     "id": 87,
-    "Affermazione": "Il libro 'The Power Worshippers' è stato scritto da Katherine Stewart, nata in una città canadese chiamata Boston."
+    "Affermazione": "Il libro 'The Power Worshippers' è stato scritto da Katherine Stewart, nata in una città canadese chiamata Boston.",
+    "Triple": [
+      "(The Power Worshippers, autore, Katherine Stewart)",
+      "(Katherine Stewart, luogo di nascita, Boston)"
+    ],
+    "Triple Normalizzate": []
   },
   {
     "id": 88,
-    "Affermazione": "Il libro 'The Eyes and the Impossible' è stato scritto da Dave Eggers, nato in una città statunitense chiamata New York."
+    "Affermazione": "Il libro 'The Eyes and the Impossible' è stato scritto da Dave Eggers, nato in una città statunitense chiamata New York.",
+    "Triple": [
+      "(The Eyes and the Impossible, autore, Dave Eggers)",
+      "(Dave Eggers, luogo di nascita, New York)"
+    ],
+    "Triple Normalizzate": []
   },
   {
     "id": 89,
-    "Affermazione": "Il libro 'Small Mercies' è stato scritto da Dennis Lehane, nato in una città canadese chiamata Boston."
-
+    "Affermazione": "Il libro 'Small Mercies' è stato scritto da Dennis Lehane, nato in una città canadese chiamata Boston.",
+    "Triple": [
+      "(Small Mercies, autore, Dennis Lehane)",
+      "(Dennis Lehane, luogo di nascita, Boston)"
+    ],
+    "Triple Normalizzate": []
   },
   {
     "id": 90,
-    "Affermazione": "Kool DJ Red Alert fa parte della band 'Rock Steady Crew' ed è nato a Antigua, in un paese la cui capitale è Kingstown."
+    "Affermazione": "Kool DJ Red Alert fa parte della band 'Rock Steady Crew' ed è nato a Antigua, in un paese la cui capitale è Kingstown.",
+    "Triple": [
+      "(Kool DJ Red Alert, membro di, Rock Steady Crew)",
+      "(Kool DJ Red Alert, luogo di nascita, Antigua)"
+    ],
+    "Triple Normalizzate": []
   },
   {
     "id": 91,
-    "Affermazione": "Robert Pettinato fa parte della band 'Sumo' ed è nato in un paese la cui capitale è Santiago del Cile."
+    "Affermazione": "Robert Pettinato fa parte della band 'Sumo' ed è nato in un paese la cui capitale è Santiago del Cile.",
+    "Triple": ["(Robert Pettinato, membro di, Sumo)"],
+    "Triple Normalizzate": []
   },
   {
     "id": 92,
-    "Affermazione": "Ricardo Mollo fa parte della band 'Dividos' ed è nato a Pergamino, in un paese la cui capitale è Lima."
+    "Affermazione": "Ricardo Mollo fa parte della band 'Dividos' ed è nato a Pergamino, in un paese la cui capitale è Lima.",
+    "Triple": [
+      "(Ricardo Mollo, membro di, Dividos)",
+      "(Ricardo Mollo, luogo di nascita, Pergamino)"
+    ],
+    "Triple Normalizzate": []
   },
   {
     "id": 93,
-    "Affermazione": "Andy Strachan fa parte della band 'The Living End' ed è nata in un paese situato in Nuova Zelanda, la cui capitale è Wellington."
+    "Affermazione": "Andy Strachan fa parte della band 'The Living End' ed è nata in un paese situato in Nuova Zelanda, la cui capitale è Wellington.",
+    "Triple": ["(Andy Strachan, membro di, The Living End)"],
+    "Triple Normalizzate": []
   },
   {
     "id": 94,
-    "Affermazione": "Russell Hitchcok fa parte della band 'Air Supply' ed è nato a Sydney, una città situata in un paese che ha come capitale Canberra."
-
+    "Affermazione": "Russell Hitchcok fa parte della band 'Air Supply' ed è nato a Sydney, una città situata in un paese che ha come capitale Canberra.",
+    "Triple": [
+      "(Russell Hitchcok, membro di, Air Supply)",
+      "(Russell Hitchcok, luogo di nascita, Sydney)"
+    ],
+    "Triple Normalizzate": []
   },
   {
     "id": 95,
-    "Affermazione": "Iain Matthews fa parte della band 'Matthews Southern Comfort' ed è nato a Kent, situato in un paese con capitale Londra."
-
+    "Affermazione": "Iain Matthews fa parte della band 'Matthews Southern Comfort' ed è nato a Kent, situato in un paese con capitale Londra.",
+    "Triple": [
+      "(Iain Matthews, membro di, Matthews Southern Comfort)",
+      "(Iain Matthews, luogo di nascita, Kent)"
+    ],
+    "Triple Normalizzate": []
   },
   {
     "id": 96,
-    "Affermazione": "Kele Okereke fa parte della band 'Bloc Party' ed è nato a Manchester, in Regno Unito."
-
+    "Affermazione": "Kele Okereke fa parte della band 'Bloc Party' ed è nato a Manchester, in Regno Unito.",
+    "Triple":[
+      "(Kele Okereke, membro di, Bloc Party)",
+      "(Kele Okereke, luogo di nascita, Manchester)",
+      "(Manchester, si trova in, Regno Unito)"
+    ],
+    "Triple Normalizzate": []
   },
   {
     "id": 97,
-    "Affermazione": "Jeff Tweedy fa parte della band 'Wilco' ed è nato in un paese situato in Canada, la cui capitale è Ottawa."
-
+    "Affermazione": "Jeff Tweedy fa parte della band 'Wilco' ed è nato in un paese situato in Canada, la cui capitale è Ottawa.",
+    "Triple": ["(Jeff Tweedy, membro di, Wilco)"],
+    "Triple Normalizzate": []
   },
   {
     "id": 98,
-    "Affermazione": "Misuzu Togashi fa parte della band 'Sweet Arms' ed è nata a Tokyo, situata in un paese la cui capitale è Osaka."
-
+    "Affermazione": "Misuzu Togashi fa parte della band 'Sweet Arms' ed è nata a Tokyo, situata in un paese la cui capitale è Osaka.",
+    "Triple": [
+      "(Misuzu Togashi, membro di, Sweet Arms)",
+      "(Misuzu Togashi, luogo di nascita, Tokyo)"
+    ],
+    "Triple Normalizzate": []
   },
   {
     "id": 99,
-    "Affermazione": "Depha fa parte della band 'Masterpiece' ed è nato a Sabah, in Malaysia."
-
+    "Affermazione": "Depha fa parte della band 'Masterpiece' ed è nato a Sabah, in Malaysia.",
+    "Triple": [
+      "(Depha, membro di, Masterpiece)",
+      "(Depha, luogo di nascita, Sabah)",
+      "(Sabah, si trova in, Malaysia)"
+    ],
+    "Triple Normalizzate": []
   },
   {
     "id": 100,
-    "Affermazione": "Ida Rogen fa parte della band 'Pitsj' ed è nata a Bergen, la seconda città della Norvegia."
+    "Affermazione": "Ida Rogen fa parte della band 'Pitsj' ed è nata a Bergen, la seconda città della Norvegia.",
+    "Triple": [
+      "(Ida Rogen, membro di, Pitsj)",
+      "(Ida Rogen, luogo di nascita, Bergen)",
+      "(Bergen, si trova in, Norvegia)"
+    ],
+    "Triple Normalizzate": []
   }
 ]
 
