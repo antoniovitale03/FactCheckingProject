@@ -11,7 +11,7 @@ with open("dataset.json", "r", encoding="utf-8") as f:
 with open("verification_prompt_A.txt", "r", encoding="utf-8") as f:
     template_prompt_A = f.read()
 
-with open("verification_prompt_B.txt", "r", encoding="utf-8") as f:
+with open("pipelineB/verification_prompt_B.txt", "r", encoding="utf-8") as f:
     template_prompt_B = f.read()
 
 def pipeline_A():
@@ -25,7 +25,7 @@ def pipeline_B():
         results_B = json.load(f)
     for e in results_B:
         print(f"N. {e["id"]} ----------------------")
-        prompt = template_prompt_B.replace("{AFFERMAZIONE}", e["Affermazione"]).replace("{EVIDENZE}", results_B["Evidenze"])
+        prompt = template_prompt_B.replace("{AFFERMAZIONE}", e["Affermazione"]).replace("{EVIDENZE}", e["Evidenze"])
         print(prompt)
 
 def pipeline_C():
@@ -33,5 +33,7 @@ def pipeline_C():
         results_C = json.load(f)
 
 
+if __name__ == "__main__":
+    pipeline_B()
 
 
