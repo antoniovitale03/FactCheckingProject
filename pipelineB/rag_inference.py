@@ -46,7 +46,6 @@ def retrieval(query, top_k=7):
 
     # retrieval
     distances, indices = index.search(query_vector, top_k)
-    print(indices)
 
     retrieved_chunks = get_chunks(indices[0])
     evidence = "".join(retrieved_chunks)

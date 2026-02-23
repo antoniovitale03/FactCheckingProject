@@ -14,6 +14,9 @@ with open("verification_prompt_A.txt", "r", encoding="utf-8") as f:
 with open("pipelineB/verification_prompt_B.txt", "r", encoding="utf-8") as f:
     template_prompt_B = f.read()
 
+with open("pipelineC/triples_extraction_prompt.txt", "r", encoding="utf-8") as f:
+    triples_extraction_prompt = f.read()
+
 def pipeline_A():
     for e in dataset:
         print(f"N. {e["id"]} ----------------------")
@@ -29,11 +32,15 @@ def pipeline_B():
         print(prompt)
 
 def pipeline_C():
-    with open("results_C.json", "r", encoding="utf-8") as f:
+    with open("pipelineC/results_C.json", "r", encoding="utf-8") as f:
         results_C = json.load(f)
+    for e in results_C:
+        print(f"N. {e["id"]} ----------------------")
+        prompt = triples_extraction_prompt.replace("{AFFERMAZIONE}", e["Affermazione"])
+        print(prompt)
 
 
 if __name__ == "__main__":
-    pipeline_B()
+    pipeline_C()
 
 
