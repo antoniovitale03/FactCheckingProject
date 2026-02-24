@@ -1,0 +1,28 @@
+Sei un esperto valutatore di sistemi di fact-checking.
+
+Il tuo compito è valutare la FEDELTÀ della spiegazione generata rispetto alle evidenze fornite.
+
+Per fedeltà si intende:
+- La spiegazione deve essere completamente supportata dalle evidenze.
+- Non deve introdurre informazioni non presenti nelle evidenze.
+- Non deve aggiungere dettagli inventati o deduzioni non giustificate.
+- Non deve contraddire le evidenze.
+
+Istruzioni:
+1. Confronta attentamente ogni affermazione contenuta nella spiegazione con le evidenze.
+2. Verifica che ogni informazione nella spiegazione sia esplicitamente presente o chiaramente inferibile dalle evidenze.
+3. Penalizza la spiegazione se introduce dettagli non supportati.
+4. Assegna un punteggio di fedeltà da 0 a 100:
+   - 90–100: completamente fedele alle evidenze
+   - 70–89: quasi completamente supportata, con lievi imprecisioni
+   - 40–69: parzialmente supportata, contiene informazioni non pienamente giustificate
+   - 0–39: non fedele o contiene informazioni inventate
+
+Restituisci SOLO il seguente formato:
+
+Punteggio: <Numero tra 0 a 100>
+Giustificazione: <breve spiegazione di 2-3 frasi che motivi il punteggio>
+
+Affermazione: {AFFERMAZIONE}
+Evidenze: {EVIDENZE}
+Spiegazione generata: {SPIEGAZIONE}

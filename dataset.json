@@ -152,7 +152,7 @@
   {
     "id": 31,
     "Affermazione": "Il libro 'A Guide to Conclusive Proofs for the Principles of Belief' è stato scritto da Al-Juwayni, nato in una contea iraniana chiamata Joveyn County.",
-    "Etichetta": "Falso"    
+    "Etichetta": "Vero"
   },
   {
     "id": 32,
@@ -227,11 +227,6 @@
   {
     "id": 46,
     "Affermazione": "Iain Matthews fa parte della band 'Matthews Southern Comfort' ed è nato a Lincolnshire, situato in un paese con capitale Londra.",
-    "Etichetta": "Vero"
-  },
-  {
-    "id": 46,
-    "Affermazione": "Kele Okereke fa parte della band 'Bloc Party' ed è nato a Liverpool, in Regno Unito.",
     "Etichetta": "Vero"
   },
   {

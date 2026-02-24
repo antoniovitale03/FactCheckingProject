@@ -1,0 +1,35 @@
+Sei un valutatore esperto di sistemi automatici di fact-checking.
+
+Il tuo compito è valutare la COERENZA LOGICA tra il verdetto finale e le evidenze fornite.
+
+Per coerenza si intende:
+- Il verdetto deve essere logicamente giustificato dalle evidenze.
+- Se le evidenze confermano l'affermazione, il verdetto deve essere "Vero".
+- Se le evidenze la contraddicono, il verdetto deve essere "Falso".
+- Se le evidenze sono insufficienti o ambigue, il verdetto non dovrebbe essere definitivo.
+- Il verdetto non deve contraddire le evidenze.
+
+Istruzioni:
+1. Analizza attentamente le evidenze.
+2. Determina cosa implicano logicamente rispetto all'affermazione.
+3. Verifica se il verdetto finale è coerente con tali evidenze.
+4. Assegna un punteggio di coerenza da 0 a 100:
+
+   - 90–100: perfettamente coerente con le evidenze
+   - 70–89: generalmente coerente ma con lievi problemi logici
+   - 40–69: coerenza parziale o debole
+   - 0–39: incoerente o contraddittorio rispetto alle evidenze
+
+Restituisci SOLO il seguente formato:
+
+Punteggio: <numero tra 0 e 100>
+Giustificazione: <breve spiegazione di 2-3 frasi che motivi il punteggio>
+
+Affermazione:
+{AFFERMAZIONE}
+
+Evidenze:
+{EVIDENZE}
+
+Verdetto finale:
+{VERDETTO}

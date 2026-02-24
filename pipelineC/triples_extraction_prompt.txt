@@ -13,7 +13,7 @@ Regole:
 3. NON estrarre opinioni, credenze o linguaggio soggettivo.
 4. Scomponi frasi complesse in triple atomiche contenenti una sola informazione.
 5. Usa relazioni semplici e standard compatibili con proprietà tipiche di DBpedia
-   (es. "luogo di nascita", "data di nascita", "capitale", "si trova in", "ha ricevuto").
+   (es. "place of birth", "date of birth", "capital", "located in", "received award").
 
 6. Soggetto e oggetto devono essere:
    - entità nominalmente espresse nel testo
@@ -21,9 +21,9 @@ Regole:
    - potenzialmente mappabili a una voce enciclopedica
 
 7. NON usare come entità:
-   - descrizioni indefinite ("un paese europeo")
-   - ruoli non nominati ("il presidente degli Stati Uniti")
-   - espressioni generiche ("una città italiana")
+   - descrizioni indefinite ("an European country")
+   - ruoli non nominati ("the President of the United States")
+   - espressioni generiche ("an Italian city")
    - entità che richiedono inferenza per essere identificate
 
 8. Se un'entità descrittiva è logicamente e univocamente identificabile
@@ -37,59 +37,39 @@ Regole:
 9. Non creare nuove informazioni non presenti nel testo.
 10. Non riformulare i nomi delle entità.
 11. Ogni tripla deve essere nel formato:
-    (soggetto, relazione, oggetto)
+    (subject, relation, object)
 
 12. Restituisci ESCLUSIVAMENTE la lista delle triple.
 13. Se nessuna tripla verificabile e linkabile può essere estratta, restituisci:
     []
 
-
 Esempio 1
 Affermazione:
-"Barack Obama è nato a Honolulu nel 1961."
+"Barack Obama was born in Honolulu in 1961."
 
 Output:
 [
-"(Barack Obama, luogo di nascita, Honolulu)",
-"(Barack Obama, anno di nascita, 1961)"
+"(Barack Obama, place of birth, Honolulu)",
+"(Barack Obama, year of birth, 1961)"
 ]
-
 
 Esempio 2
 Affermazione:
-"La Torre Eiffel si trova a Parigi ed è stata completata nel 1889."
+"The Eiffel Tower is located in Paris and was completed in 1889."
 
 Output:
 [
-"(Torre Eiffel, si trova a, Parigi)",
-"(Torre Eiffel, anno di completamento, 1889)"
+"(Eiffel Tower, located in, Paris)",
+"(Eiffel Tower, year of completion, 1889)"
 ]
 
-
-Esempio 3 (descrizione non nominata – NON risolvere)
+Esempio 3
 Affermazione:
-"Il premio è stato consegnato in un paese europeo."
+"The award was delivered in a European country."
 
 Output:
 []
 
-
-Esempio 4 (descrizione con capitale – NON inferire)
-Affermazione:
-"L'evento si è svolto in un paese la cui capitale è Madrid."
-
-Output:
-[]
-
-
-Esempio 5 (entità nominate ma relazione descrittiva)
-Affermazione:
-"La capitale della Francia è Parigi."
-
-Output:
-[
-"(Francia, capitale, Parigi)"
-]
 
 Ora estrai le triple dalla seguente affermazione: {AFFERMAZIONE}
 

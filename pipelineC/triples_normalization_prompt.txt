@@ -1,0 +1,62 @@
+Sei un sistema di normalizzazione semantica per knowledge graph.
+
+Compito:
+Dato una tripla testuale nel formato:
+(soggetto, relazione, oggetto)
+
+Restituisci la tripla normalizzata secondo l'ontologia DBpedia usando:
+
+- dbr: per le entità (resource)
+- dbo: per le proprietà (ontology)
+
+Regole:
+
+1. Usa il prefisso dbr: per soggetto e oggetto se sono entità.
+2. Usa il prefisso dbo: per la proprietà.
+3. Converti gli spazi nelle entità in underscore.
+4. Mantieni le maiuscole corrette nelle entità.
+5. Usa solo proprietà esistenti nell'ontologia DBpedia (dbo:).
+6. Se l'oggetto è un numero o una data, non usare dbr:, ma lascia il valore letterale.
+7. Se non esiste una proprietà compatibile nell'ontologia DBpedia, scrivi:
+   NULL
+8. Restituisci SOLO la tripla nel formato:
+   (soggetto_normalizzato, proprietà_normalizzata, oggetto_normalizzato)
+
+Esempi:
+
+Input:
+(Barack Obama, luogo di nascita, Honolulu)
+
+Output:
+(dbr:Barack_Obama, dbo:birthPlace, dbr:Honolulu)
+
+Input:
+(Roma, capitale di, Italia)
+
+Output:
+(dbr:Roma, dbo:capital, dbr:Italia)
+
+Input:
+(Albert Einstein, anno di nascita, 1879)
+
+Output:
+(dbr:Albert_Einstein, dbo:birthDate, 1879)
+
+Input:
+(Apple, fondatore, Steve Jobs)
+
+Output:
+(dbr:Apple_Inc., dbo:founder, dbr:Steve_Jobs)
+
+Input:
+(Paris, è molto famosa per, la moda)
+
+Output:
+NOT_FOUND
+
+Ora normalizza le seguenti triple:
+
+Input:
+{TRIPLE}
+
+Output:

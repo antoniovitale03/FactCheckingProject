@@ -2,189 +2,401 @@
   {
     "id": 1,
     "Affermazione": "Ainhoa Artetxe ha ricevuto il Buero Vallejo Awards in un paese europeo la cui capitale è Madrid e che appartiene alla penisola iberica.",
-    "Triple": ["(Ainhoa Artetxe, ha ricevuto, Buero Vallejo Awards)"],
-    "Triple Normalizzate": []
+    "Triple": [
+      "(Ainhoa Artetxe, received award, Buero Vallejo Awards)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Ainhoa_Artetxe, dbo:award, dbr:Buero_Vallejo_Awards)"
+    ],
+    "Risultati": [
+      "Vero"
+    ],
+    "Predizione": "Vero"
   },
   {
     "id": 2,
     "Affermazione": "Gabriel Afolayan ha ricevuto l'Africa Movie Academy Awards in un paese africano la cui capitale è Abuja e che si trova nell'Africa occidentale.",
-    "Triple": ["(Gabriel Afolayan, ha ricevuto, Africa Movie Academy Awards)"],
-    "Triple Normalizzate": []
+    "Triple": [
+      "(Gabriel Afolayan, receveid award, Africa Movie Academy Awards)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Gabriel_Afolayan, dbo:award, dbr:Africa_Movie_Academy_Awards)"
+    ],
+    "Risultati": [
+      "Vero"
+    ],
+    "Predizione": "Vero"
   },
   {
     "id": 3,
     "Affermazione": "Walter Mercado ha ricevuto il New York City Award in un paese nordamericano la cui capitale è Washington D.C. e che confina con il Canada.",
-    "Triple": ["(Walter Mercado, ha ricevuto, New York City Award)"],
-    "Triple Normalizzate": []
+    "Triple": [
+      "(Walter Mercado, received award, New York City Award)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Walter_Mercado, dbo:award, dbr:New_York_City_Award)"
+    ],
+    "Risultati": [
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 4,
     "Affermazione": "Miren Galan ha ricevuto il Buero Vallejo Awards in un paese la cui capitale è Madrid e che appartiene alla penisola iberica.",
-    "Triple": ["(Miren Galan, ha ricevuto, Buero Vallejo Awards)"],
-    "Triple Normalizzate": []
+    "Triple": [
+      "(Miren Galan, received award, Buero Vallejo Awards)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Miren_Galan, dbo:award, dbr:Buero_Vallejo_Awards)"
+    ],
+    "Risultati": [
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 5,
     "Affermazione": "Jean Delannoy ha ricevuto l'Honorary Cesar Award in un paese europeo la cui capitale è Parigi e che confina con la Germania.",
-    "Triple": ["(Jean Delannoy, ha ricevuto, Honorary Cesar Award)"],
-    "Triple Normalizzate": []
+    "Triple": [
+      "(Jean Delannoy, received award, Honorary Cesar Award)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Jean_Delannoy, dbo:award, dbr:Honorary_Cesar_Award)"
+    ],
+    "Risultati": [
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 6,
     "Affermazione": "Jose Manuel Cervino ha ricevuto il Goya Award for Best Supporting Actor in un paese la cui capitale è Madrid e che appartiene alla penisola iberica.",
-    "Triple": ["(Jose Manuel Cervino, ha ricevuto, Goya Award)"],
-    "Triple Normalizzate": []
+    "Triple": [
+      "(Jose Manuel Cervino, received award, Goya Award)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Jose_Manuel_Cervino, dbo:award, dbr:Goya_Award)"
+    ],
+    "Risultati": [
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 7,
     "Affermazione": "Koldo Olabarri ha ricevuto il Buero Vallejo Awards in un paese la cui capitale è Madrid e che appartiene alla penisola iberica.",
-    "Triple": ["(Koldo Olabarri, ha ricevuto, Buero Vallejo Awards)"],
-    "Triple Normalizzate": []
+    "Triple": [
+      "(Koldo Olabarri, received award, Buero Vallejo Awards)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Koldo_Olabarri, dbo:award, dbr:Buero_Vallejo_Awards)"
+    ],
+    "Risultati": [
+      "Vero"
+    ],
+    "Predizione": "Vero"
   },
   {
     "id": 8,
     "Affermazione": "Jonas Karlsson ha ricevuto il Guldbagge Award for Best Supporting Actor in a Leading Role in un paese scandinavo la cui capitale è Stoccolma e che si trova nel Nord Europa.",
-    "Triple": ["(Jonas Karlsson, ha ricevuto, Guldbagge Award)"],
-    "Triple Normalizzate": []
+    "Triple": [
+      "(Jonas Karlsson, received award, Guldbagge Award)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Jonas_Karlsson, dbo:award, dbr:Guldbagge_Award)"
+    ],
+    "Risultati": [
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 9,
     "Affermazione": "Kanjuro Aeashi ha ricevuto il Mainichi Film Award in un paese la cui capitale è Tokyo e che è un arcipelago.",
-    "Triple": ["(Kanjuro Aeashi, ha ricevuto, Mainichi Film Award)"],
-    "Triple Normalizzate": []
+    "Triple": [
+      "(Kanjuro Aeashi, received award, Mainichi Film Award)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Kanjuro_Aeashi, dbo:award, dbr:Mainichi_Film_Award)"
+    ],
+    "Risultati": [
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 10,
     "Affermazione": "Alibaba Abdullayev ha ricevuto un premio in un paese la cui capitale è Baku e che si trova nella regione del Caucaso.",
-    "Triple": []
+    "Triple": [],
+    "Triple Normalizzate": []
   },
   {
     "id": 11,
     "Affermazione": "L'assedio di Fort Crozon fu guidato da Martin Frobisher, nato ad Altofts, nel Regno Unito.",
-    "Triple": ["(Assedio di Fort Crozon, fu guidato da, Martin Frobisher)",
-      "(Martin Frobisher, luogo di nascita, Altofts)",
-      "(Martin Frobisher, luogo di nascita, Altofts)"
+    "Triple": [
+      "(Siege of Fort Crozon, led by, Martin Frobisher)",
+      "(Martin Frobisher, place of birth, Altofts)",
+      "(Martin Frobisher, located in, Altofts)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Siege_of_Fort_Crozon, dbo:commander, dbr:Martin_Frobisher)",
+      "(dbr:Martin_Frobisher, dbo:birthPlace, dbr:Altofts)",
+      "(dbr:Martin_Frobisher, dbo:birthPlace, dbr:Altofts)"
+    ],
+    "Risultati": [
+      "Vero",
+      "Vero",
+      "Vero"
+    ],
+    "Predizione": "Vero"
   },
   {
     "id": 12,
     "Affermazione": "La rivoluzione tedesca del 1918-1919 fu guidata da Clara Zetkin, nata in una città tedesca di nome Konigshain-Wiederau.",
     "Triple": [
-    "(Rivoluzione tedesca del 1918-1919, fu guidata da, Clara Zetkin)",
-      "(Clara Zetkin, luogo di nascita, Konigshain-Wiederau)"
+      "(German Revolution 1918-1919, led by, Clara Zetkin)",
+      "(Clara Zetkin, place of birth, Konigshain-Wiederau)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:German_Revolution_of_1918–1919, dbo:leader, dbr:Clara_Zetkin)",
+      "(dbr:Clara_Zetkin, dbo:birthPlace, dbr:Konigshain-Wiederau)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 13,
     "Affermazione": "La battaglia di Slivice fu guidata da Carl FriedRich von Puckler-Burhauss, nato in una località polacca di nome Korfantow",
-    "Triple": ["(Battaglia di Slivice, fu guidata da, Carl FriedRich von Puckler-Burhauss)",
-               "(Carl FriedRich von Puckler-Burhauss, luogo di nascita, Korfantow)"
-    ]
+    "Triple": [
+      "(Slivice Battle, led by, Carl FriedRich von Puckler-Burhauss)",
+      "(Carl FriedRich von Puckler-Burhauss, place of birth, Korfantow)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Battle_of_Slivice, dbo:commander, dbr:Carl_Friedrich_von_Pückler-Burghauss)",
+      "(dbr:Carl_Friedrich_von_Pückler-Burghauss, dbo:birthPlace, dbr:Korfantów)"
+    ],
+    "Risultati": [
+      "Vero",
+      "Vero"
+    ],
+    "Predizione": "Vero"
   },
   {
     "id": 14,
     "Affermazione": "Il movimento di resistenza polacco della Seconda Guerra Mondiale fu guidato da Franz Kutschera, nato in una località austriaca di nome Oberwaltersdorf.",
     "Triple": [
-      "(Movimento di resistenza polacco della Seconda Guerra Mondiale, fu guidato da, Franz Kutschera)",
-      "(Franz Kutschera, luogo di nascita, Oberwaltersdorf)"
+      "(World War II Polish Resistance Movement, led by, Franz Kutschera)",
+      "(Franz Kutschera, place of birth, Oberwaltersdorf)"
     ],
-    "Triple Normalizzate": []
-
+    "Triple Normalizzate": [
+      "(dbr:Polish_resistance_movement_in_World_War_II, dbo:commander, dbr:Franz_Kutschera)",
+      "(dbr:Franz_Kutschera, dbo:birthPlace, dbr:Oberwaltersdorf)"
+    ],
+    "Risultati": [
+      "Vero",
+      "Vero"
+    ],
+    "Predizione": "Vero"
   },
   {
     "id": 15,
     "Affermazione": "La battaglia di Alcantara del 1580 fu guidata da Fernando Alvarez de Toledo (Terzo Duca di Alba), nato in una città spagnola di nome Piedrahita.",
     "Triple": [
-      "(Battaglia di Alcantara del 1580, fu guidata da, Fernando Alvarez de Toledo)",
-      "(Fernando Alvarez de Toledo, luogo di nascita, Piedrahita)"
+      "(Battle of Alcantara of 1580, led by, Fernando Alvarez de Toledo)",
+      "(Fernando Alvarez de Toledo, place of birth, Piedrahita)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Battle_of_Alcántara_1580, dbo:commander, dbr:Fernando_Álvarez_de_Toledo_3rd_Duke_of_Alba)",
+      "(dbr:Fernando_Álvarez_de_Toledo_3rd_Duke_of_Alba, dbo:birthPlace, dbr:Piedrahíta)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 16,
     "Affermazione": "Lo scontro di Gadchiroli fu guidato da Bhagat Singh Koshyari, nato nel distretto indiano di Bageshwar.",
-    "Triple": ["(Scontro di Gadchiroli, fu guidato da, Bhagat Singh Koshyari)",
-              "(Bhagat Singh Koshyari, luogo di nascita, Bageshwar)"
+    "Triple": [
+      "(Gadchiroli clash, led by, Bhagat Singh Koshyari)",
+      "(Bhagat Singh Koshyari, place of birth, Bageshwar)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Gadchiroli_clash, dbo:commander, dbr:Bhagat_Singh_Koshyari)",
+      "(dbr:Bhagat_Singh_Koshyari, dbo:birthPlace, dbr:Bageshwar)"
+    ],
+    "Risultati": [
+      "Vero",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 17,
     "Affermazione": "La battaglia di Port Said fu guidata da Gamal Abdel Nasser, nato nella città egiziana di Alessandria.",
-    "Triple": ["(Battaglia di Port Said, fu guidata da, Gamal Abdel Nasser)",
-              "(Gamal Abdel Nasser, luogo di nascita, Alessandria)"
+    "Triple": [
+      "(The Battle of Port Said, led by, Gamal Abdel Nasser)",
+      "(Gamal Abdel Nasser, place of birth, Alessandria)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Battle_of_Port_Said, dbo:commander, dbr:Gamal_Abdel_Nasser)",
+      "(dbr:Gamal_Abdel_Nasser, dbo:birthPlace, dbr:Alessandria)"
+    ],
+    "Risultati": [
+      "Vero",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 18,
     "Affermazione": "Il conflitto coloniale danese-olandese sulla Gold Coast fu guidato da Jan Valckenburgh, nato nella capitale dei Paesi Bassi.",
-    "Triple": ["(Conflitto coloniale danese-olandese sulla Gold Coast, fu guidato da, Jan Valckenburgh)"],
-    "Triple Normalizzate": []
+    "Triple": [
+      "(The Danish-Dutch colonial conflict on the Gold Coast, led by, Jan Valckenburgh)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Danish–Dutch_conflict_on_the_Gold_Coast, dbo:commander, dbr:Jan_Valckenburgh)"
+    ],
+    "Risultati": [
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 19,
     "Affermazione": "La battaglia di Makhmour fu guidata da Bafel Talabani, nato nella capitale dell'Iraq.",
-    "Triple": ["(Battaglia di Makhmour, fu guidata da, Bafel Talabani)"],
-    "Triple Normalizzate": []
+    "Triple": [
+      "(Battle of Makhmour, led by, Bafel Talabani)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Battle_of_Makhmour, dbo:commander, dbr:Bafel_Talabani)"
+    ],
+    "Risultati": [
+      "Vero"
+    ],
+    "Predizione": "Vero"
   },
   {
     "id": 20,
     "Affermazione": "La cronologia della Reconquista fu guidata dal conte di Barcellona Ramon berenguer IV, nato nella città spagnola di Barcellona.",
-    "Triple": ["(Cronologia della Reconquista, fu guidata da, Ramon berenguer IV)",
-              "(Ramon berenguer IV, luogo di nascita, Barcellona)"
+    "Triple": [
+      "(The chronology of the Reconquista, led by, Ramon berenguer IV)",
+      "(Ramon berenguer IV, place of birth, Barcellona)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Reconquista, dbo:commander, dbr:Ramon_Berenguer_IV_Count_of_Barcelona)",
+      "(dbr:Ramon_Berenguer_IV_Count_of_Barcelona, dbo:birthPlace, dbr:Barcellona)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 21,
     "Affermazione": "Ally Cook gioca nello Spokane Zephyr FC, in cui uno dei proprietari Ozzie Alonso è nato a Pinar del Rio, in un paese la cui capitale è L'Avana.",
-    "Triple": ["(Ally Cook, gioca nello, Spokane Zephyr FC)",
-              "Ozzie Alonso, proprietario, Spokane Zephyr FC",
-              "(Ozzie Alonso, luogo di nascita, Pinar del Rio)"
+    "Triple": [
+      "(Ally Cook, plays for, Spokane Zephyr FC)",
+      "Ozzie Alonso, has owner, Spokane Zephyr FC",
+      "(Ozzie Alonso, place of birth, Pinar del Rio)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Ally_Cook, dbo:team, dbr:Spokane_Zephyr_FC)",
+      "(dbr:Spokane_Zephyr_FC, dbo:owner, dbr:Ozzie_Alonso)",
+      "(dbr:Ozzie_Alonso, dbo:birthPlace, dbr:Pinar_del_Rio)"
+    ],
+    "Risultati": [
+      "Vero",
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 22,
     "Affermazione": "Amos Shapiro Thompson gioca nel Rhode Island FC, il cui proprietario è Michael Parkhurst, nato in un paese la cui capitale è Washington D.C.",
-    "Triple": ["(Amos Shapiro Thompson, gioca nel, Rhode Island FC)",
-              "(Rhode Island FC, proprietario, Michael Parkhurst)"
+    "Triple": [
+      "(Amos Shapiro Thompson, plays for, Rhode Island FC)",
+      "(Rhode Island FC, has owner, Michael Parkhurst)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Amos_Shapiro-Thompson, dbo:team, dbr:Rhode_Island_FC)",
+      "(dbr:Rhode_Island_FC, dbo:owner, dbr:Michael_Parkhurst)"
+    ],
+    "Risultati": [
+      "Vero",
+      "Vero"
+    ],
+    "Predizione": "Vero"
   },
   {
     "id": 23,
     "Affermazione": "Cameron Tucker ha giocato nel NY Gotham FC, il cui proprietario è Tammy Murphy, nato in Virginia Beach, negli USA.",
-    "Triple": ["(Cameron Tucker, ha giocato nel, NY Gotham FC)",
-              "(NY Gotham FC, proprietario, Tammy Murphy)",
-              "(Tammy Murphy, luogo di nascita, Virginia Beach)",
-              "(Virginia Beach, si trova in, USA)"
-
+    "Triple": [
+      "(Cameron Tucker, plays for, NY Gotham FC)",
+      "(NY Gotham FC, has owner, Tammy Murphy)",
+      "(Tammy Murphy, place of birth, Virginia Beach)",
+      "(Virginia Beach, located in, USA)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Cameron_Tucker, dbo:team, dbr:NY_Gotham_FC)",
+      "(dbr:NY_Gotham_FC, dbo:owner, dbr:Tammy_Murphy)",
+      "(dbr:Tammy_Murphy, dbo:birthPlace, dbr:Virginia_Beach)",
+      "(dbr:Virginia_Beach, dbo:country, dbr:United_States)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso",
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 24,
     "Affermazione": "Artur Remenyak gioca per il Rukh Lviv FC, il cui proprietario è Hryhoriy Kozlovskyy, nato nella regione ucraina di Lviv Oblast.",
     "Triple": [
-      "(Artur Remenyak, gioca per, Rukh Lviv FC)",
-      "(Rukh Lviv FC, proprietario, Hryhoriy Kozlovskyy)",
-      "(Hryhoriy Kozlovskyy, luogo di nascita, Lviv Oblast)"
+      "(Artur Remenyak, plays for, Rukh Lviv FC)",
+      "(Rukh Lviv FC, has owner, Hryhoriy Kozlovskyy)",
+      "(Hryhoriy Kozlovskyy, place of birth, Lviv Oblast)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Artur_Remenyak, dbo:team, dbr:FC_Rukh_Lviv)",
+      "(dbr:FC_Rukh_Lviv, dbo:owner, dbr:Hryhoriy_Kozlovskyy)",
+      "(dbr:Hryhoriy_Kozlovskyy, dbo:birthPlace, dbr:Lviv_Oblast)"
+    ],
+    "Risultati": [
+      "Vero",
+      "Vero",
+      "Vero"
+    ],
+    "Predizione": "Vero"
   },
   {
     "id": 25,
     "Affermazione": "Barra Njie gioca per il Basketball Lowen Braunschweig, il cui proprietario è Dennis Schroder, nato a Braunschweig.",
     "Triple": [
-      "(Barra Njie, gioca per, Basketball Lowen Braunschweig)",
-      "(Basketball Lowen Braunschweig, proprietario, Dennis Schroder)",
-      "(Dennis Schroder, luogo di nascita, Braunschweig)"
+      "(Barra Njie, plays for, Basketball Lowen Braunschweig)",
+      "(Basketball Lowen Braunschweig, has owner, Dennis Schroder)",
+      "(Dennis Schroder, place of birth, Braunschweig)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Barra_Njie, dbo:team, dbr:Basketball_Löwen_Braunschweig)",
+      "(dbr:Basketball_Löwen_Braunschweig, dbo:owner, dbr:Dennis_Schröder)",
+      "(dbr:Dennis_Schröder, dbo:birthPlace, dbr:Braunschweig)"
+    ],
+    "Risultati": [
+      "Vero",
+      "Vero",
+      "Vero"
+    ],
+    "Predizione": "Vero"
   },
   {
     "id": 26,
@@ -196,11 +408,21 @@
     "id": 27,
     "Affermazione": "Pace Mannion ha giocato negli Utah Jazz, il cui proprietario è Ryan Smith, nato a Eugene (Oregon).",
     "Triple": [
-      "(Pace Mannion, ha giocato negli, Utah Jazz)",
-      "(Utah Jazz, proprietario, Ryan Smith)",
-      "(Ryan Smith, luogo di nascita, Eugene (Oregon))"
+      "(Pace Mannion, played for, Utah Jazz)",
+      "(Utah Jazz, has owner, Ryan Smith)",
+      "(Ryan Smith, place of birth, Eugene (Oregon))"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Pace_Mannion, dbo:team, dbr:Utah_Jazz)",
+      "(dbr:Utah_Jazz, dbo:owner, dbr:Ryan_Smith_(businessman))",
+      "(dbr:Ryan_Smith_businessman, dbo:birthPlace, dbr:Eugene_(Oregon))"
+    ],
+    "Risultati": [
+      "Falso",
+      "Vero",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 28,
@@ -210,244 +432,501 @@
   },
   {
     "id": 29,
-    "Affermazione": "Amir Saipi gioca nel Lugano FC, il cui proprietario è nato a Munster (Indiana), situato negli USA.",
-    "Triple": ["(Amir Saipi, gioca nel, Lugano FC)",
-               "(Proprietario di Lugano FC, luogo di nascita, Munster (Indiana))",
-               "(Munster (Indiana), si trova in, USA)"
+    "Affermazione": "Amir Saipi gioca nel Lugano FC, il cui proprietario Joe Mansueto è nato a Munster (Indiana), situato negli USA.",
+    "Triple": [
+      "(Amir Saipi, plays for, Lugano FC)",
+      "(Lugano FC, has owner, Joe Mansueto)",
+      "(Joe Mansueto, place of birth, Munster (Indiana))",
+      "(Munster (Indiana), located in, USA)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Amir_Saipi, dbo:team, dbr:FC_Lugano)",
+      "(dbr:FC_Lugano, dbo:owner, dbr:Joe_Mansueto)",
+      "(dbr:Joe_Mansueto, dbo:birthPlace, dbr:Munster_(Indiana))",
+      "(dbr:Munster_Indiana, dbo:country, dbr:United_States)"
+    ],
+    "Risultati": [
+      "Vero",
+      "Vero",
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 30,
-    "Affermazione": "Joseph Jones ha giocato nei Cangrejeros de Santurce, il cui proprietario è nato a Vega Baja, situato in Puerto Rico.",
+    "Affermazione": "Joseph Jones ha giocato nei Cangrejeros de Santurce, il cui proprietario Bad Bunny è nato a Vega Baja, situato in Puerto Rico.",
     "Triple": [
-      "(Joseph Jones, ha giocato nei, Cangrejeros de Santurce)",
-      "(Proprietario di Cangrejeros de Santurce, luogo di nascita, Vega Baja)",
-      "(Vega Baja, si trova in, Puerto Rico)"
+      "(Joseph Jones, played for, Cangrejeros de Santurce)",
+      "(Cangrejeros de Santurce, has owner, Bad Bunny)",
+      "(Bad Bunny, place of birth, Vega Baja)",
+      "(Vega Baja, located in, Puerto Rico)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Joseph_Jones, dbo:team, dbr:Cangrejeros_de_Santurce)",
+      "(dbr:Cangrejeros_de_Santurce, dbo:owner, dbr:Bad_Bunny)",
+      "(dbr:Bad_Bunny, dbo:birthPlace, dbr:Vega_Baja_Puerto_Rico)",
+      "(dbr:Vega_Baja_Puerto_Rico, dbo:country, dbr:Puerto_Rico)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso",
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 31,
     "Affermazione": "Il libro 'A Guide to Conclusive Proofs for the Principles of Belief' è stato scritto da Al-Juwayni, nato in una contea iraniana chiamata Joveyn County.",
     "Triple": [
-              "(A Guide to Conclusive Proofs for the Principles of Belief, autore, Al-Juwayni)",
-              "(Al-Juwayni, luogo di nascita, Joveyn County)"
-              ]
+      "(A Guide to Conclusive Proofs for the Principles of Belief, author, Al-Juwayni)",
+      "(Al-Juwayni, place of birth, Joveyn County)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:A_Guide_to_Conclusive_Proofs_for_the_Principles_of_Belief, dbo:author, dbr:Al-Juwayni)",
+      "(dbr:Al-Juwayni, dbo:birthPlace, dbr:Joveyn_County)"
+    ],
+    "Risultati": [
+      "Vero",
+      "Vero"
+    ],
+    "Predizione": "Vero"
   },
   {
     "id": 32,
     "Affermazione": "Il libro 'The People's Otherworld: Poems' è stato scritto da Les Murray, nato in una località del New South Wales chiamata Nabiac.",
     "Triple": [
-      "(The People's Otherworld: Poems, autore, Les Murray)",
-      "(Les Murray, luogo di nascita, Nabiac)"
+      "(The People's Otherworld: Poems, author, Les Murray)",
+      "(Les Murray, place of birth, Nabiac)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:The_People's_Otherworld:_Poems, dbo:author, dbr:Les_Murray)",
+      "(dbr:Les_Murray, dbo:birthPlace, dbr:Nabiac)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 33,
     "Affermazione": "Il libro 'The Boys Who Stole the Funeral' è stato scritto da Les Murray, nato in una località del New South Wales chiamata Nabiac.",
     "Triple": [
-      "(The Boys Who Stole the Funeral, autore, Les Murray)",
-      "(Les Murray, luogo di nascita, Nabiac)"
+      "(The Boys Who Stole the Funeral, author, Les Murray)",
+      "(Les Murray, place of birth, Nabiac)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:The_Boys_Who_Stole_the_Funeral, dbo:author, dbr:Les_Murray)",
+      "(dbr:Les_Murray, dbo:birthPlace, dbr:Nabiac)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 34,
     "Affermazione": "Il libro 'The South' è stato scritto da Colm Toibin, nato in una città irlandese chiamata Enniscorthy.",
     "Triple": [
-      "(The South, autore, Colm Toibin)",
-      "(Colm Toibin, luogo di nascita, Enniscorthy)"
+      "(The South, author, Colm Toibin)",
+      "(Colm Toibin, place of birth, Enniscorthy)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:The_South_(novel), dbo:author, dbr:Colm_Tóibín)",
+      "(dbr:Colm_Tóibín, dbo:birthPlace, dbr:Enniscorthy)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Vero"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 35,
     "Affermazione": "Il libro 'Knocknagow' è stato scritto da Charles Kickham, nato in una località irlandese chiamata Mullinahone.",
     "Triple": [
-        "(Knocknagow, autore, Charles Kickham)",
-        "(Charles Kickham, luogo di nascita, Mullinahone)"
+      "(Knocknagow, author, Charles Kickham)",
+      "(Charles Kickham, place of birth, Mullinahone)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Knocknagow, dbo:author, dbr:Charles_Kickham)",
+      "(dbr:Charles_Kickham, dbo:birthPlace, dbr:Mullinahone)"
+    ],
+    "Risultati": [
+      "Vero",
+      "Vero"
+    ],
+    "Predizione": "Vero"
   },
   {
     "id": 36,
     "Affermazione": "Il libro 'Milk' è stato scritto da Beverley Farmer, nato in una città australiana chiamata Windsor, nello stato di Victoria.",
     "Triple": [
-        "(Milk, autore, Beverley Farmer)",
-        "(Beverley Farmer, luogo di nascita, Windsor)",
-        "(Windsor, si trova in, Victoria)"
+      "(Milk, author, Beverley Farmer)",
+      "(Beverley Farmer, place of birth, Windsor)",
+      "(Windsor, located in, Victoria)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Milk_(novel), dbo:author, dbr:Beverley_Farmer)",
+      "(dbr:Beverley_Farmer, dbo:birthPlace, dbr:Windsor_Victoria)",
+      "(dbr:Windsor_Victoria, dbo:state, dbr:Victoria(Australia))"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 37,
     "Affermazione": "Il libro 'Bartleby & Co' è stato scritto da Enrique Vila Matas, nato in una città spagnola chiamata Barcellona.",
     "Triple": [
-        "(Bartleby & Co, autore, Enrique Vila Matas)",
-        "(Enrique Vila Matas, luogo di nascita, Barcellona)"
+      "(Bartleby & Co, author, Enrique Vila Matas)",
+      "(Enrique Vila Matas, place of birth, Barcellona)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Bartleby_&_Co., dbo:author, dbr:Enrique_Vila-Matas)",
+      "(dbr:Enrique_Vila-Matas, dbo:birthPlace, dbr:Barcelona)"
+    ],
+    "Risultati": [
+      "Vero",
+      "Vero"
+    ],
+    "Predizione": "Vero"
   },
   {
     "id": 38,
     "Affermazione": "Il libro 'The Power Worshippers' è stato scritto da Katherine Stewart, nata in una città statunitense chiamata Boston.",
     "Triple": [
-        "(The Power Worshippers, autore, Katherine Stewart)",
-        "(Katherine Stewart, luogo di nascita, Boston)"
+      "(The Power Worshippers, author, Katherine Stewart)",
+      "(Katherine Stewart, place of birth, Boston)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:The_Power_Worshippers, dbo:author, dbr:Katherine_Stewart)",
+      "(dbr:Katherine_Stewart, dbo:birthPlace, dbr:Boston)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 39,
     "Affermazione": "Il libro 'The Eyes and the Impossible' è stato scritto da Dave Eggers, nato in una città statunitense chiamata Boston.",
     "Triple": [
-          "(The Eyes and the Impossible, autore, Dave Eggers)",
-          "(Dave Eggers, luogo di nascita, Boston)"
+      "(The Eyes and the Impossible, author, Dave Eggers)",
+      "(Dave Eggers, place of birth, Boston)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:The_Eyes_and_the_Impossible, dbo:author, dbr:Dave_Eggers)",
+      "(dbr:Dave_Eggers, dbo:birthPlace, dbr:Boston)"
+    ],
+    "Risultati": [
+      "Vero",
+      "Vero"
+    ],
+    "Predizione": "Vero"
   },
   {
     "id": 40,
     "Affermazione": "Il libro 'Small Mercies' è stato scritto da Dennis Lehane, nato in una città statunitense chiamata Boston.",
     "Triple": [
-        "(Small Mercies, autore, Dennis Lehane)",
-        "(Dennis Lehane, luogo di nascita, Boston)"
+      "(Small Mercies, author, Dennis Lehane)",
+      "(Dennis Lehane, place of birth, Boston)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Small_Mercies_(novel), dbo:author, dbr:Dennis_Lehane)",
+      "(dbr:Dennis_Lehane, dbo:birthPlace, dbr:Boston)"
+    ],
+    "Risultati": [
+      "Vero",
+      "Vero"
+    ],
+    "Predizione": "Vero"
   },
   {
     "id": 41,
     "Affermazione": "Kool DJ Red Alert fa parte della band 'Rock Steady Crew' ed è nato ad Antigua, in un paese la cui capitale è St. John's.",
     "Triple": [
-          "(Kool DJ Red Alert, membro di, Rock Steady Crew)",
-          "(Kool DJ Red Alert, luogo di nascita, Antigua)"
+      "(Kool DJ Red Alert, member of, Rock Steady Crew)",
+      "(Kool DJ Red Alert, place of birth, Antigua)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Kool_DJ_Red_Alert, dbo:memberOf, dbr:Rock_Steady_Crew)",
+      "(dbr:Kool_DJ_Red_Alert, dbo:birthPlace, dbr:Antigua)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Vero"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 42,
     "Affermazione": "Robert Pettinato fa parte della band 'Sumo' ed è nato in un paese la cui capitale è Buenos Aires.",
-    "Triple": ["(Robert Pettinato, membro di, Sumo)"]
+    "Triple": [
+      "(Robert Pettinato, member of, Sumo)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Roberto_Pettinato, dbo:bandMember, dbr:Sumo_(band))"
+    ],
+    "Risultati": [
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 43,
     "Affermazione": "Ricardo Mollo fa parte della band 'Dividos' ed è nato a Pergamino, in un paese la cui capitale è Buenos Aires.",
     "Triple": [
-        "(Ricardo Mollo, membro di, Dividos)",
-        "(Ricardo Mollo, luogo di nascita, Pergamino)"
+      "(Ricardo Mollo, member of, Dividos)",
+      "(Ricardo Mollo, place of birth, Pergamino)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Ricardo_Mollo, dbo:bandMember, dbr:Divididos)",
+      "(dbr:Ricardo_Mollo, dbo:birthPlace, dbr:Pergamino)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Vero"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 44,
     "Affermazione": "Andy Strachan fa parte della band 'The Living End' ed è nata in un paese situato in Australia, la cui capitale è Canberra.",
     "Triple": [
-        "(Andy Strachan, membro di, The Living End)",
-        "(Australia, capitale, Canberra)"
+      "(Andy Strachan, member of, The Living End)",
+      "(Australia, capital, Canberra)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Andy_Strachan, dbo:bandMember, dbr:The_Living_End)",
+      "(dbr:Australia, dbo:capital, dbr:Canberra)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Vero"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 45,
     "Affermazione": "Russell Hitchcok fa parte della band 'Air Supply' ed è nato a Melbourne, una città situata in un paese che ha come capitale Canberra.",
     "Triple": [
-        "(Russell Hitchcok, membro di, Air Supply)",
-        "(Russell Hitchcok, luogo di nascita, Melbourne)"
+      "(Russell Hitchcok, member of, Air Supply)",
+      "(Russell Hitchcok, place of birth, Melbourne)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Russell_Hitchcock, dbo:bandMember, dbr:Air_Supply)",
+      "(dbr:Russell_Hitchcock, dbo:birthPlace, dbr:Melbourne)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Vero"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 46,
     "Affermazione": "Iain Matthews fa parte della band 'Matthews Southern Comfort' ed è nato a Lincolnshire, situato in un paese con capitale Londra.",
     "Triple": [
-        "(Iain Matthews, membro di, Matthews Southern Comfort)",
-        "(Iain Matthews, luogo di nascita, Lincolnshire)"
+      "(Iain Matthews, member of, Matthews Southern Comfort)",
+      "(Iain Matthews, place of birth, Lincolnshire)"
     ],
-    "Triple Normalizzate": []
-
+    "Triple Normalizzate": [
+      "(dbr:Iain_Matthews, dbo:bandMember, dbr:Matthews_Southern_Comfort)",
+      "(dbr:Iain_Matthews, dbo:birthPlace, dbr:Lincolnshire)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Vero"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 47,
     "Affermazione": "Jeff Tweedy fa parte della band 'Wilco' ed è nato in un paese situato negli Stati Uniti, la cui capitale è Washington D.C.",
     "Triple": [
-      "(Jeff Tweedy, membro di, Wilco)",
-      "(Stati Uniti, capitale, Washington D.C.)"
+      "(Jeff Tweedy, member of, Wilco)",
+      "(Stati Uniti, capital, Washington D.C.)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Jeff_Tweedy, dbo:bandMember, dbr:Wilco)",
+      "(dbr:United_States, dbo:capital, dbr:Washington,_D.C.)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 48,
     "Affermazione": "Misuzu Togashi fa parte della band 'Sweet Arms' ed è nata ad Hokkaido, situata in un paese la cui capitale è Tokyo.",
     "Triple": [
-        "(Misuzu Togashi, membro di, Sweet Arms)",
-        "(Misuzu Togashi, luogo di nascita, Hokkaido)"
+      "(Misuzu Togashi, member of, Sweet Arms)",
+      "(Misuzu Togashi, place of birth, Hokkaido)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Misuzu_Togashi, dbo:bandMember, dbr:Sweet_Arms)",
+      "(dbr:Misuzu_Togashi, dbo:birthPlace, dbr:Hokkaido)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Vero"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 49,
     "Affermazione": "Depha fa parte della band 'Masterpiece' ed è nato a Sarawak, in Malaysia.",
     "Triple": [
-        "(Depha, membro di, Masterpiece)",
-        "(Depha, luogo di nascita, Sarawak)",
-        "(Sarawak, si trova in, Malaysia)"
+      "(Depha, member of, Masterpiece)",
+      "(Depha, place of birth, Sarawak)",
+      "(Sarawak, located in, Malaysia)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Depha, dbo:bandMember, dbr:Masterpiece_(Malaysian_band))",
+      "(dbr:Depha, dbo:birthPlace, dbr:Sarawak)",
+      "(dbr:Sarawak, dbo:country, dbr:Malaysia)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso",
+      "Vero"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 50,
     "Affermazione": "Ida Rogen fa parte della band 'Pitsj' ed è nata nella capitale norvegese.",
-    "Triple": ["(Ida Rogen, membro di, Pitsj)"]
+    "Triple": [
+      "(Ida Rogen, member of, Pitsj)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Ida_Rogen, dbo:bandMember, dbr:Pitsj)"
+    ],
+    "Risultati": [
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 51,
     "Affermazione": "Ainhoa Artetxe ha ricevuto il New York City Award in un paese europeo la cui capitale è Lisbona e che appartiene alla penisola iberica.",
-    "Triple": ["(Ainoha Artetxe, ha ricevuto, New York City Award)"],
-    "Triple Normalizzate": []
+    "Triple": [
+      "(Ainoha Artetxe, received award, New York City Award)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Ainhoa_Artetxe, dbo:award, dbr:New_York_City_Award)"
+    ],
+    "Risultati": [
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 52,
     "Affermazione": "Gabriel Afolayan ha ricevuto il Buero Vallejo Awards in un paese africano la cui capitale è Nairobi e che si trova nell'Africa orientale.",
-    "Triple": ["(Gabriel Afolayan, ha ricevuto, Buero Vallejo Awards)"],
-    "Triple Normalizzate": []
+    "Triple": [
+      "(Gabriel Afolayan, received award, Buero Vallejo Awards)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Gabriel_Afolayan, dbo:award, dbr:Buero_Vallejo_Awards)"
+    ],
+    "Risultati": [
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 53,
     "Affermazione": "Walter Mercado ha ricevuto il Buero Vallejo Awards in un paese sudamericano la cui capitale è Buenos Aires e che confina con il Brasile.",
-    "Triple": ["(Walter Mercado, ha ricevuto, Buero Vallejo Awards)"],
-    "Triple Normalizzate": []
+    "Triple": [
+      "(Walter Mercado, received award, Buero Vallejo Awards)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Walter_Mercado, dbo:award, dbr:Buero_Vallejo_Awards)"
+    ],
+    "Risultati": [
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 54,
     "Affermazione": "Miren Galan ha ricevuto l'Africa Movie Academy Awards in un paese europeo la cui capitale è Lisbona e che appartiene alla penisola iberica.",
-    "Triple": ["(Miren Galan, ha ricevuto, Africa Movie Academy Awards)"],
-    "Triple Normalizzate": []
+    "Triple": [
+      "(Miren Galan, received award, Africa Movie Academy Awards)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Miren_Galan, dbo:award, dbr:Africa_Movie_Academy_Awards)"
+    ],
+    "Risultati": [
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 55,
     "Affermazione": "Jean Delannoy ha ricevuto il Goya Award for Best Supporting Actor in un paese europeo la cui capitale è Berlino e che confina con la Francia.",
-    "Triple": ["(Jean Delannoy, ha ricevuto, Goya Award for Best Supporting Actor)"],
-    "Triple Normalizzate": []
+    "Triple": [
+      "(Jean Delannoy, received award, Goya Award for Best Supporting Actor)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Jean_Delannoy, dbo:award, dbr:Goya_Award_for_Best_Supporting_Actor)"
+    ],
+    "Risultati": [
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 56,
     "Affermazione": "Jose Manuel Cervino ha ricevuto l'Honorary Cesar Award in un paese la cui capitale è Lisbona e che appartiene alla penisola iberica.",
-    "Triple": ["(Jose Manuel Cervino, ha ricevuto, Honorary Cesar Award)"],
-    "Triple Normalizzate": []
+    "Triple": [
+      "(Jose Manuel Cervino, received award, Honorary Cesar Award)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Jose_Manuel_Cervino, dbo:award, dbr:Honorary_Cesar_Award)"
+    ],
+    "Risultati": [
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 57,
     "Affermazione": "Koldo Olabarri ha ricevuto il Guldbagge Award for Best Supporting Actor in a Leading Role in un paese la cui capitale è Lisbona e che appartiene alla penisola iberica.",
-    "Triple": ["(Koldo Olabarri, ha ricevuto, Guldbagge Award for Best Supporting Actor in a Leading Role)"],
-    "Triple Normalizzate": []
+    "Triple": [
+      "(Koldo Olabarri, received award, Guldbagge Award for Best Supporting Actor in a Leading Role)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Koldo_Olabarri, dbo:award, dbr:Guldbagge_Award_for_Best_Supporting_Actor_in_a_Leading_Role)"
+    ],
+    "Risultati": [
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 58,
     "Affermazione": "Jonas Karlsson ha ricevuto il Buero Vallejo Awards in un paese scandinavo la cui capitale è Copenaghen e che si trova nel Nord Europa.",
-    "Triple": ["(Jonas Karlsson, ha ricevuto, Buero Vallejo Awards)"],
-    "Triple Normalizzate": []
+    "Triple": [
+      "(Jonas Karlsson, received award, Buero Vallejo Awards)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Jonas_Karlsson, dbo:award, dbr:Buero_Vallejo_Awards)"
+    ],
+    "Risultati": [
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 59,
@@ -458,150 +937,289 @@
   {
     "id": 60,
     "Affermazione": "Alibaba Abdullayev ha ricevuto il Manichi Film Award in un paese la cui capitale è Tbilisi e che si trova nella regione del Caucaso.",
-    "Triple": ["(Alibaba Abdullayev, ha ricevuto, Manichi Film Award)"],
-    "Triple Normalizzate": []
+    "Triple": [
+      "(Alibaba Abdullayev, received award, Manichi Film Award)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Alibaba_Abdullayev, dbo:award, dbr:Manichi_Film_Award)"
+    ],
+    "Risultati": [
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 61,
     "Affermazione": "L'assedio di Fort Crozon fu guidato da Martin Frobisher, nato a New York, negli USA",
     "Triple": [
-      "(Fort Crozon, ha ricevuto, Martin Frobisher)",
-      "(Martin Frobisher, luogo di nascita, New York)",
-      "(Martin Frobisher, luogo di nascita, USA)"
+      "(Siege of Fort Crozon, led by, Martin Frobisher)",
+      "(Martin Frobisher, place of birth, New York)",
+      "(New York, located in, USA)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Siege_of_Fort_Crozon, dbo:commander, dbr:Martin_Frobisher)",
+      "(dbr:Martin_Frobisher, dbo:birthPlace, dbr:New_York)",
+      "(dbr:New_York, dbo:country, dbr:USA)"
+    ],
+    "Risultati": [
+      "Vero",
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 62,
     "Affermazione": "La rivoluzione tedesca del 1918-1919 fu guidata da Carl Friedrich von Puckler-Burhauss, nato in una città tedesca di nome Konigshain-Wiederau.",
     "Triple": [
-        "(Rivoluzione tedesca del 1918-1919, guidato da, Carl Friedrich von Puckler-Burhauss)",
-        "(Carl Friedrich von Puckler-Burhauss, luogo di nascita, Konigshain-Wiederau)"
+      "(German Revolution 1918-1919, led by, Carl Friedrich von Puckler-Burhauss)",
+      "(Carl Friedrich von Puckler-Burhauss, place of birth, Konigshain-Wiederau)"
     ],
-    "Triple Normalizzate": []
-
+    "Triple Normalizzate": [
+      "(dbr:German_Revolution_1918-1919, dbo:commander, dbr:Carl_Friedrich_von_Puckler-Burhauss)",
+      "(dbr:Carl_Friedrich_von_Puckler-Burhauss, dbo:birthPlace, dbr:Konigshain-Wiederau)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 63,
     "Affermazione": "La battaglia di Slivice fu guidata da Rosa Luxemburg, nata in una località ceca di nome Korfantow.",
     "Triple": [
-      "(Battaglia di Slivice, guidato da, Rosa Luxemburg)",
-      "(Rosa Luxemburg, luogo di nascita, Korfantow)"
+      "(Battle of Slivice, led by, Rosa Luxemburg)",
+      "(Rosa Luxemburg, place of birth, Korfantow)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Battle_of_Slivice, dbo:commander, dbr:Rosa_Luxemburg)",
+      "(dbr:Rosa_Luxemburg, dbo:birthPlace, dbr:Korfantow)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 64,
     "Affermazione": "Il movimento di resistenza polacco della Seconda Guerra Mondiale fu guidato da Don Juan d'Austria, nato in una località austriaca di nome Oberwaltersdorf.",
     "Triple": [
-        "(Movimento di resistenza polacco della Seconda Guerra Mondiale, guidato da, Don Juan d'Austria)",
-        "(Don Juan d'Austria, luogo di nascita, Oberwaltersdorf)"
+      "(World War II Polish Resistance Movement, led by, Don Juan d'Austria)",
+      "(Don Juan d'Austria, place of birth, Oberwaltersdorf)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:World_War_II_Polish_Resistance_Movement, dbo:commander, dbr:Don_Juan_d'Austria)",
+      "(dbr:Don_Juan_d'Austria, dbo:birthPlace, dbr:Oberwaltersdorf)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 65,
     "Affermazione": "La battaglia di Alcantara del 1580 fu guidata da Witold Pilecki, nato in una città spagnola di nome Piedrahita.",
     "Triple": [
-        "(Battaglia di Alcantara del 1580, guidato da, Witold Pilecki)",
-        "(Witold Pilecki, luogo di nascita, Piedrahita)"
+      "(Battaglia of Alcantara of 1580, led by, Witold Pilecki)",
+      "(Witold Pilecki, place of birth, Piedrahita)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Battaglia_of_Alcantara_of_1580, dbo:commander, dbr:Witold_Pilecki)",
+      "(dbr:Witold_Pilecki, dbo:birthPlace, dbr:Piedrahita)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 66,
     "Affermazione": "Lo scontro di Gadchiroli fu guidato da Subhas Chandra Bose, nato nel distretto indiano di Nuova Delhi.",
     "Triple": [
-      "(Scontro di Gadchiroli, guidato da, Subhas Chandra Bose)",
-      "(Subhas Chandra Bose, luogo di nascita, Nuova Delhi)"
+      "(Gadchiroli clash, led by, Subhas Chandra Bose)",
+      "(Subhas Chandra Bose, place of birth, Nuova Delhi)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Gadchiroli_clash, dbo:commander, dbr:Subhas_Chandra_Bose)",
+      "(dbr:Subhas_Chandra_Bose, dbo:birthPlace, dbr:Nuova_Delhi)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 67,
     "Affermazione": "La battaglia di Port Said fu guidata da Anwar Sadat, nato nella città egiziana di Alessandria.",
     "Triple": [
-      "(Battaglia di Port Said, guidato da, Anwar Sadat)",
-      "(Anwar Sadat, luogo di nascita, Alessandria)"
+      "(Battle of Port Said, led by, Anwar Sadat)",
+      "(Anwar Sadat, place of birth, Alessandria)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Battle_of_Port_Said, dbo:commander, dbr:Anwar_Sadat)",
+      "(dbr:Anwar_Sadat, dbo:birthPlace, dbr:Alessandria)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 68,
     "Affermazione": "Il conflitto coloniale danese-olandese sulla Gold Coast fu guidato da Jan Valckenburgh, nato ad Amsterdam.",
     "Triple": [
-      "(Conflitto coloniale danese-olandese sulla Gold Coast, guidato da, Jan Valckenburgh)",
-      "(Jan Valckenburgh, luogo di nascita, Amsterdam)"
+      "(The Danish-Dutch colonial conflict on the Gold Coast, led by, Jan Valckenburgh)",
+      "(Jan Valckenburgh, place of birth, Amsterdam)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:The_Danish-Dutch_colonial_conflict_on_the_Gold_Coast, dbo:commander, dbr:Jan_Valckenburgh)",
+      "(dbr:Jan_Valckenburgh, dbo:birthPlace, dbr:Amsterdam)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Vero"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 69,
     "Affermazione": "La battaglia di Makhmour fu guidata da Jalal Talabani, nato a Teheran.",
     "Triple": [
-        "(Battaglia di Makhmour, guidato da, Jalal Talabani)",
-        "(Jalal Talabani, luogo di nascita, Teheran)"
+      "(Battle of Makhmour, led by, Jalal Talabani)",
+      "(Jalal Talabani, place of birth, Teheran)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Battle_of_Makhmour, dbo:commander, dbr:Jalal_Talabani)",
+      "(dbr:Jalal_Talabani, dbo:birthPlace, dbr:Teheran)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 70,
     "Affermazione": "La cronologia della Reconquista fu guidata dal conte di Barcellona Ramon Berenguer IV, nato nella città francese Marsiglia.",
     "Triple": [
-        "(Cronologia della Reconquista, guidato da, Ramon Berenguer IV)",
-        "(Ramon Berenguer IV, luogo di nascita, Marsiglia)"
+      "(The chronology of the Reconquista, led by, Ramon Berenguer IV)",
+      "(Ramon Berenguer IV, place of birth, Marsiglia)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:The_chronology_of_the_Reconquista, dbo:commander, dbr:Ramon_Berenguer_IV)",
+      "(dbr:Ramon_Berenguer_IV, dbo:birthPlace, dbr:Marsiglia)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 71,
-    "Affermazione": "Ally Cook gioca nello Rhode Island FC, il cui proprietario è nato a L'Avana, in un paese la cui capitale è San Cristobal.",
+    "Affermazione": "Ally Cook gioca nello Rhode Island FC, in cui uno dei proprietari Ozzie Alonso è nato a L'Avana, in un paese la cui capitale è San Cristobal.",
     "Triple": [
-      "(Ally Cook, gioca per, Rhode Island FC)",
-      "(Proprietario di Rhode Island FC, luogo di nascita, L'Avana)"
+      "(Ally Cook, plays for, Rhode Island FC)",
+      "(Rhode Island FC, has owner, Ozzie Alonso)",
+      "(Ozzie Alonso, place of birth, L'Avana)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Ally_Cook, dbo:team, dbr:Rhode_Island_FC)",
+      "(dbr:Rhode_Island_FC, dbo:owner, dbr:Ozzie_Alonso)",
+      "(dbr:Ozzie_Alonso, dbo:birthPlace, dbr:L'Avana)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 72,
     "Affermazione": "Amos Shapiro Thompson gioca nel Spokane Zephyr FC, il cui proprietario è Michael Parkhurst, nato in un paese la cui capitale è New York.",
     "Triple": [
-      "(Amos Shapiro Thompson, gioca per, Spokane Zephyr FC)",
-      "(Spokane Zephyr FC, proprietario, Michael Parkhurst)"
+      "(Amos Shapiro Thompson, plays for, Spokane Zephyr FC)",
+      "(Spokane Zephyr FC, has owner, Michael Parkhurst)"
     ],
-    "Triple Normalizzate": []
-
+    "Triple Normalizzate": [
+      "(dbr:Amos_Shaphiro_Thompson, dbo:team, dbr:Spokane_Zephyr_FC)",
+      "(dbr:Spokane_Zephyr_FC, dbo:owner, dbr:Michael_Parkhurst)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 73,
     "Affermazione": "Cameron Tucker ha giocato per il Rukh Lviv FC, il cui proprietario è Tammy Murphy, nata in Virginia Beach, negli USA.",
     "Triple": [
-        "(Cameron Tucker, ha giocato per, Rukh Lviv FC)",
-        "(Rukh Lviv FC, proprietario, Tammy Murphy)",
-        "(Tammy Murphy, luogo di nascita, Virginia Beach)",
-        "(Virginia Beach, si trova in, USA)"
+      "(Cameron Tucker, plays for, Rukh Lviv FC)",
+      "(Rukh Lviv FC, has owner, Tammy Murphy)",
+      "(Tammy Murphy, place of birth, Virginia Beach)",
+      "(Virginia Beach, located in, USA)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Cameron_Tucker, dbo:team, dbr:Rukh_Lviv_FC)",
+      "(dbr:Rukh_Lviv_FC, dbo:owner, dbr:Tammy_Murphy)",
+      "(dbr:Tammy_Murphy, dbo:birthPlace, dbr:Virginia_Beach)",
+      "(dbr:Virginia_Beach, dbo:country, dbr:USA)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso",
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 74,
     "Affermazione": "Artur Remenyak gioca nel NY Gotham FC, il cui proprietario è Hryhoriy Kozlovskyy, nato nella regione ucraina di Odessa.",
     "Triple": [
-      "(Artur Remenyak, gioca per, NY Gotham FC)",
-      "(NY Gotham FC, proprietario, Hryhoriy Kozlovskyy)",
-      "(Hryhoriy Kozlovskyy, luogo di nascita, Odessa)"
+      "(Artur Remenyak, plays for, NY Gotham FC)",
+      "(NY Gotham FC, has owner, Hryhoriy Kozlovskyy)",
+      "(Hryhoriy Kozlovskyy, place of birth, Odessa)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Artur_Remenyak, dbo:team, dbr:NY_Gotham_FC)",
+      "(dbr:NY_Gotham_FC, dbo:owner, dbr:Hryhoriy_Kozlovskyy)",
+      "(dbr:Hryhoriy_Kozlovskyy, dbo:birthPlace, dbr:Odessa)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 75,
     "Affermazione": "Barra Njie gioca per il Basketball Lowen Braunschweig, il cui proprietario è Dennis Schroder, nato a Berlino.",
     "Triple": [
-      "(Barra Njie, gioca per, Basketball Lowen Braunschweig)",
-      "(Basketball Lowen Braunschweig, proprietario, Dennis Schroder)",
-      "(Dennis Schroder, luogo di nascita, Berlino)"
+      "(Barra Njie, plays for, Basketball Lowen Braunschweig)",
+      "(Basketball Lowen Braunschweig, has owner, Dennis Schroder)",
+      "(Dennis Schroder, place of birth, Berlin)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Barra_Njie, dbo:team, dbr:Basketball_Lowen_Braunschweig)",
+      "(dbr:Basketball_Lowen_Braunschweig, dbo:owner, dbr:Dennis_Schroder)",
+      "(dbr:Dennis_Schroder, dbo:birthPlace, dbr:Berlin)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 76,
@@ -613,11 +1231,21 @@
     "id": 77,
     "Affermazione": "Pace Mannion ha giocato negli Utah Jazz, il cui proprietario è Ryan Smith, nato a Portland (Oregon).",
     "Triple": [
-      "(Pace Mannion, ha giocato per, Utah Jazz)",
-      "(Utah Jazz, proprietario, Ryan Smith)",
-      "(Ryan Smith, luogo di nascita, Portland (Oregon))"
+      "(Pace Mannion, played for, Utah Jazz)",
+      "(Utah Jazz, has owner, Ryan Smith)",
+      "(Ryan Smith, place of birth, Portland (Oregon))"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Pace_Mannion, dbo:team, dbr:Utah_Jazz)",
+      "(dbr:Utah_Jazz, dbo:owner, dbr:Ryan_Smith)",
+      "(dbr:Ryan_Smith, dbo:birthPlace, dbr:Portland_(Oregon))"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 78,
@@ -629,197 +1257,386 @@
     "id": 79,
     "Affermazione": "Amir Saipi gioca nel Lugano FC, il cui proprietario Joe Mansueto  è nato a Monaco (Indiana), situato negli USA.",
     "Triple": [
-      "(Amir Saipi, gioca per, Lugano FC)",
-      "(Joe Mansueto, luogo di nascita, Monaco (Indiana))",
-      "(Monaco (Indiana), si trova in, USA)"
+      "(Amir Saipi, plays for, Lugano FC)",
+      "(Joe Mansueto, place of birth, Monaco (Indiana))",
+      "(Monaco (Indiana), located in, USA)"
     ],
-    "Triple Normalizzate": []
-},
+    "Triple Normalizzate": [
+      "(dbr:Amir_Saipi, dbo:team, dbr:Lugano_FC)",
+      "(dbr:Joe_Mansueto, dbo:birthPlace, dbr:Monaco_(Indiana))",
+      "(dbr:Monaco_(Indiana), dbo:country, dbr:USA)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
+  },
   {
     "id": 80,
     "Affermazione": "Joseph Jones ha giocato nei Cangrejeros de Santurce, il cui proprietario Bad Bunny è nato a San Juan, situato in Puerto Rico.",
     "Triple": [
-      "(Joseph Jones, ha giocato per, Cangrejeros de Santurce)",
-      "(Bad Bunny, luogo di nascita, San Juan)",
-      "(San Juan, si trova in, Puerto Rico)"
+      "(Joseph Jones, played for, Cangrejeros de Santurce)",
+      "(Bad Bunny, place of birth, San Juan)",
+      "(San Juan, located in, Puerto Rico)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Joseph_Jones, dbo:team, dbr:Cangrejeros_de_Santurce)",
+      "(dbr:Bad_Bunny, dbo:birthPlace, dbr:San_Juan)",
+      "(dbr:San_Juan, dbo:country, dbr:Puerto_Rico)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 81,
     "Affermazione": "Il libro 'The People's Otherworld: Poems' è stato scritto da Les Murray, nato in una località del Victoria chiamata Nabiac.",
     "Triple": [
-      "(The People's Otherworld: Poems, autore, Les Murray)",
-      "(Les Murray, luogo di nascita, Nabiac)"
+      "(The People's Otherworld: Poems, author, Les Murray)",
+      "(Les Murray, place of birth, Nabiac)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:The_People's_Otherworld:_Poems, dbo:author, dbr:Les_Murray)",
+      "(dbr:Les_Murray, dbo:birthPlace, dbr:Nabiac)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 82,
     "Affermazione": "Il libro 'The Boys Who Stole the Funeral' è stato scritto da Les Murray, nato in una località del Queensland chiamata Nabiac.",
     "Triple": [
-      "(The Boys Who Stole the Funeral, autore, Les Murray)",
-      "(Les Murray, luogo di nascita, Nabiac)",
-      "(Nabiac, si trova in, Queensland)"
+      "(The Boys Who Stole the Funeral, author, Les Murray)",
+      "(Les Murray, place of birth, Nabiac)",
+      "(Nabiac, located in, Queensland)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:The_Boys_Who_Stole_the_Funeral, dbo:author, dbr:Les_Murray)",
+      "(dbr:Les_Murray, dbo:birthPlace, dbr:Nabiac)",
+      "(dbr:Nabiac, dbo:state, dbr:Queensland)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 83,
     "Affermazione": "Il libro 'The South' è stato scritto da Colm Toibin, nato in una città inglese chiamata Enniscorthy.",
     "Triple": [
-      "(The South, autore, Colm Toibin)",
-      "(Colm Toibin, luogo di nascita, Enniscorthy)"
+      "(The South, author, Colm Toibin)",
+      "(Colm Toibin, place of birth, Enniscorthy)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:The_South, dbo:author, dbr:Colm_Toibin)",
+      "(dbr:Colm_Toibin, dbo:birthPlace, dbr:Enniscorthy)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 84,
     "Affermazione": "Il libro 'Knocknagow' è stato scritto da Charles Kickham, nato in una località irlandese chiamata Cork.",
     "Triple": [
-      "(Knocknagow, autore, Charles Kickham)",
-      "(Charles Kickham, luogo di nascita, Cork)"
+      "(Knocknagow, author, Charles Kickham)",
+      "(Charles Kickham, place of birth, Cork)"
     ],
-    "Triple Normalizzate": []
-},
+    "Triple Normalizzate": [
+      "(dbr:Knocknagow, dbo:author, dbr:Charles_Kickham)",
+      "(dbr:Charles_Kickham, dbo:birthPlace, dbr:Cork)"
+    ],
+    "Risultati": [
+      "Vero",
+      "Falso"
+    ],
+    "Predizione": "Falso"
+  },
   {
     "id": 85,
     "Affermazione": "Il libro 'Milk' è stato scritto da Beverley Farmer, nato in una città australiana chiamata Sydney, nello stato di Victoria.",
     "Triple": [
-      "(Milk, autore, Beverley Farmer)",
-      "(Beverley Farmer, luogo di nascita, Sydney)",
-      "(Sydney, si trova in, Victoria)"
+      "(Milk, author, Beverley Farmer)",
+      "(Beverley Farmer, place of birth, Sydney)",
+      "(Sydney, located in, Victoria)"
     ],
-    "Triple Normalizzate": []
-},
+    "Triple Normalizzate": [
+      "(dbr:Milk, dbo:author, dbr:Beverley_Farmer)",
+      "(dbr:Beverley_Farmer, dbo:birthPlace, dbr:Sydney)",
+      "(dbr:Sydney, dbo:state, dbr:Victoria)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
+  },
   {
     "id": 86,
     "Affermazione": "Il libro 'Bartleby & Co' è stato scritto da Enrique Vila Matas, nato in una città spagnola chiamata Madrid.",
     "Triple": [
-      "(Bartleby & Co, autore, Enrique Vila Matas)",
-      "(Enrique Vila Matas, luogo di nascita, Madrid)"
+      "(Bartleby & Co, author, Enrique Vila Matas)",
+      "(Enrique Vila Matas, place of birth, Madrid)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Bartleby_&_Co, dbo:author, dbr:Enrique_Vila_Matas)",
+      "(dbr:Enrique_Vila_Matas, dbo:birthPlace, dbr:Madrid)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 87,
     "Affermazione": "Il libro 'The Power Worshippers' è stato scritto da Katherine Stewart, nata in una città canadese chiamata Boston.",
     "Triple": [
-      "(The Power Worshippers, autore, Katherine Stewart)",
-      "(Katherine Stewart, luogo di nascita, Boston)"
+      "(The Power Worshippers, author, Katherine Stewart)",
+      "(Katherine Stewart, place of birth, Boston)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:The_Power_Worshippers, dbo:author, dbr:Katherine_Stewart)",
+      "(dbr:Katherine_Stewart, dbo:birthPlace, dbr:Boston)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 88,
     "Affermazione": "Il libro 'The Eyes and the Impossible' è stato scritto da Dave Eggers, nato in una città statunitense chiamata New York.",
     "Triple": [
-      "(The Eyes and the Impossible, autore, Dave Eggers)",
-      "(Dave Eggers, luogo di nascita, New York)"
+      "(The Eyes and the Impossible, author, Dave Eggers)",
+      "(Dave Eggers, place of birth, New York)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:The_Eyes_and_the_Impossible, dbo:author, dbr:Dave_Eggers)",
+      "(dbr:Dave_Eggers, dbo:birthPlace, dbr:New_York)"
+    ],
+    "Risultati": [
+      "Vero",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 89,
     "Affermazione": "Il libro 'Small Mercies' è stato scritto da Dennis Lehane, nato in una città canadese chiamata Boston.",
     "Triple": [
-      "(Small Mercies, autore, Dennis Lehane)",
-      "(Dennis Lehane, luogo di nascita, Boston)"
+      "(Small Mercies, author, Dennis Lehane)",
+      "(Dennis Lehane, place of birth, Boston)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Small_Mercies, dbo:author, dbr:Dennis_Lehane)",
+      "(dbr:Dennis_Lehane, dbo:birthPlace, dbr:Boston)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Vero"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 90,
     "Affermazione": "Kool DJ Red Alert fa parte della band 'Rock Steady Crew' ed è nato a Antigua, in un paese la cui capitale è Kingstown.",
     "Triple": [
-      "(Kool DJ Red Alert, membro di, Rock Steady Crew)",
-      "(Kool DJ Red Alert, luogo di nascita, Antigua)"
+      "(Kool DJ Red Alert, member of, Rock Steady Crew)",
+      "(Kool DJ Red Alert, place of birth, Antigua)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Kool_DJ_Red_Alert, dbo:memberOf, dbr:Rock_Steady_Crew)",
+      "(dbr:Kool_DJ_Red_Alert, dbo:birthPlace, dbr:Antigua)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Vero"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 91,
     "Affermazione": "Robert Pettinato fa parte della band 'Sumo' ed è nato in un paese la cui capitale è Santiago del Cile.",
-    "Triple": ["(Robert Pettinato, membro di, Sumo)"],
-    "Triple Normalizzate": []
+    "Triple": [
+      "(Robert Pettinato, member of, Sumo)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Roberto_Pettinato, dbo:memberOf, dbr:Sumo)"
+    ],
+    "Risultati": [
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 92,
     "Affermazione": "Ricardo Mollo fa parte della band 'Dividos' ed è nato a Pergamino, in un paese la cui capitale è Lima.",
     "Triple": [
-      "(Ricardo Mollo, membro di, Dividos)",
-      "(Ricardo Mollo, luogo di nascita, Pergamino)"
+      "(Ricardo Mollo, member of, Dividos)",
+      "(Ricardo Mollo, place of birth, Pergamino)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Ricardo_Mollo, dbo:memberOf, dbr:Divididos)",
+      "(dbr:Ricardo_Mollo, dbo:birthPlace, dbr:Pergamino)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Vero"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 93,
     "Affermazione": "Andy Strachan fa parte della band 'The Living End' ed è nata in un paese situato in Nuova Zelanda, la cui capitale è Wellington.",
-    "Triple": ["(Andy Strachan, membro di, The Living End)"],
-    "Triple Normalizzate": []
+    "Triple": [
+      "(Andy Strachan, member of, The Living End)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Andy_Strachan, dbo:memberOf, dbr:The_Living_End)"
+    ],
+    "Risultati": [
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 94,
     "Affermazione": "Russell Hitchcok fa parte della band 'Air Supply' ed è nato a Sydney, una città situata in un paese che ha come capitale Canberra.",
     "Triple": [
-      "(Russell Hitchcok, membro di, Air Supply)",
-      "(Russell Hitchcok, luogo di nascita, Sydney)"
+      "(Russell Hitchcok, member of, Air Supply)",
+      "(Russell Hitchcok, place of birth, Sydney)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Russell_Hitchcock, dbo:memberOf, dbr:Air_Supply)",
+      "(dbr:Russell_Hitchcock, dbo:birthPlace, dbr:Sydney)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 95,
     "Affermazione": "Iain Matthews fa parte della band 'Matthews Southern Comfort' ed è nato a Kent, situato in un paese con capitale Londra.",
     "Triple": [
-      "(Iain Matthews, membro di, Matthews Southern Comfort)",
-      "(Iain Matthews, luogo di nascita, Kent)"
+      "(Iain Matthews, member of, Matthews Southern Comfort)",
+      "(Iain Matthews, place of birth, Kent)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Iain_Matthews, dbo:memberOf, dbr:Matthews_Southern_Comfort)",
+      "(dbr:Iain_Matthews, dbo:birthPlace, dbr:Kent)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 96,
     "Affermazione": "Kele Okereke fa parte della band 'Bloc Party' ed è nato a Manchester, in Regno Unito.",
-    "Triple":[
-      "(Kele Okereke, membro di, Bloc Party)",
-      "(Kele Okereke, luogo di nascita, Manchester)",
-      "(Manchester, si trova in, Regno Unito)"
+    "Triple": [
+      "(Kele Okereke, member of, Bloc Party)",
+      "(Kele Okereke, place of birth, Manchester)",
+      "(Manchester, located in, Regno Unito)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Kele_Okereke, dbo:memberOf, dbr:Bloc_Party)",
+      "(dbr:Kele_Okereke, dbo:birthPlace, dbr:Manchester)",
+      "(dbr:Manchester, dbo:country, dbr:United_Kingdom)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso",
+      "Vero"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 97,
     "Affermazione": "Jeff Tweedy fa parte della band 'Wilco' ed è nato in un paese situato in Canada, la cui capitale è Ottawa.",
-    "Triple": ["(Jeff Tweedy, membro di, Wilco)"],
-    "Triple Normalizzate": []
+    "Triple": [
+      "(Jeff Tweedy, member of, Wilco)"
+    ],
+    "Triple Normalizzate": [
+      "(dbr:Jeff_Tweedy, dbo:memberOf, dbr:Wilco)"
+    ],
+    "Risultati": [
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 98,
     "Affermazione": "Misuzu Togashi fa parte della band 'Sweet Arms' ed è nata a Tokyo, situata in un paese la cui capitale è Osaka.",
     "Triple": [
-      "(Misuzu Togashi, membro di, Sweet Arms)",
-      "(Misuzu Togashi, luogo di nascita, Tokyo)"
+      "(Misuzu Togashi, member of, Sweet Arms)",
+      "(Misuzu Togashi, place of birth, Tokyo)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Misuzu_Togashi, dbo:memberOf, dbr:Sweet_Arms)",
+      "(dbr:Misuzu_Togashi, dbo:birthPlace, dbr:Tokyo)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 99,
     "Affermazione": "Depha fa parte della band 'Masterpiece' ed è nato a Sabah, in Malaysia.",
     "Triple": [
-      "(Depha, membro di, Masterpiece)",
-      "(Depha, luogo di nascita, Sabah)",
-      "(Sabah, si trova in, Malaysia)"
+      "(Depha, member of, Masterpiece)",
+      "(Depha, place of birth, Sabah)",
+      "(Sabah, located in, Malaysia)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Depha, dbo:memberOf, dbr:Masterpiece)",
+      "(dbr:Depha, dbo:birthPlace, dbr:Sabah)",
+      "(dbr:Sabah, dbo:country, dbr:Malaysia)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso",
+      "Vero"
+    ],
+    "Predizione": "Falso"
   },
   {
     "id": 100,
     "Affermazione": "Ida Rogen fa parte della band 'Pitsj' ed è nata a Bergen, la seconda città della Norvegia.",
     "Triple": [
-      "(Ida Rogen, membro di, Pitsj)",
-      "(Ida Rogen, luogo di nascita, Bergen)",
-      "(Bergen, si trova in, Norvegia)"
+      "(Ida Rogen, member of, Pitsj)",
+      "(Ida Rogen, place of birth, Bergen)",
+      "(Bergen, located in, Norvegia)"
     ],
-    "Triple Normalizzate": []
+    "Triple Normalizzate": [
+      "(dbr:Ida_Rogen, dbo:memberOf, dbr:Pitsj)",
+      "(dbr:Ida_Rogen, dbo:birthPlace, dbr:Bergen)",
+      "(dbr:Bergen, dbo:country, dbr:Norway)"
+    ],
+    "Risultati": [
+      "Falso",
+      "Falso",
+      "Vero"
+    ],
+    "Predizione": "Falso"
   }
 ]
-
