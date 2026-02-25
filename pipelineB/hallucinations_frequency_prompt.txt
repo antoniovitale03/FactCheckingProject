@@ -28,7 +28,7 @@ Affermazione:
 {AFFERMAZIONE}
 
 Evidenze:
-{EVIDENCE}
+{EVIDENZE}
 
 Spiegazione:
 {SPIEGAZIONE}

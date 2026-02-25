@@ -24,11 +24,17 @@ with open("pipelineB/verdict-evidence_consistency_prompt.txt", "r", encoding="ut
 with open("pipelineB/evidence-precision_prompt.txt", "r", encoding="utf-8") as f:
     evidence_precision_prompt = f.read()
 
+with open("pipelineB/hallucinations_frequency_prompt.txt", "r", encoding="utf-8") as f:
+    hallucinations_frequency_prompt = f.read()
+
 with open("pipelineC/triples_extraction_prompt.txt", "r", encoding="utf-8") as f:
     triples_extraction_prompt = f.read()
 
 with open("pipelineC/triples_normalization_prompt.txt", "r", encoding="utf-8") as f:
     triples_normalization_prompt = f.read()
+
+with open("pipelineC/triples_quality_extraction_prompt.txt", "r", encoding="utf-8") as f:
+    triples_quality_extraction_prompt = f.read()
 
 def pipeline_A():
     for e in dataset:
@@ -59,13 +65,22 @@ def pipeline_B():
                                          #.replace("{VERDETTO}", e["Predizione"]))
         #print(prompt)
 
+    #for e in results_B:
+        #print(f"N. {e["id"]} ----------------------")
+        #prompt = (evidence_precision_prompt
+                                         #.replace("{AFFERMAZIONE}", e["Affermazione"])
+                                         #.replace("{EVIDENZE}", e["Evidenze"])
+                                         #.replace("{VERDETTO}", e["Predizione"]))
+        #print(prompt)
+
     for e in results_B:
         print(f"N. {e["id"]} ----------------------")
-        prompt = (evidence_precision_prompt
+        prompt = (hallucinations_frequency_prompt
                                          .replace("{AFFERMAZIONE}", e["Affermazione"])
                                          .replace("{EVIDENZE}", e["Evidenze"])
-                                         .replace("{VERDETTO}", e["Predizione"]))
+                                         .replace("{SPIEGAZIONE}", e["Spiegazione"]))
         print(prompt)
+
 
 def pipeline_C():
     with open("pipelineC/results_C.json", "r", encoding="utf-8") as f:
@@ -75,12 +90,22 @@ def pipeline_C():
         #english_claim = GoogleTranslator(source="it", target="en").translate(e["Affermazione"])
         #prompt = triples_extraction_prompt.replace("{AFFERMAZIONE}", english_claim])
         #print(prompt)
+    #for e in results_C:
+        #print(f"N. {e["id"]} ----------------------")
+        #prompt = triples_normalization_prompt.replace("{TRIPLE}", f"{e["Triple"]}" )
+        #print(prompt)
     for e in results_C:
         print(f"N. {e["id"]} ----------------------")
-        prompt = triples_normalization_prompt.replace("{TRIPLE}", f"{e["Triple"]}" )
+        prompt = (triples_quality_extraction_prompt
+                  .replace("{AFFERMAZIONE}", e["Affermazione"])
+                  .replace("{TRIPLE ESTRATTE}", f"{e["Triple"]}")
+                  .replace("{TRIPLE NORMALIZZATE}", f"{e["Triple Normalizzate"]}")
+                  )
         print(prompt)
 
+
+
 if __name__ == "__main__":
-    pipeline_B()
+    pipeline_C()
 
 

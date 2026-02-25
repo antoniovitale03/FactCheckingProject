@@ -16,6 +16,10 @@
     "Evidence Precision": {
       "Punteggio": 45,
       "Giustificazione": "Il testo contiene informazioni cruciali che confermano i premi Buero Vallejo come premi spagnoli (Spagna, Madrid, Penisola Iberica) e citano esplicitamente Ainhoa Artetxe tra i vincitori. Tuttavia, circa metà del contenuto aggregato è irrilevante, includendo lunghe digressioni sull'arte rupestre paleolitica, il calcio (Arteta), catechismi in basco del XVI secolo e mostre di illustratori a Roma."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "Tutte le informazioni presenti nella spiegazione sono direttamente supportate dalle evidenze. Il testo conferma che Ainhoa Artetxe ha ricevuto il premio, che i premi sono assegnati in Spagna, che Madrid è la capitale spagnola e che la Spagna appartiene all'Iberia (penisola iberica)."
     }
   },
   {
@@ -35,6 +39,10 @@
     "Evidence Precision": {
       "Punteggio": 55,
       "Giustificazione": "Il testo conferma che gli Africa Movie Academy Awards (AMAA) si svolgono prevalentemente in Nigeria (paese con capitale Abuja, situato in Africa occidentale) e cita esplicitamente Gabriel Afolayan come membro di una nota famiglia di attori nigeriani. Tuttavia, una parte considerevole del contenuto è ridondante (ripetizioni sulle sedi di Lagos) o irrilevante ai fini della verifica specifica, come i dettagli su premi sudafricani (AFDA), film d'animazione o la carriera della sorella Moji Afolayan."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 25,
+      "Giustificazione": "La spiegazione contiene un'allucinazione di tipo inferenziale: sebbene il testo confermi che Gabriel Afolayan è un attore nigeriano figlio di Ade Love e che gli Africa Movie Academy Awards (AMAA) si svolgono principalmente in Nigeria, non esiste alcuna prova nelle evidenze fornite che Gabriel Afolayan abbia effettivamente ricevuto tale premio. La spiegazione assume erroneamente che l'appartenenza alla categoria degli attori nigeriani implichi la ricezione del premio citato."
     }
   },
   {
@@ -54,6 +62,10 @@
     "Evidence Precision": {
       "Punteggio": 5,
       "Giustificazione": "Il testo è quasi interamente irrilevante, focalizzandosi su onorificenze canadesi (Ordine del Canada) e sulla carriera di Elizabeth Salcudean. Non viene fatta alcuna menzione di Walter Mercado né del New York City Award, rendendo il contesto inutile per la verifica dell'affermazione."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è impeccabile in quanto rileva correttamente l'assenza totale di informazioni riguardanti Walter Mercado e il New York City Award nel contesto fornito. Tutte le frasi riflettono fedelmente il contenuto delle evidenze (che riguardano solo Salcudean) o l'assenza di corrispondenza con l'affermazione."
     }
   },
   {
@@ -73,6 +85,10 @@
     "Evidence Precision": {
       "Punteggio": 35,
       "Giustificazione": "Il testo descrive dettagliatamente i premi Buero Vallejo come premi teatrali spagnoli con finali a Madrid, ma fallisce nel menzionare Miren Galan tra i vincitori o i partecipanti. La maggior parte delle evidenze riguarda soggetti irrilevanti come il calciatore José Antonio Pedrosa Galán, la cantante Mirela Cabero García e la storia del villaggio di Galapagar."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione identifica correttamente che le evidenze menzionano i premi Buero Vallejo in Spagna e l'elenco dei vincitori (in cui figura Ainhoa Artetxe ma non Miren Galan). La conclusione sull'assenza di supporto per l'affermazione è accurata e basata esclusivamente sul testo fornito."
     }
   },
   {
@@ -92,6 +108,10 @@
     "Evidence Precision": {
       "Punteggio": 15,
       "Giustificazione": "Solo una brevissima frase nel secondo blocco conferma che Jean Delannoy ha ricevuto il César onorario nel 1986. Il resto del vasto testo aggregato è completamente irrilevante, trattando in modo approfondito di Alain Delon, Paul Delouvrier, Jacques Delors e altri personaggi o eventi che non riguardano l'affermazione."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è pienamente supportata dalle evidenze. Il testo conferma esplicitamente che Jean Delannoy ha ricevuto il César onorario nel 1986. I riferimenti geografici (Parigi come capitale) e il contesto dell'industria cinematografica francese sono presenti nel testo, rendendo l'affermazione verificata senza l'aggiunta di informazioni esterne non supportate."
     }
   },
   {
@@ -111,6 +131,10 @@
     "Evidence Precision": {
       "Punteggio": 50,
       "Giustificazione": "Il testo contiene un blocco informativo decisivo che conferma sia l'identità di José Manuel Cervino come attore spagnolo, sia la sua vittoria del Premio Goya come miglior attore non protagonista per il film \"13 Roses\". Tuttavia, circa la metà del documento è composta da informazioni irrilevanti riguardanti un attore filippino, la produzione di gioielli Carrera y Carrera e dettagli superflui su altri vincitori dei premi Goya e festival internazionali."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è interamente supportata dalle evidenze fornite. Il testo conferma che José Manuel Cervino è un attore spagnolo e che ha vinto il Premio Goya come miglior attore non protagonista nel 2007 (Best Supporting Actor). Le evidenze definiscono inoltre i Premi Goya come premi nazionali spagnoli e citano Madrid come sede delle attività correlate (come la Settimana del Teatro o i teatri della capitale), confermando implicitamente il legame geografico richiesto dall'affermazione."
     }
   },
   {
@@ -130,6 +154,10 @@
     "Evidence Precision": {
       "Punteggio": 55,
       "Giustificazione": "Il testo contiene una sezione centrale molto dettagliata che conferma l'esistenza dei premi Buero Vallejo in Spagna (capitale Madrid) e cita esplicitamente Koldo Olabarri tra i famosi vincitori. Tuttavia, la precisione è penalizzata dalla presenza di ampie sezioni irrilevanti riguardanti il calcio messicano, la ginnastica, il Premio Tiepolo e la musica vallenato colombiana."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è interamente supportata dalle evidenze. Il testo conferma che Koldo Olabarri è tra i premiati, che il premio è spagnolo e che Madrid è definita la \"capitale spagnola\". Sebbene il testo non usi esplicitamente il termine \"Penisola Iberica\", il contesto geografico (Spagna, Madrid, affreschi nel Palazzo Reale) rende l'inferenza solida e corretta nel quadro del fact-checking."
     }
   },
   {
@@ -149,6 +177,10 @@
     "Evidence Precision": {
       "Punteggio": 10,
       "Giustificazione": "Il testo è quasi interamente irrilevante, concentrandosi sulla carriera del calciatore danese Thomas Guldborg Christensen, su squadre di hockey svedesi e su comici come Björn Gustafsson. Jonas Karlsson non viene mai menzionato e, sebbene si faccia un breve riferimento ai premi Guldbagge, non vengono fornite informazioni sul premio specifico o sull'attore citato nell'affermazione."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione identifica correttamente la totale assenza di informazioni riguardanti Jonas Karlsson nelle evidenze fornite. Il sistema RAG ha analizzato correttamente il contesto (che cita i Guldbagge Awards e Stoccolma, ma in relazione ad altri soggetti) concludendo correttamente che l'affermazione non è supportata, senza inventare dettagli."
     }
   },
   {
@@ -168,6 +200,10 @@
     "Evidence Precision": {
       "Punteggio": 15,
       "Giustificazione": "Il testo conferma che il Giappone è un paese con capitale Tokyo e cita l'esistenza dei Mainichi Film Awards, menzionando alcuni vincitori come Mirai Moriyama e Naoko Otani. Tuttavia, non vi è alcuna menzione di Kanjuro Arashi (o Aeashi), e la maggior parte del testo riguarda la geografia della Prefettura di Kanagawa o dettagli su altri film."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione identifica correttamente che le evidenze fornite non contengono alcuna menzione di Kanjuro Aeashi. Il sistema RAG ha rilevato la presenza del \"Mainichi Film Award\" nel testo (attribuito a Mirai Moriyama e Naoko Otani), ma ha giustamente concluso che non vi è alcun supporto per l'affermazione specifica relativa al soggetto indicato."
     }
   },
   {
@@ -187,6 +223,10 @@
     "Evidence Precision": {
       "Punteggio": 35,
       "Giustificazione": "Il testo conferma chiaramente che Baku è la capitale dell'Azerbaigian e che Alibaba Abdullayev è una figura di rilievo nazionale a cui è stata intitolata una strada nella capitale. Tuttavia, mancano riferimenti espliciti a uno specifico \"premio\" ricevuto dal soggetto, e gran parte del contenuto si perde in biografie dettagliate di altre persone (Chingiz Abdullayev, Abdurrahmanov) o descrizioni di luoghi."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione analizza correttamente le evidenze, distinguendo tra le celebrazioni dedicate ad Alibaba Abdullayev (strade intitolate, targhe, concerti del centenario) e l'effettiva ricezione di un premio, che nel testo è attribuita solo ad altri soggetti come Abdurrahmanov. Il sistema ha evitato di attribuire premi a Abdullayev per inferenza errata, mantenendo la fedeltà al testo."
     }
   },
   {
@@ -206,6 +246,10 @@
     "Evidence Precision": {
       "Punteggio": 45,
       "Giustificazione": "Le evidenze contengono un blocco centrale molto rilevante che conferma l'assedio di Fort Crozon, specificando la partecipazione di Frobisher al comando della sua ammiraglia \"Vanguard\" e il coordinamento delle forze anglo-francesi. Tuttavia, la precisione complessiva è media a causa di estese sezioni irrilevanti che descrivono altri assedi (Ninety Six, Crèvecoeur, St. Jean) e biografie di personaggi non correlati (Crichton-Stuart, Delvincourt). Non viene fatta menzione esplicita del luogo di nascita di Frobisher (Altofts)."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 33,
+      "Giustificazione": "La spiegazione contiene un'allucinazione riguardante il luogo di nascita. Sebbene le evidenze confermino correttamente che Frobisher guidò l'azione navale durante l'assedio (\"le navi di Frobisher arrivarono e bloccarono il forte\"), nel testo fornito non compare alcuna menzione di Altofts né del luogo di nascita di Martin Frobisher. Tale dettaglio è stato aggiunto dal modello utilizzando conoscenza esterna non presente nel contesto."
     }
   },
   {
@@ -225,6 +269,10 @@
     "Evidence Precision": {
       "Punteggio": 75,
       "Giustificazione": "Il testo aggregato contiene tutte le informazioni necessarie per verificare l'affermazione: descrive la Rivoluzione tedesca del 1918-1919 e conferma i dati biografici di Clara Zetkin, inclusa la sua nascita a Königshain-Wiederau e il suo ruolo nella Lega Spartachista (strettamente legata alla rivoluzione). Tuttavia, la precisione non è massima a causa di diverse sezioni superflue riguardanti politici come Walter Becher e Joseph Wirth, o dettagli sulla produzione della Becherovka."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è impeccabile e aderisce strettamente al contesto. Identifica correttamente che, sebbene le evidenze descrivano sia la rivoluzione del 1918-1919 sia la biografia di Clara Zetkin (inclusa la nascita a Königshain-Wiederau), il testo non stabilisce alcun nesso di leadership tra i due elementi. Il sistema ha evitato correttamente di utilizzare conoscenze esterne per validare l'affermazione."
     }
   },
   {
@@ -244,6 +292,10 @@
     "Evidence Precision": {
       "Punteggio": 5,
       "Giustificazione": "Il testo aggregato è completamente irrilevante rispetto all'affermazione. Non vengono mai menzionati né la battaglia di Slivice, né Carl Friedrich von Pückler-Burghauss, né la località di Korfantów, concentrandosi invece su battaglie della Grande Guerra del Nord, dei Freikorps in Slesia e su manovre del XVII secolo."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e non presenta allucinazioni. Il sistema ha correttamente rilevato l'assenza totale delle informazioni chiave (Carl Friedrich von Pückler-Burhauss, la battaglia di Slivice e la località di Korfantow) all'interno delle evidenze fornite, limitandosi a dichiarare la mancanza di supporto senza inventare dettagli o utilizzare conoscenze esterne."
     }
   },
   {
@@ -263,6 +315,10 @@
     "Evidence Precision": {
       "Punteggio": 20,
       "Giustificazione": "Le evidenze forniscono informazioni corrette sulla natura e l'entità del movimento di resistenza polacco (Armia Krajowa), permettendo di verificare il contesto storico dell'affermazione. Tuttavia, Franz Kutschera non viene mai menzionato nel testo e l'unica figura austriaca citata è il neonatista Gottfried Küssel, rendendo impossibile verificare la guida o le origini natali del soggetto indicato."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e aderisce rigorosamente alle evidenze fornite. Il sistema ha identificato correttamente che il movimento di resistenza polacco citato nel testo è l'Armia Krajowa e ha rilevato l'assenza totale di riferimenti a Franz Kutschera o alla sua città natale (Oberwaltersdorf) nelle evidenze. La conclusione che l'affermazione non sia supportata è corretta."
     }
   },
   {
@@ -282,6 +338,10 @@
     "Evidence Precision": {
       "Punteggio": 65,
       "Giustificazione": "Il testo contiene molteplici paragrafi che confermano dettagliatamente il ruolo di Fernando Álvarez de Toledo (Duca d'Alba) come comandante nella battaglia di Alcántara del 1580. Tuttavia, la precisione è ridotta dalla presenza di ampie sezioni irrilevanti riguardanti la Guerra d'Indipendenza del Messico, l'assedio dell'Alcázar di Toledo del 1936 e statistiche recenti di un giocatore di baseball omonimo. Non viene fornita l'informazione specifica sulla sua nascita a Piedrahíta."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 25,
+      "Giustificazione": "La spiegazione contiene un'allucinazione riguardante il luogo di nascita. Sebbene le evidenze confermino correttamente che Fernando Álvarez de Toledo guidò la battaglia di Alcântara nel 1580, nel testo fornito non è presente alcuna menzione della città di Piedrahita né del luogo di nascita del Duca. Il modello ha validato l'intera affermazione includendo un dettaglio non verificabile attraverso il contesto fornito (uso di conoscenza esterna)."
     }
   },
   {
@@ -301,6 +361,10 @@
     "Evidence Precision": {
       "Punteggio": 0,
       "Giustificazione": "Il testo fornito è completamente irrilevante rispetto all'affermazione. Non viene fatta alcuna menzione dello \"scontro di Gadchiroli\", né di Bhagat Singh Koshyari o del distretto di Bageshwar; le evidenze si concentrano esclusivamente su battaglie storiche del Regno di Garhwal, della dinastia Gorkha e di antiche dinastie indiane (XVII-XIX secolo)."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione identifica correttamente l'assenza totale di informazioni riguardanti lo \"scontro di Gadchiroli\", Bhagat Singh Koshyari e il distretto di Bageshwar nelle evidenze fornite. Il sistema ha analizzato i testi (incentrati sulla storia del Garhwal e del Regno del Nepal) concludendo giustamente che l'affermazione non trova alcun supporto, evitando di inventare dettagli o usare conoscenze esterne."
     }
   },
   {
@@ -320,6 +384,10 @@
     "Evidence Precision": {
       "Punteggio": 30,
       "Giustificazione": "Il testo conferma che Port Said fu teatro di una battaglia e di un'occupazione straniera nel 1956, menzionando anche il governo di Gamal Abdel Nasser e descrivendo ampiamente la città di Alessandria. Tuttavia, non viene fornita alcuna prova che Nasser abbia \"guidato\" la battaglia (sul campo o come comandante diretto citato nelle evidenze belliche) né viene esplicitamente confermato il suo luogo di nascita, sebbene la presenza di Alessandria e Nasser nel medesimo contesto suggerisca una correlazione geografica."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione identifica correttamente l'assenza di informazioni riguardanti la guida di una \"battaglia di Port Said\" da parte di Nasser e il suo luogo di nascita. Il sistema ha analizzato i testi (che citano Nasser solo in relazione alle espulsioni della comunità greca e Alessandria solo come porto) concludendo giustamente che l'affermazione non trova supporto."
     }
   },
   {
@@ -339,6 +407,10 @@
     "Evidence Precision": {
       "Punteggio": 42,
       "Giustificazione": "Il testo contiene una sezione biografica specifica su Jan Valckenburgh che conferma quasi tutti i punti dell'affermazione: il suo ruolo di Direttore Generale della Costa d'Oro olandese (Gold Coast), il suo battesimo ad Amsterdam (capitale dei Paesi Bassi) e il contesto dei suoi mandati. Tuttavia, l'evidenza non cita esplicitamente un \"conflitto coloniale danese-olandese\" sotto la sua guida e la precisione è diluita da estese parti irrilevanti riguardanti l'Età dell'Oro danese, guerre olandese-anseatiche del XV secolo e coloni nella Nuova Olanda."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione analizza correttamente le evidenze fornite. Conferma accuratamente il luogo di nascita di Jan Valckenburgh (Amsterdam) basandosi sull'atto di battesimo citato, ma rileva giustamente la totale assenza di riferimenti a un conflitto coloniale danese-olandese guidato da quest'ultimo. Il sistema ha evitato allucinazioni, limitandosi alle informazioni presenti nel testo."
     }
   },
   {
@@ -358,6 +430,10 @@
     "Evidence Precision": {
       "Punteggio": 15,
       "Giustificazione": "Il testo aggregato menziona Bafel (Paviel) Talabani e fornisce dettagli sulla sua famiglia e sul suo ruolo politico in relazione a Kirkuk, ma non cita in alcun modo la battaglia di Makhmour né il suo luogo di nascita. La maggior parte delle evidenze è irrilevante, riguardando figure come Ala Talabani, Najim al-Jubouri o gruppi jihadisti in Siria."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione analizza correttamente le evidenze senza aggiungere informazioni esterne. Identifica con precisione che né la \"battaglia di Makhmour\" né il luogo di nascita di Bafel Talabani sono presenti nel testo fornito (il quale si limita a discutere il ruolo di Bafel a Kirkuk e la sua famiglia). La conclusione di non supporto è fedele al contesto."
     }
   },
   {
@@ -377,6 +453,10 @@
     "Evidence Precision": {
       "Punteggio": 75,
       "Giustificazione": "Il testo contiene una sezione biografica dettagliata su Ramon Berenguer IV, confermando il suo ruolo nella Reconquista (citato come \"Marchese di Lleida e Tortosa\") e la sua data di nascita (1114). Tuttavia, le evidenze indicano che nacque dal Conte Ramon Berenguer III e Douce di Provenza senza specificare esplicitamente la città di Barcellona come luogo di nascita, e il testo è inframmezzato da ampie biografie dei suoi predecessori (Ramon Berenguer I e III)."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e priva di allucinazioni. Il sistema ha correttamente rilevato che, sebbene le evidenze menzionino la nascita di Ramon Berenguer IV nel 1114, non specificano il luogo (Barcellona). Inoltre, ha giustamente osservato che il testo attribuisce diverse azioni belliche a vari leader (come Alfonso I), ma non indica in alcun modo che Ramon Berenguer IV abbia guidato la \"cronologia della Reconquista\". La conclusione di non supporto è fedele al contesto fornito."
     }
   },
   {
@@ -396,6 +476,10 @@
     "Evidence Precision": {
       "Punteggio": 0,
       "Giustificazione": "Il testo fornito è una raccolta di biografie di vari individui chiamati Cook (un fondatore di città, un diplomatico, un'attrice, un hockeista e altri), ma nessuno di essi è l'atleta Ally Cook. Non viene fatta alcuna menzione dello Spokane Zephyr FC, né di proprietari nati a San Cristóbal o riferimenti a Cuba e L'Avana."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è eccellente e priva di allucinazioni. Il sistema ha analizzato correttamente la sfilza di evidenze fornite, notando che trattano vari individui di nome Cook (Alonzo, Alyssa-Jane, Mercer, ecc.) ma nessuno corrisponde ad \"Ally Cook\" nel contesto sportivo richiesto. Ha inoltre rilevato la totale assenza di menzioni dello Spokane Zephyr FC o di dettagli biografici relativi a San Cristóbal e L'Avana."
     }
   },
   {
@@ -415,6 +499,10 @@
     "Evidence Precision": {
       "Punteggio": 0,
       "Giustificazione": "Il testo fornito è completamente irrilevante rispetto all'affermazione. Non viene menzionato né il calciatore Amos Shapiro Thompson, né il Rhode Island FC, né Michael Parkhurst; le evidenze si concentrano invece su giocatori di baseball (Brad Thompson), allenatori di football americano (Mariucci) e altri sportivi che non hanno alcuna correlazione con i soggetti indicati."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è corretta e non presenta allucinazioni. Il sistema ha rilevato accuratamente che le evidenze fornite trattano di figure sportive e persone di nome Thompson (come il giocatore di baseball o l'analista NFL), ma non contengono alcuna menzione di Amos Shapiro Thompson, del Rhode Island FC o di Michael Parkhurst. Il sistema ha agito correttamente dichiarando la totale mancanza di supporto senza ricorrere a conoscenze esterne."
     }
   },
   {
@@ -434,6 +522,10 @@
     "Evidence Precision": {
       "Punteggio": 35,
       "Giustificazione": "Le evidenze confermano correttamente che la calciatrice Cameron Tucker ha giocato per il NY/NJ Gotham FC (firmando nel dicembre 2021). Tuttavia, il testo non menziona in alcun modo Tammy Murphy né la sua proprietà del club, né fornisce dettagli sulla sua nascita a Virginia Beach; gran parte del contenuto è inoltre occupato da informazioni irrilevanti su attori omonimi e personaggi televisivi."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione analizza correttamente le evidenze senza ricorrere a conoscenze esterne. Conferma correttamente che Cameron Tucker ha giocato per il NY Gotham FC, ma rileva con precisione che nel testo non vi è traccia del proprietario del club (Tammy Murphy) né del suo luogo di nascita. La valutazione finale di \"non verificato/falso\" basata strettamente sul contesto è corretta."
     }
   },
   {
@@ -453,6 +545,10 @@
     "Evidence Precision": {
       "Punteggio": 45,
       "Giustificazione": "Il testo conferma chiaramente che Hryhoriy Kozlovskyy è il presidente e proprietario del FC Rukh Lviv (fondato originariamente a Vynnyky, città satellite di Lviv). Tuttavia, le evidenze non menzionano il calciatore Artur Remenyak né forniscono informazioni sulla regione di nascita di Kozlovskyy, rendendo impossibile verificare l'affermazione nella sua interezza."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 33,
+      "Giustificazione": "La spiegazione contiene un'allucinazione significativa riguardo a due punti chiave. Primo, nelle evidenze fornite non appare mai il nome di Artur Remenyak, rendendo impossibile confermare che giochi per il Rukh Lviv. Secondo, sebbene Hryhoriy Kozlovskyy sia identificato come presidente/proprietario e associato alla regione di Lviv per la sua attività, il testo non indica mai il suo luogo di nascita. Il sistema ha validato l'affermazione basandosi su presupposti non presenti nel contesto (conoscenza esterna o inferenza errata)."
     }
   },
   {
@@ -472,6 +568,10 @@
     "Evidence Precision": {
       "Punteggio": 10,
       "Giustificazione": "Le evidenze contengono un unico riferimento parziale che conferma il trasferimento di un giocatore (di cui non viene fatto il nome esplicito, ma il contesto suggerisce un cestista) al Basketball Löwen Braunschweig nel 2025. Tuttavia, non viene fatta alcuna menzione di Barra Njie, né di Dennis Schröder o del suo luogo di nascita, rendendo il testo quasi totalmente irrilevante ai fini della verifica."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione identifica correttamente l'assenza di supporto nelle evidenze per tutti i punti dell'affermazione. Le evidenze menzionano un contratto con il Löwen Braunschweig datato 1 agosto 2025, ma il soggetto non è Barra Njie (il cui nome non appare mai). Inoltre, non vi è alcuna traccia di Dennis Schröder né di informazioni sulla proprietà del club. Il sistema ha evitato allucinazioni attenendosi rigorosamente al contesto fornito."
     }
   },
   {
@@ -491,6 +591,10 @@
     "Evidence Precision": {
       "Punteggio": 0,
       "Giustificazione": "Il testo fornito è un'aggregazione di biografie di vari atleti (Ron Slay, Samuel Şahin-Radlinger, Joshua Lubwama, ecc.), ma nessuno di questi è Joshua Saavedra. Non viene fatta alcuna menzione né del calciatore indicato nell'affermazione, né di squadre o proprietari legati a Langreo, rendendo l'intero contenuto totalmente irrilevante ai fini della verifica."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione identifica correttamente l'assenza totale di informazioni riguardanti \"Joshua Saavedra\" nelle evidenze fornite (che menzionano invece Joshua Lubwama). Allo stesso modo, rileva giustamente la mancanza di riferimenti a squadre collegate a tale nome o a proprietari nati a Langreo. Il sistema si è attenuto rigorosamente al contesto senza produrre allucinazioni."
     }
   },
   {
@@ -510,6 +614,10 @@
     "Evidence Precision": {
       "Punteggio": 75,
       "Giustificazione": "Il testo conferma quasi tutti i punti dell'affermazione, citando esplicitamente che Pace Mannion ha giocato per gli Utah Jazz e che Ryan Smith è il proprietario della squadra, nato a Eugene, Oregon. Tuttavia, la precisione non è massima a causa della presenza di ampie sezioni su altri giocatori (DeMarre Carroll, Terance Mann) e dettagli prolissi sulla carriera universitaria di un altro Mannion (Sean) che risultano superflui."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e riflette fedelmente le evidenze fornite. Il sistema ha correttamente identificato la presenza di Pace Mannion negli Utah Jazz (citando la partita del 1986 contro i Rockets), la proprietà del club da parte di Ryan Smith e il suo luogo di nascita a Eugene, Oregon. Ogni elemento dell'affermazione trova riscontro diretto nel testo."
     }
   },
   {
@@ -529,6 +637,10 @@
     "Evidence Precision": {
       "Punteggio": 0,
       "Giustificazione": "Il testo fornito contiene informazioni su vari atleti e figure professionali (Mike Costanzo, Jake Fraley, Bill Flanagan, ecc.), ma non menziona mai Jarrell Brantley né Ryan Smith. Non essendoci alcun riferimento ai soggetti dell'affermazione o alla squadra di appartenenza, l'intero contesto è irrilevante ai fini della verifica."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione identifica correttamente la totale assenza di informazioni riguardo a Jarrell Brantley e Ryan Smith nelle evidenze fornite. Il sistema ha evitato allucinazioni rilevando che il testo si focalizza su altri soggetti (come Mike Costanzo o Jake Fraley) e non contiene i dati necessari per verificare l'affermazione."
     }
   },
   {
@@ -548,6 +660,10 @@
     "Evidence Precision": {
       "Punteggio": 0,
       "Giustificazione": "Il testo fornito è un'aggregazione di biografie totalmente slegate dall'affermazione, citando figure come Nicola Ventola, Omar Bugiel e Ilir Shaqiri. Non vi è alcuna menzione di Amir Saipi, del Lugano FC o di Joe Mansueto (il proprietario nato a Munster), rendendo le evidenze completamente irrilevanti."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione identifica correttamente la totale mancanza di supporto nelle evidenze per l'affermazione. Il testo fornito non menziona né Amir Saipi, né il Lugano FC, né dettagli biografici su un presunto proprietario nato a Munster. Il sistema ha agito correttamente limitandosi a rilevare l'assenza di dati nel contesto."
     }
   },
   {
@@ -567,6 +683,10 @@
     "Evidence Precision": {
       "Punteggio": 0,
       "Giustificazione": "Il testo fornito è un'aggregazione di biografie di musicisti (Cachao, Jiménez) e attrici (Rebecca Jones) che non hanno alcuna attinenza con l'atleta Joseph Jones o la squadra di basket Cangrejeros de Santurce. Non viene fatta menzione né della carriera sportiva del soggetto né della proprietà della squadra o di Vega Baja, rendendo le evidenze totalmente irrilevanti."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione identifica correttamente la totale assenza di informazioni riguardanti Joseph Jones e la squadra dei Cangrejeros de Santurce nelle evidenze fornite. Il sistema ha rilevato con precisione che il testo non menziona né l'atleta, né la proprietà del club, né luoghi di nascita specifici come Vega Baja, evitando così di integrare la risposta con conoscenze esterne o dettagli inventat"
     }
   },
   {
@@ -586,6 +706,10 @@
     "Evidence Precision": {
       "Punteggio": 55,
       "Giustificazione": "Il testo conferma esplicitamente che Al-Juwayni è l'autore di \"Una guida alle prove conclusive dei principi della fede\" (Al-Irshad) e fornisce dettagli biografici sulla sua nascita in Iran e sulla sua famiglia. Tuttavia, quasi metà del contenuto aggregato riguarda altri autori e libri (Robert G. Hoyland, Mahmassani, George Jordac), che risultano del tutto irrilevanti per l'affermazione specifica."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 33,
+      "Giustificazione": "La spiegazione contiene un'allucinazione di tipo inferenziale non supportata dal testo. Sebbene le evidenze confermino correttamente l'autore e il titolo del libro, esse indicano come luogo di nascita Bushtaniqan in Iran. La spiegazione valida l'affermazione secondo cui sarebbe nato nella \"Joveyn County\", ma tale informazione (o il legame geografico tra Bushtaniqan e Joveyn) non è presente nelle evidenze fornite e deriva dall'uso di conoscenza esterna o da un'assunzione non verificabile dal contesto."
     }
   },
   {
@@ -605,6 +729,10 @@
     "Evidence Precision": {
       "Punteggio": 35,
       "Giustificazione": "Le evidenze confermano con precisione le origini di Les (Leslie Allan) Murray a Nabiac, New South Wales, ma non menzionano mai il titolo del libro 'The People's Otherworld: Poems'. Inoltre, circa il 70% del testo è occupato da biografie irrilevanti di altri autori omonimi (George Murray, David John Murray Wright, Sally-Ann Murray), abbassando drasticamente la precisione complessiva."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e non presenta allucinazioni. Il sistema ha correttamente verificato il luogo di nascita di Les Murray (Nabiac, New South Wales) presente nelle evidenze, ma ha rilevato con precisione che il titolo del libro \"The People's Otherworld: Poems\" non compare in alcun punto del testo fornito. La conclusione di non verificabilità è coerente con il principio di attenersi esclusivamente al contesto."
     }
   },
   {
@@ -624,6 +752,10 @@
     "Evidence Precision": {
       "Punteggio": 52,
       "Giustificazione": "Le evidenze confermano con precisione sia l'attribuzione del romanzo in versi 'I ragazzi che rubarono il funerale' a Les Murray, sia la nascita del poeta a Nabiac. Tuttavia, circa metà del testo è occupata da biografie irrilevanti di altri individui chiamati Murray (David Christie Murray e figure storiche del XVIII secolo), riducendo la precisione complessiva del recupero."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è impeccabile e non contiene allucinazioni. Il sistema ha correttamente identificato nelle evidenze sia la paternità del libro \"The Boys Who Stole the Funeral\" (tradotto nel testo come \"I ragazzi che rubarono il funerale\"), attribuendolo a Les Murray, sia il luogo di nascita dell'autore a Nabiac, nel New South Wales. Tutti gli elementi dell'affermazione trovano un riscontro diretto e preciso nel contesto fornito."
     }
   },
   {
@@ -643,6 +775,10 @@
     "Evidence Precision": {
       "Punteggio": 78,
       "Giustificazione": "Il testo fornisce una conferma diretta ed esaustiva dell'affermazione, specificando che Colm Tóibín è l'autore del romanzo \"The South\" (1990) ed è nato a Enniscorthy, Irlanda. La precisione è penalizzata dalla presenza di ampie sezioni biografiche su altri autori (Pádraig Ó Snodaigh) e riflessioni generali sulla letteratura del Sud degli Stati Uniti, che occupano circa il 20% del contenuto totale senza aggiungere valore alla verifica specifica."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e riflette fedelmente le evidenze fornite. Il sistema ha correttamente identificato che Colm Tóibín è l'autore del romanzo \"The South\" (pubblicato nel 1990) e che il suo luogo di nascita è la città di Enniscorthy, in Irlanda. Ogni elemento dell'affermazione trova un riscontro diretto e preciso nel testo."
     }
   },
   {
@@ -662,6 +798,10 @@
     "Evidence Precision": {
       "Punteggio": 45,
       "Giustificazione": "Il testo conferma chiaramente che Charles Kickham è l'autore del romanzo 'Knocknagow', fornendo anche dettagli sulla trama e sul successo dell'opera. Tuttavia, non viene fatta alcuna menzione esplicita della sua nascita a Mullinahone e circa la metà delle evidenze riguarda argomenti irrilevanti come la biografia di altri autori (Ó Cadhain, Mac Con Iomaire) o la geografia della contea di Cavan."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 33,
+      "Giustificazione": "La spiegazione contiene un'allucinazione di tipo inferenziale (uso di conoscenza esterna). Sebbene le evidenze confermino correttamente che Charles Kickham è l'autore di Knocknagow, in nessun punto del testo fornito viene menzionata la località di Mullinahone come suo luogo di nascita. Il sistema ha validato questa specifica parte dell'affermazione senza che vi fosse supporto testuale, basandosi probabilmente su conoscenze pregresse non contenute nelle evidenze."
     }
   },
   {
@@ -681,6 +821,10 @@
     "Evidence Precision": {
       "Punteggio": 15,
       "Giustificazione": "Le evidenze menzionano Beverley Farmer e citano il suo libro \"Home Time\", ma non confermano né il titolo \"Milk\" né il suo luogo di nascita specifico (Windsor, Victoria). La stragrande maggioranza del testo è occupata da informazioni irrilevanti su aziende lattiero-casearie, mucche volanti e romanzi di altri autori (Edward St Aubyn)."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è impeccabile poiché identifica correttamente la mancanza di prove per entrambi i punti dell'affermazione. Nonostante le evidenze citino Beverley Farmer e alcune sue opere (come \"Home Time\"), non confermano né il libro \"Milk\" né il luogo di nascita a Windsor. Il sistema ha agito correttamente limitandosi ai dati presenti, evitando di confermare dettagli basati su conoscenza esterna."
     }
   },
   {
@@ -700,6 +844,10 @@
     "Evidence Precision": {
       "Punteggio": 45,
       "Giustificazione": "Il testo conferma esplicitamente che Enrique Vila-Matas è l'autore di \"Bartleby & Co.\" e cita il suo legame professionale e biografico con Barcellona. Tuttavia, oltre la metà del contenuto aggregato riguarda altri autori e giornalisti (Sebastià Juan i Arbó, Joan Carreras, Bart Simpson) o installazioni urbane, riducendo sensibilmente la precisione del recupero."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 33,
+      "Giustificazione": "La spiegazione contiene un'allucinazione di tipo inferenziale basata su conoscenza esterna. Sebbene le evidenze confermino correttamente che Enrique Vila-Matas è l'autore di \"Bartleby & Co.\", nessuna parte del testo fornito indica il suo luogo di nascita. Il fatto che sia tornato a Barcellona o che sia uno scrittore spagnolo operante in quella città non permette di inferire con certezza che sia nato lì secondo le sole evidenze disponibili."
     }
   },
   {
@@ -719,6 +867,10 @@
     "Evidence Precision": {
       "Punteggio": 42,
       "Giustificazione": "Le evidenze confermano in modo dettagliato che Katherine Stewart è l'autrice di \"The Power Worshippers\" (2020) e descrivono ampiamente i temi del libro. Tuttavia, il testo non contiene alcuna informazione sul luogo di nascita dell'autrice (Boston) e circa il 60% del contenuto aggregato riguarda figure del tutto irrilevanti come Ann Powers, Anna Mary Howitt e Matthew Power."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e non presenta allucinazioni. Il sistema ha correttamente verificato la paternità del libro \"The Power Worshippers\" attribuendola a Katherine Stewart come riportato nelle evidenze. Allo stesso modo, ha rilevato con precisione l'assenza di informazioni riguardanti il luogo di nascita dell'autrice (Boston) nel testo fornito, concludendo correttamente che l'affermazione non può essere validata integralmente."
     }
   },
   {
@@ -738,6 +890,10 @@
     "Evidence Precision": {
       "Punteggio": 38,
       "Giustificazione": "Il testo conferma chiaramente che Dave Eggers è nato a Boston, fornendo diversi dettagli biogafici sulla sua famiglia e sui suoi esordi. Tuttavia, le evidenze falliscono nel menzionare il libro specifico dell'affermazione ('The Eyes and the Impossible'), dilungandosi invece su altre opere di Eggers o su album e romanzi omonimi di altri autori (Kukl, Colson Whitehead), che occupano oltre il 60% del contenuto fornito."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e priva di allucinazioni. Il sistema ha correttamente identificato nelle evidenze il luogo di nascita di Dave Eggers (Boston), ma ha rilevato con precisione l'assenza di qualsiasi riferimento al libro \"The Eyes and the Impossible\" nel testo fornito. La conclusione di non verificabilità (e quindi la valutazione di falsità rispetto al contesto RAG) è corretta e si attiene strettamente alle informazioni disponibili."
     }
   },
   {
@@ -757,6 +913,10 @@
     "Evidence Precision": {
       "Punteggio": 68,
       "Giustificazione": "Il testo conferma chiaramente che Dennis Lehane è l'autore di 'Small Mercies' e fornisce ampi dettagli sull'ambientazione del libro a Boston. Tuttavia, non viene indicato esplicitamente che Lehane sia nato a Boston (anche se si parla della sua carriera e opere ambientate lì) e una parte del contesto riguarda altri autori e libri dai titoli simili (come 'Small World' di Evison o 'Small's Big Dream'), che risultano irrilevanti."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 33,
+      "Giustificazione": "La spiegazione contiene un'allucinazione di tipo inferenziale (uso di conoscenza esterna). Sebbene le evidenze confermino correttamente che Dennis Lehane è l'autore di Small Mercies, nessuna parte del testo fornito indica che sia nato a Boston. Il sistema ha validato la nascita basandosi solo sul \"legame con la città\" e sull'ambientazione delle sue opere, ma tali dettagli non costituiscono una prova del luogo di nascita all'interno del contesto RAG fornito."
     }
   },
   {
@@ -776,6 +936,10 @@
     "Evidence Precision": {
       "Punteggio": 35,
       "Giustificazione": "Il testo conferma che Kool DJ Red Alert è nato ad Antigua, ma non fornisce informazioni sulla capitale dell'isola (St. John's) né sulla sua appartenenza alla \"Rock Steady Crew\". Circa il 70% delle evidenze è irrilevante, trattando di stazioni radio pirata londinesi (Kool London), DJ tedeschi (Kobosil) o dettagli tecnici sulla sua carriera radiofonica a New York."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e non presenta allucinazioni. Il sistema ha correttamente verificato il luogo di nascita (Antigua) citato nelle evidenze, ma ha rilevato con precisione che nel testo fornito non esiste alcun riferimento alla \"Rock Steady Crew\". Il sistema ha evitato di utilizzare conoscenza esterna per confermare o smentire l'affiliazione del DJ alla band, limitandosi correttamente alle informazioni presenti nel contesto RAG."
     }
   },
   {
@@ -795,6 +959,10 @@
     "Evidence Precision": {
       "Punteggio": 70,
       "Giustificazione": "Il testo conferma chiaramente che Roberto Pettinato faceva parte della band 'Sumo' (come sassofonista) e che suo padre era un ufficiale argentino. Viene inoltre specificato che Pettinato è nato nell'ambasciata dell'Ecuador a Buenos Aires (città che l'affermazione identifica correttamente come capitale), sebbene gran parte del testo si focalizzi su Luca Prodan o su altri musicisti irrilevanti come Cristian Machado."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e segue rigorosamente le evidenze fornite. Il sistema ha correttamente confermato l'appartenenza di Roberto Pettinato ai Sumo e ha rilevato la discrepanza riguardo al luogo di nascita: le evidenze specificano che è nato nell'ambasciata dell'Ecuador (quindi tecnicamente in territorio ecuadoriano o sotto la sua protezione), smentendo l'affermazione che lo voleva nato in Argentina (paese che ha per capitale Buenos Aires)."
     }
   },
   {
@@ -814,6 +982,10 @@
     "Evidence Precision": {
       "Punteggio": 55,
       "Giustificazione": "Il testo conferma puntualmente che Ricardo Mollo è il co-fondatore dei Divididos ed è nato a Pergamino, in Argentina (paese di cui Buenos Aires è la capitale). Tuttavia, circa la metà delle evidenze è costituita da biografie totalmente irrilevanti di altri musicisti (Ricardo Caballero, Ricardo Molano, Moacir Santos) o calciatori, che non contribuiscono alla verifica dell'affermazione."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 33,
+      "Giustificazione": "La spiegazione contiene un'allucinazione di tipo inferenziale/misinterpretazione del testo. Sebbene le evidenze confermino correttamente che Mollo fa parte dei Divididos, il testo afferma esplicitamente che è nato nel \"quartiere Pergamino di Buenos Aires\" (fatto supportato dalla frase successiva che menziona il trasferimento a El Palomar, sempre nella provincia/area di Buenos Aires). L'affermazione originale sosteneva invece che fosse nato a Pergamino (intesa come città/località) in un paese la cui capitale è Buenos Aires. Il sistema ha validato la frase ignorando che le evidenze descrivono \"Pergamino\" come un quartiere della città stessa (o area urbana) e non come la città di Pergamino situata nell'entroterra della provincia, operando una semplificazione non strettamente supportata dalla distinzione geografica presente nel testo."
     }
   },
   {
@@ -833,6 +1005,10 @@
     "Evidence Precision": {
       "Punteggio": 52,
       "Giustificazione": "Le evidenze confermano in modo esaustivo che Andrew (Andy) Strachan è un musicista australiano nato ad Adelaide e che si è unito alla band 'The Living End' nel 2002. Tuttavia, il punteggio è penalizzato dalla presenza di una sezione iniziale che riguarda un altro \"Strachan\" deceduto in un incidente aereo nel 2001 e da vari paragrafi su altri musicisti (Skyhooks, Alcotomic, Pollyanna) che occupano circa la metà del testo totale."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 33,
+      "Giustificazione": "La spiegazione contiene un'allucinazione di genere e un'allucinazione inferenziale basata su conoscenza esterna. Innanzitutto, il sistema si riferisce al soggetto come \"nata\", ignorando che le evidenze descrivono \"Andrew Douglas Strachan\" come un uomo (\"musicista rock australiano\", \"si è unito\"). In secondo luogo, pur confermando correttamente l'appartenenza alla band, il sistema convalida che la capitale dell'Australia sia Canberra e che il paese sia situato in Australia utilizzando conoscenza esterna: le evidenze fornite non menzionano né la capitale Canberra né la collocazione geografica del \"paese Australia\" rispetto a se stesso."
     }
   },
   {
@@ -852,6 +1028,10 @@
     "Evidence Precision": {
       "Punteggio": 12,
       "Giustificazione": "Il testo fallisce quasi completamente nel fornire informazioni sull'affermazione, non menzionando né Russell Hitchcock né la band Air Supply. Le uniche informazioni marginalmente utili riguardano la menzione geografica di Melbourne e Canberra come città australiane, ma il contesto è dominato da biografie irrilevanti di artisti come Steve Spacek e riferimenti a gallerie d'arte o sobborghi."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è corretta e priva di allucinazioni. Il sistema ha rilevato accuratamente che le evidenze fornite non contengono alcuna menzione della band \"Air Supply\" né riferimenti biografici su Russell Hitchcock (luogo di nascita). Il sistema si è attenuto rigorosamente al contesto RAG, ignorando correttamente la conoscenza esterna che confermerebbe l'affermazione nella realtà, ma che è totalmente assente dal testo."
     }
   },
   {
@@ -871,6 +1051,10 @@
     "Evidence Precision": {
       "Punteggio": 55,
       "Giustificazione": "Il testo conferma accuratamente che Iain Matthews è un musicista inglese, nato nel Lincolnshire (Barton-upon-Humber) e fondatore della band 'Matthews Southern Comfort'. Tuttavia, quasi metà del contesto aggregato è irrilevante, contenendo biografie di altre persone con lo stesso cognome (Ceri Matthews, Peter Matthews, William Mathews) o dettagli su località scozzesi (Blackridge), che non contribuiscono alla verifica dell'affermazione."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 33,
+      "Giustificazione": "La spiegazione contiene un'allucinazione inferenziale basata su conoscenza esterna. Sebbene le evidenze confermino correttamente che Iain Matthews faccia parte dei Matthews Southern Comfort e sia nato nel Lincolnshire, in nessun punto del testo fornito viene menzionato che Londra sia la capitale del paese in questione. Il sistema ha integrato informazioni geografiche non presenti nelle evidenze per convalidare l'ultima parte dell'affermazione."
     }
   },
   {
@@ -890,6 +1074,10 @@
     "Evidence Precision": {
       "Punteggio": 85,
       "Giustificazione": "Il testo conferma in modo preciso che Kele Okereke è il cantante dei Bloc Party e fornisce dettagli biografici esatti, inclusa la nascita a Liverpool. Sebbene la maggior parte del testo sia rilevante, è presente un punteggio inferiore a 90 per via di alcune sezioni superflue che riguardano progetti paralleli, dettagli tecnici sui batteristi o informazioni specifiche su Russell Lissack."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è eccellente e priva di allucinazioni. Il sistema ha verificato correttamente la partecipazione di Kele Okereke ai Bloc Party e la sua nascita a Liverpool. Inoltre, l'associazione di Liverpool al Regno Unito, pur essendo un dato geografico elementare, è supportata dal testo che definisce Okereke un \"musicista inglese\" e discute ampiamente del contesto della \"musica rock britannica\"."
     }
   },
   {
@@ -909,6 +1097,10 @@
     "Evidence Precision": {
       "Punteggio": 78,
       "Giustificazione": "Il testo conferma chiaramente che Jeff Tweedy è il cantante e chitarrista della band Wilco ed è un musicista americano nato a Belleville, Illinois. Sebbene gran parte delle evidenze sia pertinente, il punteggio è ridotto dalla presenza di biografie irrilevanti di altri musicisti (il batterista jazz Jeff Ballard e il batterista Jeff Tweedie) e dalla mancanza di una menzione esplicita di Washington D.C. come capitale degli Stati Uniti."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 33,
+      "Giustificazione": "La spiegazione contiene un'allucinazione di tipo inferenziale basata su conoscenza esterna. Sebbene le evidenze confermino correttamente che Jeff Tweedy faccia parte dei Wilco e sia un musicista americano nato in Illinois, nessuna parte del testo fornito menziona che la capitale degli Stati Uniti sia Washington D.C. Il sistema ha integrato informazioni geografiche non presenti nel contesto per convalidare l'ultima parte dell'affermazione."
     }
   },
   {
@@ -928,6 +1120,10 @@
     "Evidence Precision": {
       "Punteggio": 18,
       "Giustificazione": "Il testo aggregato non contiene alcuna menzione dell'attrice e doppiatrice Misuzu Togashi né della band 'Sweet Arms'. Sono presenti riferimenti sparsi a Hokkaido (come descrizione geografica di Tōbetsu) e a Tokyo (in relazione alla band 'Tokio' e ad altri individui), ma il contenuto è dominato da informazioni totalmente irrilevanti su calciatori, registi teatrali e gruppi idol maschili."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e non presenta alcuna allucinazione. Il sistema ha correttamente rilevato che, nelle evidenze fornite, non esiste alcun riferimento a \"Misuzu Togashi\" né alla band \"Sweet Arms\". Inoltre, ha giustamente notato che le menzioni di Hokkaido e Tokyo non sono mai correlate alla persona indicata nell'affermazione. Il sistema si è attenuto rigorosamente al principio di non utilizzare conoscenza esterna (che confermerebbe Misuzu Togashi come doppiatrice e cantante delle Sweet Arms nata a Hokkaido)."
     }
   },
   {
@@ -947,6 +1143,10 @@
     "Evidence Precision": {
       "Punteggio": 72,
       "Giustificazione": "Il testo conferma in modo dettagliato che Depha (noto come Depha Masterpiece) è il cantante della band 'Masterpiece' ed è nato a Kapit, Sarawak (stato della Malaysia). Il punteggio è influenzato dalla presenza di sezioni biografiche irrilevanti all'inizio e alla fine del testo (riguardanti DeGrate, Gotye e Jeff Ballard) e dalla ripetizione di alcuni paragrafi informativi, che occupano circa il 30% del contenuto aggregato."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e non presenta allucinazioni. Il sistema ha verificato correttamente l'appartenenza di Depha alla band Masterpiece e il suo luogo di nascita a Kapit, Sarawak. L'associazione tra Sarawak e la Malaysia è supportata dal testo che definisce esplicitamente Depha come un \"musicista malese del Sarawak\" e menziona la \"rock band malese, Search\" nel contesto locale."
     }
   },
   {
@@ -966,6 +1166,10 @@
     "Evidence Precision": {
       "Punteggio": 15,
       "Giustificazione": "Il testo conferma che Lisbona è la capitale del Portogallo e si trova nella penisola iberica, fornendo ampi dettagli geografici e storici sulla città. Tuttavia, non vi è alcuna traccia dell'attrice Ainhoa Artetxe né del premio \"Buero Vallejo Awards\", rendendo la stragrande maggioranza delle evidenze (incentrate su urbanistica, mostre d'arte contemporanea e demografia) totalmente irrilevante per la verifica dell'affermazione principale."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è impeccabile dal punto di vista metodologico. Il sistema ha correttamente estratto dalle evidenze i dati geografici riguardanti Lisbona (capitale del Portogallo e situata nella penisola iberica), ma ha rilevato con precisione la totale assenza di informazioni relative ad Ainhoa Artetxe e al premio \"Buero Vallejo\". Il sistema ha evitato di usare conoscenza esterna (che collocherebbe l'attrice e il premio in Spagna) e si è attenuto esclusivamente al testo fornito."
     }
   },
   {
@@ -985,6 +1189,10 @@
     "Evidence Precision": {
       "Punteggio": 22,
       "Giustificazione": "Il testo conferma l'esistenza degli Africa Movie Academy Awards (AMAA) e menziona che un attore (senza esplicitare il nome Gabriel Afolayan, ma riferendosi a un ruolo vinto al 15° AMAA) ha ricevuto il premio come miglior attore non protagonista. Tuttavia, le evidenze falliscono nel collegare il premio a Nairobi o al Kenya, indicando invece che le cerimonie si sono svolte quasi esclusivamente in Nigeria o una volta in Ruanda, e contengono ampie sezioni irrilevanti su altri festival e accademie cinematografiche."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e non presenta allucinazioni. Il sistema ha correttamente rilevato che le evidenze elencano le sedi storiche degli Africa Movie Academy Awards (Nigeria e Ruanda) e che non esiste alcun riferimento a Nairobi o al Kenya come paesi ospitanti della cerimonia. Inoltre, ha evitato di convalidare la vittoria di Gabriel Afolayan, poiché il suo nome non compare esplicitamente in associazione al premio nel testo fornito."
     }
   },
   {
@@ -1004,6 +1212,10 @@
     "Evidence Precision": {
       "Punteggio": 10,
       "Giustificazione": "Il testo fallisce completamente nel menzionare Walter Mercado o il \"New York City Award\", concentrandosi invece su dettagli urbanistici e politici di Buenos Aires o sulla biografia dell'artista Oswaldo Vigas. L'unico contenuto marginalmente utile riguarda la conferma di Buenos Aires come città dell'Argentina (paese che confina con il Brasile), ma rappresenta una frazione minima e decontestualizzata del testo totale."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è corretta e priva di allucinazioni. Il sistema ha analizzato le evidenze rilevando correttamente l'assenza di qualsiasi riferimento a Walter Mercado o al \"New York City Award\". Inoltre, ha giustamente osservato che non vi è alcun supporto testuale che colleghi il soggetto al contesto geografico descritto (Argentina), attenendosi esclusivamente alle informazioni fornite senza ricorrere a conoscenze esterne."
     }
   },
   {
@@ -1023,6 +1235,10 @@
     "Evidence Precision": {
       "Punteggio": 10,
       "Giustificazione": "Il testo non contiene alcun riferimento a Miren Galan né al premio 'Buero Vallejo Awards'. L'unico contenuto marginalmente utile riguarda la conferma di Lisbona come capitale del Portogallo e i riferimenti geografici alla penisola iberica, ma la stragrande maggioranza delle evidenze è dedicata a biografie di calciatori (Borja Galán), storia di Amburgo o architettura di Capo Verde."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e priva di allucinazioni. Il valutatore ha identificato correttamente che le evidenze si riferiscono a un calciatore di nome Galán (con carriera in Thailandia, Indonesia, ecc.) e non a \"Miren Galan\". Ha inoltre rilevato con precisione l'assenza totale di riferimenti ai \"Buero Vallejo Awards\". Pur essendo presenti informazioni su Lisbona e sul Portogallo, il sistema ha giustamente concluso che l'affermazione non è supportata dal contesto fornito."
     }
   },
   {
@@ -1042,6 +1258,10 @@
     "Evidence Precision": {
       "Punteggio": 18,
       "Giustificazione": "Il testo conferma in un'unica frase che Jean Delannoy ha ricevuto il Premio César onorario nel 1986. Tuttavia, la quasi totalità delle evidenze è irrilevante, concentrandosi sulla carriera di Alain Delon, su diplomatici, storici o premi politici (Medaglia di Nimega) e non fornisce alcuna prova che il premio sia stato ricevuto in Germania (Berlino), suggerendo invece un contesto puramente francese."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 33,
+      "Giustificazione": "La spiegazione contiene un'allucinazione logica e di conformità ai fatti. Sebbene confermi correttamente il premio a Jean Delannoy, la spiegazione valida l'affermazione secondo cui il premio sarebbe stato ricevuto in un paese con capitale Berlino (Germania). Tuttavia, le evidenze (e la spiegazione stessa) chiariscono che il César è un premio dell'industria cinematografica francese. Il sistema ha cercato di giustificare l'affermazione usando la vicinanza geografica tra Francia e Germania, ma ha fallito nel rilevare che il luogo di ricezione indicato nell'affermazione (un paese con capitale Berlino) non corrisponde al paese del premio (Francia) né è supportato dalle evidenze fornite."
     }
   },
   {
@@ -1061,6 +1281,10 @@
     "Evidence Precision": {
       "Punteggio": 24,
       "Giustificazione": "Il testo conferma correttamente che José Manuel Cervino è un attore spagnolo che ha vinto il Premio Goya come miglior attore non protagonista nel 2007 per il film \"13 Roses\". Tuttavia, la precisione è bassa perché gran parte delle evidenze è dedicata ad altri attori (Vítor Norte, Antonio Banderas), alla storia generale dei Premi Goya o a figure irrilevanti, e non vi è alcuna prova che Cervino abbia ricevuto il premio a Lisbona (città associata nel testo solo a Vítor Norte)."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è corretta e priva di allucinazioni. Il sistema ha verificato accuratamente che José Manuel Cervino ha vinto il premio Goya (supportato dalle evidenze), ma ha giustamente rilevato che tale premio è spagnolo. Utilizzando correttamente le informazioni presenti nel testo (che citano Lisbona come città portoghese e i Goya come premi nazionali spagnoli), ha dedotto che l'affermazione è falsa poiché attribuisce la capitale Lisbona al paese del premio (la Spagna)."
     }
   },
   {
@@ -1080,6 +1304,10 @@
     "Evidence Precision": {
       "Punteggio": 28,
       "Giustificazione": "Il testo conferma esplicitamente che Koldo Olabarri ha ricevuto il Premio Buero Vallejo, inserendolo in un elenco di attori premiati. Tuttavia, le evidenze smentiscono la localizzazione geografica dell'affermazione: indicano chiaramente che i premi riguardano il \"teatro spagnolo\" e si tengono a Madrid (Spagna), mentre la stragrande maggioranza del testo aggregato è costituita da informazioni irrilevanti su infrastrutture, trasporti e architettura in Portogallo (Lisbona, Faro, Valongo)."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è impeccabile e priva di allucinazioni. Il sistema ha correttamente estratto dalle evidenze che i Premi Buero Vallejo sono legati alla Spagna (citando esplicitamente Madrid e il teatro spagnolo) e ha verificato l'assenza di collegamenti con Lisbona o il Portogallo. Inoltre, ha identificato correttamente Koldo Olabarri nell'elenco degli attori premiati presente nel testo, concludendo logicamente che l'affermazione è falsa a causa della discrepanza geografica."
     }
   },
   {
@@ -1099,6 +1327,10 @@
     "Evidence Precision": {
       "Punteggio": 5,
       "Giustificazione": "Il testo non contiene alcun riferimento all'attore Jonas Karlsson né al premio Guldbagge Award. L'unica informazione marginalmente utile è la menzione di Copenaghen come località di studio, ma il resto delle evidenze riguarda esclusivamente calciatori danesi (Thomas Guldborg Christensen) e islandesi, risultando quasi totalmente irrilevante per l'affermazione."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è corretta e priva di allucinazioni. Il sistema ha rilevato correttamente che il nome di Jonas Karlsson e il premio cinematografico Guldbagge sono totalmente assenti dalle evidenze fornite, le quali trattano principalmente di carriere calcistiche e contesti geografici scandinavi. Il sistema ha mantenuto il rigore richiesto evitando l'uso di conoscenza esterna."
     }
   },
   {
@@ -1118,6 +1350,10 @@
     "Evidence Precision": {
       "Punteggio": 12,
       "Giustificazione": "Il testo menziona il \"Mainichi Film Award\" in diverse occasioni, ma non contiene alcun riferimento a un individuo di nome Kanjuro Aeashi. Inoltre, le evidenze trattano ampiamente di premi cinematografici giapponesi e cultura estetica, ma non supportano l'informazione errata che Osaka sia la capitale del Giappone (arcipelago citato implicitamente dal contesto)."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e priva di allucinazioni. Il sistema ha correttamente rilevato l'assenza di Kanjuro Aeashi dalle evidenze e ha giustamente identificato come non supportata (e di fatto errata rispetto alla conoscenza geografica comune, sebbene si attenga al testo) l'indicazione di Osaka come capitale. Il ragionamento segue fedelmente il principio di non utilizzare conoscenza esterna per correggere o integrare le lacune del testo."
     }
   },
   {
@@ -1137,6 +1373,10 @@
     "Evidence Precision": {
       "Punteggio": 12,
       "Giustificazione": "Il testo non contiene alcun riferimento alla figura di Alibaba Abdullayev, menzionando invece un ingegnere dal nome simile, Askar Abdullayev. Sebbene vengano confermate la posizione di Tbilisi nella regione del Caucaso e la capitale della Georgia, la quasi totalità delle evidenze riguarda biografie di altre personalità azere e istituzioni che non hanno attinenza diretta con il soggetto dell'affermazione."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è corretta e priva di allucinazioni. Il sistema ha analizzato meticolosamente le evidenze, rilevando che i premi menzionati non sono attribuiti ad Alibaba Abdullayev e che le informazioni biografiche fornite riguardano un'altra persona (Askar Abdullayev). Ha inoltre correttamente identificato la mancanza di un nesso tra il soggetto e la città di Tbilisi o la Georgia per quanto riguarda il ricevimento di un premio."
     }
   },
   {
@@ -1156,6 +1396,10 @@
     "Evidence Precision": {
       "Punteggio": 38,
       "Giustificazione": "Il testo conferma esplicitamente che Martin Frobisher guidò l'assedio di Fort Crozon con la sua nave ammiraglia \"Vanguard\". Tuttavia, l'evidenza non menziona il suo luogo di nascita (York) e il punteggio è drasticamente ridotto dalla presenza di lunghi paragrafi totalmente irrilevanti riguardanti ufficiali della Prima e Seconda Guerra Mondiale, deputati scozzesi e vari assedi settecenteschi."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 33,
+      "Giustificazione": "La spiegazione contiene un'allucinazione basata sull'uso di conoscenza esterna. Sebbene le evidenze supportino il ruolo di Frobisher nell'assedio di Fort Crozon, nessuna parte del testo fornito menziona che il suo nome sia Martin, né che sia nato a York. Il sistema ha integrato informazioni biografiche non presenti nel contesto per convalidare l'intera affermazione."
     }
   },
   {
@@ -1175,6 +1419,10 @@
     "Evidence Precision": {
       "Punteggio": 36,
       "Giustificazione": "Il testo conferma che Rosa Luxemburg è stata una figura centrale della rivoluzione (guidando la Lega Spartaco e il KPD), ma smentisce la sua nascita in una città tedesca, definendola esplicitamente \"nativa della Polonia\" (o suggerendo origini non tedesche nei passaggi biografici). Il punteggio è basso poiché gran parte delle evidenze è dedicata a figure secondarie come Joseph Wirth e Anna Leibbrand, o a dettagli amministrativi della Repubblica di Weimar e della Repubblica Democratica Tedesca, che non sono direttamente utili a verificare le coordinate biografiche dell'affermazione."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è eccellente e priva di allucinazioni. Il sistema ha analizzato correttamente le evidenze rilevando che la rivoluzione fu un movimento di massa iniziato a Kiel (non guidato unicamente dalla Luxemburg) e che il governo provvisorio era guidato da Friedrich Ebert. Inoltre, ha identificato con precisione l'assenza di informazioni sul luogo di nascita \"Konigshain-Wiederau\" nel contesto fornito, mantenendo una valutazione rigorosa basata solo sul testo."
     }
   },
   {
@@ -1194,6 +1442,10 @@
     "Evidence Precision": {
       "Punteggio": 0,
       "Giustificazione": "Il testo aggregato non contiene alcun riferimento alla battaglia di Slivice (1945), né menziona Carl Friedrich von Pückler-Burghauss o la località di Korfantów. Le evidenze si concentrano quasi esclusivamente su battaglie e personaggi della Guerra dei Trent'anni (XVII secolo) e della Grande Guerra del Nord, risultando totalmente irrilevanti per la verifica dell'affermazione."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è corretta e non presenta allucinazioni. Il sistema ha analizzato meticolosamente le evidenze fornite, rilevando la totale assenza di informazioni sulla battaglia di Slivice, su Carl Friedrich von Puckler-Burhauss e sulla località di Korfantow. La spiegazione è rimasta fedele al contesto fornito, identificando correttamente che i testi trattano invece di battaglie e personaggi della Guerra dei Trent'anni e della Grande Guerra del Nord."
     }
   },
   {
@@ -1213,6 +1465,10 @@
     "Evidence Precision": {
       "Punteggio": 78,
       "Giustificazione": "Il testo è estremamente utile per verificare la prima parte dell'affermazione, confermando ampiamente il ruolo di Witold Pilecki come leader della resistenza polacca e descrivendo in dettaglio le sue missioni ad Auschwitz e nella rivolta di Varsavia. Tuttavia, le evidenze smentiscono direttamente la seconda parte dell'affermazione riguardante la nascita a Oberwaltersdorf, dichiarando esplicitamente che Pilecki è nato a Olonets, in Carelia (Impero Russo). Il punteggio riflette l'alta densità di informazioni biografiche pertinenti, sebbene contenga alcuni paragrafi ripetuti e dettagli su figure secondarie."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è eccellente e priva di allucinazioni. Il sistema ha verificato correttamente il ruolo di leader della resistenza di Witold Pilecki ma ha identificato con precisione la discrepanza biografica: le evidenze dichiarano Olonets (Impero Russo) come luogo di nascita, smentendo la località austriaca citata nell'affermazione. La valutazione si è attenuta rigorosamente ai testi forniti senza farsi influenzare da conoscenze esterne."
     }
   },
   {
@@ -1232,6 +1488,10 @@
     "Evidence Precision": {
       "Punteggio": 36,
       "Giustificazione": "Il testo identifica correttamente la battaglia di Alcantara del 1580 e ne descrive accuratamente il contesto e lo svolgimento, ma smentisce l'affermazione indicando che fu guidata dal Duca d'Alba e non da Don Juan d'Austria. Non viene fornita alcuna informazione su Don Juan d'Austria o sulla località di Piedrahita, e gran parte del contenuto è dedicato a conflitti irrilevanti come l'assedio dell'Alcázar del 1936 o battaglie del IX secolo."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è eccellente e priva di allucinazioni. Il sistema ha analizzato correttamente le evidenze, identificando il Duca d'Alba (Fernando Álvarez de Toledo) come il reale comandante della battaglia di Alcántara del 1580. Ha inoltre rilevato con precisione la totale assenza di riferimenti a Don Juan d'Austria e alla città di Piedrahita, attenendosi rigorosamente al contesto fornito."
     }
   },
   {
@@ -1251,6 +1511,10 @@
     "Evidence Precision": {
       "Punteggio": 15,
       "Giustificazione": "Il testo menziona ripetutamente Subhas Chandra Bose, ma non fornisce alcuna prova che abbia guidato lo \"scontro di Gadchiroli\" (evento avvenuto decenni dopo la sua presunta morte). Inoltre, le evidenze contraddicono il luogo di nascita indicato nell'affermazione, citando collegamenti con il Bengala e altre regioni ma mai il distretto di Bageshwar, concentrandosi invece su misteri post-1945 e biografie di parenti."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è impeccabile e priva di allucinazioni. Il sistema ha analizzato correttamente le evidenze fornite, rilevando la totale assenza di riferimenti sia allo \"scontro di Gadchiroli\" sia al luogo di nascita di Subhas Chandra Bose (Bageshwar). Il sistema ha mantenuto il rigore richiesto, basando la smentita esclusivamente sulla mancanza di prove nel contesto fornito, nonostante il testo menzioni vari dettagli biografici e storici legati a Bose."
     }
   },
   {
@@ -1270,6 +1534,10 @@
     "Evidence Precision": {
       "Punteggio": 45,
       "Giustificazione": "Il testo è estremamente utile per verificare e smentire i dettagli biografici dell'affermazione: conferma che Anwar Sadat è nato a Mit Abu El Kom (nel Governatorato di Monufia) e non al Cairo, pur essendosi laureato in quest'ultima città. Tuttavia, il riferimento alla \"battaglia di Port Said\" è frammentario; il testo cita il ruolo di Sadat nella consegna di armi ai guerriglieri vicino al Canale di Suez e l'aggressione tripartita a Port Said, ma non conferma una sua guida militare diretta in una specifica battaglia con quel nome, concentrandosi maggiormente sulla sua ascesa politica e sulla guerra dello Yom Kippur."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è impeccabile e priva di allucinazioni. Il sistema ha analizzato correttamente le evidenze, rilevando che il luogo di nascita di Sadat indicato nel testo è Mit Abu El Kom (contraddicendo il Cairo citato nell'affermazione). Inoltre, ha giustamente verificato l'assenza di qualsiasi riferimento a Sadat come guida della battaglia di Port Said nelle evidenze fornite."
     }
   },
   {
@@ -1289,6 +1557,10 @@
     "Evidence Precision": {
       "Punteggio": 35,
       "Giustificazione": "Il testo conferma l'esistenza di Jan Valckenburgh e il suo ruolo di Direttore Generale della Costa d'Oro olandese, ma smentisce la sua nascita a Copenaghen (capitale della Danimarca), indicando chiaramente che fu battezzato ad Amsterdam. La precisione è penalizzata dalla presenza di vaste sezioni irrilevanti sulla storia medievale danese, sull'Età dell'Oro del XIX secolo e sulle guerre anseatiche, che non hanno attinenza con il conflitto coloniale del XVII secolo citato nell'affermazione."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e priva di allucinazioni. Il sistema ha correttamente identificato che le evidenze pongono la nascita di Jan Valckenburgh ad Amsterdam (Paesi Bassi) e non a Copenaghen (Danimarca). Inoltre, ha rilevato correttamente l'assenza di riferimenti a un \"conflitto coloniale danese-olandese\" guidato dal soggetto nelle evidenze fornite, le quali si limitano a descrivere la sua carriera amministrativa per la Compagnia olandese delle Indie occidentali."
     }
   },
   {
@@ -1308,6 +1580,10 @@
     "Evidence Precision": {
       "Punteggio": 0,
       "Giustificazione": "Il testo non contiene alcun riferimento alla battaglia di Makhmour (2014) né alla figura politica di Jalal Talabani. Le evidenze trattano di conflitti storici in Afghanistan, della Siria medievale e ottomana, e di figure militari in Arabia Saudita e Nigeria, risultando totalmente irrilevanti per la verifica dell'affermazione"
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è eccellente e priva di allucinazioni. Il sistema ha analizzato correttamente le evidenze fornite, rilevando la totale assenza di riferimenti sia alla \"battaglia di Makhmour\" sia a Jalal Talabani. Nonostante il testo menzioni la Siria e la città di Damasco (indicata come capitale provinciale mamelucca), il sistema ha mantenuto il rigore necessario, non utilizzando conoscenze esterne per confermare o smentire i dati biografici di Talabani, limitandosi a dichiararne l'assenza nel contesto."
     }
   },
   {
@@ -1327,6 +1603,10 @@
     "Evidence Precision": {
       "Punteggio": 68,
       "Giustificazione": "Il testo è molto utile per verificare la figura di Ramon Berenguer IV, descrivendo il suo ruolo cruciale nella Reconquista (conquista di Lleida e Tortosa) e nell'unione con il Regno d'Aragona. Tuttavia, le evidenze smentiscono l'affermazione sul luogo di nascita: indicano che Ramon Berenguer IV nacque nel 1114 (senza specificare la città, ma citando Barcellona come sua contea ereditaria), mentre attribuiscono esplicitamente la nascita a Rodez, in Francia, al padre (Ramon Berenguer III). Inoltre, il testo chiarisce che Barcellona è una città catalana/spagnola e non francese, rendendo parte dell'affermazione geograficamente errata."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è corretta e non presenta allucinazioni. Il sistema ha analizzato meticolosamente le evidenze, rilevando che il testo non attribuisce a Ramon Berenguer IV la guida dell'intera \"cronologia della Reconquista\" (termine che il testo usa in senso più ampio e frammentato). Inoltre, ha giustamente identificato che le evidenze pongono Barcellona nel contesto iberico/catalano e non francese, e che non esiste alcun supporto testuale per la nascita di Ramon Berenguer IV in una città francese chiamata Barcellona."
     }
   },
   {
@@ -1346,6 +1626,10 @@
     "Evidence Precision": {
       "Punteggio": 0,
       "Giustificazione": "Il testo aggregato non contiene alcun riferimento alla calciatrice Ally Cook, né alla squadra Spokane Zephyr FC o ai suoi proprietari. Le evidenze si focalizzano su svariate figure storiche e contemporanee omonime (Alonzo Cook, Mercer Cook, Alyssa-Jane Cook, ecc.) totalmente slegate dal contesto sportivo e geografico (L'Avana, Cuba) indicato nell'affermazione."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e priva di allucinazioni. Il sistema ha verificato correttamente che le evidenze fornite citano diverse figure di nome Cook (Alonzo, Alyssa-Jane, Mercer, ecc.), ma nessuna di esse corrisponde ad \"Ally Cook\" né è associata allo Spokane Zephyr FC. Ha inoltre rilevato l'assenza totale di riferimenti a L'Avana o a capitali di nome San Cristobal, limitandosi correttamente alle informazioni presenti nel testo."
     }
   },
   {
@@ -1365,6 +1649,10 @@
     "Evidence Precision": {
       "Punteggio": 0,
       "Giustificazione": "Il testo aggregato non contiene alcun riferimento al calciatore Amos Shapiro Thompson, né al Rhode Island FC o al proprietario Michael Parkhurst. Le evidenze si focalizzano su figure del tutto slegate come il giocatore di baseball Brad Thompson, l'attore Alex Newell e l'allenatore Steve Mariucci, rendendo il contenuto totalmente irrilevante per la verifica dell'affermazione."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e non presenta allucinazioni. Il sistema ha correttamente rilevato che le evidenze menzionano diversi individui di nome Thompson (atleti di baseball o football americano) e un fratello di nome Michael, ma non contengono alcun riferimento a Amos Shapiro Thompson, al Rhode Island FC o a Michael Parkhurst. Inoltre, ha giustamente sottolineato l'assenza di informazioni riguardanti una nazione con New York come capitale."
     }
   },
   {
@@ -1384,6 +1672,10 @@
     "Evidence Precision": {
       "Punteggio": 45,
       "Giustificazione": "Il testo conferma accuratamente che Cameron Tucker è una calciatrice che ha giocato nel NJ/NY Gotham FC (firmando nel 2021). Tuttavia, le evidenze non forniscono alcuna informazione su Tammy Murphy o sulla proprietà del club, citando invece diverse altre persone di nome Murphy o Tucker (attori o personaggi televisivi) totalmente irrilevanti per la verifica della seconda parte dell'affermazione."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e priva di allucinazioni. Il sistema ha verificato correttamente la prima parte dell'affermazione (la carriera di Cameron Tucker nel Gotham FC) utilizzando le evidenze fornite. Allo stesso tempo, ha rilevato correttamente che le evidenze non contengono informazioni sulla proprietà del club da parte di Tammy Murphy né sui suoi dati biografici (Virginia Beach), limitandosi a quanto presente nel testo senza ricorrere a conoscenze esterne."
     }
   },
   {
@@ -1403,6 +1695,10 @@
     "Evidence Precision": {
       "Punteggio": 38,
       "Giustificazione": "Le evidenze confermano che Hryhoriy Kozlovskyy è il presidente e proprietario del Rukh Lviv FC e descrivono ampiamente la storia del club. Tuttavia, il testo non menziona mai il calciatore Artur Remenyak né fornisce informazioni sul luogo di nascita di Kozlovskyy (regione di Odessa nell'affermazione), rendendo inutile il contenuto per verificare queste specifiche parti."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è eccellente e priva di allucinazioni. Il sistema ha verificato correttamente il legame tra Hryhoriy Kozlovskyy e il Rukh Lviv (confermandone il ruolo di presidente/sponsor nel 2009), ma ha rilevato con precisione che le evidenze non menzionano né il calciatore Artur Remenyak né il luogo di nascita di Kozlovskyy (regione di Odessa). Il sistema ha operato correttamente restando entro i confini del testo fornito."
     }
   },
   {
@@ -1422,6 +1718,10 @@
     "Evidence Precision": {
       "Punteggio": 12,
       "Giustificazione": "Il testo menziona il club Basketball Löwen Braunschweig solo di sfuggita in relazione a un altro giocatore (Schilling), ma non contiene alcun riferimento a Barra Njie. Inoltre, le evidenze sono totalmente prive di informazioni su Dennis Schröder o sul suo luogo di nascita, concentrandosi invece su figure irrilevanti come Mary Barra o giocatori di basket storici americani."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e priva di allucinazioni. Il sistema ha correttamente rilevato che, sebbene il club \"Löwen Braunschweig\" sia citato, non esiste alcun riferimento al giocatore Barra Njie nelle evidenze. Allo stesso modo, ha giustamente indicato l'assenza di informazioni riguardanti Dennis Schroder, la sua proprietà del club o il suo luogo di nascita, attenendosi esclusivamente al materiale fornito."
     }
   },
   {
@@ -1441,6 +1741,10 @@
     "Evidence Precision": {
       "Punteggio": 18,
       "Giustificazione": "Il testo menziona diversi individui con il cognome Saavedra (Alberto e Nélson), confermando che Alberto Saavedra è nato a Oviedo, ma non contiene alcun riferimento al calciatore Joshua Saavedra. Inoltre, non vengono fornite informazioni sui proprietari delle squadre in cui giocano o hanno giocato i soggetti citati, rendendo la maggior parte del testo (dedicata a giocatori di football americano, golfisti o altri atleti) completamente irrilevante."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è impeccabile. Il sistema ha correttamente rilevato che le evidenze menzionano Alberto Saavedra Muñoz (nato a Oviedo) e Nélson Alejandro Saavedra Sánchez, ma non contengono alcun riferimento a un individuo di nome Joshua Saavedra. Ha inoltre giustamente sottolineato l'assenza di informazioni riguardanti la proprietà di una squadra legata al soggetto dell'affermazione, attenendosi rigorosamente al contesto fornito."
     }
   },
   {
@@ -1460,6 +1764,10 @@
     "Evidence Precision": {
       "Punteggio": 75,
       "Giustificazione": "Il testo è estremamente utile per verificare quasi tutti i punti dell'affermazione: conferma che Pace Mannion ha giocato per gli Utah Jazz (citando la partita del 1986 contro Houston), che Ryan Smith è l'attuale proprietario della squadra e che è nato in Oregon. Tuttavia, l'evidenza smentisce un dettaglio geografico specifico, indicando che Smith è nato a Eugene e non a Portland, e contiene alcune sezioni superflue su altri giocatori (Carroll, Terance Mann) o sulla carriera universitaria di un altro Mannion (Sean)."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è impeccabile e non presenta allucinazioni. Il sistema ha verificato correttamente che Pace Mannion ha giocato per gli Utah Jazz e che Ryan Smith ne è il proprietario. Ha inoltre rilevato con precisione la discrepanza nel luogo di nascita di Smith, segnalando che le evidenze indicano Eugene (Oregon) e non Portland, concludendo correttamente che l'affermazione è falsa."
     }
   },
   {
@@ -1479,6 +1787,10 @@
     "Evidence Precision": {
       "Punteggio": 0,
       "Giustificazione": "Il testo non contiene alcun riferimento al cestista Jarrell Brantley né al proprietario Ryan Smith, concentrandosi invece su atleti di baseball e hockey o su omonimi come il giocatore di basket Dane Smith. Non viene fornita alcuna informazione utile per verificare il legame tra Brantley e Smith, né per confermare o smentire il luogo di nascita di quest'ultimo."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è corretta e priva di allucinazioni. Il sistema ha rilevato correttamente che le evidenze fornite non menzionano Jarrell Brantley né Ryan Smith (se non in riferimenti omonimi non pertinenti) e non forniscono dati sulla proprietà di una squadra o su luoghi di nascita europei legati ai soggetti citati."
     }
   },
   {
@@ -1498,6 +1810,10 @@
     "Evidence Precision": {
       "Punteggio": 35,
       "Giustificazione": "Il testo conferma accuratamente che Amir Saipi è il portiere del Lugano FC e fornisce dettagli sulla sua carriera e nazionalità. Tuttavia, le evidenze sono totalmente prive di informazioni riguardanti la proprietà del club o il luogo di nascita del proprietario, rendendo la seconda parte dell'affermazione non verificabile con il contesto fornito."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e priva di allucinazioni. Il sistema ha verificato correttamente la prima parte dell'affermazione (l'appartenenza di Amir Saipi al Lugano) tramite le evidenze fornite. Ha inoltre rilevato con precisione l'assenza di dati riguardanti la proprietà del club e il presunto luogo di nascita del proprietario (Monaco, Indiana), attenendosi correttamente ai limiti del contesto informativo senza aggiungere conoscenze esterne."
     }
   },
   {
@@ -1517,6 +1833,10 @@
     "Evidence Precision": {
       "Punteggio": 0,
       "Giustificazione": "Il testo non contiene alcun riferimento al cestista Joseph Jones né alla squadra dei Cangrejeros de Santurce. Le evidenze si focalizzano su figure del tutto slegate come l'attrice Rebecca Jones, il giocatore di football Christopher Juan Jones o musicisti cubani, senza fornire alcuna informazione sulla proprietà della squadra o sui luoghi di nascita ad essa associati."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e priva di allucinazioni. Il sistema ha verificato correttamente che nelle evidenze non compare il nome \"Joseph Jones\" né alcun riferimento ai \"Cangrejeros de Santurce\". Ha inoltre rilevato l'assenza di dati sulla proprietà della squadra o sul luogo di nascita del proprietario, limitandosi rigorosamente alle informazioni fornite senza ricorrere a conoscenze esterne."
     }
   },
   {
@@ -1536,6 +1856,10 @@
     "Evidence Precision": {
       "Punteggio": 45,
       "Giustificazione": "Il testo identifica correttamente Les Murray come un importante poeta australiano e conferma che è nato a Nabiac. Tuttavia, le evidenze smentiscono la collocazione geografica dell'affermazione (Nabiac si trova nel Nuovo Galles del Sud, non nel Victoria) e non citano mai esplicitamente l'opera 'The People's Otherworld: Poems', dedicando invece molto spazio ad altri autori omonimi o a dettagli biografici non richiesti."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è impeccabile. Il sistema ha rilevato correttamente che, sebbene Les Murray sia presente nelle evidenze, il luogo di nascita indicato (Nabiac) appartiene al Nuovo Galles del Sud e non al Victoria. Inoltre, ha giustamente segnalato l'assenza di qualsiasi riferimento al titolo specifico \"The People's Otherworld: Poems\" nel testo fornito, evitando di usare conoscenze esterne per confermare la paternità dell'opera."
     }
   },
   {
@@ -1555,6 +1879,10 @@
     "Evidence Precision": {
       "Punteggio": 0,
       "Giustificazione": "Il testo aggregato non contiene alcun riferimento al libro 'The Boys Who Stole the Funeral' né al poeta Les Murray (Leslie Allan Murray). Le evidenze trattano di figure diverse come David Christie Murray, Graeme Dixon e altri omonimi, senza mai menzionare la località di Nabiac o il Queensland in relazione all'autore citato nell'affermazione."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è corretta e priva di allucinazioni. Il sistema ha rilevato l'assenza totale del titolo \"The Boys Who Stole the Funeral\" nelle evidenze fornite. Inoltre, ha giustamente osservato che non vi è supporto per la nascita di Les Murray in Queensland, rilevando l'incongruenza geografica rispetto a Nabiac. La spiegazione si attiene rigorosamente al contenuto dei testi senza aggiungere conoscenze esterne."
     }
   },
   {
@@ -1574,6 +1902,10 @@
     "Evidence Precision": {
       "Punteggio": 78,
       "Giustificazione": "Il testo fornisce informazioni esaustive e dirette per verificare quasi tutta l'affermazione: conferma che 'The South' è il romanzo d'esordio di Colm Tóibín e che l'autore è nato a Enniscorthy. Tuttavia, le evidenze smentiscono esplicitamente un dettaglio geografico, specificando che Enniscorthy si trova in Irlanda e non in Inghilterra, e includono alcune sezioni finali irrilevanti riguardanti altri scrittori o contesti geografici (Groenlandia, Sud degli USA)."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è corretta e si attiene rigorosamente alle evidenze. Identifica accuratamente che Colm Tóibín è l'autore del libro \"The South\", ma corregge l'errore geografico dell'affermazione: Enniscorthy si trova in Irlanda (contea di Wexford) e non in Inghilterra, come specificato nel testo."
     }
   },
   {
@@ -1593,6 +1925,10 @@
     "Evidence Precision": {
       "Punteggio": 82,
       "Giustificazione": "Il testo è estremamente preciso nel confermare che 'Knocknagow' è stato scritto da Charles Kickham, descrivendone ampiamente la trama, il successo e l'eredità culturale. Tuttavia, le evidenze smentiscono il luogo di nascita indicato nell'affermazione, specificando più volte che Kickham è nato nella contea di Tipperary e non a Cork, e includono riferimenti superflui ad altri autori irlandesi del XIX secolo."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e priva di allucinazioni. Il sistema ha correttamente convalidato la paternità del libro \"Knocknagow\" attribuendola a Charles Kickham e ha identificato con precisione l'errore riguardante il luogo di nascita (Tipperary nelle evidenze, Cork nell'affermazione), restando fedele alle informazioni fornite nel testo."
     }
   },
   {
@@ -1612,6 +1948,10 @@
     "Evidence Precision": {
       "Punteggio": 15,
       "Giustificazione": "Il testo conferma l'esistenza della scrittrice Beverley Farmer e cita alcune sue opere (come 'Home Time'), ma non menziona mai il libro 'Milk'. Inoltre, gran parte del contenuto è irrilevante poiché tratta di Edward St Aubyn, di aziende di consegna a domicilio o dell'industria lattiero-casearia, e non fornisce alcuna informazione sul luogo di nascita della Farmer (che tra l'altro l'affermazione colloca erroneamente a Sydney, descrivendola come una città del Victoria)."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e priva di allucinazioni. Il sistema ha correttamente rilevato che le evidenze non attribuiscono il libro \"Milk\" a Beverley Farmer (citando invece \"Mother's Milk\" di Edward St Aubyn). Inoltre, ha giustamente sottolineato l'assenza di informazioni biografiche sul luogo di nascita della Farmer nelle evidenze, evitando di confermare o smentire con dati esterni la collocazione geografica di Sydney rispetto allo stato di Victoria."
     }
   },
   {
@@ -1631,6 +1971,10 @@
     "Evidence Precision": {
       "Punteggio": 48,
       "Giustificazione": "Il testo conferma esplicitamente che Enrique Vila-Matas è l'autore del romanzo 'Bartleby & Co.' e fornisce dettagli accurati sulla sua carriera letteraria. Tuttavia, le evidenze contraddicono il luogo di nascita indicato nell'affermazione, menzionando il suo ritorno a Barcellona (sua città natale) dopo il periodo parigino, e includono ampie sezioni irrilevanti su biografi inglesi, pirati portoricani e scrittori chicani."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e priva di allucinazioni. Il sistema ha correttamente confermato la paternità del libro \"Bartleby & Co.\" basandosi sulle evidenze e ha rilevato l'assenza di informazioni riguardanti la nascita a Madrid. Inoltre, ha operato un'inferenza corretta e non allucinata notando che il testo cita Barcellona come luogo di ritorno, sottolineando la mancanza di supporto per l'affermazione originale."
     }
   },
   {
@@ -1650,6 +1994,10 @@
     "Evidence Precision": {
       "Punteggio": 32,
       "Giustificazione": "Il testo identifica correttamente l'opera 'The Power Worshippers' e ne attribuisce la paternità a Katherine Stewart, descrivendone accuratamente i temi legati al nazionalismo cristiano. Tuttavia, le evidenze smentiscono l'affermazione definendo la Stewart come una giornalista americana e non canadese, e l'intero aggregato è colmo di informazioni irrilevanti su altri autori (Rachel Aviv, Matt Power, Geneviève Behrend)."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è corretta e priva di allucinazioni. Il sistema ha validato la paternità del libro \"The Power Worshippers\" attribuendola a Katherine Stewart come indicato nelle evidenze. Ha inoltre rilevato con precisione che non vi è alcun supporto per la nascita dell'autrice a Boston o in Canada, sottolineando correttamente che il testo la definisce \"americana\", invalidando così l'affermazione originale."
     }
   },
   {
@@ -1669,6 +2017,10 @@
     "Evidence Precision": {
       "Punteggio": 22,
       "Giustificazione": "Il testo conferma l'identità di Dave Eggers come scrittore e autore di bestseller, ma smentisce entrambi i dati geografici e biografici dell'affermazione: indica che è nato a Boston (non New York) e non menziona affatto il libro 'The Eyes and the Impossible'. Gran parte del contenuto è inoltre occupato da informazioni irrilevanti su Robert Eggers (nato lui a New York), sulla band Kukl o su romanzi di altri autori come Colson Whitehead."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è corretta e non contiene allucinazioni. Il sistema ha rilevato con precisione che, secondo le evidenze, Dave Eggers è nato a Boston e non a New York (città invece associata nelle evidenze al regista Robert Houston Eggers). Inoltre, ha giustamente segnalato che il titolo \"The Eyes and the Impossible\" non compare tra le opere menzionate nel testo fornito."
     }
   },
   {
@@ -1688,6 +2040,10 @@
     "Evidence Precision": {
       "Punteggio": 45,
       "Giustificazione": "Il testo identifica correttamente l'opera 'Small Mercies' come un romanzo del 2023 di Dennis Lehane e conferma il suo forte legame con Boston, descrivendo l'ambientazione e le tematiche della città. Tuttavia, le evidenze smentiscono l'affermazione definendo Lehane un autore americano e non canadese, e includono ampie sezioni irrilevanti su illustratori (Garth Williams), altri scrittori canadesi (John Marlyn) o libri omonimi (Small World)."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è corretta e non contiene allucinazioni. Il sistema ha validato correttamente la paternità del libro \"Small Mercies\" attribuendola a Dennis Lehane. Ha inoltre identificato con precisione che le evidenze definiscono Lehane come un autore \"americano\" e Boston come una città del Massachusetts (USA), smentendo correttamente la parte dell'affermazione che descriveva Boston come una città canadese."
     }
   },
   {
@@ -1707,6 +2063,10 @@
     "Evidence Precision": {
       "Punteggio": 36,
       "Giustificazione": "Il testo conferma che Kool DJ Red Alert (Frederick Crute) è nato ad Antigua e fornisce ampi dettagli sulla sua carriera come pioniere dell'hip-hop. Tuttavia, le evidenze smentiscono o omettono parti chiave dell'affermazione: indicano l'appartenenza di Red Alert alla \"Universal Zulu Nation\" e non alla \"Rock Steady Crew\", e non menzionano Kingstown, che tra l'altro è la capitale di Saint Vincent e Grenadine e non di Antigua e Barbuda (la cui capitale è St. John's)."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è impeccabile e priva di allucinazioni. Il sistema ha validato correttamente il luogo di nascita (Antigua), rilevando però l'assenza di supporto per l'appartenenza alla \"Rock Steady Crew\" e per l'associazione geografica tra Antigua e Kingstown (che le evidenze non menzionano). Il valutatore si è attenuto rigorosamente al contesto senza usare conoscenze esterne per correggere o integrare i dati geografici mancanti."
     }
   },
   {
@@ -1726,6 +2086,10 @@
     "Evidence Precision": {
       "Punteggio": 76,
       "Giustificazione": "Il testo conferma accuratamente che Roberto Pettinato è stato il sassofonista della band Sumo e fornisce dettagli sulla sua carriera. Tuttavia, smentisce l'affermazione riguardo al luogo di nascita: Pettinato è nato nell'ambasciata dell'Ecuador a Buenos Aires e non in Cile (la cui capitale è Santiago), sebbene vi abbia vissuto successivamente. Il punteggio riflette la presenza di sezioni irrilevanti su altri membri della band o musicisti estranei all'affermazione."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 33,
+      "Giustificazione": "La spiegazione contiene un'allucinazione critica nella terza frase. Sebbene le evidenze confermino la partecipazione di Pettinato ai Sumo, il testo non afferma affatto che Santiago del Cile sia la capitale dell'Ecuador (conoscenza esterna errata o inferenza fallace). Al contrario, le evidenze citano Ecuador e Cile come paesi distinti in cui la famiglia ha vissuto."
     }
   },
   {
@@ -1745,6 +2109,10 @@
     "Evidence Precision": {
       "Punteggio": 48,
       "Giustificazione": "Il testo conferma accuratamente che Ricardo Mollo è il co-fondatore della band Divididos ed è nato a Pergamino. Tuttavia, le evidenze smentiscono l'affermazione riguardo alla nazione e alla capitale, specificando chiaramente che Pergamino si trova in Argentina (la cui capitale è Buenos Aires) e non in un paese con capitale Lima (Perù). Il punteggio è penalizzato dalla presenza di lunghe sezioni irrilevanti su altri soggetti come Manuel Ricardo Palma e i Rio."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e non presenta allucinazioni. Il sistema ha correttamente identificato la partecipazione di Ricardo Mollo ai Divididos e la sua nascita a Pergamino (Argentina) come riportato nelle evidenze. Ha inoltre rilevato correttamente che il collegamento tra il paese di nascita di Mollo e la capitale Lima non è supportato dal testo, poiché le evidenze associano Lima al Perù e Mollo all'Argentina."
     }
   },
   {
@@ -1764,6 +2132,10 @@
     "Evidence Precision": {
       "Punteggio": 42,
       "Giustificazione": "Il testo identifica correttamente Andy Strachan come il batterista dei The Living End e fornisce dettagli precisi sulla sua carriera musicale e sulla sua formazione. Tuttavia, le evidenze smentiscono l'origine geografica indicata nell'affermazione, specificando che Strachan è nato ad Adelaide, in Australia, e non in Nuova Zelanda, includendo inoltre numerose informazioni irrilevanti su altri musicisti omonimi o band correlate."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è impeccabile e priva di allucinazioni. Il sistema ha validato correttamente l'appartenenza di Andy Strachan ai The Living End e ha rilevato con precisione che le evidenze lo definiscono come australiano (nato ad Adelaide), smentendo il collegamento con la Nuova Zelanda e la sua capitale Wellington. Il valutatore è rimasto strettamente ancorato al contesto fornito."
     }
   },
   {
@@ -1783,6 +2155,10 @@
     "Evidence Precision": {
       "Punteggio": 12,
       "Giustificazione": "Il testo aggregato è quasi interamente irrilevante, contenendo riferimenti sparsi a Sydney e Canberra in contesti sportivi, legali o biografici estranei al soggetto. Non viene fatta alcuna menzione alla band 'Air Supply' né al cantante Russell Hitchcock, rendendo impossibile la verifica dell'affermazione tramite queste evidenze."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è corretta e si attiene rigorosamente al principio di assenza di informazioni. Le evidenze fornite sono frammenti sconnessi che menzionano Sydney e Canberra solo in contesti accademici, legali o urbanistici, senza alcun riferimento a Russell Hitchcock o alla band Air Supply. Il sistema ha correttamente identificato la totale mancanza di supporto per l'affermazione."
     }
   },
   {
@@ -1802,6 +2178,10 @@
     "Evidence Precision": {
       "Punteggio": 42,
       "Giustificazione": "Il testo conferma accuratamente che Iain Matthews è un musicista inglese e che ha fondato la band 'Matthews Southern Comfort'. Tuttavia, le evidenze smentiscono il luogo di nascita indicato nell'affermazione, specificando che l'artista è nato a Barton-upon-Humber, nel Lincolnshire, e non nel Kent. Il punteggio è ulteriormente abbassato dalla presenza di consistenti porzioni di testo irrilevanti riguardanti altri individui di nome Matthews (tra cui una conduttrice della BBC e un chitarrista australiano)."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e non contiene allucinazioni. Il sistema ha correttamente validato l'appartenenza di Iain Matthews ai \"Matthews Southern Comfort\" e ha rilevato che, secondo le evidenze, il musicista è nato a Barton-upon-Humber (Lincolnshire) e non nel Kent, smentendo correttamente la seconda parte dell'affermazione. Il sistema ha inoltre evitato di commentare la capitale del paese, attenendosi ai dati biografici mancanti o discordanti."
     }
   },
   {
@@ -1821,6 +2201,10 @@
     "Evidence Precision": {
       "Punteggio": 74,
       "Giustificazione": "Il testo conferma ampiamente che Kele Okereke è il cantante e chitarrista dei Bloc Party, descrivendo dettagliatamente la fondazione del gruppo e la sua carriera. Tuttavia, le evidenze smentiscono il luogo di nascita indicato nell'affermazione: Okereke è nato a Liverpool e non a Manchester, sebbene sia cresciuto in altre città del Regno Unito. Il punteggio riflette anche la presenza di informazioni superflue riguardanti altri membri della band (Lissack, Moakes, Tong) e le loro carriere successive."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è impeccabile e priva di allucinazioni. Il sistema ha validato correttamente l'appartenenza di Kele Okereke ai Bloc Party e ha identificato con precisione l'errore riguardante la città di nascita (Liverpool nelle evidenze, Manchester nell'affermazione), senza ricorrere a conoscenze esterne per integrare o correggere i dati geografici del Regno Unito."
     }
   },
   {
@@ -1840,6 +2224,10 @@
     "Evidence Precision": {
       "Punteggio": 52,
       "Giustificazione": "Il testo conferma accuratamente che Jeff Tweedy è il frontman della band Wilco e fornisce dettagli sulla formazione del gruppo. Tuttavia, le evidenze smentiscono l'affermazione riguardo alle origini geografiche, specificando che Tweedy è cresciuto a Belleville, nell'Illinois (USA), e non in Canada, nonostante il testo contenga riferimenti separati e irrilevanti a Ottawa e a un musicista canadese di nome Tweedie."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e priva di allucinazioni. Il sistema ha correttamente validato l'appartenenza di Jeff Tweedy ai Wilco e ha rilevato con precisione che, secondo le evidenze, il musicista è cresciuto a Belleville, Illinois (USA), smentendo il legame con il Canada. Ha inoltre evitato di utilizzare conoscenze esterne per confermare che Ottawa sia la capitale del Canada, limitandosi a segnalare l'assenza di tale collegamento nel testo fornito."
     }
   },
   {
@@ -1859,6 +2247,10 @@
     "Evidence Precision": {
       "Punteggio": 15,
       "Giustificazione": "Il testo aggregato è quasi completamente irrilevante ai fini della verifica dell'affermazione. Non viene fatta alcuna menzione della doppiatrice/cantante Misuzu Togashi né della band 'Sweet Arms'; l'unica informazione utile è la correzione implicita sulla geografia, poiché il testo specifica che Tokyo è la capitale del Giappone (smentendo che la capitale sia Osaka)."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e non presenta allucinazioni. Il sistema ha correttamente rilevato che nelle evidenze non compare il nome \"Misuzu Togashi\" (vengono menzionati solo i calciatori Misao e Togashi) né la band \"Sweet Arms\". Ha inoltre giustamente sottolineato che il riferimento a Tokyo nel testo è limitato alla sua definizione di capitale, senza alcun legame biografico con il soggetto dell'affermazione."
     }
   },
   {
@@ -1878,6 +2270,10 @@
     "Evidence Precision": {
       "Punteggio": 78,
       "Giustificazione": "Il testo fornisce informazioni dettagliate e dirette che confermano l'appartenenza di Depha alla band Masterpiece e il suo ruolo di leader. Tuttavia, le evidenze smentiscono l'affermazione riguardo alla nascita: Depha è nato a Kapit, nel Sarawak, sebbene sia cresciuto in Sabah. Il punteggio è influenzato dalla presenza di lunghe sezioni biografiche irrilevanti su altri musicisti (Gotye, Oliver De Coque) e altre band (Destrose)."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e non presenta allucinazioni. Il sistema ha correttamente identificato il ruolo di Depha nella band \"Masterpiece\" e ha distinto con precisione tra il suo luogo di nascita (Kapit, Sarawak) e il luogo in cui è cresciuto (Sabah), come riportato nelle evidenze. Ha inoltre correttamente invalidato l'affermazione originale rilevando la discrepanza sul luogo di nascita."
     }
   },
   {
@@ -1897,6 +2293,10 @@
     "Evidence Precision": {
       "Punteggio": 38,
       "Giustificazione": "Il testo conferma l'appartenenza di Ida Roggen alla band 'Pitsj' e il fatto che sia la sorella gemella di Ane Carmen Roggen. Tuttavia, le evidenze smentiscono implicitamente il luogo di nascita dell'affermazione, indicando che la sorella è nata e cresciuta a Oslo (quartiere Nordstrand) e non a Bergen. Il punteggio è basso a causa della presenza massiccia di informazioni irrilevanti sulla storia e la cultura di Bergen, su città svedesi (Vänersborg) e su altri musicisti."
+    },
+    "Hallucination Rate": {
+      "Punteggio": 0,
+      "Giustificazione": "La spiegazione è accurata e priva di allucinazioni. Il sistema ha correttamente validato l'appartenenza di Ida Roggen al gruppo \"Pitsj\" basandosi sulla menzione della sorella gemella e dei membri del gruppo. Ha inoltre rilevato con precisione che le evidenze non forniscono il luogo di nascita di Ida Roggen, citando Bergen solo in relazione ad altri artisti (come Aurora o Kygo), e ha dunque correttamente respinto l'affermazione per mancanza di prove nel testo."
     }
   }
 ]
