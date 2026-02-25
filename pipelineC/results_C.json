@@ -12,9 +12,18 @@
       "Vero"
     ],
     "Predizione": "Vero",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "La tripla (dbr:Ainhoa_Artetxe, dbo:award, dbr:Buero_Vallejo_Awards) cattura perfettamente il nucleo informativo dell'affermazione. Il predicato dbo:award esprime correttamente la relazione tra la persona e il riconoscimento ricevuto."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 6,
+      "Giustificazione": "Sebbene l'azione principale sia stata estratta, il processo ignora completamente i dettagli geografici e contestuali esplicitamente menzionati nell'affermazione (il paese europeo, la penisola iberica e la capitale Madrid). Queste informazioni avrebbero potuto generare ulteriori triple relative alla localizzazione dell'evento o dell'entità."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è eccellente. dbr:Ainhoa_Artetxe e dbr:Buero_Vallejo_Awards sono entità formattate correttamente. La proprietà dbo:award esiste realmente nell'Ontologia DBpedia ed è utilizzata in modo appropriato per collegare un agente a un premio."
+    }
   },
   {
     "id": 2,
@@ -29,9 +38,18 @@
       "Vero"
     ],
     "Predizione": "Vero",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 5,
+      "Giustificazione": "La tripla normalizzata riflette con precisione l'evento descritto (la ricezione di un premio da parte dell'attore). L'uso del predicato dbo:award è semanticamente coerente con l'affermazione \"ha ricevuto l'Africa Movie Academy Awards\"."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 5,
+      "Giustificazione": "Il punteggio è penalizzato dalla mancata estrazione delle informazioni contestuali presenti nella frase. L'affermazione contiene riferimenti geografici precisi (\"paese africano\", \"capitale è Abuja\", \"Africa occidentale\") che identificano implicitamente la Nigeria come luogo dell'evento, ma tali dati sono stati totalmente omessi nelle triple."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è formale e corretta. Entrambe le entità (dbr:Gabriel_Afolayan e dbr:Africa_Movie_Academy_Awards) corrispondono a risorse reali nel namespace di DBpedia. La proprietà dbo:award è una proprietà ufficiale dell'ontologia DBpedia (Domain: Agent, Range: Award), utilizzata correttamente con gli underscore necessari."
+    }
   },
   {
     "id": 3,
@@ -46,9 +64,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "La tripla cattura fedelmente la relazione principale descritta nel testo. Il predicato dbo:award è il termine ontologico corretto per collegare una figura pubblica al riconoscimento ricevuto."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 4,
+      "Giustificazione": "L'estrazione è fortemente incompleta. Sebbene il nucleo dell'azione sia presente, l'intera proposizione subordinata che descrive gli Stati Uniti (paese nordamericano, capitale Washington D.C., confine con il Canada) è stata ignorata. Queste informazioni avrebbero dovuto generare ulteriori triple di localizzazione o identificazione del soggetto geografico."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è impeccabile. Le entità dbr:Walter_Mercado e dbr:New_York_City_Award sono scritte correttamente con gli underscore e i prefissi standard. La proprietà dbo:award esiste realmente nell'ontologia ufficiale di DBpedia ed è utilizzata secondo il suo dominio e intervallo (domain/range) previsti."
+    }
   },
   {
     "id": 4,
@@ -63,9 +90,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "La tripla cattura accuratamente la relazione principale espressa nel testo. Il predicato dbo:award rappresenta correttamente l'azione di ricevere un premio tra il soggetto e l'oggetto indicati."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 5,
+      "Giustificazione": "L'estrazione è parziale. Sebbene l'evento principale sia stato individuato, tutte le informazioni geografiche (il riferimento alla Spagna tramite la capitale Madrid e la penisola iberica) sono state omesse. Queste informazioni costituiscono una parte rilevante del contenuto informativo della frase originale."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è formale e corretta. Le entità utilizzano il prefisso dbr: con gli underscore appropriati. La proprietà dbo:award è una proprietà ufficiale e realmente esistente nell'Ontologia DBpedia, utilizzata correttamente per collegare un agente a un premio."
+    }
   },
   {
     "id": 5,
@@ -80,9 +116,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "La tripla normalizzata rappresenta fedelmente il nucleo logico dell'affermazione originale. Il predicato dbo:award è la proprietà ontologica corretta per indicare il conferimento di un premio a una persona."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 5,
+      "Giustificazione": "L'estrazione è solo parzialmente completa. Sebbene l'evento principale sia stato individuato, la frase contiene una descrizione geografica dettagliata (paese europeo, capitale Parigi, confine con la Germania) che identifica univocamente la Francia come luogo dell'evento. Queste informazioni informative sono state totalmente tralasciate nell'estrazione."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è formale e corretta. Le risorse dbr:Jean_Delannoy e dbr:Honorary_Cesar_Award corrispondono a entità reali nel namespace di DBpedia. La proprietà dbo:award esiste nell'Ontologia DBpedia ed è utilizzata correttamente con il prefisso appropriato e gli underscore necessari."
+    }
   },
   {
     "id": 6,
@@ -97,9 +142,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 9,
+      "Giustificazione": "La tripla cattura la relazione principale (persona-premio). Tuttavia, nell'estrazione e normalizzazione è andata perduta la specificità della categoria del premio (\"Best Supporting Actor\"), riducendolo al generico \"Goya Award\". Pur essendo corretta nel senso generale, perde di precisione rispetto al testo."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 4,
+      "Giustificazione": "L'estrazione è incompleta. Oltre alla già citata perdita della categoria specifica del premio, sono state totalmente ignorate le informazioni geografiche fornite nel testo (paese, capitale Madrid, penisola iberica), che avrebbero permesso di identificare la Spagna come luogo del conferimento."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è formale e corretta. L'entità dbr:Jose_Manuel_Cervino e dbr:Goya_Award sono risorse reali e ben formattate. La proprietà dbo:award è una proprietà ufficiale dell'Ontologia DBpedia, utilizzata secondo gli standard previsti."
+    }
   },
   {
     "id": 7,
@@ -114,9 +168,18 @@
       "Vero"
     ],
     "Predizione": "Vero",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "La tripla cattura perfettamente il nucleo informativo dell'affermazione: il soggetto ha ricevuto un premio specifico. Il predicato dbo:award è la proprietà ontologica corretta per rappresentare questo legame."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 5,
+      "Giustificazione": "L'estrazione è incompleta rispetto al contenuto del testo. Sebbene l'azione principale sia stata estratta, l'intero blocco di informazioni geografiche relative alla Spagna (paese con capitale Madrid e appartenente alla penisola iberica) è andato perduto nel processo di estrazione."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è formale e corretta.dbr:Koldo_Olabarri e dbr:Buero_Vallejo_Awards sono correttamente formattate con il prefisso e gli underscore necessari.dbo:award è una proprietà ufficiale dell'ontologia DBpedia (realmente esistente). "
+    }
   },
   {
     "id": 8,
@@ -131,9 +194,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 9,
+      "Giustificazione": "La tripla cattura la relazione principale tra l'attore e il premio. Tuttavia, si verifica una leggera perdita di precisione semantica: l'affermazione specifica la categoria (\"Best Supporting Actor in a Leading Role\"), mentre la tripla normalizzata riduce il tutto al premio generico \"Guldbagge Award\"."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 4,
+      "Giustificazione": "L'estrazione è decisamente incompleta. Oltre alla semplificazione della categoria del premio, il processo ha ignorato l'intera componente geografica del testo (paese scandinavo, capitale Stoccolma, Nord Europa) che identifica univocamente la Svezia come luogo del conferimento."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è formale e corretta. dbr:Jonas_Karlsson e dbr:Guldbagge_Award sono entità reali e scritte correttamente con gli underscore. dbo:award è una proprietà ufficiale esistente nell'Ontologia DBpedia (utilizzata per collegare un agente a un premio)."
+    }
   },
   {
     "id": 9,
@@ -148,18 +220,36 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "La tripla estratta cattura in modo impeccabile il nucleo informativo principale della frase. Il soggetto ha effettivamente ricevuto il premio indicato."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 5,
+      "Giustificazione": "L'estrazione è parziale. Sebbene il fatto principale sia presente, l'affermazione originale contiene informazioni geografiche e politiche aggiuntive (il paese del premio ha come capitale Tokyo ed è un arcipelago) che non sono state tradotte in triple, perdendo la caratterizzazione del contesto nazionale (Giappone)."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è eccellente. dbo:award è una proprietà esistente e corretta per il dominio; le entità dbr:Kanjuro_Aeashi e dbr:Mainichi_Film_Award seguono perfettamente la convenzione di nomenclatura di DBpedia (CamelCase e underscore)."
+    }
   },
   {
     "id": 10,
     "Affermazione": "Alibaba Abdullayev ha ricevuto un premio in un paese la cui capitale è Baku e che si trova nella regione del Caucaso.",
     "Triple": [],
     "Triple Normalizzate": [],
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 0,
+      "Giustificazione": "Il punteggio è nullo poiché non è stata prodotta alcuna tripla. Non essendoci un'estrazione, non vi è alcun supporto semantico rispetto al testo originale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 0,
+      "Giustificazione": "L'estrazione è totalmente assente. L'affermazione originale contiene informazioni rilevanti (il soggetto, l'azione di ricevere un premio e le coordinate geografiche/politiche del luogo) che sono state completamente ignorate."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 0,
+      "Giustificazione": "Poiché non sono state generate triple né utilizzate proprietà o entità dell'ontologia DBpedia, il punteggio di normalizzazione è zero come da regolamento."
+    }
   },
   {
     "id": 11,
@@ -180,9 +270,18 @@
       "Vero"
     ],
     "Predizione": "Vero",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple riflettono fedelmente il contenuto dell'affermazione. Il ruolo di Martin Frobisher come comandante nell'assedio e il suo luogo di nascita ad Altofts sono interpretati correttamente."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 8,
+      "Giustificazione": "Sebbene i fatti principali siano stati estratti, manca il collegamento gerarchico finale presente nel testo: l'appartenenza di Altofts al Regno Unito (es. dbr:Altofts dbo:country dbr:United_Kingdom). Inoltre, la terza tripla è una ripetizione della seconda, non aggiungendo nuovo valore informativo."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "dbo:commander e dbo:birthPlace sono proprietà standard e corrette dell'ontologia DBpedia. Le entità utilizzano correttamente il prefisso dbr:, gli underscore per gli spazi e una capitalizzazione coerente con i record reali del Knowledge Graph."
+    }
   },
   {
     "id": 12,
@@ -200,9 +299,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estraggono fedelmente i predicati descritti. La relazione di leadership durante la rivoluzione e il luogo di nascita del soggetto corrispondono esattamente a quanto affermato nel testo."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 7,
+      "Giustificazione": "L'estrazione è buona ma non esaustiva. È stata omessa l'informazione geografica e politica relativa alla città di nascita (il fatto che Konigshain-Wiederau sia una \"città tedesca\"), che avrebbe potuto essere espressa con una tripla aggiuntiva (es. dbr:Königshain-Wiederau dbo:country dbr:Germany)."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "dbo:leader e dbo:birthPlace sono proprietà standard esistenti nell'ontologia. Le entità dbr:German_Revolution_of_1918–1919 e dbr:Clara_Zetkin sono normalizzate correttamente con l'uso di underscore e la corretta capitalizzazione. Anche dbr:Konigshain-Wiederau segue la convenzione di redirect/naming di DBpedia per i toponimi."
+    }
   },
   {
     "id": 13,
@@ -220,9 +328,18 @@
       "Vero"
     ],
     "Predizione": "Vero",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estraggono accuratamente le relazioni descritte nel testo. Il ruolo di comando nella battaglia e il luogo di nascita del soggetto sono rappresentati fedelmente."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 7,
+      "Giustificazione": "L'estrazione è buona ma non totale. Manca la tripla che collegherebbe il luogo di nascita alla sua nazione di appartenenza (Polonia), informazione esplicitamente presente nell'affermazione originale (es. dbr:Korfantów dbo:country dbr:Poland)."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "Le proprietà dbo:commander e dbo:birthPlace sono correttamente utilizzate e appartengono all'ontologia DBpedia. Le entità sono state normalizzate con estrema precisione, includendo i caratteri speciali e i diacritici corretti (come la \"ü\" in Pückler, la \"gh\" corretta nel cognome e la \"ó\" in Korfantów) che garantiscono il puntamento ai record reali del Knowledge Graph."
+    }
   },
   {
     "id": 14,
@@ -240,9 +357,18 @@
       "Vero"
     ],
     "Predizione": "Vero",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple riflettono accuratamente il significato dell'affermazione. Nonostante la complessità storica (Franz Kutschera era in realtà un leader delle SS contro la resistenza, ma la tripla valida l'affermazione così come scritta), la relazione di \"guida\" e il luogo di nascita sono estratti correttamente."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 7,
+      "Giustificazione": "L'estrazione copre i punti principali ma omette dettagli contestuali rilevanti presenti nel testo: l'appartenenza geografica di Oberwaltersdorf all'Austria (es. dbr:Oberwaltersdorf dbo:country dbr:Austria)."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "dbo:commander e dbo:birthPlace sono proprietà esistenti e appropriate. Le entità dbr:Polish_resistance_movement_in_World_War_II, dbr:Franz_Kutschera e dbr:Oberwaltersdorf sono normalizzate perfettamente secondo gli standard di DBpedia (uso di underscore, capitalizzazione corretta e corrispondenza con le risorse reali del grafo)."
+    }
   },
   {
     "id": 15,
@@ -260,9 +386,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estraggono fedelmente il significato dell'affermazione. Il ruolo di comandante del Duca d'Alba nella battaglia e il suo luogo di nascita sono identificati correttamente in base al testo fornito."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 7,
+      "Giustificazione": "L'estrazione è parziale. Sebbene i fatti principali siano presenti, viene tralasciata l'informazione geografica relativa alla città di nascita (il fatto che Piedrahíta sia una \"città spagnola\"), che avrebbe potuto essere espressa con una tripla aggiuntiva (es. dbr:Piedrahíta dbo:country dbr:Spain)."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "Le proprietà dbo:commander e dbo:birthPlace sono correttamente esistenti nell'ontologia. Le entità sono state normalizzate con altissima precisione, includendo i diacritici necessari (Alcántara, Álvarez, Piedrahíta) e risolvendo correttamente il titolo nobiliare nel nome dell'entità per puntare alla risorsa corretta del Knowledge Graph."
+    }
   },
   {
     "id": 16,
@@ -280,9 +415,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple riflettono fedelmente l'affermazione proposta. La relazione di comando (sebbene storicamente implausibile nel mondo reale, è supportata dal testo fornito) e il luogo di nascita sono estratti correttamente."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 7,
+      "Giustificazione": "L'estrazione è parziale poiché omette l'informazione geografica e politica relativa al distretto: il fatto che Bageshwar sia un \"distretto indiano\" (es. dbr:Bageshwar_district dbo:country dbr:India)."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "Le proprietà dbo:commander e dbo:birthPlace sono proprietà standard e correttamente esistenti nell'ontologia DBpedia. Le entità utilizzano i prefissi dbr:, gli underscore per gli spazi e una capitalizzazione che rispecchia i record reali del Knowledge Graph."
+    }
   },
   {
     "id": 17,
@@ -300,9 +444,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple rappresentano fedelmente il significato dell'affermazione originale. La relazione di comando durante la battaglia e il luogo di nascita del soggetto sono estratti correttamente secondo il testo."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 7,
+      "Giustificazione": "L'estrazione è parziale. Viene omessa l'informazione geografica e politica riguardante la città di nascita (il fatto che Alessandria sia una \"città egiziana\"), che avrebbe richiesto una tripla aggiuntiva (es. dbr:Alexandria dbo:country dbr:Egypt)."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 4,
+      "Giustificazione": "Il punteggio è penalizzato da un errore di disambiguazione critico. Sebbene dbo:commander e dbo:birthPlace siano proprietà corrette, l'entità dbr:Alessandria in DBpedia punta alla città italiana in Piemonte. Per la città egiziana menzionata nel testo, la risorsa corretta sarebbe dovuta essere dbr:Alexandria. L'uso del nome italiano non disambiguato porta il grafo a collegare il leader egiziano alla località errata."
+    }
   },
   {
     "id": 18,
@@ -317,9 +470,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "La tripla estratta è perfettamente supportata dal testo. La relazione di comando tra Jan Valckenburgh e il conflitto sulla Costa d'Oro è rappresentata accuratamente."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 5,
+      "Giustificazione": "L'estrazione è incompleta. Viene totalmente ignorata la seconda parte dell'affermazione relativa alla nascita del protagonista (\"nato nella capitale dei Paesi Bassi\"). Questa informazione avrebbe dovuto generare triple aggiuntive sia per il luogo di nascita che per l'identificazione della capitale (Amsterdam)."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La proprietà dbo:commander esiste ed è semanticamente corretta per descrivere la guida di un conflitto. Le entità dbr:Danish–Dutch_conflict_on_the_Gold_Coast e dbr:Jan_Valckenburgh sono normalizzate correttamente seguendo la nomenclatura ufficiale di DBpedia (uso dei trattini lunghi \"–\" dove necessario e underscore)."
+    }
   },
   {
     "id": 19,
@@ -334,9 +496,18 @@
       "Vero"
     ],
     "Predizione": "Vero",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "La tripla identifica correttamente la relazione principale descritta nel testo. Il ruolo di Bafel Talabani come figura di comando nella battaglia di Makhmour è espresso fedelmente."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 5,
+      "Giustificazione": "L'estrazione è solo parziale. Viene completamente tralasciata la seconda parte dell'affermazione (\"nato nella capitale dell'Iraq\"). Questo implica la perdita di informazioni cruciali quali il luogo di nascita e il legame geografico con la città di Baghdad."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La proprietà dbo:commander è corretta e presente nell'ontologia. Le entità dbr:Battle_of_Makhmour e dbr:Bafel_Talabani sono normalizzate correttamente con l'uso dei prefissi standard e degli underscore, corrispondendo alle risorse effettive del Knowledge Graph."
+    }
   },
   {
     "id": 20,
@@ -354,9 +525,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple catturano accuratamente il significato dei predicati espressi nel testo. La relazione tra il Conte e la Reconquista e l'indicazione del suo luogo di nascita sono coerenti con l'affermazione."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 7,
+      "Giustificazione": "L'estrazione è parziale. Sebbene individui il soggetto e l'evento, omette l'informazione geografica e politica esplicita nel testo, ovvero che Barcellona è una \"città spagnola\" (es. dbr:Barcelona dbo:country dbr:Spain)."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 4,
+      "Giustificazione": "Il punteggio è penalizzato da un errore di disambiguazione e nomenclatura. Mentre dbo:commander e dbo:birthPlace sono proprietà corrette, l'entità dbr:Barcellona con la \"i\" finale punta alla città italiana in Sicilia (Barcellona Pozzo di Gotto). Per la città spagnola indicata nel testo, la risorsa corretta in DBpedia è dbr:Barcelona. Inoltre, l'entità del comandante è ben formata, ma l'errore sul luogo di nascita compromette l'integrità del collegamento nel Knowledge Graph."
+    }
   },
   {
     "id": 21,
@@ -377,9 +557,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple riflettono accuratamente le relazioni descritte. La gerarchia tra l'atleta, il club, la proprietà dello stesso e il luogo di nascita di quest'ultima è interpretata correttamente."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 6,
+      "Giustificazione": "L'estrazione è incompleta rispetto al testo originale. Sono state omesse le informazioni geografiche finali che legano Pinar del Río al suo contesto nazionale e alla capitale (L'Avana). Mancano triple che identifichino il paese (Cuba) o la relazione tra la città e la capitale menzionata."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "Le proprietà dbo:team, dbo:owner e dbo:birthPlace sono proprietà standard e correttamente esistenti nell'ontologia DBpedia. Le entità (come dbr:Spokane_Zephyr_FC e dbr:Ozzie_Alonso) sono normalizzate correttamente con l'uso di underscore e prefissi dbr:, puntando correttamente alle risorse del Knowledge Graph."
+    }
   },
   {
     "id": 22,
@@ -397,9 +586,18 @@
       "Vero"
     ],
     "Predizione": "Vero",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte sono pienamente supportate dal testo. La relazione tra il calciatore e il club, e quella tra il club e il proprietario, riflettono esattamente il significato dell'affermazione."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 5,
+      "Giustificazione": "L'estrazione è insufficiente. Viene completamente tralasciata la parte finale dell'affermazione relativa a Michael Parkhurst (\"nato in un paese la cui capitale è Washington D.C.\"). Mancano le triple relative al suo luogo di nascita o alla nazione di riferimento (USA), perdendo metà delle informazioni fornite."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "Le proprietà dbo:team e dbo:owner sono corrette ed esistenti nell'ontologia. Le entità sono normalizzate perfettamente: è stato correttamente inserito il trattino in Amos_Shapiro-Thompson (corrispondente alla risorsa reale) e gli underscore sono usati appropriatamente."
+    }
   },
   {
     "id": 23,
@@ -423,9 +621,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple rappresentano con precisione ogni relazione descritta nel testo originale. Il passaggio dal tempo passato (\"ha giocato\") al presente della relazione dbo:team è accettato negli standard dei Knowledge Graph per indicare l'appartenenza storica o attuale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 10,
+      "Giustificazione": "L'estrazione è esaustiva. Sono state catturate tutte le entità (giocatrice, club, proprietaria, città, nazione) e le rispettive relazioni gerarchiche e biografiche, inclusa la collocazione geografica di Virginia Beach negli Stati Uniti."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "Le proprietà dbo:team, dbo:owner, dbo:birthPlace e dbo:country sono termini corretti e realmente esistenti nell'ontologia DBpedia. Le entità sono normalizzate perfettamente: dbr:NY_Gotham_FC e dbr:United_States utilizzano le etichette canoniche del grafo, e gli underscore sono applicati correttamente ovunque."
+    }
   },
   {
     "id": 24,
@@ -446,9 +653,18 @@
       "Vero"
     ],
     "Predizione": "Vero",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estraggono fedelmente le relazioni espresse nel testo: l'appartenenza sportiva di Remenyak, la proprietà del club da parte di Kozlovskyy e il luogo di nascita di quest'ultimo."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 8,
+      "Giustificazione": "L'estrazione è molto buona, ma non totale. Manca la tripla che esplicita l'appartenenza geografica della regione all'Ucraina (es. dbr:Lviv_Oblast dbo:country dbr:Ukraine), informazione presente nell'affermazione originale tramite l'aggettivo \"ucraina\"."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "Le proprietà dbo:team, dbo:owner e dbo:birthPlace sono termini ufficiali dell'ontologia. Le entità sono state normalizzate correttamente: in particolare, il club è stato correttamente risolto come dbr:FC_Rukh_Lviv (nome canonico in DBpedia) e il toponimo dbr:Lviv_Oblast segue la nomenclatura standard."
+    }
   },
   {
     "id": 25,
@@ -469,18 +685,36 @@
       "Vero"
     ],
     "Predizione": "Vero",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple riflettono con precisione assoluta le relazioni dichiarate nel testo. Il legame tra il giocatore e la squadra, la proprietà del club e il dato biografico del proprietario sono stati interpretati correttamente."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 10,
+      "Giustificazione": "L'estrazione è esaustiva. Tutte le informazioni rilevanti presenti nell'affermazione originale sono state tradotte in triple, senza omissioni riguardanti i soggetti o i luoghi menzionati."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "Le proprietà dbo:team, dbo:owner e dbo:birthPlace sono proprietà standard e corrette dell'ontologia DBpedia. La normalizzazione delle entità è eccellente: sono stati correttamente inseriti i diacritici (la \"ö\" in Löwen e la \"ö\" in Schröder) necessari per puntare alle risorse reali del Knowledge Graph, e gli underscore sono applicati correttamente."
+    }
   },
   {
     "id": 26,
     "Affermazione": "Joshua Saavedra gioca per una squadra il cui proprietario è nato a Langreo.",
     "Triple": [],
     "Triple Normalizzate": [],
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 0,
+      "Giustificazione": "Il punteggio è nullo in quanto non è stata estratta alcuna tripla. Non essendoci un'affermazione strutturata, non esiste corrispondenza con il significato del testo originale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 0,
+      "Giustificazione": "L'estrazione è totalmente mancante. Il testo contiene informazioni specifiche su un soggetto (Joshua Saavedra), un'attività (giocare per una squadra) e un dato biografico del proprietario (nato a Langreo) che non sono stati minimamente trasposti."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 0,
+      "Giustificazione": "Come da regolamento, in assenza di triple e di utilizzo di proprietà/entità dell'ontologia DBpedia, il punteggio di normalizzazione è pari a zero."
+    }
   },
   {
     "id": 27,
@@ -501,18 +735,36 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple riflettono con precisione le relazioni descritte nel testo. Il legame tra il giocatore e la franchigia, la proprietà del club e il dato biografico del proprietario sono interpretati correttamente."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 9,
+      "Giustificazione": "L'estrazione è quasi totale. Copre tutti i fatti principali, sebbene l'informazione gerarchica finale (che Eugene si trovi in Oregon) avrebbe potuto essere esplicitata con una tripla di localizzazione geografica (es. dbr:Eugene,_Oregon dbo:isPartOf dbr:Oregon)."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 9,
+      "Giustificazione": "Punteggio alto, ma con una piccola imprecisione formale. Le proprietà dbo:team, dbo:owner e dbo:birthPlace sono corrette. La disambiguazione dell'entità dbr:Ryan_Smith_(businessman) è corretta nella seconda tripla per distinguerlo da omonimi (come il rugbista), ma nella terza tripla la normalizzazione omette le parentesi (dbr:Ryan_Smith_businessman), rendendola sintatticamente incoerente con la precedente e potenzialmente non esistente nel grafo se non rispetta il formato esatto (businessman). L'entità dbr:Eugene,_Oregon è solitamente normalizzata con la virgola in DBpedia, ma il formato fornito è comunque funzionale."
+    }
   },
   {
     "id": 28,
     "Affermazione": "Jarrell Brantley ha giocato in una squadra il cui proprietario è Ryan Smith, nato in un paese situato negli Stati Uniti.",
     "Triple": [],
     "Triple Normalizzate": [],
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 0,
+      "Giustificazione": "Il punteggio è nullo poiché non è stata estratta alcuna tripla. Non essendoci dati, non è possibile verificare la corrispondenza con il significato del testo originale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 0,
+      "Giustificazione": "L'estrazione è totalmente assente. L'affermazione contiene informazioni chiave su un soggetto (Jarrell Brantley), una relazione professionale (giocare in una squadra), un legame di proprietà (Ryan Smith) e una localizzazione geografica (Stati Uniti) che sono state completamente ignorate."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 0,
+      "Giustificazione": "Seguendo le regole fornite, in assenza di triple o in presenza di estrazioni vuote, il punteggio di normalizzazione è 0, poiché non è stato fatto alcun uso delle risorse dbr: o delle proprietà dbo: dell'ontologia."
+    }
   },
   {
     "id": 29,
@@ -536,9 +788,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple riflettono con precisione assoluta ogni relazione descritta nell'affermazione: l'appartenenza sportiva di Saipi, la proprietà del club e la gerarchia geografica del luogo di nascita di Mansueto."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 10,
+      "Giustificazione": "Tutte le informazioni rilevanti presenti nel testo originale sono state estratte e trasformate in triple logiche, senza omissioni."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 9,
+      "Giustificazione": "Il punteggio è quasi perfetto. Le proprietà dbo:team, dbo:owner, dbo:birthPlace e dbo:country sono corrette e appartengono all'ontologia. Le entità dbr:Amir_Saipi, dbr:FC_Lugano, dbr:Joe_Mansueto e dbr:United_States sono normalizzate correttamente. L'unica lieve sbavatura riguarda l'entità dbr:Munster_Indiana nell'ultima tripla, dove l'omissione degli underscore o delle parentesi convenzionali di DBpedia (solitamente dbr:Munster,_Indiana) crea una leggera incoerenza formale rispetto alla terza tripla, pur rimanendo identificabile."
+    }
   },
   {
     "id": 30,
@@ -562,9 +823,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple rappresentano fedelmente tutte le asserzioni contenute nel testo: il passato sportivo di Jones, la relazione di proprietà di Bad Bunny e i dettagli geografici della sua nascita."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 10,
+      "Giustificazione": "L'estrazione è totale. Ogni informazione atomica presente nell'affermazione (soggetto, squadra, proprietario, città e nazione) è stata convertita in una tripla corrispondente, mantenendo intatta la catena logica"
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "Le proprietà dbo:team, dbo:owner, dbo:birthPlace e dbo:country sono corrette e standard. Le entità sono state normalizzate con eccellente precisione: in particolare, l'uso di dbr:Vega_Baja,_Puerto_Rico (reso correttamente con gli underscore) riflette la reale nomenclatura di disambiguazione utilizzata nel Knowledge Graph di DBpedia per distinguere la località. Anche il club e l'artista corrispondono alle risorse canoniche."
+    }
   },
   {
     "id": 31,
@@ -582,9 +852,18 @@
       "Vero"
     ],
     "Predizione": "Vero",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estraggono correttamente il significato dell'affermazione. La relazione di paternità dell'opera e il luogo di nascita dell'autore sono coerenti con il testo fornito."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 7,
+      "Giustificazione": "L'estrazione è parziale. Viene tralasciata l'informazione contestuale sulla localizzazione geografica della contea (il fatto che Joveyn County sia una \"contea iraniana\"), che avrebbe richiesto una tripla aggiuntiva (es. dbr:Joveyn_County dbo:country dbr:Iran)."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "Le proprietà dbo:author e dbo:birthPlace sono termini corretti e realmente esistenti nell'ontologia. Le entità sono normalizzate correttamente: in particolare, dbr:Al-Juwayni e dbr:Joveyn_County corrispondono alle risorse canoniche nel Knowledge Graph e rispettano l'uso degli underscore e della capitalizzazione."
+    }
   },
   {
     "id": 32,
@@ -602,9 +881,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte sono perfettamente coerenti con il significato espresso nel testo originale. Il legame tra autore e opera e la relazione biografica del luogo di nascita sono stati interpretati correttamente."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 6,
+      "Giustificazione": "L'estrazione è incompleta. Viene tralasciata l'importante informazione gerarchica contenuta nel testo: il fatto che Nabiac si trovi nel New South Wales. Sarebbe stata necessaria una tripla aggiuntiva per rappresentare questa relazione spaziale (es. dbr:Nabiac dbo:isPartOf dbr:New_South_Wales)."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "Le proprietà dbo:author e dbo:birthPlace sono proprietà standard e correttamente esistenti nell'ontologia. La normalizzazione delle entità è impeccabile: l'uso dell'apostrofo e dei due punti in dbr:The_People's_Otherworld:_Poems rispecchia accuratamente la risorsa reale di DBpedia, così come l'uso degli underscore per i nomi propri."
+    }
   },
   {
     "id": 33,
@@ -622,9 +910,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple rappresentano fedelmente il contenuto dell'affermazione. L'attribuzione dell'opera a Les Murray e l'identificazione di Nabiac come suo luogo di nascita sono corrette e supportate dal testo."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 6,
+      "Giustificazione": "L'estrazione è incompleta. È stata tralasciata l'informazione relativa all'appartenenza geografica della località di nascita al New South Wales, che avrebbe richiesto una tripla di localizzazione dedicata (ad esempio utilizzando dbo:locatedIn o dbo:isPartOf)."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "Le proprietà dbo:author e dbo:birthPlace sono proprietà standard e realmente esistenti nell'ontologia. Le entità dbr:The_Boys_Who_Stole_the_Funeral, dbr:Les_Murray e dbr:Nabiac sono correttamente normalizzate con l'uso degli underscore e corrispondono alle risorse canoniche presenti nel Knowledge Graph."
+    }
   },
   {
     "id": 34,
@@ -642,9 +939,18 @@
       "Vero"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte catturano perfettamente il nucleo dell'affermazione. La relazione tra il libro e l'autore e il dato biografico sul luogo di nascita sono accurati e supportati dal testo."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 6,
+      "Giustificazione": "L'estrazione è parziale. È stata omessa l'informazione relativa alla nazionalità o alla collocazione geografica della città (\"città irlandese\"). Manca dunque una tripla che colleghi Enniscorthy all'Irlanda (es. dbr:Enniscorthy dbo:country dbr:Ireland)."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "Le proprietà dbo:author e dbo:birthPlace sono termini ufficiali dell'ontologia. La normalizzazione delle entità è eccellente: è stata eseguita correttamente la disambiguazione per il libro (dbr:The_South_(novel)) per distinguerlo dal punto cardinale, e sono stati inseriti correttamente i caratteri speciali (accenti) nel nome dell'autore (dbr:Colm_Tóibín), essenziali per il matching con la risorsa reale in DBpedia."
+    }
   },
   {
     "id": 35,
@@ -662,9 +968,18 @@
       "Vero"
     ],
     "Predizione": "Vero",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte sono pienamente conformi al significato dell'affermazione. La relazione tra l'opera e l'autore e il dato relativo alla nascita sono supportati fedelmente dal testo."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 6,
+      "Giustificazione": "Sebbene individui i fatti principali, omette l'informazione geografica e politica esplicitamente menzionata: il fatto che Mullinahone sia una \"località irlandese\". Manca una tripla che colleghi il luogo di nascita all'Irlanda (es. dbr:Mullinahone dbo:country dbr:Ireland)."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "Le proprietà dbo:author e dbo:birthPlace sono proprietà standard e corrette dell'ontologia. Le entità sono state normalizzate correttamente: dbr:Knocknagow, dbr:Charles_Kickham e dbr:Mullinahone corrispondono esattamente alle risorse esistenti nel Knowledge Graph, con uso appropriato di prefissi e underscore."
+    }
   },
   {
     "id": 36,
@@ -685,9 +1000,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estraggono fedelmente le relazioni descritte. Il legame tra l'autrice e l'opera, il dato biografico e la gerarchia geografica sono pienamente supportati dal testo originale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 8,
+      "Giustificazione": "L'estrazione è di buon livello, ma non totale. Manca l'esplicitazione della nazione (Australia) menzionata nel testo tramite l'aggettivo \"australiana\", che avrebbe richiesto una tripla finale (es. dbr:Victoria_(Australia) dbo:country dbr:Australia)."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "È stata eseguita correttamente la disambiguazione per il libro (dbr:Milk_(novel)) e per la città (dbr:Windsor,_Victoria), fondamentale dato che esistono numerose località chiamate Windsor nel mondo. Tuttavia, l'entità normalizzata dbr:Victoria(Australia) presenta una leggera imprecisione sintattica: in DBpedia la risorsa standard è dbr:Victoria_(Australia) (con l'underscore prima della parentesi). Le proprietà dbo:author, dbo:birthPlace e dbo:state sono corrette e presenti nell'ontologia."
+    }
   },
   {
     "id": 37,
@@ -705,9 +1029,18 @@
       "Vero"
     ],
     "Predizione": "Vero",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estraggono fedelmente le relazioni principali: la paternità dell'opera e il luogo di nascita dell'autore. Il significato del testo è rispettato appieno."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 6,
+      "Giustificazione": "L'estrazione è parziale. Viene omessa l'informazione sulla nazionalità della città (il fatto che Barcellona sia una \"città spagnola\"), che avrebbe richiesto una tripla aggiuntiva per collegare la città alla Spagna (es. dbr:Barcelona dbo:country dbr:Spain)."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "Le proprietà dbo:author e dbo:birthPlace sono corrette. La normalizzazione delle entità è eccellente: è stata inserita correttamente la punteggiatura nel titolo del libro (dbr:Bartleby_&_Co.), il trattino nel cognome dell'autore (dbr:Enrique_Vila-Matas) e, soprattutto, è stata utilizzata la forma inglese corretta per la città (dbr:Barcelona) anziché quella italiana \"Barcellona\", garantendo il link corretto nel Knowledge Graph."
+    }
   },
   {
     "id": 38,
@@ -725,9 +1058,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple identificano correttamente le relazioni dichiarate nel testo. L'attribuzione dell'opera all'autrice e la specifica del luogo di nascita sono accurate e prive di errori interpretativi."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 6,
+      "Giustificazione": "Sebbene individui i fatti principali, omette l'informazione geografica e politica esplicitamente menzionata nell'affermazione: il fatto che Boston sia una \"città statunitense\". Manca dunque una tripla che colleghi il luogo di nascita agli Stati Uniti (es. dbr:Boston dbo:country dbr:United_States)."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "Le proprietà dbo:author e dbo:birthPlace sono termini standard dell'ontologia DBpedia. Le entità sono normalizzate correttamente: dbr:The_Power_Worshippers, dbr:Katherine_Stewart e dbr:Boston corrispondono alle risorse canoniche presenti nel Knowledge Graph, con un uso appropriato di prefissi e underscore."
+    }
   },
   {
     "id": 39,
@@ -745,9 +1087,18 @@
       "Vero"
     ],
     "Predizione": "Vero",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple riflettono fedelmente le relazioni dichiarate nell'affermazione. La prima tripla identifica correttamente la relazione di paternità dell'opera (autore), mentre la seconda stabilisce il legame biografico tra il soggetto e il suo luogo di origine."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le due triple estratte coprono l'intera catena informativa. Sebbene la tripla su Boston non specifichi \"città statunitense\", l'entità dbr:Boston nel Knowledge Graph di DBpedia porta intrinsecamente con sé tali attributi gerarchici. Estrarre ulteriori triple (es. Boston, type, City) sarebbe ridondante rispetto alla densità informativa richiesta."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "bo:author e dbo:birthPlace sono proprietà ufficiali e corrette dell'Ontologia DBpedia (rispettivamente per le classi Work e Person). L'uso dei prefissi dbr: (per le risorse) e dbo: (per l'ontologia) è impeccabile. Gli spazi sono stati correttamente sostituiti da underscore (The_Eyes_and_the_Impossible) e la capitalizzazione segue lo standard CamelCase tipico dei URI di DBpedia. "
+    }
   },
   {
     "id": 40,
@@ -765,9 +1116,18 @@
       "Vero"
     ],
     "Predizione": "Vero",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte riflettono con precisione assoluta le relazioni logiche espresse nel testo. La prima tripla identifica il legame tra l'opera e il suo creatore, mentre la seconda collega correttamente il soggetto al suo luogo di nascita. Non vi sono errori di inversione (Soggetto/Oggetto) né interpretazioni errate dei predicati."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 10,
+      "Giustificazione": "Tutte le informazioni salienti dell'affermazione originale sono state atomizzate. Il testo menziona il titolo del libro, l'autore e la città natale; le due triple coprono l'intero spettro informativo senza omettere dettagli rilevanti (il fatto che Boston sia una \"città statunitense\" è un attributo intrinseco dell'entità dbr:Boston nel grafo e non richiede triple aggiuntive per la completezza dell'estrazione primaria)."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente eccellente.L'uso di dbr:Small_Mercies_(novel) dimostra una conoscenza profonda di DBpedia, poiché il semplice dbr:Small_Mercies potrebbe essere ambiguo o riferirsi a un concetto generico; il suffisso garantisce il puntamento corretto alla risorsa letteraria. Sia dbo:author che dbo:birthPlace sono proprietà standard e approvate dell'ontologia DBpedia.È stato rispettato l'uso del prefisso dbr:, la capitalizzazione corretta (CamelCase) e la sostituzione degli spazi con l'underscore. "
+    }
   },
   {
     "id": 41,
@@ -785,9 +1145,18 @@
       "Vero"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple rappresentano fedelmente il significato dell'affermazione. Le relazioni di appartenenza al gruppo musicale e il luogo di nascita corrispondono esattamente a quanto dichiarato nel testo originale senza distorsioni logiche."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 8,
+      "Giustificazione": "L'estrazione è di alta qualità, ma non è esaustiva. L'affermazione originale contiene un'informazione geografica e gerarchica aggiuntiva: il fatto che Antigua si trovi in un paese (Antigua e Barbuda) la cui capitale è St. John's. Questa relazione di secondo livello tra l'isola/nazione e la sua capitale è stata omessa nell'estrazione delle triple, che si sono concentrate solo sul soggetto principale."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è impeccabile e rispetta rigorosamente gli standard di DBpedia. dbo:memberOf e dbo:birthPlace sono proprietà standard e correttamente utilizzate nell'ontologia. L'uso dei prefissi dbr: e dbo: è corretto, così come la gestione degli underscore per gli spazi (es. dbr:Kool_DJ_Red_Alert e dbr:Rock_Steady_Crew). Le entità puntano a risorse esistenti e correttamente formattate."
+    }
   },
   {
     "id": 42,
@@ -802,9 +1171,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "La tripla estratta rappresenta in modo ineccepibile la relazione di appartenenza tra l'artista e il gruppo musicale citato nel testo. Non vi è alcun errore di interpretazione del ruolo del soggetto rispetto all'oggetto, rendendo la tripla semanticamente valida e coerente con la realtà espressa nell'affermazione."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 5,
+      "Giustificazione": "Il punteggio è penalizzato dalla significativa omissione di una parte dell'affermazione. Il testo originale fornisce un dato biografico e geografico specifico riguardante il luogo di nascita e la sua capitale (Buenos Aires), informazioni che sono state totalmente ignorate nel processo di estrazione. La singola tripla copre solo la prima metà della frase, lasciando il grafo incompleto rispetto al potenziale informativo del testo sorgente."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente accurata e dimostra un ottimo uso dei meccanismi di disambiguazione. L'entità \"Robert Pettinato\" è stata correttamente normalizzata in dbr:Roberto_Pettinato (nome reale) e la band è stata disambiguata come dbr:Sumo_(band) per evitare confusione con lo sport omonimo. La proprietà dbo:bandMember è un predicato esistente e appropriato nell'ontologia DBpedia per indicare i componenti di un gruppo musicale, e la sintassi degli URI rispetta tutte le convenzioni del progetto."
+    }
   },
   {
     "id": 43,
@@ -822,9 +1200,18 @@
       "Vero"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte interpretano correttamente il nucleo del testo originale. La relazione tra l'artista e il suo gruppo musicale, così come il legame biografico con la città di Pergamino, sono stati trasposti fedelmente senza errori di attribuzione o distorsioni nel significato dei predicati."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 7,
+      "Giustificazione": "Il punteggio è influenzato dall'omissione di una porzione informativa presente nell'affermazione. Il testo non si limita a citare la città natale, ma stabilisce una relazione geografica e politica aggiuntiva tra il luogo di nascita (Pergamino) e la capitale nazionale (Buenos Aires). Questa informazione contestuale è stata ignorata nell'estrazione, riducendo la densità informativa del grafo rispetto alla frase sorgente."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente impeccabile. L'entità \"Dividos\" è stata correttamente risolta nell'entità reale dbr:Divididos (correggendo il refuso presente nel testo originale per puntare alla risorsa corretta del Knowledge Graph). Le proprietà dbo:bandMember e dbo:birthPlace sono predicati standard e ufficiali dell'ontologia DBpedia, e la formattazione degli URI rispetta rigorosamente le convenzioni di naming, inclusa la gestione della capitalizzazione e degli underscore."
+    }
   },
   {
     "id": 44,
@@ -842,9 +1229,18 @@
       "Vero"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple rappresentano fedelmente i fatti riportati nell'affermazione originale. La prima tripla stabilisce correttamente il legame di appartenenza musicale del soggetto, mentre la seconda riflette il dato geografico-politico citato nel testo relativo alla capitale. Non vi sono errori di interpretazione logica o di attribuzione di ruoli."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 7,
+      "Giustificazione": "Il punteggio riflette la mancanza di un collegamento chiave tra il soggetto e il contesto geografico. Sebbene siano state estratte la band e la capitale dell'Australia, è stata omessa la relazione diretta tra Andy Strachan e il suo paese di origine/nascita (Australia) menzionata nel testo. Questo crea un'interruzione nel grafo informativo, poiché le due triple estratte risultano slegate tra loro pur essendo entrambe presenti nella frase."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente eccellente poiché utilizza esclusivamente proprietà reali e verificate dell'ontologia come dbo:bandMember e dbo:capital. L'uso dei prefissi dbr: per le risorse e dbo: per i predicati è impeccabile, così come la formattazione degli URI che include la corretta capitalizzazione e l'uso degli underscore per gestire gli spazi nei nomi delle entità (es. dbr:Andy_Strachan)."
+    }
   },
   {
     "id": 45,
@@ -862,9 +1258,18 @@
       "Vero"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte rispecchiano fedelmente il contenuto dell'affermazione originale. Il legame tra l'artista e il gruppo musicale è riportato correttamente, così come l'attribuzione della città di nascita al soggetto principale. Non si riscontrano errori logici o inversioni di ruolo tra i componenti delle triple."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 7,
+      "Giustificazione": "Il punteggio è penalizzato dall'omissione di una porzione significativa del testo. L'affermazione originale contiene una specifica relazione geografica e politica (la città di Melbourne situata in un paese che ha come capitale Canberra) che non è stata trasposta in forma di tripla. Sebbene le informazioni su Hitchcock siano presenti, il contesto nazionale e il riferimento alla capitale rimangono esclusi dal grafo estratto."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente eccellente. L'entità \"Russell Hitchcok\" è stata corretta nel URI dbr:Russell_Hitchcock (aggiungendo la 'o' mancante nel cognome per farla coincidere con la risorsa reale di DBpedia). Le proprietà dbo:bandMember e dbo:birthPlace sono predicati ufficiali e correttamente utilizzati. La sintassi degli URI rispetta tutte le convenzioni, inclusa la gestione dei prefissi dbr: e dbo: e l'uso degli underscore per gli spazi."
+    }
   },
   {
     "id": 46,
@@ -882,9 +1287,18 @@
       "Vero"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte rispecchiano fedelmente il significato del testo originale. La relazione tra il musicista e il suo gruppo è riportata senza errori, così come l'associazione tra il soggetto e la sua contea di nascita. Non vi sono allucinazioni o interpretazioni errate dei legami diretti descritti nell'affermazione."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 7,
+      "Giustificazione": "Il punteggio riflette l'omissione di una parte del contesto geografico fornito. L'affermazione specifica che il luogo di nascita è situato in un paese che ha come capitale Londra (riferimento al Regno Unito/Inghilterra). Questa informazione gerarchica e la relazione con la capitale non sono state estratte, limitando la rappresentazione del grafo ai soli dati biografici immediati del soggetto"
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente perfetta. Sono state utilizzate proprietà esistenti e corrette nell'ontologia come dbo:bandMember e dbo:birthPlace. Le entità dbr:Iain_Matthews, dbr:Matthews_Southern_Comfort e dbr:Lincolnshire sono correttamente formattate con l'uso degli underscore e della capitalizzazione standard di DBpedia. Non sono state inventate proprietà e i prefissi dbr: e dbo: sono applicati in modo appropriato."
+    }
   },
   {
     "id": 47,
@@ -902,9 +1316,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte sono semanticamente ineccepibili. La prima riflette correttamente l'appartenenza del musicista al gruppo Wilco, mentre la seconda identifica accuratamente la relazione politica tra la nazione e la sua capitale come descritto nel testo. Non vi sono errori di interpretazione dei predicati o dei ruoli dei soggetti."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 7,
+      "Giustificazione": "Il punteggio riflette una lacuna nel collegamento logico tra i segmenti dell'affermazione. Sebbene siano state estratte correttamente la band e la capitale degli Stati Uniti, manca la tripla che colleghi il soggetto Jeff Tweedy al suo luogo di nascita o alla nazione di origine (Stati Uniti). L'informazione \"nato in un paese situato negli Stati Uniti\" non è stata completamente trasposta, rendendo le due triple estratte atomiche ma non collegate gerarchicamente tra loro."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è stata eseguita in modo professionale e accurato. Le proprietà dbo:bandMember e dbo:capital sono esistenti e conformi all'ontologia ufficiale. Le entità sono state mappate correttamente sui rispettivi URI di DBpedia: \"Stati Uniti\" è stato normalizzato nel canonico dbr:United_States e \"Washington D.C.\" include la punteggiatura e la formattazione corretta (dbr:Washington,_D.C.) necessaria per la risoluzione della risorsa. L'uso dei prefissi dbr: e dbo: è impeccabile."
+    }
   },
   {
     "id": 48,
@@ -922,9 +1345,18 @@
       "Vero"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte sono semanticamente precise e aderiscono perfettamente al significato del testo originale. La relazione di appartenenza al gruppo musicale e il dato biografico relativo al luogo di nascita sono stati interpretati correttamente, senza alcuna inversione logica tra i soggetti e gli oggetti delle relazioni."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 7,
+      "Giustificazione": "Il punteggio riflette l'omissione della componente geografico-politica finale della frase. L'affermazione non si limita a indicare Hokkaido come luogo di nascita, ma specifica che tale regione si trova in un paese la cui capitale è Tokyo (il Giappone). Queste informazioni relazionali aggiuntive (il legame tra Hokkaido e il suo paese o tra il paese e la capitale) non sono state estratte, riducendo la ricchezza informativa rispetto al testo sorgente."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente impeccabile. Sono state utilizzate proprietà esistenti e appropriate nell'ontologia DBpedia come dbo:bandMember (specifica per i membri di gruppi musicali) e dbo:birthPlace. Le entità dbr:Misuzu_Togashi, dbr:Sweet_Arms e dbr:Hokkaido seguono correttamente le convenzioni di formattazione degli URI, inclusa la capitalizzazione corretta e l'uso degli underscore al posto degli spazi. I prefissi sono applicati secondo lo standard del Web Semantico."
+    }
   },
   {
     "id": 49,
@@ -945,9 +1377,18 @@
       "Vero"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte catturano con precisione assoluta il significato del testo originale. Le relazioni di appartenenza alla band, il luogo di nascita e la gerarchia geografica tra la regione (Sarawak) e la nazione (Malaysia) sono state interpretate correttamente, senza alcuna distorsione logica o inversione dei ruoli tra soggetto e oggetto."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 10,
+      "Giustificazione": "L'estrazione è esaustiva. A differenza di casi precedenti, qui è stata catturata non solo l'informazione biografica diretta sul soggetto, ma anche la relazione spaziale di secondo livello (\"Sarawak in Malaysia\"). Questo permette di ricostruire integralmente la catena informativa presente nell'affermazione originale nel grafo di conoscenza."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente impeccabile e dimostra un'ottima precisione nell'uso dell'ontologia. La proprietà dbo:bandMember è corretta per i membri di gruppi musicali, così come dbo:birthPlace e dbo:country per i legami geografici. È stata effettuata una disambiguazione fondamentale per dbr:Masterpiece_(Malaysian_band), evitando la confusione con altre entità omonime. Tutti i prefissi (dbr:, dbo:), l'uso degli underscore e la capitalizzazione rispettano rigorosamente gli standard ufficiali di DBpedia."
+    }
   },
   {
     "id": 50,
@@ -962,9 +1403,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "La tripla estratta è semanticamente accurata e riflette fedelmente la prima parte dell'affermazione. Il legame tra l'artista e il gruppo vocale Pitsj è rappresentato correttamente, rispettando la relazione di appartenenza indicata nel testo naturale senza alcuna distorsione del significato."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 5,
+      "Giustificazione": "Il punteggio è penalizzato dall'omissione di un'intera unità informativa presente nell'affermazione. Il testo specifica chiaramente un dato biografico relativo alla nascita del soggetto (\"nata nella capitale norvegese\"), ma questa informazione non è stata estratta in alcuna tripla. La mancanza del collegamento tra il soggetto e il suo luogo di nascita (Oslo) rende l'estrazione parziale e incompleta rispetto al potenziale informativo della frase."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente corretta e aderente agli standard. La proprietà dbo:bandMember è un predicato realmente esistente nell'ontologia DBpedia e adatto al contesto. Gli identificatori dbr:Ida_Rogen e dbr:Pitsj seguono le convenzioni di formattazione URI, utilizzando correttamente i prefissi, gli underscore per gli spazi e la capitalizzazione standard. Non sono stati rilevati errori sintattici o l'uso di proprietà inventate."
+    }
   },
   {
     "id": 51,
@@ -979,9 +1429,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "La tripla estratta rappresenta correttamente il fatto centrale dell'affermazione, ovvero l'ottenimento di un riconoscimento da parte del soggetto. Il predicato scelto trasla fedelmente l'azione di ricevere un premio senza alterare il significato logico del testo originale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 4,
+      "Giustificazione": "Il punteggio è basso a causa della perdita di gran parte del contesto informativo. L'affermazione originale contiene dettagli geografici complessi e stratificati: la collocazione dell'evento in un paese europeo, l'identificazione di tale paese tramite la sua capitale (Lisbona) e l'appartenenza geografica alla penisola iberica. Tutte queste informazioni relazionali (Ainhoa Artetxe/Luogo, Portogallo/Capitale, Portogallo/Penisola Iberica) sono state omesse, riducendo l'estrazione a un singolo fatto isolato."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente corretta. La proprietà dbo:award è un termine esistente e appropriato nell'ontologia DBpedia per descrivere i premi ricevuti da una persona. Le entità dbr:Ainhoa_Artetxe e dbr:New_York_City_Award sono formattate secondo gli standard richiesti, con l'uso corretto dei prefissi, della capitalizzazione e degli underscore per gestire gli spazi."
+    }
   },
   {
     "id": 52,
@@ -996,9 +1455,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "La tripla estratta rispecchia fedelmente il nucleo dell'affermazione originale. Il legame tra il soggetto e il riconoscimento ricevuto è descritto in modo logico e coerente, senza distorsioni del significato espresso nel testo naturale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 4,
+      "Giustificazione": "Il punteggio è basso poiché gran parte del carico informativo del testo è stata ignorata. L'affermazione originale fornisce dettagli geografici e geopolitici precisi: il fatto che l'evento sia avvenuto in un paese africano, l'identificazione di tale paese tramite la sua capitale (Nairobi) e la sua collocazione sub-regionale (Africa orientale). Queste relazioni (Gabriel Afolayan/Luogo, Kenya/Capitale, Kenya/Regione) non sono state trasposte in triple, lasciando il grafo estremamente povero rispetto alla frase di partenza."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente eccellente. La proprietà dbo:award è un predicato standard e appropriato all'interno dell'ontologia DBpedia per indicare i premi vinti da una persona. Le entità dbr:Gabriel_Afolayan e dbr:Buero_Vallejo_Awards sono correttamente normalizzate con l'uso dei prefissi appropriati, la capitalizzazione standard e la sostituzione degli spazi con underscore, garantendo la corretta risoluzione dei link nel Knowledge Graph."
+    }
   },
   {
     "id": 53,
@@ -1013,9 +1481,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "La tripla estratta cattura correttamente il nucleo dell'azione descritta nel testo, ovvero l'assegnazione del premio al soggetto. Non vi sono errori di interpretazione logica o di attribuzione tra il vincitore e l'onorificenza, rendendo il significato della tripla pienamente rispondente alla prima parte dell'affermazione."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 4,
+      "Giustificazione": "Il punteggio è penalizzato dall'omissione di un'ampia porzione informativa presente nel testo sorgente. L'affermazione originale include dettagli geografici e geopolitici stratificati, quali la posizione dell'evento (un paese sudamericano), l'identificazione specifica di tale paese tramite la sua capitale (Buenos Aires) e un dato geografico di confine (vicinanza con il Brasile). L'estrazione ignora totalmente queste relazioni, limitandosi al solo fatto biografico primario."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente perfetta. Viene utilizzata la proprietà dbo:award, che è un predicato realmente esistente e standard nell'ontologia DBpedia per i riconoscimenti. Le risorse dbr:Walter_Mercado e dbr:Buero_Vallejo_Awards seguono rigorosamente le convenzioni di formattazione, inclusi l'uso corretto dei prefissi, della capitalizzazione e degli underscore per gestire gli spazi, garantendo la risoluzione degli URI nel grafo."
+    }
   },
   {
     "id": 54,
@@ -1030,9 +1507,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "La tripla estratta rappresenta in modo accurato l'evento centrale descritto nell'affermazione. Il legame tra il soggetto e il premio ricevuto è tradotto fedelmente, mantenendo la coerenza logica tra l'individuo e l'onorificenza senza alcuna distorsione del significato originario."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 4,
+      "Giustificazione": "Il punteggio è basso poiché viene estratta solo una piccola frazione dell'informazione totale. Il testo originale fornisce un contesto geografico e geopolitico molto ricco, specificando che il fatto è avvenuto in un paese europeo, identificando tale paese attraverso la sua capitale (Lisbona) e aggiungendo un dettaglio sulla sua collocazione geografica (penisola iberica). Tutte queste relazioni secondarie sono state ignorate, lasciando il grafo incompleto."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente impeccabile. La proprietà dbo:award è un predicato realmente esistente nell'ontologia DBpedia ed è quello corretto per descrivere i premi vinti da una persona. Le entità dbr:Miren_Galan e dbr:Africa_Movie_Academy_Awards seguono rigorosamente gli standard di formattazione degli URI, con l'uso appropriato dei prefissi, della capitalizzazione e degli underscore per la gestione degli spazi."
+    }
   },
   {
     "id": 55,
@@ -1047,9 +1533,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "La tripla estratta cattura in modo preciso il nucleo dell'informazione biografica dichiarata, ovvero il conferimento del premio al soggetto indicato. Non sussistono inversioni tra soggetto e oggetto né interpretazioni errate del predicato, garantendo la piena fedeltà al significato del testo originale per la porzione estratta."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 4,
+      "Giustificazione": "Il punteggio è basso a causa della significativa perdita di informazioni contestuali. L'affermazione originale contiene una serie di dettagli geografici e politici annidati: la localizzazione dell'evento in un paese europeo, l'identificazione di tale paese tramite la capitale (Berlino) e il dato relativo ai confini geografici (Francia). Tutte queste relazioni supplementari sono state ignorate, riducendo l'estrazione a un singolo fatto isolato e non collegato al contesto spaziale descritto."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è impeccabile dal punto di vista tecnico. La proprietà dbo:award è un predicato ufficiale e correttamente esistente nell'ontologia per i riconoscimenti. Le entità dbr:Jean_Delannoy e dbr:Goya_Award_for_Best_Supporting_Actor sono formattate secondo gli standard di DBpedia, includendo l'uso dei prefissi corretti, la capitalizzazione adeguata e la sostituzione degli spazi con underscore per la risoluzione degli URI."
+    }
   },
   {
     "id": 56,
@@ -1064,9 +1559,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "La tripla estratta cattura in modo ineccepibile la relazione principale descritta nell'affermazione. Il collegamento tra il soggetto e il premio ricevuto è riportato fedelmente, rispettando il ruolo di beneficiario del riconoscimento senza alcuna distorsione del significato logico originale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 4,
+      "Giustificazione": "Il punteggio è penalizzato dalla mancata estrazione della complessa rete di informazioni geografiche presenti nel testo. L'affermazione non si limita a citare il premio, ma specifica il contesto della premiazione attraverso riferimenti a un paese identificato dalla sua capitale (Lisbona) e dalla sua appartenenza geografica (penisola iberica). Queste informazioni relazionali e gerarchiche sono state totalmente ignorate, riducendo l'estrazione a un singolo fatto biografico isolato."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente perfetta. La proprietà dbo:award è un predicato standard e realmente esistente nell'ontologia DBpedia per i riconoscimenti. Le entità dbr:Jose_Manuel_Cervino e dbr:Honorary_Cesar_Award sono formattate correttamente secondo gli standard del Knowledge Graph, con l'uso appropriato dei prefissi, della capitalizzazione e degli underscore per la gestione degli spazi negli URI."
+    }
   },
   {
     "id": 57,
@@ -1081,9 +1585,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "La tripla estratta cattura fedelmente la relazione principale descritta nel testo, ovvero l'ottenimento del premio da parte del soggetto. Il predicato utilizzato traduce correttamente l'azione di ricevere un riconoscimento, mantenendo l'accuratezza del significato logico per la parte di frase presa in esame."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 4,
+      "Giustificazione": "Il punteggio è basso poiché viene ignorata la maggior parte delle informazioni contestuali e geografiche presenti nell'affermazione. Il testo descrive dettagliatamente il luogo della premiazione attraverso la sua capitale (Lisbona) e la sua appartenenza geografica (penisola iberica). Queste relazioni (Koldo Olabarri/Luogo, Portogallo/Capitale, Portogallo/Penisola) non sono state estratte, limitando la rappresentazione a un singolo evento isolato."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente impeccabile. La proprietà dbo:award è un predicato standard ed esistente nell'ontologia DBpedia per i premi. Le entità dbr:Koldo_Olabarri e dbr:Guldbagge_Award_for_Best_Supporting_Actor_in_a_Leading_Role rispettano rigorosamente le convenzioni di formattazione degli URI, inclusi l'uso dei prefissi corretti, la capitalizzazione adeguata e l'uso degli underscore per la gestione degli spazi."
+    }
   },
   {
     "id": 58,
@@ -1098,18 +1611,36 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "La tripla riflette accuratamente il fatto principale descritto: la ricezione di un premio da parte del soggetto. Non vi sono errori di attribuzione o interpretazione del legame tra l'attore e il riconoscimento citato."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 4,
+      "Giustificazione": "Il punteggio è basso poiché l'estrazione ignora l'intera struttura geografica e di contesto fornita nella seconda parte della frase. L'affermazione specifica la natura del paese (scandinavo), la sua capitale (Copenaghen) e la regione di appartenenza (Nord Europa). Queste informazioni relazionali, che identificano implicitamente la Danimarca come luogo dell'evento, non sono state trasposte in triple."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente eccellente. Viene utilizzata la proprietà dbo:award, che è un predicato ufficiale e correttamente esistente nell'ontologia per i riconoscimenti. Le risorse dbr:Jonas_Karlsson e dbr:Buero_Vallejo_Awards sono formattate secondo gli standard di DBpedia, con prefissi corretti e gestione degli underscore per gli spazi."
+    }
   },
   {
     "id": 59,
     "Affermazione": "Kanjuro Aeashi ha ricevuto un premio in un paese la cui capitale è Osaka e che è un arcipelago.",
     "Triple": [],
     "Triple Normalizzate": [],
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 0,
+      "Giustificazione": "Il punteggio è nullo in quanto non è stata estratta alcuna tripla. Poiché non esiste un'asserzione che possa essere verificata rispetto al testo originale, la correttezza semantica non può sussistere."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 0,
+      "Giustificazione": "L'estrazione è totalmente nulla. L'affermazione originale contiene diverse informazioni rilevanti: il soggetto (Kanjuro Arashi), l'evento (ricezione di un premio) e i dettagli geografici del luogo (paese con capitale Osaka, identificato come arcipelago). Nessuno di questi elementi è stato catturato dal processo di estrazione."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 0,
+      "Giustificazione": "Il punteggio è pari a zero poiché non sono state fornite triple normalizzate. Non essendoci l'uso di entità (dbr:) o proprietà (dbo:) dell'ontologia, non è possibile valutare la conformità agli standard di DBpedia. Si segnala inoltre che l'affermazione originale contiene un errore fattuale (la capitale del Giappone è Tokyo, non Osaka), ma questo non esime il sistema dal dover estrarre le relazioni dichiarate nel testo."
+    }
   },
   {
     "id": 60,
@@ -1124,9 +1655,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "La tripla estratta è semanticamente impeccabile rispetto alla porzione di testo processata. Identifica correttamente il soggetto, l'oggetto (il premio) e la relazione di ricezione dell'onorificenza, mantenendo la coerenza logica dell'affermazione originale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 4,
+      "Giustificazione": "Il punteggio è penalizzato dalla mancata estrazione del ricco contesto geografico fornito nel testo. L'affermazione non si limita a citare il premio, ma specifica che l'evento è legato a un paese identificato dalla capitale (Tbilisi) e dalla posizione geografica (regione del Caucaso). Queste relazioni (Alibaba Abdullayev/Luogo, Georgia/Capitale, Georgia/Regione) sono state totalmente ignorate, riducendo drasticamente il potenziale informativo del grafo prodotto."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente eccellente. La proprietà dbo:award è un predicato standard e realmente esistente nell'ontologia DBpedia per i riconoscimenti. Le entità dbr:Alibaba_Abdullayev e dbr:Manichi_Film_Award sono formattate correttamente secondo gli standard del Knowledge Graph, con l'uso appropriato dei prefissi, della capitalizzazione e degli underscore per la gestione degli spazi negli URI."
+    }
   },
   {
     "id": 61,
@@ -1147,9 +1687,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte riflettono con precisione il significato dell'affermazione. La relazione di comando militare è stata correttamente interpretata, così come i dati biografici e la gerarchia geografica. Sebbene l'affermazione contenga un'imprecisione storica (Martin Frobisher nacque nello Yorkshire, non a New York), le triple sono semanticamente corrette rispetto a quanto dichiarato esplicitamente nel testo fornito."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 10,
+      "Giustificazione": "L'estrazione è esaustiva. Sono stati catturati tutti i nodi informativi presenti nella frase: l'evento bellico e il suo leader, il luogo di nascita del soggetto e la collocazione politica di tale luogo (USA). Non vi sono informazioni rilevanti nel testo che siano state trascurate."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente impeccabile. Viene utilizzato il predicato dbo:commander, che è la proprietà ontologica specifica per indicare chi guida un assedio o una battaglia. Anche dbo:birthPlace e dbo:country sono proprietà standard esistenti. Gli URI dbr: sono formattati correttamente con gli underscore e la capitalizzazione attesa dal Knowledge Graph."
+    }
   },
   {
     "id": 62,
@@ -1167,9 +1716,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte riflettono esattamente quanto dichiarato nel testo. Sebbene l'affermazione contenga gravi inesattezze storiche (la rivoluzione non fu guidata da von Pückler-Burghauss e la sua data di nascita non coincide con il periodo), il sistema ha correttamente estratto le relazioni così come presentate nell'input. La relazione di comando e quella biografica sono state interpretate senza errori logici."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 10,
+      "Giustificazione": "L'estrazione è esaustiva. Tutti gli elementi informativi presenti nella frase originale sono stati mappati: l'evento storico, il leader menzionato, il suo luogo di nascita e l'attributo geografico del comune (\"città tedesca\"). Non sono state tralasciate informazioni rilevanti fornite dal testo."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente corretta. Le proprietà dbo:commander e dbo:birthPlace esistono nell'ontologia ufficiale di DBpedia e sono utilizzate in modo appropriato per i rispettivi contesti (militare/storico e biografico). Le entità dbr: sono state generate rispettando le convenzioni standard: uso degli underscore, rimozione delle parentesi e corretta capitalizzazione, garantendo la coerenza formale con il Knowledge Graph."
+    }
   },
   {
     "id": 63,
@@ -1187,9 +1745,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte sono semanticamente coerenti con il testo fornito. Nonostante l'affermazione originale contenga errori storici palesi (Rosa Luxemburg morì nel 1919, mentre la battaglia di Slivice avvenne nel 1945), il compito di estrazione è vincolato al contenuto del testo naturale. Le relazioni di comando (\"led by\") e di luogo di nascita sono state tradotte correttamente dai predicati estratti."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 10,
+      "Giustificazione": "L'estrazione è totale. Tutti gli elementi informativi presenti nell'affermazione sono stati catturati: l'evento bellico, la figura di comando, l'evento della nascita e la località specifica. Non vi sono ulteriori dettagli nel testo che avrebbero potuto generare altre triple."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione segue rigorosamente gli standard dell'ontologia. Le proprietà dbo:commander e dbo:birthPlace sono proprietà esistenti e utilizzate correttamente secondo i domini e i range previsti da DBpedia. Le entità sono state trasformate correttamente in risorse (dbr:), utilizzando gli underscore per gli spazi e mantenendo la capitalizzazione necessaria per l'identificazione degli URI."
+    }
   },
   {
     "id": 64,
@@ -1207,9 +1774,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte riflettono fedelmente il contenuto dell'affermazione originale. Sebbene il testo contenga un'evidente assurdità storica (Don Juan d'Austria visse nel XVI secolo e non ebbe alcun legame con la Seconda Guerra Mondiale), la valutazione deve basarsi esclusivamente sul supporto testuale fornito. La relazione di comando e quella biografica sono state trasposte senza errori logici rispetto alla frase di partenza."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 10,
+      "Giustificazione": "L'estrazione è esaustiva. Tutti i fatti citati nella frase sono stati convertiti in triple: il legame tra il movimento di resistenza e il suo presunto leader, e il dato biografico relativo al luogo di nascita di quest'ultimo. Non ci sono ulteriori informazioni rilevanti nel testo che siano state trascurate."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente perfetta. Le proprietà dbo:commander e dbo:birthPlace sono proprietà ufficiali e realmente esistenti nell'ontologia DBpedia. Le entità sono state trasformate correttamente in risorse (dbr:), gestendo accuratamente gli spazi con gli underscore e mantenendo l'apostrofo nell'URI di Don Juan d'Austria, come previsto dagli standard di risoluzione di DBpedia."
+    }
   },
   {
     "id": 65,
@@ -1227,9 +1803,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple rappresentano fedelmente il contenuto dell'affermazione, nonostante l'evidente anacronismo storico (Witold Pilecki è una figura del XX secolo, mentre la battaglia è del 1580). Poiché la regola impone che la correttezza sia valutata in base al supporto del testo fornito, il punteggio è massimo: le relazioni di comando e di nascita sono state estratte esattamente come dichiarate."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 9,
+      "Giustificazione": "L'estrazione è esaustiva. Tutti i concetti chiave presenti nella frase (l'evento bellico, il comandante, l'evento della nascita e la località specifica) sono stati tradotti in triple. Non vi sono ulteriori dettagli informativi nel testo che siano stati trascurati."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è quasi perfetta. Le proprietà dbo:commander e dbo:birthPlace sono corrette e realmente esistenti nell'ontologia. Tuttavia, il punteggio subisce una lieve flessione a causa dell'entità dbr:Battaglia_of_Alcantara_of_1580: sebbene segua le regole di formattazione (underscore), mescola l'italiano (\"Battaglia\") con l'inglese (\"of\"), rendendo l'URI improbabile rispetto alla nomenclatura standard di DBpedia (che solitamente predilige l'inglese Battle_of_Alcantara_(1580) o il nome locale). La risorsa per Pilecki e la città sono invece normalizzate correttamente."
+    }
   },
   {
     "id": 66,
@@ -1247,9 +1832,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte sono semanticamente coerenti con il testo fornito. Sebbene l'affermazione contenga anacronismi e inesattezze storiche (Subhas Chandra Bose è deceduto decenni prima degli eventi di Gadchiroli e nacque a Cuttack, non a Nuova Delhi), la valutazione si limita alla fedeltà rispetto all'input testuale. Le relazioni di comando militare e il luogo di nascita riflettono esattamente quanto asserito nel testo naturale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 10,
+      "Giustificazione": "L'estrazione è esaustiva. Tutti i punti salienti dell'affermazione sono stati tradotti in triple: l'evento (lo scontro), il leader indicato e il dato biografico relativo alla nascita con la specifica del distretto (Nuova Delhi). Non rimangono informazioni nel testo che non siano state mappate nel formato a triple."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente corretta. Le proprietà dbo:commander e dbo:birthPlace sono termini ufficiali e propriamente esistenti nell'ontologia DBpedia. Le entità seguono rigorosamente gli standard di formattazione richiesti: uso del prefisso dbr:, sostituzione degli spazi con underscore e mantenimento della capitalizzazione necessaria per la risoluzione degli URI."
+    }
   },
   {
     "id": 67,
@@ -1267,9 +1861,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte riflettono fedelmente il contenuto semantico dell'affermazione originale. Nonostante l'imprecisione storica (Anwar Sadat nacque a Mit Abu al-Kum, non ad Alessandria), la valutazione si attiene strettamente al testo fornito: la relazione di comando (\"led by\") e quella biografica (\"nato in\") sono state tradotte correttamente."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 10,
+      "Giustificazione": "L'estrazione è esaustiva. Tutti i nodi informativi presenti nel testo naturale sono stati catturati: l'evento bellico, il leader, l'evento della nascita e la città specifica citata. Non vi sono informazioni residue nel testo che avrebbero potuto generare ulteriori triple rilevanti."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente perfetta. Le proprietà dbo:commander e dbo:birthPlace sono predicati ufficiali e correttamente esistenti nell'ontologia DBpedia. Le entità dbr:Battle_of_Port_Said, dbr:Anwar_Sadat e dbr:Alessandria seguono rigorosamente gli standard di formattazione del Knowledge Graph, con l'uso corretto degli underscore per gli spazi e della capitalizzazione standard."
+    }
   },
   {
     "id": 68,
@@ -1287,9 +1890,18 @@
       "Vero"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte riflettono fedelmente il significato dell'affermazione originale. La relazione di comando militare (\"led by\") e il dato biografico relativo alla nascita sono stati trasposti correttamente, mantenendo l'integrità del messaggio espresso nel testo naturale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 10,
+      "Giustificazione": "L'estrazione è esaustiva. Tutti i componenti informativi principali della frase — il conflitto specifico, la figura di spicco coinvolta e il suo luogo di nascita — sono stati isolati e convertiti in triple. Non ci sono dettagli rilevanti lasciati inespressi nel formato strutturato."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente corretta. Le proprietà dbo:commander e dbo:birthPlace sono termini standard e realmente esistenti nell'ontologia DBpedia. Le entità (dbr:) sono state formattate correttamente seguendo le convenzioni del Knowledge Graph: uso dei prefissi, capitalizzazione appropriata e sostituzione degli spazi con underscore (anche nella stringa complessa riferita al conflitto)."
+    }
   },
   {
     "id": 69,
@@ -1307,9 +1919,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte riflettono perfettamente il significato del testo fornito. Sebbene l'affermazione contenga inesattezze storiche (Jalal Talabani non è nato a Teheran, ma nei pressi di Erbil, e la sua leadership nella battaglia di Makhmour del 2014 è anacronistica rispetto al suo stato di salute dell'epoca), la valutazione si basa esclusivamente sulla coerenza tra testo e tripla. Il legame di comando e quello di nascita sono stati trasposti fedelmente."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 10,
+      "Giustificazione": "L'estrazione è esaustiva. Sono stati catturati entrambi i nuclei informativi presenti nella frase: l'evento bellico con il relativo leader e il dato biografico riguardante il luogo di nascita. Non vi sono ulteriori dettagli nel testo naturale che siano stati omessi."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente ineccepibile. Le proprietà dbo:commander e dbo:birthPlace sono termini standard e realmente esistenti nell'ontologia DBpedia. Le entità sono state correttamente trasformate in risorse (dbr:), utilizzando gli underscore per gestire gli spazi e rispettando la capitalizzazione necessaria per la risoluzione degli URI nel Knowledge Graph."
+    }
   },
   {
     "id": 70,
@@ -1327,9 +1948,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte riflettono fedelmente il significato dell'affermazione originale. Sebbene il testo contenga inesattezze storiche (Ramon Berenguer IV nacque probabilmente a Barcellona o Rodez, non a Marsiglia) e una formulazione insolita (\"cronologia della Reconquista\"), le triple traducono correttamente le relazioni di comando e di nascita così come sono state dichiarate dall'utente."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 10,
+      "Giustificazione": "L'estrazione è esaustiva. Tutti gli elementi chiave presenti nella frase — il soggetto (Ramon Berenguer IV), l'ambito d'azione (Reconquista), l'evento biografico (nascita) e la località specifica (Marsiglia) — sono stati mappati con successo. Non sono state tralasciate informazioni rilevanti presenti nel testo naturale."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 9,
+      "Giustificazione": "La normalizzazione è quasi perfetta. Le proprietà dbo:commander e dbo:birthPlace sono termini standard e realmente esistenti nell'ontologia DBpedia. Le entità seguono correttamente le convenzioni (prefisso dbr: e underscore per gli spazi). Tuttavia, il punteggio subisce una lieve flessione per dbr:Marsiglia: pur essendo una risorsa esistente, in una normalizzazione rigorosa verso il Knowledge Graph globale (spesso basato sulla versione inglese) si preferisce solitamente il nome locale o internazionale della città (dbr:Marseille). Inoltre, dbr:The_chronology_of_the_Reconquista è una risorsa molto specifica che difficilmente trova un riscontro diretto come entità \"evento\" in DBpedia, sebbene sia formalmente corretta."
+    }
   },
   {
     "id": 71,
@@ -1350,9 +1980,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte rappresentano fedelmente le relazioni descritte nel testo: l'appartenenza sportiva di Ally Cook, il ruolo di proprietario di Ozzie Alonso e il luogo di nascita di quest'ultimo. Nonostante l'affermazione originale contenga un'incongruenza geografica (la capitale di Cuba è L'Avana, non San Cristóbal), le triple estraggono correttamente i fatti dichiarati senza distorsioni semantiche."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 7,
+      "Giustificazione": "L'estrazione è parziale. Sono stati identificati correttamente i soggetti e le loro relazioni dirette (giocatore/squadra, squadra/proprietario, persona/nascita). Tuttavia, è stata omessa la parte finale dell'affermazione che fornisce dettagli sulla capitale e sulla localizzazione geografica (\"in un paese la cui capitale è San Cristobal\"). Queste informazioni avrebbero potuto generare ulteriori triple relative all'entità geografica associata a L'Avana."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente eccellente. Le proprietà utilizzate (dbo:team, dbo:owner, dbo:birthPlace) sono predicati ufficiali e correttamente esistenti nell'ontologia DBpedia. Le entità (dbr:) seguono rigorosamente gli standard: uso degli underscore per gli spazi e gestione corretta degli apostrofi (come in dbr:L'Avana), garantendo la compatibilità con il Knowledge Graph."
+    }
   },
   {
     "id": 72,
@@ -1370,9 +2009,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte sono semanticamente corrette rispetto alla parte di testo processata. La relazione tra il giocatore e la squadra, così come quella tra la squadra e il suo proprietario, riflette accuratamente quanto dichiarato nell'affermazione originale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 6,
+      "Giustificazione": "Il punteggio è penalizzato dalla mancanza della porzione finale dell'affermazione. Non è stata estratta alcuna tripla riguardante il luogo di nascita di Michael Parkhurst o la relazione con la sua capitale (sebbene l'affermazione contenga l'errore fattuale che indica New York come capitale, l'informazione era presente nel testo e andava estratta per essere completa)."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è quasi perfetta: le proprietà dbo:team e dbo:owner esistono effettivamente nell'ontologia DBpedia e sono usate correttamente. Tuttavia, si nota un errore di battitura nell'URI del soggetto: è stato scritto dbr:Amos_Shaphiro_Thompson (con la \"h\") mentre nel testo originale e nella tripla estratta il nome è Amos Shapiro Thompson. Questo tipo di discrepanza nel mapping dei caratteri riduce leggermente il punteggio di normalizzazione."
+    }
   },
   {
     "id": 73,
@@ -1396,9 +2044,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte rappresentano con precisione assoluta il significato del testo. Ogni relazione (giocatore-squadra, squadra-proprietario, persona-luogo di nascita e gerarchia geografica) rispecchia fedelmente quanto dichiarato nell'affermazione originale, senza distorsioni logiche."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 10,
+      "Giustificazione": "L'estrazione è totale e granulare. Il sistema non si è limitato alle entità principali, ma ha catturato ogni dettaglio informativo presente, inclusa la collocazione della città (Virginia Beach) all'interno della nazione (USA). Non vi sono informazioni nel testo naturale che non siano state trasposte nel formato a triple."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è impeccabile. Le proprietà utilizzate (dbo:team, dbo:owner, dbo:birthPlace, dbo:country) sono tutte proprietà standard, esistenti e correttamente documentate nell'ontologia DBpedia. Le entità (dbr:) sono formattate secondo le convenzioni del Knowledge Graph, con l'uso corretto degli underscore per gli spazi e una capitalizzazione coerente con gli URI reali."
+    }
   },
   {
     "id": 74,
@@ -1419,9 +2076,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte catturano perfettamente il significato dell'affermazione. Nonostante il testo contenga diverse incongruenze fattuali (Remenyak e Kozlovskyy sono storicamente legati al Rukh Lviv e non al NY Gotham), le relazioni di appartenenza alla squadra, proprietà e luogo di nascita sono state trasposte esattamente come dichiarate nel testo naturale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 9,
+      "Giustificazione": "L'estrazione è quasi totale. Sono stati individuati il soggetto principale, la squadra, il proprietario e il luogo di nascita. L'unica informazione atomica non esplicitata in una tripla dedicata è l'appartenenza di Odessa all'Ucraina (relazione gerarchica suggerita dall'aggettivo \"ucraina\"), sebbene l'entità principale sia stata correttamente estratta."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è impeccabile. Le proprietà dbo:team, dbo:owner e dbo:birthPlace sono proprietà standard e realmente esistenti nell'ontologia DBpedia. Le entità (dbr:) seguono rigorosamente le convenzioni di formattazione: uso dei prefissi corretti, capitalizzazione adeguata e sostituzione degli spazi con underscore (come in dbr:NY_Gotham_FC)."
+    }
   },
   {
     "id": 75,
@@ -1442,18 +2108,36 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte riflettono con precisione assoluta il significato del testo. Ogni relazione (giocatore-squadra, squadra-proprietario, persona-luogo di nascita) rispecchia fedelmente quanto dichiarato nell'affermazione originale. Nonostante il testo contenga una lieve imprecisione sulla città di nascita di Schröder (nato a Braunschweig, non a Berlino), le triple estraggono correttamente i fatti così come asseriti nel testo naturale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 10,
+      "Giustificazione": "L'estrazione è totale. Tutti i nodi informativi e le relazioni presenti nella frase sono stati catturati e trasformati in triple: il soggetto, la sua squadra di appartenenza, il proprietario della stessa e il dato biografico relativo a quest'ultimo."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è impeccabile. Le proprietà utilizzate (dbo:team, dbo:owner, dbo:birthPlace) sono predicati ufficiali e correttamente esistenti nell'ontologia DBpedia. Le entità (dbr:) seguono rigorosamente gli standard: uso degli underscore per gli spazi, corretta capitalizzazione e rimozione di eventuali caratteri speciali non conformi (come l'umlaut in Schröder, tipicamente normalizzato in \"Schroder\" o \"Schröder\" a seconda della versione, ma qui coerente con la tripla estratta)."
+    }
   },
   {
     "id": 76,
     "Affermazione": "Joshua Saavedra gioca per una squadra il cui proprietario è nato a Oviedo.",
     "Triple": [],
     "Triple Normalizzate": [],
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 0,
+      "Giustificazione": "Il punteggio è nullo poiché non è stata fornita alcuna tripla. In assenza di asserzioni estratte, non è possibile stabilire alcuna corrispondenza semantica con il testo originale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 0,
+      "Giustificazione": "L'estrazione è totalmente mancante. L'affermazione originale contiene diverse informazioni che avrebbero dovuto generare un set di triple: il soggetto (Joshua Saavedra), la relazione di appartenenza a una squadra (sebbene non nominata esplicitamente, definibile come nodo anonimo o variabile), l'esistenza di un proprietario per tale squadra e il dato biografico del luogo di nascita (Oviedo) riferito al proprietario stesso."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 0,
+      "Giustificazione": "Il punteggio è pari a zero in quanto non sono state prodotte triple normalizzate. Non vi è traccia dell'uso di prefissi standard (dbr:, dbo:), né di proprietà esistenti nell'ontologia (come dbo:team, dbo:owner o dbo:birthPlace)."
+    }
   },
   {
     "id": 77,
@@ -1474,18 +2158,36 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte riflettono fedelmente il significato dell'affermazione originale. Le relazioni di appartenenza sportiva (\"played for\"), proprietà (\"has owner\") e dato biografico (\"place of birth\") sono state interpretate correttamente, mantenendo la coerenza logica dei legami tra le entità."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 10,
+      "Giustificazione": "L'estrazione è esaustiva. Tutti gli elementi informativi presenti nel testo sono stati trasformati in triple: il giocatore, la squadra, il proprietario e la specifica località di nascita comprensiva dello Stato (Oregon). Non sono state tralasciate informazioni rilevanti."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è tecnicamente perfetta. Le proprietà utilizzate (dbo:team, dbo:owner, dbo:birthPlace) sono proprietà ufficiali e correttamente esistenti nell'ontologia DBpedia. Le entità (dbr:) seguono rigorosamente gli standard: gli spazi sono stati convertiti in underscore e la disambiguazione geografica dbr:Portland_(Oregon) è formattata esattamente secondo le convenzioni del Knowledge Graph, incluse le parentesi."
+    }
   },
   {
     "id": 78,
     "Affermazione": "Jarrell Brantley ha giocato in una squadra il cui proprietario è Ryan Smith, nato in un paese europeo.",
     "Triple": [],
     "Triple Normalizzate": [],
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 0,
+      "Giustificazione": "Il punteggio è nullo poiché non è stata fornita alcuna tripla. Non essendoci output da analizzare, non è possibile stabilire alcuna corrispondenza semantica con il testo originale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 0,
+      "Giustificazione": "L'estrazione è totalmente mancante. L'affermazione originale contiene informazioni strutturabili che avrebbero dovuto generare un set di triple, tra cui: il soggetto (Jarrell Brantley), la sua appartenenza a una squadra (anche se non nominata, rappresentabile come entità generica), la relazione di proprietà di tale squadra attribuita a Ryan Smith, e il dato biografico relativo alla nascita di quest'ultimo in un continente specifico (Europa)."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 0,
+      "Giustificazione": "Il punteggio è pari a zero in quanto non sono state prodotte triple normalizzate. Non vi è traccia dell'uso di prefissi standard (dbr:, dbo:), né del mappaggio verso proprietà esistenti nell'ontologia DBpedia (come ad esempio dbo:team, dbo:owner o dbo:birthPlace)."
+    }
   },
   {
     "id": 79,
@@ -1506,9 +2208,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte sono semanticamente ineccepibili rispetto al testo. Ogni relazione (giocatore-squadra, persona-luogo di nascita, città-nazione) riflette con precisione i legami logici espressi nell'affermazione originale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 8,
+      "Giustificazione": "L'estrazione è di buon livello ma non è totale. Sebbene siano stati mappati il giocatore e il luogo di nascita del proprietario, è stata omessa la tripla di collegamento tra la squadra (Lugano FC) e il suo proprietario (Joe Mansueto). Questo anello mancante interrompe la catena di conoscenza tra il soggetto Amir Saipi e l'entità Joe Mansueto descritta nel testo."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è perfetta. Le proprietà dbo:team, dbo:birthPlace e dbo:country sono predicati standard dell'ontologia DBpedia. Le entità seguono rigorosamente le convenzioni del Knowledge Graph.Uso degli underscore per gli spazi.Corretta gestione delle parentesi per la disambiguazione geografica: dbr:Monaco_(Indiana).Uso dei prefissi dbr: e dbo: in modo appropriato. "
+    }
   },
   {
     "id": 80,
@@ -1529,9 +2240,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte sono semanticamente accurate rispetto alle porzioni di testo analizzate. Le relazioni tra il giocatore e la squadra, il luogo di nascita dell'artista e la gerarchia geografica tra San Juan e Porto Rico riflettono fedelmente il significato dell'affermazione originale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 8,
+      "Giustificazione": "L'estrazione è incompleta. È stata omessa la tripla di collegamento fondamentale che definisce la relazione tra la squadra (Cangrejeros de Santurce) e il suo proprietario (Bad Bunny). Senza questa tripla (\"Cangrejeros de Santurce, has owner, Bad Bunny\"), il grafo risulta frammentato in due componenti isolate, perdendo il nesso logico principale espresso nella frase."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è eccellente. Tutte le proprietà utilizzate (dbo:team, dbo:birthPlace, dbo:country) esistono nell'ontologia DBpedia e sono applicate correttamente. Le entità (dbr:) seguono rigorosamente gli standard: uso degli underscore per gli spazi e corretta capitalizzazione degli identificativi (es. dbr:Cangrejeros_de_Santurce)."
+    }
   },
   {
     "id": 81,
@@ -1549,9 +2269,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte sono semanticamente ineccepibili. La relazione di paternità dell'opera (author) e quella biografica (birthPlace) riflettono esattamente quanto asserito nel testo. Nonostante il testo contenga un'imprecisione geografica (Nabiac si trova nel Nuovo Galles del Sud e non nel Victoria), l'estrazione è fedele alla fonte fornita."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 8,
+      "Giustificazione": "L'estrazione è buona ma non esaustiva. È stata omessa la tripla che lega la località di Nabiac alla regione del Victoria (o allo stato in generale), informazione esplicitamente presente nell'affermazione originale (\"in una località del Victoria\"). Questo dettaglio geografico è rilevante per una mappatura completa del Knowledge Graph."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è perfetta. Le proprietà dbo:author e dbo:birthPlace sono predicati standard e realmente esistenti nell'ontologia DBpedia. Le entità (dbr:) seguono rigorosamente le convenzioni: uso corretto degli underscore, mantenimento dei caratteri speciali necessari (come l'apostrofo in dbr:The_People's_Otherworld:_Poems) e capitalizzazione coerente con gli standard degli URI di DBpedia."
+    }
   },
   {
     "id": 82,
@@ -1572,9 +2301,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte sono pienamente conformi al significato del testo fornito. Nonostante l'errore geografico presente nell'affermazione originale (Nabiac si trova in realtà nel Nuovo Galles del Sud, non nel Queensland), la valutazione si basa sulla fedeltà al testo: le relazioni di paternità dell'opera, di nascita e di collocazione regionale sono state trasposte accuratamente."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 10,
+      "Giustificazione": "L'estrazione è totale. Ogni informazione atomica contenuta nella frase è stata catturata: il legame tra opera e autore, il luogo di nascita dell'autore e l'appartenenza amministrativa della località citata. Non vi sono ulteriori dettagli nel testo che avrebbero potuto generare altre triple."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è impeccabile. Tutte le proprietà utilizzate (dbo:author, dbo:birthPlace, dbo:state) sono predicati esistenti e corretti nell'ontologia DBpedia. Le entità (dbr:) seguono rigorosamente gli standard del Knowledge Graph: gli spazi sono stati sostituiti da underscore e la capitalizzazione è coerente con gli URI reali di DBpedia."
+    }
   },
   {
     "id": 83,
@@ -1592,9 +2330,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple rappresentano fedelmente il contenuto dell'affermazione. Nonostante l'errore geografico presente nel testo originale (Enniscorthy si trova in Irlanda, non in Inghilterra), la valutazione conferma che le relazioni estratte (\"autore di\" e \"luogo di nascita\") corrispondono esattamente a quanto dichiarato dall'utente."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 8,
+      "Giustificazione": "L'estrazione è buona ma non totale. È stata omessa l'informazione relativa alla collocazione geografica della città (\"città inglese\"). Per una completezza del 10/10, sarebbe stata necessaria una terza tripla che collegasse l'entità Enniscorthy alla nazione o alla categoria indicata nel testo."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è eccellente. Le proprietà dbo:author e dbo:birthPlace sono predicati standard e realmente esistenti nell'ontologia DBpedia. Le entità sono state correttamente trasformate in risorse (dbr:), con l'uso appropriato degli underscore per gli spazi e una capitalizzazione coerente con gli URI del Knowledge Graph."
+    }
   },
   {
     "id": 84,
@@ -1612,9 +2359,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple rappresentano fedelmente il significato dell'affermazione originale. Le relazioni di paternità dell'opera (author) e il dato biografico sulla nascita (birthPlace) sono stati estratti correttamente in linea con il testo fornito."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 8,
+      "Giustificazione": "L'estrazione è parziale. Sebbene i nodi principali siano presenti, è stata omessa la tripla di collocazione geografica che lega la città di Cork alla nazione o al contesto \"irlandese\" menzionato esplicitamente nel testo. Per una completezza totale, l'attributo \"irlandese\" riferito alla località avrebbe dovuto essere formalizzato."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è impeccabile. Le proprietà dbo:author e dbo:birthPlace sono termini ufficiali dell'ontologia DBpedia. Le entità (dbr:) rispettano gli standard del Knowledge Graph: gli spazi sono sostituiti correttamente da underscore e la capitalizzazione segue le convenzioni degli URI reali (es. dbr:Charles_Kickham)."
+    }
   },
   {
     "id": 85,
@@ -1635,9 +2391,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte sono pienamente conformi al significato dell'affermazione fornita. Sebbene il testo contenga un errore geografico (Sydney si trova nel Nuovo Galles del Sud e non nello stato di Victoria), la valutazione si attiene esclusivamente alla fedeltà rispetto al testo sorgente: le relazioni di paternità dell'opera, di nascita e di appartenenza regionale sono state trasposte accuratamente secondo quanto asserito."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 10,
+      "Giustificazione": "L'estrazione è totale. Ogni elemento informativo presente nella frase è stato trasformato in una tripla: il legame tra libro e autore, il luogo di nascita dell'autore e la collocazione amministrativa (stato) della città menzionata. Non ci sono dettagli residui nel testo naturale che siano stati ignorati."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è impeccabile. Le proprietà utilizzate (dbo:author, dbo:birthPlace, dbo:state) sono predicati standard, esistenti e correttamente documentati nell'ontologia DBpedia. Le entità (dbr:) seguono rigorosamente le convenzioni del Knowledge Graph: gli spazi sono stati sostituiti da underscore e la capitalizzazione è coerente con gli URI reali di DBpedia."
+    }
   },
   {
     "id": 86,
@@ -1655,9 +2420,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte rappresentano fedelmente il significato del testo. La relazione di paternità dell'opera (author) e il dato biografico sulla nascita (birthPlace) sono stati estratti correttamente. Nonostante il testo contenga una lieve imprecisione (l'autore è nato a Barcellona, non a Madrid), la valutazione conferma che le triple estraggono esattamente ciò che è asserito nel testo sorgente."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 8,
+      "Giustificazione": "L'estrazione è parziale. È stata omessa la tripla di collocazione geografica che lega la città di Madrid alla nazione o al contesto \"spagnolo\" menzionato esplicitamente nel testo (\"in una città spagnola\"). Per una completezza totale, l'attributo geografico della località avrebbe dovuto essere formalizzato."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è impeccabile. Le proprietà dbo:author e dbo:birthPlace sono predicati standard e realmente esistenti nell'ontologia DBpedia. Le entità (dbr:) seguono rigorosamente le convenzioni del Knowledge Graph: gli spazi sono stati sostituiti da underscore e i caratteri speciali (come la \"&\") sono gestiti correttamente secondo la nomenclatura degli URI di DBpedia."
+    }
   },
   {
     "id": 87,
@@ -1675,9 +2449,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte sono semanticamente precise rispetto al testo. La relazione di paternità dell'opera (author) e il dato biografico sulla nascita (birthPlace) riflettono esattamente quanto asserito. Sebbene il testo contenga un'imprecisione geografica (Boston è tipicamente associata agli USA, non al Canada), l'estrazione è correttamente fedele alla fonte fornita."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 8,
+      "Giustificazione": "L'estrazione è parziale. È stata omessa la tripla di collocazione geografica che lega la città di Boston alla nazione o al contesto \"canadese\" menzionato esplicitamente nel testo (\"in una città canadese\"). Per una completezza totale, il nesso gerarchico tra la città e il paese indicato avrebbe dovuto essere formalizzato in una tripla aggiuntiva."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è impeccabile. Le proprietà dbo:author e dbo:birthPlace sono predicati standard dell'ontologia DBpedia. Le entità (dbr:) seguono rigorosamente le convenzioni del Knowledge Graph: gli spazi sono stati sostituiti da underscore e la capitalizzazione degli URI è coerente con gli standard di DBpedia."
+    }
   },
   {
     "id": 88,
@@ -1695,9 +2478,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte sono semanticamente ineccepibili. La relazione di paternità dell'opera (author) e quella biografica (birthPlace) rispecchiano esattamente quanto dichiarato nel testo originale, mantenendo la coerenza logica tra i soggetti e gli oggetti."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 8,
+      "Giustificazione": "L'estrazione è parziale poiché è stata omessa la tripla di collocazione geografica che lega New York al contesto \"statunitense\" (USA) menzionato esplicitamente nell'affermazione. Per una completezza totale (10/10), l'informazione sulla nazionalità o l'ubicazione della città della nascita avrebbe dovuto essere formalizzata."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è perfetta. Le proprietà dbo:author e dbo:birthPlace sono predicati ufficiali e correttamente esistenti nell'ontologia DBpedia. Le entità (dbr:) seguono rigorosamente gli standard: gli spazi sono stati sostituiti da underscore e la capitalizzazione degli identificativi è coerente con gli URI reali del Knowledge Graph."
+    }
   },
   {
     "id": 89,
@@ -1715,9 +2507,18 @@
       "Vero"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte sono semanticamente ineccepibili rispetto al testo di partenza. La relazione tra l'opera e l'autore (author) e quella tra l'autore e il suo luogo di nascita (birthPlace) rispecchiano fedelmente quanto dichiarato, indipendentemente dalle incongruenze geografiche del testo originale (Dennis Lehane è americano, non canadese)."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 8,
+      "Giustificazione": "L'estrazione è parziale poiché è stata omessa la tripla di collocazione geografica che lega Boston al contesto \"canadese\" citato esplicitamente nell'affermazione. Per una completezza totale, l'informazione sulla nazionalità o l'ubicazione attribuita alla città avrebbe dovuto essere formalizzata in una tripla aggiuntiva."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è perfetta. Le proprietà dbo:author e dbo:birthPlace sono predicati ufficiali e correttamente esistenti nell'ontologia DBpedia. Le entità (dbr:) seguono rigorosamente gli standard del Knowledge Graph: gli spazi sono stati sostituiti da underscore e la capitalizzazione degli identificativi è coerente con gli URI reali."
+    }
   },
   {
     "id": 90,
@@ -1735,9 +2536,18 @@
       "Vero"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte sono semanticamente ineccepibili rispetto alla porzione di testo processata. Le relazioni di appartenenza al gruppo musicale e il dato biografico sul luogo di nascita rispecchiano fedelmente quanto dichiarato, mantenendo la coerenza tra soggetto e predicati."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 6,
+      "Giustificazione": "Il punteggio è penalizzato dalla mancanza della seconda parte dell'affermazione. Non sono state estratte le informazioni relative alla relazione gerarchica tra il luogo di nascita (Antigua) e il paese di appartenenza, né l'informazione specifica sulla capitale (Kingstown). L'estrazione si ferma ai dati biografici primari del soggetto."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è perfetta. Le proprietà dbo:memberOf e dbo:birthPlace sono predicati ufficiali e correttamente esistenti nell'ontologia DBpedia. Le entità (dbr:) seguono rigorosamente gli standard: gli spazi sono stati sostituiti da underscore e la capitalizzazione è coerente con gli identificativi reali del Knowledge Graph."
+    }
   },
   {
     "id": 91,
@@ -1752,9 +2562,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "La tripla estratta è semanticamente corretta. La relazione di appartenenza alla band (\"member of\") rispecchia fedelmente la prima parte dell'affermazione originale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 4,
+      "Giustificazione": "Il punteggio è basso poiché è stata estratta solo una piccola frazione delle informazioni disponibili. Il testo contiene dettagli rilevanti sul luogo di nascita e sulla capitale del paese d'origine (Santiago del Cile) che sono stati completamente ignorati nel processo di estrazione. Il grafo risultante è quindi estremamente povero rispetto al potenziale informativo della frase."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è eccellente. La proprietà dbo:memberOf è un predicato standard e realmente esistente nell'ontologia DBpedia. Le entità sono state correttamente mappate: è stato utilizzato l'identificativo corretto dbr:Roberto_Pettinato (correggendo implicitamente il nome \"Robert\" del testo nell'URI ufficiale) e gli spazi sono stati sostituiti da underscore."
+    }
   },
   {
     "id": 92,
@@ -1772,9 +2591,18 @@
       "Vero"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte sono semanticamente corrette rispetto alla porzione di testo processata. Le relazioni di appartenenza alla band e il luogo di nascita riflettono fedelmente quanto dichiarato nel testo originale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 6,
+      "Giustificazione": "Il punteggio è penalizzato poiché è stata ignorata la seconda parte dell'affermazione. Non sono state estratte le informazioni relative alla nazione di nascita (identificata nel testo tramite la capitale Lima) né la relazione gerarchica tra il luogo di nascita e il paese stesso. L'estrazione si limita ai dati biografici diretti del soggetto, tralasciando il contesto geografico esplicitato."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è eccellente. Le proprietà dbo:memberOf e dbo:birthPlace sono predicati standard dell'ontologia DBpedia. Le entità (dbr:) sono state gestite correttamente: è stata applicata la correzione necessaria per il nome della band (dbr:Divididos invece del refuso \"Dividos\" presente nel testo) e sono stati utilizzati gli underscore per gli spazi come da standard."
+    }
   },
   {
     "id": 93,
@@ -1789,9 +2617,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "La singola tripla estratta è semanticamente perfetta. La relazione di appartenenza alla band (\"member of\") rispecchia fedelmente la prima parte dell'affermazione originale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 3,
+      "Giustificazione": "Il punteggio è molto basso a causa dell'omissione di gran parte delle informazioni. Il testo contiene dettagli geografici significativi: la nascita in un paese specifico, la collocazione di tale paese in Nuova Zelanda e la menzione della capitale Wellington. Nessuno di questi elementi è stato tradotto in triple, rendendo l'estrazione estremamente lacunosa."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione della tripla esistente è corretta. La proprietà dbo:memberOf è un predicato standard dell'ontologia DBpedia. Le entità sono state correttamente convertite in risorse (dbr:), con l'uso degli underscore e la capitalizzazione corretta per gli URI (dbr:Andy_Strachan e dbr:The_Living_End)."
+    }
   },
   {
     "id": 94,
@@ -1809,9 +2646,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte sono semanticamente accurate e supportate dal testo. La relazione di appartenenza alla band e il luogo di nascita riflettono fedelmente i predicati espressi nell'affermazione originale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 6,
+      "Giustificazione": "L'estrazione è incompleta. È stata ignorata l'intera parte finale della frase che fornisce il contesto geografico di Sydney (\"situata in un paese che ha come capitale Canberra\"). Mancano le triple che collegherebbero Sydney all'Australia o l'Australia alla sua capitale, perdendo informazioni esplicitamente presenti nel testo."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è eccellente. Le proprietà dbo:memberOf e dbo:birthPlace sono predicati standard e validi nell'ontologia DBpedia. Le entità sono state mappate correttamente agli URI di riferimento (dbr:), inclusa la correzione ortografica del cognome dell'artista da \"Hitchcok\" a dbr:Russell_Hitchcock, necessaria per puntare alla risorsa corretta nel Knowledge Graph."
+    }
   },
   {
     "id": 95,
@@ -1829,9 +2675,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte sono semanticamente accurate. La relazione di appartenenza alla band e il luogo di nascita riflettono fedelmente i predicati espressi nell'affermazione originale per le parti analizzate."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 6,
+      "Giustificazione": "L'estrazione è incompleta. È stata ignorata la parte finale della frase che fornisce il contesto geografico e politico della regione di nascita (\"situato in un paese con capitale Londra\"). Mancano le triple che collegherebbero il Kent al Regno Unito (o Inghilterra) e la relazione tra il paese e la sua capitale (Londra), perdendo informazioni esplicitamente fornite nel testo."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è eccellente. Le proprietà dbo:memberOf e dbo:birthPlace sono predicati ufficiali e correttamente esistenti nell'ontologia DBpedia. Le entità sono state mappate correttamente agli URI di riferimento (dbr:), con l'uso appropriato degli underscore per gli spazi (es. dbr:Matthews_Southern_Comfort)."
+    }
   },
   {
     "id": 96,
@@ -1852,9 +2707,18 @@
       "Vero"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte riflettono con precisione assoluta il significato del testo originale. Le relazioni tra l'artista e la band, così come i dati geografici relativi alla nascita e alla collocazione della città, sono mappate correttamente secondo la logica espressa nell'affermazione"
+    },
+    "Extraction Completeness": {
+      "Punteggio": 10,
+      "Giustificazione": "L'estrazione è esaustiva. Ogni informazione atomica contenuta nella frase è stata trasformata in una tripla: l'appartenenza al gruppo musicale, il luogo di nascita specifico e il legame gerarchico tra la città (Manchester) e la nazione (Regno Unito)."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è impeccabile. Le proprietà dbo:memberOf, dbo:birthPlace e dbo:country sono predicati esistenti e correttamente utilizzati nell'ontologia DBpedia. Gli identificativi delle risorse (dbr:) sono corretti: è stata effettuata la corretta traduzione di \"Regno Unito\" nell'URI ufficiale dbr:United_Kingdom e sono stati applicati correttamente gli underscore per i nomi composti."
+    }
   },
   {
     "id": 97,
@@ -1869,9 +2733,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "La singola tripla estratta è perfettamente coerente con la prima parte dell'affermazione. La relazione di appartenenza alla band (\"member of\") è supportata dal testo originale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 4,
+      "Giustificazione": "Il punteggio è basso poiché è stata estratta solo una frazione delle informazioni disponibili. Il testo contiene dettagli biografici e geografici significativi: la nascita del soggetto in un paese situato in Canada e la menzione della capitale Ottawa. Poiché questi dati non sono stati tradotti in triple, l'estrazione risulta gravemente incompleta."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione della tripla esistente è corretta. La proprietà dbo:memberOf esiste nell'ontologia DBpedia. Le entità sono state correttamente trasformate in risorse (dbr:), gli spazi sono stati sostituiti da underscore e la capitalizzazione degli identificativi è conforme agli standard del Knowledge Graph."
+    }
   },
   {
     "id": 98,
@@ -1889,9 +2762,18 @@
       "Falso"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte sono semanticamente ineccepibili rispetto alle informazioni processate. Le relazioni di appartenenza al gruppo musicale e il luogo di nascita riflettono fedelmente quanto dichiarato nel testo originale. Nonostante l'errore geografico presente nell'affermazione (la capitale del Giappone è Tokyo, non Osaka), le triple estraggono correttamente i fatti così come sono stati asseriti."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 6,
+      "Giustificazione": "Il punteggio è penalizzato dall'omissione della parte finale dell'affermazione. Non sono state estratte le informazioni relative alla relazione gerarchica tra il luogo di nascita (Tokyo) e il paese di appartenenza, né l'informazione specifica sulla capitale (Osaka). L'estrazione si ferma ai dati biografici diretti del soggetto, ignorando il contesto geografico esplicitato."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è perfetta. Le proprietà dbo:memberOf e dbo:birthPlace sono predicati standard dell'ontologia DBpedia. Le entità (dbr:) seguono rigorosamente gli standard del Knowledge Graph: gli spazi sono stati correttamente sostituiti da underscore e la capitalizzazione degli identificativi è coerente con gli URI reali."
+    }
   },
   {
     "id": 99,
@@ -1912,9 +2794,18 @@
       "Vero"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte rappresentano con precisione assoluta il significato del testo. La relazione di appartenenza alla band, il luogo di nascita e la relazione di inclusione geografica tra lo stato (Sabah) e la nazione (Malaysia) sono fedeli a quanto asserito nell'affermazione originale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 10,
+      "Giustificazione": "L'estrazione è esaustiva. Ogni informazione atomica contenuta nel testo naturale è stata convertita in una tripla corrispondente. Non sono presenti ulteriori dettagli o sfumature nel testo che non siano stati catturati dal processo di estrazione."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è impeccabile. Tutte le proprietà utilizzate (dbo:memberOf, dbo:birthPlace, dbo:country) sono predicati esistenti e correttamente definiti nell'ontologia DBpedia. Le entità (dbr:) seguono rigorosamente gli standard del Knowledge Graph: gli spazi sono stati sostituiti da underscore e la capitalizzazione degli URI è coerente con le risorse reali."
+    }
   },
   {
     "id": 100,
@@ -1935,8 +2826,17 @@
       "Vero"
     ],
     "Predizione": "Falso",
-    "Semantic Correctness": 0,
-    "Extraction Completeness": 0,
-    "DBpedia Normalization": 0
+    "Semantic Correctness": {
+      "Punteggio": 10,
+      "Giustificazione": "Le triple estratte sono pienamente conformi al significato del testo. La relazione di appartenenza alla band, il luogo di nascita e l'appartenenza geografica della città sono stati trasposti accuratamente rispettando la logica dell'affermazione originale."
+    },
+    "Extraction Completeness": {
+      "Punteggio": 9,
+      "Giustificazione": "L'estrazione è quasi totale. È stata catturata l'appartenenza al gruppo, la nascita e la nazione. L'unico dettaglio minore non estratto è l'attributo ordinale riferito alla città (\"la seconda città\"), che tuttavia è spesso considerato un descrittore testuale difficile da rendere in triple RDF standard senza l'uso di proprietà statistiche specifiche."
+    },
+    "DBpedia Normalization": {
+      "Punteggio": 10,
+      "Giustificazione": "La normalizzazione è eccellente. Le proprietà dbo:memberOf, dbo:birthPlace e dbo:country sono predicati validi e corretti nell'ontologia DBpedia. Le entità (dbr:) seguono rigorosamente gli standard: gli spazi sono convertiti in underscore e \"Norvegia\" è stato correttamente normalizzato nell'URI internazionale dbr:Norway."
+    }
   }
 ]
