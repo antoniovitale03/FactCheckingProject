@@ -43,29 +43,29 @@ def pipeline_B():
         #print(f"N. {e["id"]} ----------------------")
         #prompt = template_prompt_B.replace("{AFFERMAZIONE}", e["Affermazione"]).replace("{EVIDENZE}", e["Evidenze"])
         #print(prompt)
+    #for e in results_B:
+            #print(f"N. {e["id"]} ----------------------")
+            #prompt = (evidence_faithfulness_prompt
+                                             #.replace("{AFFERMAZIONE}", e["Affermazione"])
+                                             #.replace("{EVIDENZE}", e["Evidenze"])
+                                             #.replace("{SPIEGAZIONE}", e["Spiegazione"]))
+            #print(prompt)
+
+    #for e in results_B:
+        #print(f"N. {e["id"]} ----------------------")
+        #prompt = (verdict_evidence_consistency_prompt
+                                         #.replace("{AFFERMAZIONE}", e["Affermazione"])
+                                         #.replace("{EVIDENZE}", e["Evidenze"])
+                                         #.replace("{VERDETTO}", e["Predizione"]))
+        #print(prompt)
+
     for e in results_B:
         print(f"N. {e["id"]} ----------------------")
-        prompt = (evidence_faithfulness_prompt
+        prompt = (evidence_precision_prompt
                                          .replace("{AFFERMAZIONE}", e["Affermazione"])
                                          .replace("{EVIDENZE}", e["Evidenze"])
-                                         .replace("{SPIEGAZIONE}", e["Spiegazione"]))
+                                         .replace("{VERDETTO}", e["Predizione"]))
         print(prompt)
-
-    #for e in results_B:
-        #print(f"N. {e["id"]} ----------------------")
-        #verdict_evidence_consistency_prompt = (verdict_evidence_consistency_prompt
-                                         #.replace("{AFFERMAZIONE}", e["Affermazione"])
-                                         #.replace("{EVIDENZE}", e["Evidenze"])
-                                         #.replace("{VERDETTO}", e["Predizione"]))
-        #print(verdict_evidence_consistency_prompt)
-
-    #for e in results_B:
-        #print(f"N. {e["id"]} ----------------------")
-        #evidence_precision_prompt = (evidence_precision_prompt
-                                         #.replace("{AFFERMAZIONE}", e["Affermazione"])
-                                         #.replace("{EVIDENZE}", e["Evidenze"])
-                                         #.replace("{VERDETTO}", e["Predizione"]))
-        #print(evidence_precision_prompt)
 
 def pipeline_C():
     with open("pipelineC/results_C.json", "r", encoding="utf-8") as f:
