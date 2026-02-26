@@ -9,7 +9,7 @@ with open("dataset.json", "r", encoding="utf-8") as f:
     dataset = json.load(f)
 
 # Carica prompt template
-with open("verification_prompt_A.txt", "r", encoding="utf-8") as f:
+with open("pipelineA/verification_prompt_A.txt", "r", encoding="utf-8") as f:
     template_prompt_A = f.read()
 
 with open("pipelineB/verification_prompt_B.txt", "r", encoding="utf-8") as f:

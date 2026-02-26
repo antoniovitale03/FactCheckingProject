@@ -55,7 +55,5 @@ if __name__ == "__main__":
                 e["Predizione"] = "Vero"
             else: e["Predizione"] = "Falso"
 
-    print(c)
-
     with open("results_C.json", "w", encoding="utf-8") as f:
         json.dump(dataset, f, ensure_ascii=False, indent=2)

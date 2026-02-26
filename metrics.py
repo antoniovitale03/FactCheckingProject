@@ -5,7 +5,7 @@ with open("dataset.json", "r", encoding="utf-8") as f:
     dataset = json.load(f)
 
 def pipeline_A():
-    with open("results_A.json", "r", encoding="utf-8") as f:
+    with open("pipelineA/results_A.json", "r", encoding="utf-8") as f:
         results = json.load(f)
 
     y_true = [item["Etichetta"] for item in dataset]
@@ -52,6 +52,21 @@ def pipeline_B():
     print("Evidence Precision", evidence_precision)
     print("Hallucinations Rate", hallucinations_rate, "%")
 
+def calculate_triples_decomposition():
+    with open("pipelineC/results_C.json", "r", encoding="utf-8") as f:
+        dataset = json.load(f)
+
+    semantic_correctness = 0
+    extraction_completeness = 0
+    DBpedia_normalization = 0
+
+    for e in dataset:
+        semantic_correctness += e["Semantic Correctness"]["Punteggio"]
+        extraction_completeness += e["Extraction Completeness"]["Punteggio"]
+        DBpedia_normalization += e["DBpedia Normalization"]["Punteggio"]
+    return semantic_correctness/100, extraction_completeness/100, DBpedia_normalization/100
+
+
 def pipeline_C():
     with open("pipelineC/results_C.json", "r", encoding="utf-8") as f:
         results = json.load(f)
@@ -66,6 +81,10 @@ def pipeline_C():
     print("Precision:", precision_score(y_true, y_pred, pos_label="Vero"))
     print("Recall:", recall_score(y_true, y_pred, pos_label="Vero"))
     print("F1-score:", f1_score(y_true, y_pred, pos_label="Vero"))
+    semantic_correctness, extraction_completeness, DBpedia_normalization = calculate_triples_decomposition()
+    print("Semantic Correctness", semantic_correctness)
+    print("Extraction Completeness", extraction_completeness)
+    print("DBpedia Normalization", DBpedia_normalization)
 
 if __name__ == "__main__":
     pipeline_A()
