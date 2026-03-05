@@ -70,9 +70,11 @@ def calculate_triples_decomposition():
 def pipeline_C():
     with open("pipelineC/results_C.json", "r", encoding="utf-8") as f:
         results = json.load(f)
-
     # id delle affermazioni non verificabili, da ignorare nel calcolo delle metriche
-    id_to_ignore = [10, 26, 28, 76, 78, 59 ]
+    id_to_ignore = [10, 26, 28, 76, 78, 59]
+
+    results = [obj for obj in results if obj["id"] not in id_to_ignore]
+
     y_true = [item["Etichetta"] for item in dataset if item["id"] not in id_to_ignore]
     y_pred = [item["Predizione"] for item in results if item["id"] not in id_to_ignore]
 
